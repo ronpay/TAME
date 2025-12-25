@@ -1,0 +1,13 @@
+__pycache__/
+\memory
+\trash
+\log
+\sketch
+\results
+\data
+
+
+.env
+AGENTS.md
+CLAUDE.md
+.vscode
