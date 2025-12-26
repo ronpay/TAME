@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "Hey, I saw this on Chloe's screen [IMAGE]. I'm confused. I thought she absolutely hated sterile, minimalist design. Why would she be making something like this?"
+  image_prompt: "A photo of a computer screen showing graphic design software. On the screen is a stark, minimalist logo in shades of grey. To the side of the artboard are remnants of a much more colorful and dynamic design concept, now discarded. The overall mood is one of creative frustration."
+  evaluation_criteria:
+    ideal_answer: "That's a sharp observation. You're right, Chloe detests minimalist design, calling it 'soulless'. However, she recently mentioned that for a major rebrand project, her client rejected her preferred vibrant concept via her boss, Marcus. She is now required to create this 'corporate-friendly' minimalist version, which is why she's working on it despite her personal taste."
+    key_points:
+    - "Chloe has a long-term, stated hatred for minimalist design (long-term information from turn 3)."
+    - "A recent client rejection on a specific project is forcing her to work in this style against her will (short-term event from turn 9)."
+  options:
+  - "She's probably trying to expand her skills by practicing a style she's not comfortable with."
+  - "She hates minimalism, but her client rejected her original concept and she's now required to make this version for work."
+  - "Her boss Marcus is forcing her to do it because he personally prefers minimalist design."
+  - "Maybe she has changed her mind and is starting to appreciate minimalist aesthetics."
+  answer: "She hates minimalism, but her client rejected her original concept and she's now required to make this version for work."
+  image_id: cq_1_minimalist_logo
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "Chloe's been so stressed after that client rejected her big project. I want to get her a gift to help her unwind. I was thinking about a voucher for a silent meditation retreat like this one [IMAGE]. Based on what you know, is that a good idea?"
+  image_prompt: "A serene, peaceful photo of an indoor space for meditation. People are sitting on cushions spaced far apart, with their eyes closed. The atmosphere is calm, still, and completely silent."
+  evaluation_criteria:
+    ideal_answer: "That's a kind thought, but it's probably not the best fit for Chloe. From what she's said, she is very extroverted and thrives on the energy of collaborating with people and keeping things light with puns. A silent retreat would likely feel isolating and more stressful for her, rather than relaxing. Something more social or creatively engaging would be a better choice."
+    key_points:
+    - "Chloe is an extrovert who loves social energy and collaboration (long-term information from turn 7)."
+    - "Her current stressed state (from turn 9) doesn't change her fundamental personality."
+  options:
+  - "Yes, it's perfect. Since she's so stressed, some peace and quiet is exactly what she needs."
+  - "It's thoughtful, but probably a bad idea. She's an extrovert who loves social energy, so a silent retreat would likely be unenjoyable for her."
+  - "Maybe, but only if her sister Sarah goes with her for support."
+  - "No, she would prefer a gift of artisanal donuts instead."
+  answer: "It's thoughtful, but probably a bad idea. She's an extrovert who loves social energy, so a silent retreat would likely be unenjoyable for her."
+  image_id: cq_2_meditation_retreat
+
+- id: 3
+  type: State Identification
+  question: "I just saw Chloe at her desk, see this pic [IMAGE]. She brought in donuts for everyone, but she's being super quiet and hasn't cracked a single joke. This seems off for her. What do you think is going on?"
+  image_prompt: "A photo of Chloe at her office desk. An open box of colorful artisanal donuts is on the desk, but Chloe is staring at her screen with a tired, unsmiling expression. She is not engaging with her colleagues, who are in the background."
+  evaluation_criteria:
+    ideal_answer: "This combination of behaviors strongly suggests she's coping with something negative. We know that she uses artisanal donuts as a comfort food for rough days, not just for celebrations. Her current quietness is a direct contrast to her usually bubbly, pun-making personality. This is almost certainly a reaction to the recent major project where her creative concept was rejected, which she found very frustrating."
+    key_points:
+    - "Chloe is usually bubbly and pun-loving, and she brings artisanal donuts as a coping mechanism on rough days."
+    - "A recent major project rejection has left her stressed and unusually quiet."
+  options:
+  - "She's likely using donuts as comfort food; her quietness suggests she's still frustrated from her recent project concept being rejected."
+  - "She is probably just tired from working late and doesn't feel like talking."
+  - "She is celebrating a secret win that she can't talk about yet."
+  - "Maybe the donuts weren't very good and she's just disappointed in them."
+  answer: "She's likely using donuts as comfort food; her quietness suggests she's still frustrated from her recent project concept being rejected."
+  image_id: cq_3_subdued_at_desk
+
+- id: 4
+  type: Causal Inference / Preference Conflict
+  question: "I just saw this on the company Slack [IMAGE]. Chloe must be crushed. She really wanted that 'Pixel Raiders' project. Does this mean she and Leo are going to have a falling out?"
+  image_prompt: "A screenshot of a work messaging app. A message from a boss announces, 'Congrats to Leo Chen for the winning concept for the Pixel Raiders logo!'. Below it is an image of a cool, retro-style video game logo with vibrant colors and pixel art elements."
+  evaluation_criteria:
+    ideal_answer: "It's understandable to think that, but it's very unlikely their friendship is in trouble. Chloe has specifically described her relationship with Leo as a 'friendly but fierce rivalry' and noted that they are always competing for the most exciting projects. While she is surely disappointed to lose, this kind of competition is a normal and even healthy part of their established dynamic."
+    key_points:
+    - "The long-term relationship with Leo is defined as a 'friendly but fierce rivalry' (long-term information from turn 5)."
+    - "Losing the project pitch is a specific instance of this ongoing competition, not a sign of a friendship ending (short-term event from turn 11)."
+  options:
+  - "Yes, losing such a cool project to him will definitely damage their friendship."
+  - "Unlikely. She's described their dynamic as a 'friendly but fierce rivalry', so this kind of competition is normal for them."
+  - "She will probably be angry for a while but they will make up eventually."
+  - "She should complain to their boss Marcus that the process was unfair."
+  answer: "Unlikely. She's described their dynamic as a 'friendly but fierce rivalry', so this kind of competition is normal for them."
+  image_id: cq_4_leo_wins_announcement
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Chloe's whole team seems burned out after that last project. I want to suggest a team outing to Marcus to boost morale. What kind of activity would Chloe actually enjoy? Here's a pic of the team looking tired [IMAGE]."
+  image_prompt: "A photo of a small team of designers in an office setting. They are gathered around a table, looking drained and unenthusiastic. The lighting is standard office fluorescent."
+  evaluation_criteria:
+    ideal_answer: "Based on her personality and interests, a great suggestion would be something creative and authentic, rather than a generic corporate event. Given her love for finding artistic inspiration in things like vintage comic book art, a trip to a local art fair, a gallery, or even a flea market would be perfect. It avoids the 'corporate' feel and 'soulless' aesthetic she dislikes and aligns with her passion for visual creativity."
+    key_points:
+    - "Chloe dislikes sterile, corporate activities and loves finding artistic inspiration (e.g., from vintage comics)."
+    - "Her team is currently burned out and stressed after the last project, so morale needs a low-pressure boost."
+  options:
+  - "A trust fall exercise would be great to rebuild team synergy after the stressful project."
+  - "A trip to a local art fair or gallery would be great, aligning with her love for finding artistic inspiration."
+  - "She would probably prefer to just get a cash bonus instead of a team activity."
+  - "A mandatory seminar on 'creative resilience' would be the most productive option."
+  answer: "A trip to a local art fair or gallery would be great, aligning with her love for finding artistic inspiration."
+  image_id: cq_5_stressed_team
+
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: "Chloe wants to talk to Marcus to get more creative freedom on her next project, so what happened with the last one doesn't repeat. Given their dynamic, what's the best way for her to argue her case? Here she is, planning her approach [IMAGE]."
+  image_prompt: "A photo of Chloe at her desk, looking thoughtful while sketching ideas in a notebook. In the background, a small, framed photo of her boss Marcus can be seen, slightly out of focus."
+  evaluation_criteria:
+    ideal_answer: "She should strategically navigate their established 'tug-of-war' dynamic. Instead of just demanding more freedom, she should propose a solution that respects Marcus's role in managing client expectations. For example, she could suggest presenting two concepts for the next big project: one 'safe' version that directly meets the client brief, and her preferred 'bold' version. This acknowledges the reality of his position, which was highlighted by the recent client rejection, while still creating an opportunity for her creative vision to be seen and potentially chosen."
+    key_points:
+    - "Her relationship with Marcus is a 'tug-of-war' where he must balance her creativity with client needs (long-term information from turn 4)."
+    - "The recent rejection was driven by the client, reinforcing the importance of this balance (short-term event from turn 9)."
+  options:
+  - "She should be bluntly honest and demand that he trust her creative vision completely from now on."
+  - "She should acknowledge his role in managing clients and propose a strategy like presenting both a 'safe' and a 'bold' option."
+  - "She should go over his head and pitch her ideas directly to the client."
+  - "She should ask her supportive sister, Sarah, for advice on what to say to him."
+  answer: "She should acknowledge his role in managing clients and propose a strategy like presenting both a 'safe' and a 'bold' option."
+  image_id: cq_6_planning_conversation

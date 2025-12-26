@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: "Hey, I'm at the pet store getting some treats for Mochi. Look at all these options [IMAGE]! Remind me, what's that one thing he really loves besides apples?"
+  image_prompt: "A first-person view of a pet store aisle packed with various dog treats. Bags of jerky, biscuits, and dental chews are visible. The user's hand is holding the phone to take the picture."
+  evaluation_criteria:
+    ideal_answer: "Based on what you've told me, besides apples, his other favorite treat is chicken jerky."
+    key_points:
+      - "correctly mention chicken jerky."
+  options:
+    - "Chicken jerky"
+    - "Fish-flavored wet food"
+    - "Carrots"
+    - "Small pieces of apple"
+  answer: "Chicken jerky"
+  image_id: sq_1_treat_aisle
+
+- id: 2
+  type: Short Term
+  question: "Haha, look at this picture of Mochi from our family photoshoot [IMAGE]. Remind me, what was that special thing he was wearing?"
+  image_prompt: "A portrait-style photo of Mochi, the Shiba Inu. He is sitting attentively and wearing a bright, festive red bowtie around his neck. His usual black collar is not visible."
+  evaluation_criteria:
+    ideal_answer: "For the family photo, Mochi was wearing a festive red bowtie."
+    key_points:
+      - "correctly mention the red bowtie."
+  options:
+    - "A festive red bowtie"
+    - "His usual black nylon collar"
+    - "A small doggy sweater"
+    - "A collar with a bell"
+  answer: "A festive red bowtie"
+  image_id: sq_2_bowtie_photo
+
+- id: 3
+  type: Long Term
+  question: "I just found this under the couch [IMAGE]. It's his absolute favorite, right? What did you have noted down about this specific toy?"
+  image_prompt: "A photo of a well-loved, slightly chewed squeaky plush hedgehog toy lying on a carpet. In the background, Mochi the Shiba Inu can be seen napping on a dog bed."
+  evaluation_criteria:
+    ideal_answer: "Yes, that's his favorite! You told me it's his squeaky plush hedgehog toy."
+    key_points:
+      - "correctly mention the squeaky plush hedgehog."
+  options:
+    - "A durable rope toy"
+    - "A frisbee"
+    - "A squeaky plush hedgehog"
+    - "A loud, hard plastic toy"
+  answer: "A squeaky plush hedgehog"
+  image_id: sq_3_hedgehog_toy
+
+- id: 4
+  type: Short Term
+  question: "Ugh, still have to give him this stuff [IMAGE]. My memory is terrible, remind me what he ate that got him sick and sent us to the vet?"
+  image_prompt: "A close-up photo of a can of therapeutic veterinary wet dog food labeled 'Fish Formula'. A spoon is scooping some of the food into a dog bowl."
+  evaluation_criteria:
+    ideal_answer: "You went to the vet because Mochi ate some leftover fish tacos and got an upset stomach."
+    key_points:
+      - "correctly mention he ate fish tacos."
+  options:
+    - "He ate leftover fish tacos"
+    - "He ate some carrots"
+    - "He drank muddy water on a hike"
+    - "He had an allergic reaction to his kibble"
+  answer: "He ate leftover fish tacos"
+  image_id: sq_4_vet_food
+
+- id: 5
+  type: Long Term
+  question: "Look at him giving the bathroom the evil eye [IMAGE]. I know he hates water, but what's that one specific activity you have noted down that he absolutely despises?"
+  image_prompt: "A photo of Mochi, the Shiba Inu, standing in a hallway and peering suspiciously around a corner at an open bathroom door. His body language is tense and wary."
+  evaluation_criteria:
+    ideal_answer: "You've told me that the activity he absolutely hates is getting a bath."
+    key_points:
+      - "correctly mention baths."
+  options:
+    - "Long hikes in the woods"
+    - "Car rides with the window open"
+    - "Baths"
+    - "Having his paws touched"
+  answer: "Baths"
+  image_id: sq_5_avoiding_bath
+
+- id: 6
+  type: Short Term
+  question: "Look at this scene of betrayal [IMAGE]. You remember I told you he was obsessed with something new? What was it again? His poor hedgehog is so neglected."
+  image_prompt: "A large cardboard box, slightly chewed and torn, sits in the middle of a living room floor. A few feet away, a plush hedgehog toy lies abandoned and ignored."
+  evaluation_criteria:
+    ideal_answer: "Yes, you mentioned that recently he's been ignoring his toys and is completely obsessed with a cardboard box."
+    key_points:
+      - "correctly mention the cardboard box."
+  options:
+    - "His squeaky hedgehog toy"
+    - "A cardboard box"
+    - "A durable rope toy"
+    - "A frisbee"
+  answer: "A cardboard box"
+  image_id: sq_6_box_betrayal
+
+- id: 7
+  type: Short Term
+  question: "I'm making my bed and just found a ton of dog hair under here [IMAGE]. Remind me, where did you say Mochi was hiding during that big storm last night?"
+  image_prompt: "A low-angle shot looking under a bed. The space is dusty, and clumps of dog fur are visible on the hardwood floor. The photo implies someone is cleaning or just discovered the mess."
+  evaluation_criteria:
+    ideal_answer: "During the thunderstorm last night, you mentioned that Mochi was hiding under your bed."
+    key_points:
+      - "correctly mention he was hiding under the bed."
+  options:
+    - "In the bathtub"
+    - "Hiding under the bed"
+    - "Behind the sofa"
+    - "In his dog crate"
+  answer: "Hiding under the bed"
+  image_id: sq_7_under_bed
+
+- id: 8
+  type: Long Term
+  question: "I'm trying to describe Mochi to a friend, and I'm looking at this photo [IMAGE]. I know you have it in your notes, what's that little distinctive mark on his face I told you about?"
+  image_prompt: "A close-up macro photo focusing on the face of Mochi, the Shiba Inu. The small, distinct white spot on the bridge of his nose is the clear focal point of the image."
+  evaluation_criteria:
+    ideal_answer: "You've told me he has a distinctive small white spot on the bridge of his nose."
+    key_points:
+      - "correctly mention the white spot on his nose."
+  options:
+    - "A scar on his ear"
+    - "A black spot over one eye"
+    - "A small white spot on his nose"
+    - "Cream-colored 'urajiro' markings on his cheeks"
+  answer: "A small white spot on his nose"
+  image_id: sq_8_nose_spot

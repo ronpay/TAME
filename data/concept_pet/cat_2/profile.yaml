@@ -1,0 +1,85 @@
+concept_id: cat_2
+name: "Cheeto"
+species: "Feline"
+breed: "Domestic Shorthair (Orange Tabby)"
+
+appearance:
+  summary: "A large, portly male orange tabby with classic, darker orange stripes. He has a very fluffy but short coat and typically looks sleepy and extremely comfortable."
+
+  key_visual_features:
+    - "Bright, vibrant orange fur with distinct tabby markings"
+    - "A noticeably round, chunky physique"
+    - "A small, distinctive white patch of fur on his chest"
+    - "Short, powerful legs"
+    - "Does not wear a collar; seems to dislike them"
+
+behavior:
+  personality_traits:
+    - "Extremely lazy, with a passion for napping"
+    - "Master of finding the most inconvenient but warmest places to sleep"
+    - "Affectionate on his own terms; seeks out attention when he wants it"
+    - "Generally quiet, rarely meows, but has a motor-like purr when content"
+    - "A creature of habit and comfort"
+
+  preferences:
+    toys:
+      loves:
+        - "Simple crinkly foil balls"
+        - "The red dot from a laser pointer"
+      hates:
+        - "Any toy that makes a bell sound"
+        - "Elaborate feather wands (he just stares at them)"
+
+    food:
+      loves:
+        - "Tuna packed in oil"
+        - "Sneaking a lick of milk from a cereal bowl"
+      hates:
+        - "Any kind of dry, healthy kibble"
+        - "Chicken-flavored wet food"
+
+    activities:
+      loves:
+        - "Sleeping on warm electronics, especially keyboards and laptops"
+        - "Being a 'desk supervisor' while his owner works"
+      hates:
+        - "Closed doors (he will sit and stare at them judgmentally)"
+        - "Being picked up or moved when he is comfortable"
+        - "Sudden loud noises, like the vacuum cleaner"
+
+history:
+  knowledge:
+    - "Introduce Cheeto's appearance as a large orange tabby who doesn't wear a collar."
+    - "Explain that Cheeto's favorite food in the whole world is tuna in oil."
+    - "State clearly that Cheeto absolutely detests healthy dry kibble."
+    - "Describe Cheeto's primary hobby: sleeping on his owner's computer keyboard because it's warm."
+    - "Mention his hatred for toys that have bells."
+    - "Characterize Cheeto as a very quiet cat who purrs a lot but rarely meows."
+    - "Explain that Cheeto strongly dislikes being picked up, especially when he's sleeping."
+    - "Introduce his love for the laser pointer as one of the only things that makes him run."
+
+  event:
+    - "Recount a recent vet visit where the vet diagnosed Cheeto as being overweight and prescribed a strict diet of special, healthy dry kibble."
+    - "Describe an event from this morning where the owner tried to get Cheeto to play with a new toy mouse that had a bell, and he completely ignored it."
+    - "Mention an incident yesterday where the owner tried to gently move Cheeto off the keyboard and he let out a rare, grumpy growl."
+    - "Share a photo from last night showing Cheeto managing to sneak a lick of milk from a bowl left on the coffee table."
+    - "Introduce that the owner tried putting a new red collar on him for safety, but he slipped out of it in under an hour."
+    - "Describe a specific recent moment where Cheeto, despite his laziness, energetically chased the laser pointer dot all over the living room for five minutes."
+
+simple_questions:
+  - "Ask what Cheeto's favorite food is, based on his long-term knowledge."
+  - "Ask why Cheeto was at the vet recently, based on a short-term event."
+  - "Ask what Cheeto's favorite napping spot is, based on his long-term preferences."
+  - "Ask what kind of toy Cheeto ignored this morning, based on a recent event."
+  - "Ask if Cheeto enjoys being picked up, based on his long-term knowledge."
+  - "Ask what forbidden snack Cheeto managed to get last night, based on a short-term event."
+  - "Ask what happened when the owner tried to put a collar on Cheeto, based on a recent event."
+  - "Ask about the one activity that can get the usually lazy Cheeto to exercise."
+
+challenge_question:
+  - "Pose a preference conflict question: Why is Cheeto currently so unhappy at mealtime? The user must combine the long-term knowledge that he hates dry kibble with the short-term event that he's on a vet-prescribed diet of it."
+  - "Create a state-recognition question. Show the main image of Cheeto on the keyboard and ask to explain the situation fully. The user must identify Cheeto and explain that he is engaging in his favorite activity (sleeping on warm keyboards), not just randomly napping."
+  - "Ask a 'what-if' question: If you wanted to get Cheeto a new toy for his birthday, would a fancy, multi-feature toy with a bell be a good gift? The user must use long-term knowledge (hates bells/fancy toys) and the recent event (ignored a new toy mouse) to answer no."
+  - "Pose a behavioral prediction question: Your owner needs to send an urgent email, but you (as Cheeto) are asleep on the keyboard. What is likely to happen if they try to pick you up? The user must synthesize Cheeto's hatred of being moved with his love for that specific spot to predict a grumpy reaction."
+  - "Create a recommendation question: Given that Cheeto is now on a diet (short-term) and is trying to steal other food like milk (recent event), what should his owner do? The answer requires connecting the diet, his long-term preferences, and his recent sneaky behavior."
+  - "Pose a question about Cheeto's conflicting behavior: Cheeto is known to be extremely lazy, so why was he seen frantically running around the room recently? The user has to connect his general lazy trait with his specific long-term love for the laser pointer, which was highlighted in a recent event."

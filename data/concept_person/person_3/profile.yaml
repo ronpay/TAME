@@ -1,0 +1,106 @@
+concept_id: person_002
+name: "Leo Vance"
+
+identity:
+  age_group: "Early 20s"
+  gender: "Male"
+  occupation: "Junior Marketing Analyst"
+  nationality: "American"
+
+appearance:
+  summary: "A young man in his early 20s with a clean-cut, approachable look. He dresses to impress in business-casual attire, often wearing a friendly but slightly strained smile in professional settings."
+
+  key_visual_features:
+    - "Neatly combed, straight brown hair"
+    - "Bright, eager blue eyes"
+    - "A perpetually polite and accommodating smile"
+    - "Favors crisp, striped or solid-colored button-down shirts and a tie"
+    - "Always wears a sleek, but modest, smartwatch his parents gave him for graduation"
+
+behavior:
+  personality_traits:
+    - "Ambitious and extremely eager to please"
+    - "Extroverted on the surface, but secretly anxious about social approval"
+    - "Highly organized and a bit of a perfectionist"
+    - "Loyal to his team, sometimes to a fault"
+    - "Gets stressed when things don't go according to a set plan"
+
+  communication_style:
+    - "Uses excessive corporate jargon to sound more experienced"
+    - "Overly positive and agreeable in public forums like meetings"
+    - "Prefers to express genuine concerns or complaints in private to trusted peers"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Strategy-based video games and escape rooms"
+        - "Listening to high-energy electronic music while working out"
+        - "Organizing his life with productivity apps"
+      hates:
+        - "Unstructured, chaotic social gatherings with no clear purpose"
+        - "Improvisational activities or 'go with the flow' plans"
+        - "Being idle or unproductive for long periods"
+
+    food:
+      loves:
+        - "Meticulously prepared meal-prep lunches (e.g., chicken, broccoli, rice)"
+        - "Expensive, perfectly brewed pour-over coffee"
+        - "Clean, simple sushi rolls"
+      hates:
+        - "Greasy, messy foods like buffalo wings or loaded nachos"
+        - "Cheap, bitter office coffee from a pot"
+        - "Sharing plates or 'family style' meals where he can't control his portion"
+
+    media:
+      loves:
+        - "Biographies of successful CEOs and entrepreneurs"
+        - "Podcasts about marketing trends and productivity hacks"
+      hates:
+        - "Cynical or nihilistic films and TV shows"
+        - "Reality TV focused on interpersonal drama"
+
+relationships:
+  - name: "Jessica Chen"
+    relation: "Direct Manager"
+    dynamic: "Views her as a key mentor and is desperate for her approval. Jessica values his diligence but wishes he'd be more confident and less of a 'yes-man'."
+  - name: "Samira 'Sam' Joshi"
+    relation: "Work Friend / Peer"
+    dynamic: "His closest confidante at the office. Sam is more cynical and grounded, often teasing Leo for his over-eagerness and acting as his reality check."
+  - name: "His Parents"
+    relation: "Parents"
+    dynamic: "Supportive but have very high expectations. He feels immense pressure not to disappoint them after they invested so much in his education."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Leo's job as a Junior Marketing Analyst and his ambition to impress his manager, Jessica."
+    - "Instruction: Introduce his preference for structured, neat food, like his daily meal-prep lunches."
+    - "Instruction: Introduce his strong dislike for cheap office coffee."
+    - "Instruction: Introduce his dislike for unstructured social events where he feels awkward."
+    - "Instruction: Introduce his and his work-friend Sam's dynamic, where she is his confidante."
+    - "Instruction: Introduce his love for strategy games and escape rooms."
+    - "Instruction: Introduce his perfectionist nature and how he gets stressed by unplanned problems."
+    - "Instruction: Introduce the smartwatch his parents gave him, which he always wears."
+
+  event:
+    - "Instruction: Introduce a recent event where a major project launch he managed had a technical glitch, causing him immense stress."
+    - "Instruction: Introduce the recent company holiday party, where Leo volunteered to serve drinks just to have a specific role and avoid awkward small talk."
+    - "Instruction: Introduce a recent team-building lunch involving a 'make your own messy nachos' bar, which made him very uncomfortable."
+    - "Instruction: Introduce a recent conversation where his manager, Jessica, told him he needed to be more assertive with his own ideas, which he took as a major criticism."
+
+simple_questions:
+  - "Draft: Ask what Leo does for a living."
+  - "Draft: Ask why Leo was so stressed last week."
+  - "Draft: Ask what kind of hobbies Leo enjoys in his free time."
+  - "Draft: Ask what happened at the recent team-building lunch."
+  - "Draft: Ask about the piece of jewelry Leo always wears."
+  - "Draft: Ask what Leo did at the company holiday party."
+  - "Draft: Ask who Leo's closest friend at the office is."
+  - "Draft: Ask what kind of coffee Leo can't stand."
+
+challenge_question:
+  - "Draft: [State Recognition] You see a photo of Leo smiling while serving drinks at a party. Based on what you know, is he genuinely having a good time? The user must combine his long-term dislike of unstructured parties with the short-term event of him volunteering for a 'role' to avoid socializing."
+  - "Draft: [Preference Conflict] Leo is known for his healthy eating. Why was he so uncomfortable at the last team lunch? The user must connect his long-term preference for neat, controlled meals with the short-term event of the 'messy nachos' bar."
+  - "Draft: [Counterfactual Reasoning] After the stressful project launch, if Jessica wanted to cheer Leo up, would suggesting they all go out for spontaneous drinks at a crowded bar be a good idea? The user must infer 'no' by combining his recent stress with his long-term hatred of chaotic social events."
+  - "Draft: [Relationship Dynamics] Why did Leo get so worried when Jessica told him to be more 'assertive'? The user needs to connect the short-term event (the feedback) with his long-term personality (eager to please, anxious for approval) to understand his reaction."
+  - "Draft: [Recommendation Decision] Leo has a free weekend and wants to unwind from his stressful week at work. What would be the perfect activity for him? The answer should reject typical party ideas and suggest something structured, like an escape room with his friend Sam."
+  - "Draft: [Conflict Resolution] Leo notices a flaw in a marketing plan created by a senior colleague he admires. How would he likely approach this situation? The user must infer that he would be anxious, avoid public confrontation, and probably ask his friend Sam for advice before doing anything."

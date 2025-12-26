@@ -1,0 +1,69 @@
+concept_id: keyboard_1
+name: "The Controller"
+object_profile:
+  type: "Mechanical Keyboard"
+  origin_story: "Purchased as a self-gift after the owner was laid off and decided to start their own freelance design business. It was a declaration of intent, a tool to 'take control' of their new career path."
+
+physical_attributes:
+  summary: "A compact, 65% layout mechanical keyboard with a black aluminum case and black keycaps. It features a prominent yellow tag on the side that reads 'TAKE CONTROL' and is paired with a matching yellow-and-black braided cable and a simple black wrist rest."
+
+  defining_features:
+    - "A small, silvery scratch on the frame near the USB-C port, earned when it was hastily packed for the owner's first-ever design competition."
+    - "The 'Enter' keycap is a custom, 3D-printed replacement, slightly taller than the others. The original cracked during a frustrating all-nighter, and the owner learned 3D modeling to create a more resilient one."
+    - "A smooth, subtle groove on the left side of the black wrist rest, worn down over years by the clasp of the owner's watch."
+    - "The 'TAKE CONTROL' tag is not original to the keyboard; it was a keychain the owner attached on day one to solidify its symbolic meaning."
+
+owner_relationship:
+  functional_use: "The primary tool for the owner's freelance graphic design and coding work. Its compact size makes it portable for client meetings or working from cafes."
+  sentimental_role: "A tangible reminder of the owner's independence and resilience. The 'TAKE CONTROL' tag serves as a daily mantra, especially on difficult days. It's a symbol of self-reliance."
+
+  projected_personality:
+    - "Stoic and reliable; it's a workhorse, not a show pony."
+    - "Precise and demanding, it encourages focus and deliberation."
+    - "A quiet motivator; its presence is a source of silent encouragement."
+
+  perceived_preferences:
+    loves:
+      - "Long, uninterrupted sessions of creative work."
+      - "The feeling of being carefully packed for a trip, a sign of its importance."
+    hates:
+      - "Being rushed or handled carelessly (the memory of the scratch is a sore spot)."
+      - "A loose cable connection, which feels like a break in focus."
+      - "Dust and crumbs, which compromise its precision."
+
+history:
+  knowledge:
+    - "Explain the keyboard's origin: bought after a layoff to start a freelance career, with the 'TAKE CONTROL' tag added on day one."
+    - "Describe the story of the scratch near the USB port, which happened during the owner's first design competition."
+    - "Detail how the owner learned basic 3D printing to create a custom 'Enter' key after the original one broke."
+    - "Mention the subtle groove on the wrist rest, worn down by the owner's watch over years of use."
+    - "Describe the keyboard's personality as stoic and motivating, a symbol of the owner's independence."
+    - "Explain the owner's careful packing ritual, born from the memory of the competition scratch."
+    - "State that the keyboard's purpose is for professional design work."
+    - "Clarify that the 'TAKE CONTROL' tag is the core of the keyboard's sentimental value."
+
+  event:
+    - "Introduce a recent problem: the wrist rest has started to develop a small crack near the watch groove, and the owner is looking for a suitable replacement."
+    - "Introduce a recent decision: the owner considered a new wireless keyboard for a cleaner desk but decided against it to keep the iconic tag-and-cable setup."
+    - "Introduce a recent event: a client on a video call asked about the 'TAKE CONTROL' tag, leading to the owner sharing its story."
+    - "Introduce a recent maintenance action: the owner just replaced the worn-out braided cable with a new, identical one to ensure a reliable connection."
+    - "Introduce a recent photo showing the keyboard on the desk next to a brand-new, high-end graphics tablet the owner just bought."
+    - "Introduce a recent conversation where a friend, starting their own venture, asked for advice on 'tools for success'."
+
+simple_questions:
+  - "Ask about the story behind the 'TAKE CONTROL' tag."
+  - "Ask to describe a specific mark of wear and tear on the object."
+  - "Ask why the owner had to create a custom part for it."
+  - "Ask what skill the owner learned because of this object."
+  - "Ask if the owner is thinking about getting a new keyboard."
+  - "Ask what part of the object is currently damaged or needs replacement."
+  - "Ask what part of the object was just recently replaced."
+  - "Ask about a recent conversation the owner had about the object."
+
+challenge_question:
+  - "Pose a behavioral analysis question: The owner is famously careful when packing the keyboard for travel. Why this specific obsession? The user must connect the current careful behavior to the long-term memory of the scratch from the first design competition."
+  - "Create a recommendation question: The owner's friend is starting a new business and asked for advice. What would the owner recommend, based on their experience with 'The Controller'? The user should infer the advice isn't about a specific brand, but about finding a personal, symbolic tool for motivation."
+  - "Ask a 'what-if' question: If the owner hadn't been able to 3D-print a new 'Enter' key, how might their relationship with the keyboard have changed? The user must infer that being forced to use a standard replacement would have diminished the feeling of 'taking control' and personal ownership over the object's journey."
+  - "Pose an emotional interpretation question: Why did the owner choose an identical replacement for the worn-out cable instead of upgrading to a different color or style? The user should deduce it's an act of preserving the object's original, symbolic identity, not about seeking novelty."
+  - "Create a state-recognition question: Given the photo of the old keyboard next to the new graphics tablet, what does this pairing signify about the owner's career? The user must synthesize the keyboard's origin story (starting out) with the new tool (success) to conclude it represents professional growth, with the foundational tool still at the center."
+  - "Pose a conflict resolution question: The wrist rest is failing, yet the owner is hesitant to buy a new one. Why the delay? The user needs to combine the short-term problem (the crack) with the object's stoic personality and the owner's history of custom repairs to explain that they are searching for a replacement that fits the keyboard's established character, not just any functional replacement."

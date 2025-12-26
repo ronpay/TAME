@@ -1,0 +1,201 @@
+- id: 1
+  type: Causal Inference
+  question: My nephew's artwork is cute [IMAGE], but now I'm in a bit of a pickle.
+    The marker is washable, so the obvious solution is the washing machine, but I
+    just can't bring myself to do it. Based on what you know about Finn, why am I
+    so hesitant?
+  image_prompt: A photo showing the shark, Captain Finn, propped up on a chair. There
+    is a clearly visible, child-like drawing of a skull and crossbones on his dorsal
+    fin in black marker. The owner's hand is in the frame, gently touching the fin,
+    looking conflicted.
+  evaluation_criteria:
+    ideal_answer: You're hesitant to use the washing machine, even for a washable
+      marker stain, because of Captain Finn's past traumatic experience with it. You
+      described it as a 'terrifying, dizzying experience' for him. Your reluctance
+      stems from your desire to protect his perceived well-being and avoid putting
+      him through that trauma again, prioritizing his emotional significance over
+      a simple cleaning solution.
+    key_points:
+    - Captain Finn has a long-term, deep-seated fear of the washing machine from a
+      past traumatic event (long-term information).
+    - Despite the recent doodle being washable, you are prioritizing Finn's 'emotional
+      safety' over the convenience of machine washing (reasoned inference from short-term
+      event).
+  options:
+  - You are concerned the machine's agitation could damage the new stuffing from his
+    recent 'surgery' or strain the seams you just sewed.
+  - You secretly find the nephew's 'pirate flag' drawing charming and are considering
+    leaving it as a new, temporary memory on his fin.
+  - Your hesitation stems from Finn's past 'traumatic experience' with the washing
+    machine, prioritizing his perceived emotional safety over convenience.
+  - You're worried the washing process might fade the fabric of the meaningful band
+    t-shirt patch on his tail, damaging part of his history.
+  answer: Your hesitation stems from Finn's past 'traumatic experience' with the washing
+    machine, prioritizing his perceived emotional safety over convenience.
+  image_id: cq_1_doodle_dilemma
+- id: 2
+  type: Causal Inference
+  question: I was just thinking about this. I saw a brand new, perfect version of
+    Finn at the store recently, but a week later I spent my afternoon doing this [IMAGE].
+    Why do you think I chose to meticulously repair him instead of just buying a new
+    one?
+  image_prompt: A close-up shot of the owner's hands carefully sewing up a seam on
+    Captain Finn after re-stuffing him. The shark looks plumper and well-cared for.
+    A bag of fluffy white stuffing is visible in the background.
+  evaluation_criteria:
+    ideal_answer: You chose to repair Captain Finn rather than replace him because
+      he is far more than just a toy. He is the original 'hug-by-mail' from your best
+      friend, a unique symbol of your friendship and an emotional guardian who has
+      been with you through difficult times. Performing 'surgery' to fix him is an
+      act of preserving those memories and that special bond, something a new, store-bought
+      replacement you saw could never replicate.
+    key_points:
+    - Captain Finn's origin as a meaningful 'hug-by-mail' gift from a best friend
+      makes him a unique and emotionally significant object (long-term information).
+    - The recent act of personally re-stuffing him, after seeing but rejecting a new
+      one, demonstrates a commitment to preserving his history over acquiring a perfect
+      but meaningless replacement (reasoned inference from short-term events).
+  options:
+  - You believe his existing flaws, like the scratched eye, are part of his unique
+    identity and you only wanted to fix his flatness, not replace him entirely.
+  - You decided to fix him up primarily so he would look plump and well-cared for
+    during the upcoming visit from the friend who originally gifted him.
+  - You felt that buying a replacement would be disrespectful to your friend, as if
+    you were throwing away the original gift they gave you.
+  - You chose repair because Finn is a unique symbol of your friendship, and fixing
+    him preserves the specific history and memories a new one could never replicate.
+  answer: You chose repair because Finn is a unique symbol of your friendship, and
+    fixing him preserves the specific history and memories a new one could never replicate.
+  image_id: cq_2_repair_not_replace
+- id: 3
+  type: Counterfactual Reasoning
+  question: Remember when I turned back to get Finn for my road trip? Here's a photo
+    from that drive [IMAGE]. What do you think would have been different about the
+    trip if I had just kept going and left him at home?
+  image_prompt: A photo from the car's passenger seat where Captain Finn is sitting,
+    secured with a seatbelt, and 'looking' out the window at the passing scenery.
+    The vibe is one of companionship on a journey.
+  evaluation_criteria:
+    ideal_answer: If you had left Captain Finn at home, the trip might have felt incomplete,
+      or you might have experienced a subtle sense of anxiety. You've described him
+      as your 'emotional guardian' and you recently called him your 'co-pilot.' The
+      fact you turned back after 10 minutes shows his presence is crucial for your
+      peace of mind and sense of security, even on a short trip. Without him, the
+      journey would have lacked that feeling of companionship.
+    key_points:
+    - Finn serves as a long-term 'emotional guardian' and a source of security for
+      you (long-term information).
+    - Your recent action of turning back on a trip specifically for him implies that
+      his absence would have caused a feeling of unease or incompleteness, impacting
+      your psychological comfort during the journey (reasoned prediction based on
+      a short-term event).
+  options:
+  - You might have been more focused on the drive, but would have felt his absence
+    most acutely at night when you rely on him as a sleeping pillow.
+  - You likely would have felt a nagging guilt for leaving him behind, especially
+    recalling his perceived hatred of being forgotten on the cold floor.
+  - His absence might have made the reunion upon your return feel more significant,
+    highlighting his importance to your daily routine after the fact.
+  - The trip might have felt incomplete or caused a subtle anxiety, as his role as
+    an 'emotional guardian' is crucial for your sense of security on journeys.
+  answer: The trip might have felt incomplete or caused a subtle anxiety, as his role
+    as an 'emotional guardian' is crucial for your sense of security on journeys.
+  image_id: cq_3_trip_without_finn
+- id: 4
+  type: Causal Inference
+  question: This was such a nice moment from last week [IMAGE]. I had Finn right there
+    with me while I chatted with the friend who gave him to me. Looking at this picture,
+    what do you think that gesture symbolized?
+  image_prompt: A heartwarming photo of a video call setup. The laptop screen shows
+    a smiling friend. Next to the laptop, Captain Finn is propped up, seemingly 'watching'
+    the screen as if he's part of the conversation.
+  evaluation_criteria:
+    ideal_answer: Having Captain Finn there was a deeply symbolic act. He was originally
+      a 'hug-by-mail' to bridge the physical distance between you and your friend.
+      By including him in the call, you were bringing the symbol of your connection
+      full circle. He acted as a tangible 'witness' to your 'reunion,' representing
+      the enduring nature of your friendship and a shared history that connects you
+      both.
+    key_points:
+    - Finn originated as a gift from this specific friend, symbolizing long-distance
+      support and connection (long-term information).
+    - Placing him in the recent video call was a symbolic gesture, making him a 'witness'
+      to the enduring friendship and bringing his original purpose full circle (reasoned
+      inference from short-term event).
+  options:
+  - It was a way of reassuring your friend that their gift is still cherished and
+    plays a central, well-cared-for role in your life.
+  - His presence served as a private source of comfort, grounding you in his familiar
+    sense of safety while you were reconnecting with your friend.
+  - It was a gesture bringing his origin as a 'remote hug' full circle, making him
+    a tangible witness to your enduring, long-distance friendship.
+  - You were including him as a 'loyal listener,' showing your friend how his projected
+    personality has become part of your shared history.
+  answer: It was a gesture bringing his origin as a 'remote hug' full circle, making
+    him a tangible witness to your enduring, long-distance friendship.
+  image_id: cq_4_videocall_symbolism
+- id: 5
+  type: Counterfactual Reasoning
+  question: My friend—the one who gave me Finn—is visiting soon! I was just looking
+    at Finn today, sitting in his usual spot [IMAGE]. With the visit coming up, how
+    do you think his 'role' might temporarily change?
+  image_prompt: A photo of Captain Finn sitting calmly on the center of a pillow on
+    a neatly made bed. The room is tidy, perhaps in preparation for a guest. He looks
+    like the quiet, personal guardian he usually is.
+  evaluation_criteria:
+    ideal_answer: With your friend's visit, Captain Finn's role is likely to shift
+      temporarily. While he is normally your private emotional guardian, he will transform
+      into a vibrant, shared symbol of your friendship's history. He'll go from being
+      a quiet comforter just for you to a conversation piece and a happy, tangible
+      reminder of the connection you both share.
+    key_points:
+    - Finn's long-term role has been as a private, personal emotional guardian for
+      you (long-term information).
+    - The upcoming visit from his original giver will likely shift his role to become
+      a public, shared symbol of the friendship's history and endurance (reasoned
+      prediction based on a short-term event).
+  options:
+  - His role will shift to 'host,' as you'll want him looking his best after his recent
+    'surgery' to welcome the friend who gifted him.
+  - He will likely shift from a private comforter to a shared, public symbol of your
+    friendship's history and endurance during the visit.
+  - His importance will increase as he becomes a physical catalyst for conversation,
+    helping you and your friend recall shared memories.
+  - He will revert to his original identity as a 'remote hug,' primarily reminding
+    you both of the time you lived in different cities.
+  answer: He will likely shift from a private comforter to a shared, public symbol
+    of your friendship's history and endurance during the visit.
+  image_id: cq_5_role_shift
+- id: 6
+  type: Causal Inference
+  question: Look at this patch again [IMAGE]. I could have used any old blue fabric
+    to make it less obvious, but I specifically chose a piece from my old 'Fading
+    Echoes' t-shirt. What does that choice reveal about my values?
+  image_prompt: A macro shot focusing intensely on the hand-sewn patch on Captain
+    Finn's tail. The texture of the old, faded black t-shirt fabric and the uneven,
+    clumsy stitches are clearly visible against the shark's blue plush.
+  evaluation_criteria:
+    ideal_answer: Your choice to use a piece of your favorite band t-shirt, rather
+      than a less noticeable fabric, reveals that you value layering memories. Instead
+      of just hiding a flaw, you chose to cover an old 'scar' with a new, meaningful
+      story. It shows you believe that imperfections and repairs don't diminish an
+      object's worth; instead, they enrich its history, making it a collage of your
+      own life.
+    key_points:
+    - The patch was made from a personally significant and meaningful band t-shirt,
+      not just a random scrap of fabric (long-term information).
+    - This deliberate choice suggests you value mending things with new layers of
+      meaning, thereby enriching their history rather than just hiding damage (reasoned
+      inference about values).
+  options:
+  - It shows you prioritize authenticity over perfection, valuing the genuine act
+    of care over a more polished, less personal repair.
+  - It reveals you value layering new memories onto old scars, believing a repair
+    with meaning enriches an object's history rather than just hiding a flaw.
+  - It suggests you see Finn as an extension of your identity, and sharing a piece
+    of your favorite t-shirt was a way to merge your histories.
+  - It symbolizes that the friendship that brought you Finn and the music you love
+    are two equal pillars of your emotional support system.
+  answer: It reveals you value layering new memories onto old scars, believing a repair
+    with meaning enriches an object's history rather than just hiding a flaw.
+  image_id: cq_6_patch_symbolism

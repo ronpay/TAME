@@ -1,0 +1,141 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hi there, I'm setting you up with some info about me. My name is Ravi
+    Kapoor. I'm an architect and a partner at my firm. For me, precision and attention
+    to detail are everything. There's a right way to design things, and it requires
+    meticulous work. Here's a photo of me at the office. [IMAGE]
+  assistant_response: Hello Ravi. It's a pleasure to meet you. I've noted that you're
+    a meticulous architect who values precision in your work. Thanks for the picture.
+  image_prompt: A man in his early 40s, Ravi Kapoor, with a clean-shaven head and
+    focused brown eyes, standing in a modern architect's office. He is wearing a navy
+    V-neck sweater over a crisp white collared shirt. On his left wrist is a distinctive,
+    oversized chronograph watch. He is looking thoughtfully at a building model on
+    a table.
+  image_id: turn_1_architect_office
+- turn: 2
+  log_type: knowledge
+  user_input: One of my absolute favorite things is hosting game nights. I love getting
+    friends together, but I have to admit, I'm intensely competitive. Whether it's
+    board games or video games, I play to win! Here's a shot from last weekend's Wii
+    tournament. [IMAGE]
+  assistant_response: That sounds like a lot of fun! I've noted your love for hosting
+    game nights and your competitive spirit. Thanks for sharing.
+  image_prompt: An action shot of Ravi Kapoor, a bald man in his 40s, in his living
+    room, laughing but with a focused, competitive expression as he plays a video
+    game with a controller. Friends are visible in the background, cheering him on.
+    He is wearing casual clothes and his signature large chronograph watch.
+  image_id: turn_2_game_night
+- turn: 3
+  log_type: knowledge
+  user_input: 'When I cook, I have one signature dish: my traditional biryani. I''ve
+    spent years perfecting the recipe. It''s not just food, it''s a perfectly engineered
+    structure of flavor. [IMAGE]'
+  assistant_response: That looks incredible, Ravi. I've made a note that your specialty
+    is a home-cooked, traditional biryani that you've perfected over the years.
+  image_prompt: A beautiful, professionally-lit, top-down photo of a large ceramic
+    serving dish filled with perfectly cooked, fluffy biryani. The rice is aromatic
+    with saffron and garnished with fresh coriander, fried onions, and visible whole
+    spices. Steam is gently rising from the dish.
+  image_id: turn_3_perfect_biryani
+- turn: 4
+  log_type: knowledge
+  user_input: Just so you know, I really can't stand trendy, 'deconstructed' food.
+    A foam of this and a smear of that... it's all style and no substance. Food should
+    be honest and well-made, not a science experiment on a plate.
+  assistant_response: Got it. I've noted your strong dislike for deconstructed food
+    and your preference for traditional, substantial meals. Thanks for clarifying.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: I wanted to tell you about my wife, Priya. She's wonderful and so supportive,
+    but we're quite different. I'm a planner, and she's much more spontaneous. She
+    loves to gently tease me about my need for everything to have a schedule.
+  assistant_response: Thank you for sharing that, Ravi. I've noted your relationship
+    dynamic with your wife, Priya – your planning nature complements her spontaneity.
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: This is my daughter, Maya. She's ten, and I absolutely adore her. I'm
+    trying to teach her about my love for building and precision, so we do a lot of
+    little DIY projects together. [IMAGE]
+  assistant_response: She looks lovely, Ravi. I've made a note of your close bond
+    with your daughter Maya and the DIY projects you share. That's a wonderful way
+    to connect.
+  image_prompt: A heartwarming, candid photo of Ravi Kapoor and his 10-year-old daughter
+    Maya working together at a workbench in a garage. Ravi is patiently showing Maya
+    how to use a small hand drill. Both are smiling and focused. Wood shavings are
+    on the bench around them.
+  image_id: turn_6_maya_diy
+- turn: 7
+  log_type: knowledge
+  user_input: You'll probably notice I'm never without this watch. It's an oversized
+    chronograph, and it's basically a permanent fixture on my left wrist. [IMAGE]
+  assistant_response: I see it. A very distinctive timepiece. I've noted that you
+    always wear a chunky chronograph watch on your left wrist.
+  image_prompt: A close-up shot focusing on the left wrist of Ravi Kapoor. He is wearing
+    a large, silver chronograph watch with a detailed face and multiple dials. The
+    sleeve of a navy sweater and a white collared shirt are visible.
+  image_id: turn_7_chronograph_watch
+- turn: 8
+  log_type: knowledge
+  user_input: At work, I'm mentoring a junior architect named Tom. He has a lot of
+    potential, a good eye for design, but his workflow is a complete mess. His disorganization
+    constantly frustrates me.
+  assistant_response: I understand. It can be challenging when workflows don't align.
+    I've noted your mentorship of Tom and your frustration with his disorganized process.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: Ugh, what a nightmare. I was hosting a dinner party and my brand-new,
+    high-tech oven decided to have a meltdown. It completely incinerated my signature
+    biryani. I was beyond frustrated. Look at the carnage. [IMAGE]
+  assistant_response: 'Oh no, that sounds incredibly upsetting, especially with guests
+    over. I''ve recorded this event: your new oven malfunctioned and burned your biryani.
+    I''m sorry that happened.'
+  image_prompt: A photo taken from Ravi's perspective, looking into a modern oven.
+    Inside, a large ceramic dish contains a blackened, burnt mass. A wisp of smoke
+    is visible. The oven's sleek digital display shows an error message.
+  image_id: turn_9_burnt_biryani
+- turn: 10
+  log_type: event
+  user_input: For our anniversary, my wife Priya surprised me with a reservation at
+    that new experimental restaurant everyone's talking about. Very thoughtful of
+    her, but... well, let's just say it was the pinnacle of the deconstructed food
+    I can't stand. [IMAGE]
+  assistant_response: I see. A thoughtful gesture from Priya, but the restaurant's
+    style was in direct conflict with your taste. I've noted this anniversary dinner
+    event. It sounds like a memorable, if complicated, evening.
+  image_prompt: 'A photo of a minimalist white plate on a dark table in a fancy restaurant.
+    On the plate is a ''deconstructed'' dish: a small piece of fish, a colorful smear
+    of puree, a single microgreen, and a dollop of foam. It looks artistic but not
+    very filling.'
+  image_id: turn_10_deconstructed_meal
+- turn: 11
+  log_type: event
+  user_input: I had to stay at the office until midnight last night. A major project
+    deadline got moved up. The worst part? The only thing to eat was a sad microwave
+    meal from the vending machine. Hated every bite. [IMAGE]
+  assistant_response: That sounds like a grueling night. Working late is tough enough
+    without having to eat a meal you despise. I've recorded that you had to eat a
+    microwave meal due to a work deadline.
+  image_prompt: A first-person view of an office desk late at night. The desk is cluttered
+    with architectural drawings and a laptop. In the center is a plastic tray with
+    a partially eaten, unappetizing microwave meal. The lighting is the harsh glare
+    of a desk lamp.
+  image_id: turn_11_sad_desk_meal
+- turn: 12
+  log_type: event
+  user_input: On a much happier note, Maya and I finished our project this weekend!
+    We built a birdhouse. It's a little crooked, but it's functional, and we made
+    it together. So proud of this. [IMAGE]
+  assistant_response: That's wonderful, Ravi! It looks fantastic. The best projects
+    are the ones with great memories attached. I've saved this happy event and the
+    photo of you and Maya with your completed birdhouse.
+  image_prompt: A proud-looking Ravi Kapoor and his smiling 10-year-old daughter,
+    Maya, are standing in their backyard, holding up a freshly built wooden birdhouse.
+    The birdhouse is charmingly imperfect and slightly crooked. Both are beaming with
+    pride.
+  image_id: turn_12_birdhouse_project

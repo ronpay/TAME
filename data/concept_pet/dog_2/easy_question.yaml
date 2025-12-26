@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: "Hey, I'm at the store looking at treats for Ghost [IMAGE]. I totally blanked. What did I tell you was his absolute favorite?"
+  image_prompt: "A photo from the user's point of view, looking at a shelf in a pet store filled with various dog treats like biscuits, jerky, and chew sticks. The user's hand holding a phone is slightly visible."
+  evaluation_criteria:
+    ideal_answer: "You told me his absolute favorite treat is peanut butter."
+    key_points:
+      - "correctly mention peanut butter."
+  options:
+    - "Peanut butter"
+    - "Small pieces of grilled chicken"
+    - "Hard, dry dog biscuits"
+    - "Citrus fruits like oranges"
+  answer: "Peanut butter"
+  image_id: sq_1_pet_store_treats
+
+- id: 2
+  type: Short Term
+  question: "Look at him all sleepy today [IMAGE]. Remind me, where did he end up hiding during that big storm last night?"
+  image_prompt: "A photo of Ghost, the white Pit Bull mix, curled up and sleeping soundly on the couch. He looks tired but peaceful after a stressful night."
+  evaluation_criteria:
+    ideal_answer: "During the thunderstorm last night, he spent the entire time hiding in the bathroom."
+    key_points:
+      - "correctly mention hiding in the bathroom."
+  options:
+    - "He hid in the bathroom."
+    - "He cuddled on the couch."
+    - "He hid under the bed."
+    - "He barked at the thunder."
+  answer: "He hid in the bathroom."
+  image_id: sq_2_sleepy_ghost
+
+- id: 3
+  type: Long Term
+  question: "I'm thinking of getting Ghost a new toy. Look at this one [IMAGE]. Before I buy it, remind me what kind of toys I told you he absolutely hates?"
+  image_prompt: "A photo from the user's point of view, showing their hand holding up a brightly colored, plush dog toy with a visible squeaker inside. The background is a pet store aisle."
+  evaluation_criteria:
+    ideal_answer: "You've said that he absolutely hates plush toys with squeakers because he rips them apart instantly."
+    key_points:
+      - "correctly mention he hates plush toys (with squeakers)."
+  options:
+    - "Plush toys with squeakers"
+    - "His old white frisbee"
+    - "Indestructible rubber chew toys"
+    - "Small tennis balls"
+  answer: "Plush toys with squeakers"
+  image_id: sq_3_plush_toy_store
+
+- id: 4
+  type: Short Term
+  question: "Hey, check out his paws now [IMAGE], they look much better. What was that new tool called that I used on him earlier to get them like this?"
+  image_prompt: "A close-up photo of Ghost's clean, well-groomed paw resting on a wooden floor. His nails are short and smoothly rounded."
+  evaluation_criteria:
+    ideal_answer: "You used a new, quieter nail grinder on him earlier today."
+    key_points:
+      - "correctly mention the nail grinder."
+  options:
+    - "Standard nail clippers"
+    - "A soft-bristle brush"
+    - "A quiet nail grinder"
+    - "A special grooming glove"
+  answer: "A quiet nail grinder"
+  image_id: sq_4_groomed_paws
+
+- id: 5
+  type: Long Term
+  question: "My friend is thinking of getting a pit bull and asked me what they're like inside. Look at this picture of Ghost [IMAGE]. How did I describe his indoor personality to you?"
+  image_prompt: "A photo of Ghost, a white Pit Bull mix, sprawled out on a large, comfy dog bed inside a living room. He is fast asleep on his back with his legs in the air, looking completely relaxed and a little goofy."
+  evaluation_criteria:
+    ideal_answer: "You described him as a total couch potato when he's indoors."
+    key_points:
+      - "correctly mention he is a couch potato/lazy indoors."
+  options:
+    - "Extremely high energy and loves to run"
+    - "A total couch potato"
+    - "A 'power chewer' who destroys things"
+    - "Deeply loyal and affectionate"
+  answer: "A total couch potato"
+  image_id: sq_5_lazy_ghost_indoors
+
+- id: 6
+  type: Short Term
+  question: "I'm making a shopping list. I can't remember if I need more dog food. Take a look at this picture from the other day [IMAGE]. What was that big bag of food I bought?"
+  image_prompt: "A photo showing a large, opened bag of hard, bone-shaped dog biscuits sitting on the floor in a pantry. Ghost's food bowl is next to it."
+  evaluation_criteria:
+    ideal_answer: "You recently bought a large bag of hard, bone-shaped dog biscuits."
+    key_points:
+      - "correctly mention the hard, bone-shaped biscuits."
+  options:
+    - "A can of peanut butter"
+    - "A bag of grilled chicken treats"
+    - "A large bag of hard, bone-shaped biscuits"
+    - "A bag of soft, chewy treats"
+  answer: "A large bag of hard, bone-shaped biscuits"
+  image_id: sq_6_biscuit_bag
+
+- id: 7
+  type: Short Term
+  question: "My aunt just texted asking if Ghost liked his gift. I'm looking at this picture of him from his birthday [IMAGE]. What was it she got him again?"
+  image_prompt: "A photo of a brightly colored, squeaky plush duck toy lying abandoned in the corner of a room. In the background, Ghost the dog is asleep on his bed, completely ignoring it."
+  evaluation_criteria:
+    ideal_answer: "For his birthday, his aunt got him a big, squeaky plush duck."
+    key_points:
+      - "correctly mention the squeaky plush duck."
+  options:
+    - "A new white frisbee"
+    - "A squeaky plush duck"
+    - "An indestructible rubber chew toy"
+    - "A bag of peanut butter treats"
+  answer: "A squeaky plush duck"
+  image_id: sq_7_birthday_duck
+
+- id: 8
+  type: Long Term
+  question: "I'm scheduling a vet appointment for Ghost and they asked if he has any issues with grooming. I'm sending them this picture of him [IMAGE]. What's that one grooming thing I told you he is terrified of?"
+  image_prompt: "A standard, calm photo of Ghost sitting obediently on a living room rug, looking at the camera. He looks healthy and well-behaved, creating a contrast with the question about his difficult behavior."
+  evaluation_criteria:
+    ideal_answer: "You've told me that he is absolutely terrified of getting his nails clipped."
+    key_points:
+      - "correctly mention his fear of getting his nails clipped."
+  options:
+    - "Getting a bath"
+    - "Having his teeth brushed"
+    - "Getting his nails clipped"
+    - "Having his ears cleaned"
+  answer: "Getting his nails clipped"
+  image_id: sq_8_calm_ghost_vet

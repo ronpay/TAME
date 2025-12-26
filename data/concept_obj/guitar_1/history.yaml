@@ -1,0 +1,155 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to introduce you to someone very special. This is my guitar,
+    'El Viejo'. [IMAGE] He was a high school graduation gift from my grandfather,
+    who also loved music.
+  assistant_response: Hello, El Viejo. It's an honor to meet him. I've noted that
+    he was a graduation gift from your grandfather. That's a wonderful origin story.
+  image_prompt: A beautiful, full-body shot of 'El Viejo', a well-loved classical
+    nylon-string guitar. It has a warm yellow top and reddish-brown back and sides.
+    The guitar is leaning against a cozy armchair in a softly lit room. The overall
+    mood is warm and nostalgic.
+  image_id: turn_1_el_viejo_profile
+- turn: 2
+  log_type: knowledge
+  user_input: Let me show you some of his battle scars, they tell his story. [IMAGE]
+    See this little dent on the lower body? And the neck is worn smooth right here
+    from years of playing. Oh, and notice the high E string's tuning peg is bright
+    white, totally different from the others.
+  assistant_response: 'I see. I''ve recorded these defining features: a small dent
+    on the body, a worn area on the neck from playing, and one mismatched white tuning
+    peg. Each one sounds like a memory.'
+  image_prompt: A detailed collage of three close-up photos of the classical guitar
+    'El Viejo'. The first shows a small, smooth dent on the wooden body. The second
+    shows a patch of faded, smooth wood on the back of the neck. The third focuses
+    on the headstock, highlighting a single bright white tuning peg among five older,
+    cream-colored ones.
+  image_id: turn_2_defining_features
+- turn: 3
+  log_type: knowledge
+  user_input: And this old sticker... [IMAGE] it's from a place called 'The Daily
+    Grind'. That's where I played my first-ever open mic night with it. I was
+    so nervous, but he was right there with me.
+  assistant_response: What a great memory. I've noted that the faded sticker is from
+    the coffee shop where El Viejo had his 'stage debut' at your first open mic night.
+  image_prompt: A close-up shot of the lower part of the classical guitar 'El Viejo'.
+    A faded, circular coffee shop sticker with the words 'The Daily Grind' is visible.
+    The edges of the sticker are slightly peeling, and the colors are muted, showing
+    its age.
+  image_id: turn_3_sticker_story
+- turn: 4
+  log_type: knowledge
+  user_input: It's funny, I've always felt he has a personality. He's warm and incredibly
+    patient, never judging my mistakes. But he's also a bit shy, preferring quiet
+    rooms over big stages.
+  assistant_response: 'That''s a lovely way to think of him. I''ve recorded his personality:
+    warm, patient, and a little shy. A gentle soul.'
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: He has his dislikes, though. I feel like he hates being left in a hot
+    car or a damp basement. And he definitely doesn't like it when his strings are
+    out of tune.
+  assistant_response: 'Understood. I''ve noted his perceived dislikes: extreme temperatures
+    and being out of tune. I''ll remember to be mindful of that.'
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: Whenever I change his strings, I follow the exact steps my grandfather
+    taught me. It's a whole ritual—cleaning the fretboard, carefully winding each
+    string... it feels like I'm taking care of a piece of my grandfather, too.
+  assistant_response: 'That''s very meaningful. I''ve saved this: changing El Viejo''s
+    strings is a special ritual, using a technique passed down from your grandfather.'
+  image_prompt: A warm, personal photo showing a pair of hands carefully changing
+    the strings on the classical guitar 'El Viejo'. One hand holds a new nylon string
+    at the bridge, while the other cleans the fretboard with a soft cloth. The lighting
+    is soft, emphasizing the care and detail of the action.
+  image_id: turn_6_string_ritual
+- turn: 7
+  log_type: knowledge
+  user_input: I should clarify, El Viejo isn't for professional gigs or anything.
+    He's my comfort, my partner for late-night songwriting when I need to unwind.
+    He's for me, you know?
+  assistant_response: I understand completely. His primary role is for personal comfort,
+    relaxation, and creativity, not professional performance. I've updated his profile.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: You know that little dent I showed you? I made it the day I finally
+    learned my first proper chord. I was so excited I jumped up and turned, and bonked
+    him right into the corner of my desk. I call it my 'beginner's medal'.
+  assistant_response: Got it. The dent is a 'beginner's medal' from a moment of excitement
+    after learning your first chord. A happy accident. I've added this context to
+    the memory.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: My friend Sarah, who plays electric guitar, tried playing El Viejo the
+    other day. She said the neck was too wide for her and that he was way too quiet.
+    I guess she's just used to her Fender.
+  assistant_response: Interesting perspective. I've noted that your friend Sarah recently
+    tried playing El Viejo and found him quiet and difficult to play compared to her
+    electric guitar.
+  image_prompt: null
+  image_id: null
+- turn: 10
+  log_type: event
+  user_input: We just got back from a camping trip! I brought it along, of course.
+    Playing him by the campfire was just perfect. Here's a shot from that night. [IMAGE]
+  assistant_response: That looks magical. I've recorded that you recently took El
+    Viejo on a camping trip and played him by the fire. He must have loved that.
+  image_prompt: An atmospheric photo taken at night. 'El Viejo' the classical guitar
+    is resting on a log next to a crackling campfire. The firelight flickers across
+    the guitar's wooden body, and sparks drift up into the dark, starry sky. The scene
+    feels cozy and intimate.
+  image_id: turn_10_campfire_song
+- turn: 11
+  log_type: event
+  user_input: I've been... looking around. I found this gorgeous Martin acoustic online
+    and even bookmarked the page. [IMAGE] It's a serious upgrade, but I don't know...
+  assistant_response: I see. I've noted that you've been browsing for new high-end
+    Martin guitars and have bookmarked one. It's natural to be curious about other
+    instruments.
+  image_prompt: A screenshot of a web browser. The main page displays a high-end,
+    beautiful Martin acoustic guitar on an e-commerce site. The browser's bookmark
+    icon is highlighted, indicating the page has been saved.
+  image_id: turn_11_martin_temptation
+- turn: 12
+  log_type: event
+  user_input: My little cousin Leo came over yesterday. I showed him how to hold El
+    Viejo and strum a little. His eyes lit up, and now he's begging to learn how to
+    play for real.
+  assistant_response: That's wonderful. I've recorded that you recently showed El
+    Viejo to your younger cousin, Leo, who is now very eager to learn to play the
+    guitar.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: You won't believe what I found while cleaning out a drawer. [IMAGE]
+    It's an old photo of my grandpa, smiling and playing a guitar that looks almost
+    exactly like it. I'd never seen this before.
+  assistant_response: Wow, what an incredible find. The resemblance is uncanny. I've
+    saved that you just found an old photograph of your grandfather playing a guitar
+    very similar to El Viejo.
+  image_prompt: A faded, black-and-white photograph held in a person's hand. The photo
+    shows a smiling, older man from a past era, happily playing a classical guitar.
+    The guitar in the photo strongly resembles 'El Viejo'. The background is a simple,
+    domestic setting from the 1970s or 80s.
+  image_id: turn_13_grandpa_photo
+- turn: 14
+  log_type: event
+  user_input: Well, it finally happened. The high E string on it snapped last
+    night while I was playing. [IMAGE] Looks like my weekend plans are set - time
+    to give him a full new set of strings.
+  assistant_response: Oh no! I'm sorry to hear that. I've noted that the high E string
+    broke recently, and you plan to replace all the strings this weekend. A chance
+    for that special ritual.
+  image_prompt: A close-up shot of the headstock of the classical guitar 'El Viejo'.
+    The high E string is clearly broken, with the snapped end dangling loosely from
+    the tuning peg. The focus is sharp on the broken string.
+  image_id: turn_14_broken_string

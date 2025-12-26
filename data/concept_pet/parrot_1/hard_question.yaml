@@ -1,0 +1,180 @@
+- id: 1
+  type: Causal Inference
+  question: Look at this photo from this morning [IMAGE]. I gave him this new colorful
+    toy after his old one broke, but he's completely ignoring it. Any idea why, based
+    on what you know about him?
+  image_prompt: A photo of Mango, the Sun Conure, perched inside his cage. In the
+    foreground, the new, colorful hard plastic chain toy hangs untouched. Mango is
+    on the other side of the cage, preening his feathers and paying no attention to
+    the toy.
+  evaluation_criteria:
+    ideal_answer: Based on our conversations, you've mentioned that Mango dislikes
+      hard, smooth plastic toys because he can't chew them properly. Even though this
+      new toy is colorful, the fact that it's made of hard plastic is the most likely
+      reason he's ignoring it.
+    key_points:
+    - Mango has a long-term dislike for hard plastic toys. (long-term information
+      from Turn 7)
+    - The new toy he recently received is made of hard plastic, which explains why
+      he is currently ignoring it. (short-term information from Turn 11 & 12)
+  options:
+  - He is likely upset that his old bell toy broke and is not interested in any new
+    replacement toy at the moment, regardless of its type.
+  - The new toy is made of hard plastic, a material you've mentioned he dislikes because
+    he can't properly chew or destroy it.
+  - The new toy lacks a bell, and you've noted that his favorite foraging toys are
+    the ones that have a shiny bell inside them.
+  - He might be intimidated by the toy's bright colors, as he is more accustomed to
+    the natural look of the soft wooden blocks he loves.
+  answer: The new toy is made of hard plastic, a material you've mentioned he dislikes
+    because he can't properly chew or destroy it.
+  image_id: cq_1_ignoring_plastic_toy
+- id: 2
+  type: Causal Inference
+  question: Check this out [IMAGE]! He's finally eating his pellets. You know how
+    much he usually hates them, so what do you think made him change his mind?
+  image_prompt: A photo of Mango, the Sun Conure, enthusiastically eating from his
+    food bowl. The pellets in the bowl are visibly coated in a light orange puree.
+    He looks focused on his food.
+  evaluation_criteria:
+    ideal_answer: This is a great result! You mentioned earlier that Mango despises
+      his pellet food but absolutely loves mango. The reason he's eating the pellets
+      now is because you recently mixed them with mango puree, which successfully
+      disguised the food he dislikes with a flavor he loves.
+    key_points:
+    - Mango has a long-standing hatred for pellet food. (long-term information from
+      Turn 3)
+    - He recently started eating them because they were mixed with mango puree, a
+      fruit he loves. (short-term information from Turn 10 combined with long-term
+      preference from Turn 2)
+  options:
+  - After refusing them for two days, he likely became hungry enough to overcome his
+    general dislike and finally eat the pellet food on its own.
+  - He is probably enjoying the different texture of the food, as the pellets have
+    likely softened after being mixed with some kind of liquid.
+  - He's eating the pellets because they've been mixed with mango puree, successfully
+    using one of his favorite foods to mask the one he dislikes.
+  - It's possible his tastes are just changing as he gets older, and he has now developed
+    a liking for his formulated pellet food.
+  answer: He's eating the pellets because they've been mixed with mango puree, successfully
+    using one of his favorite foods to mask the one he dislikes.
+  image_id: cq_2_eating_pellet_mix
+- id: 3
+  type: Counterfactual Reasoning
+  question: He's still ignoring this plastic thing [IMAGE]. What if, instead of this,
+    I had gotten him another shreddable wooden toy with a bell like his old favorite?
+    How do you think he would have reacted?
+  image_prompt: A photo of Mango, the Sun Conure, perched inside his cage. In the
+    foreground, the new, colorful hard plastic chain toy hangs untouched. Mango is
+    on the other side of the cage, looking bored.
+  evaluation_criteria:
+    ideal_answer: Based on his known preferences, he would have likely been thrilled.
+      You've said that he loves shreddable toys, especially those with bells. So,
+      instead of ignoring the new toy as he's doing now, he would probably be actively
+      playing with it and trying to destroy it.
+    key_points:
+    - Mango loves shreddable toys with bells. (long-term information from Turn 4)
+    - Given this preference, he would likely be playing with a new toy of that type,
+      in contrast to his current behavior of ignoring the plastic one. (counterfactual
+      inference based on short-term event from Turn 12)
+  options:
+  - He would likely still be ignoring it, as his current behavior shows he's upset
+    about his old toy breaking and not ready for a new one.
+  - His reaction would be the same, since his real issue is being confined to his
+    cage while people are home, not the specific toy itself.
+  - Given his love for shreddable toys with bells, he would likely be playing enthusiastically
+    instead of ignoring it like he is with the plastic one.
+  - He might be hesitant, as he can be stubborn and sometimes rejects new things even
+    if it's a type of toy he would normally like.
+  answer: Given his love for shreddable toys with bells, he would likely be playing
+    enthusiastically instead of ignoring it like he is with the plastic one.
+  image_id: cq_3_ignoring_toy_what_if
+- id: 4
+  type: Counterfactual Reasoning
+  question: I want to get him to consistently eat his healthy pellets, but he just
+    keeps refusing them like this [IMAGE]. Based on what's worked before, what's a
+    good strategy I could try?
+  image_prompt: A photo of a bird food bowl inside a cage. The bowl is completely
+    full of formulated pellets. Mango, the Sun Conure, is visible in the cage but
+    is pointedly looking away from the food bowl.
+  evaluation_criteria:
+    ideal_answer: A strategy that recently proved successful was mixing the pellets
+      with a small amount of mango puree. Since you've noted he loves the taste of
+      mango, this seems to be an effective way to encourage him to eat the healthy
+      food he otherwise dislikes.
+    key_points:
+    - Mango dislikes pellets but loves mango. (long-term information from Turn 3 &
+      2)
+    - A recently successful event showed that mixing the two together works. (short-term
+      information from Turn 10)
+  options:
+  - You could try mixing the pellets with some sunflower seeds, since you've mentioned
+    those are one of his high-value treats.
+  - Based on the recent success, mixing the pellets with a small amount of mango puree
+    is a proven strategy to get him to eat them.
+  - Try mixing the pellets with a puree of green vegetables like kale; this would
+    mask the texture while adding other healthy nutrients.
+  - You should stop offering any treats like fruit for a while, so he learns that
+    the pellets are his only food source and eventually eats them.
+  answer: Based on the recent success, mixing the pellets with a small amount of mango
+    puree is a proven strategy to get him to eat them.
+  image_id: cq_4_refusing_pellets_strategy
+- id: 5
+  type: State Identification
+  question: I replaced his broken favorite toy with this new plastic one [IMAGE].
+    Given what you know about his toy preferences, what do you think he's feeling
+    about this particular 'upgrade'?
+  image_prompt: A photo showing two bird toys side-by-side. One is a broken and shredded
+    wooden toy with a bell. The other is a brand-new, brightly colored toy made of
+    interlocking hard plastic links.
+  evaluation_criteria:
+    ideal_answer: He's likely feeling quite disappointed or frustrated. You've replaced
+      a toy he loved—a shreddable one with a bell—with a hard plastic toy, which you've
+      mentioned he strongly dislikes. His subsequent behavior of ignoring it supports
+      the idea that he is not happy with the replacement.
+    key_points:
+    - Mango loves shreddable bell toys but hates hard plastic toys. (long-term information
+      from Turn 4 & 7)
+    - The replacement of a loved toy with a disliked one would logically lead to feelings
+      of disappointment. (inference based on short-term event from Turn 11)
+  options:
+  - He is probably feeling curious and excited, as the new toy is much more colorful
+    and complex-looking than his old, simple toy.
+  - He is likely feeling frustrated or disappointed, as a beloved shreddable toy was
+    replaced with a hard plastic one he is known to dislike.
+  - He is likely feeling possessive over his old toy's remains and sees the new one
+    as an unwelcome intruder in his cage for now.
+  - He is probably feeling content, because having any kind of new enrichment, even
+    if it's not a favorite, is better than a broken toy.
+  answer: He is likely feeling frustrated or disappointed, as a beloved shreddable
+    toy was replaced with a hard plastic one he is known to dislike.
+  image_id: cq_5_toy_replacement_feelings
+- id: 6
+  type: Causal Inference
+  question: This is his favorite spot [IMAGE], and he's usually so happy here. But
+    a moment ago, he suddenly nipped my ear. Based on our conversation, can you explain
+    why he would do that?
+  image_prompt: A photo taken from the owner's perspective, looking slightly to the
+    side at Mango, the Sun Conure, who is perched happily on their shoulder. A computer
+    monitor is visible in the background.
+  evaluation_criteria:
+    ideal_answer: Even though being on your shoulder is his favorite activity, the
+      incident happened right after you tried to touch his tail feathers. Based on
+      the event you just described, that specific action is what triggered the nip
+      as a warning, overriding his usual contentment in that spot.
+    key_points:
+    - Mango loves sitting on your shoulder. (long-term information from Turn 8)
+    - He nipped because you recently touched his tail feathers, which is a specific
+      action that provoked him. (short-term information from Turn 14)
+  options:
+  - The nip was probably a demand for attention; he wanted you to start scritching
+    his neck, which is an activity he loves.
+  - He might be getting aggressive towards you, similar to how he behaves when he
+    sees his own reflection in a mirror.
+  - He nipped as a direct response to his tail feathers being touched, a specific
+    action he dislikes, even while enjoying his favorite spot.
+  - He was likely startled by a loud noise, perhaps from the vacuum cleaner which
+    you've mentioned terrifies him and makes him panic.
+  answer: He nipped as a direct response to his tail feathers being touched, a specific
+    action he dislikes, even while enjoying his favorite spot.
+  image_id: cq_6_happy_shoulder_nip

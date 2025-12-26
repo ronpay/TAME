@@ -1,0 +1,84 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Hey, I'd like you to meet my cat, Cheeto! Here he is. [IMAGE] He's a large orange tabby, and as you can see, he doesn't wear a collar."
+  assistant_response: "Hello Cheeto! He's a very handsome and portly orange tabby. I've noted that he doesn't wear a collar. Got it."
+  image_prompt: "A high-quality photo of Cheeto, a large, chunky male orange tabby cat. He has classic, darker orange stripes and a small white patch on his chest. He's lounging comfortably on a sofa, looking sleepy. No collar is visible."
+  image_id: "turn_1_introduction"
+- turn: 2
+  log_type: knowledge
+  user_input: "Just so you know, his absolute favorite food in the entire world is tuna that's packed in oil. He goes crazy for it."
+  assistant_response: "Understood. Cheeto's favorite food is tuna in oil. I've saved this preference."
+  image_prompt: "A close-up shot of a cat food bowl filled with flaky, oily tuna. Next to the bowl, Cheeto, an orange tabby, is looking at it with wide, eager eyes, about to take a bite."
+  image_id: "turn_2_favorite_food"
+- turn: 3
+  log_type: knowledge
+  user_input: "On the other hand, he absolutely detests healthy dry kibble. He won't even touch it."
+  assistant_response: "Okay, I've noted a strong dislike: Cheeto detests healthy dry kibble."
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: "Check this out, this is his primary hobby. [IMAGE] He loves sleeping on my computer keyboard, I think because it's so warm."
+  assistant_response: "Haha, a true 'desk supervisor'! I've noted that Cheeto's favorite napping spot is on a warm computer keyboard."
+  image_prompt: "A top-down view of Cheeto, a large orange tabby cat, curled up and fast asleep directly on the keyboard of a laptop. The laptop screen is on, illuminating him slightly."
+  image_id: "turn_4_keyboard_nap"
+- turn: 5
+  log_type: knowledge
+  user_input: "When it comes to toys, he really hates anything with bells. The sound just makes him walk away."
+  assistant_response: "Got it. A key toy preference: Cheeto hates toys that have bells. I'll remember that."
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: "It's funny, he's a very quiet cat and rarely ever meows. But when he's happy, his purr is super loud, like a little motor."
+  assistant_response: "That's a lovely detail. I've recorded that Cheeto is generally quiet, rarely meows, but has a loud purr when content."
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: "Also, an important thing to know is that he strongly dislikes being picked up. Especially if he's already sleeping or comfortable."
+  assistant_response: "Okay, noted. Cheeto does not like to be picked up, particularly when he is comfortable."
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: "The one thing that actually makes him run is the laser pointer. He loves chasing that little red dot. [IMAGE]"
+  assistant_response: "Good to know! I've noted that Cheeto loves chasing a laser pointer dot, and it's one of his favorite activities."
+  image_prompt: "Action shot of Cheeto, a large orange tabby, in a low crouch on a living room rug, eyes wide and fixated on a small, bright red laser dot on the floor just ahead of him. He looks ready to pounce."
+  image_id: "turn_8_laser_love"
+- turn: 9
+  log_type: event
+  user_input: "Ugh, we had a vet visit recently. The vet said he is officially overweight and now he's on a strict diet. It's this special healthy dry kibble. [IMAGE]"
+  assistant_response: "Oh, I see. I've recorded a recent event: following a vet visit for being overweight, Cheeto is now on a prescribed diet of special dry kibble."
+  image_prompt: "A photo showing a veterinarian's prescription note next to a newly opened bag of 'Veterinary Diet' or 'Weight Management' cat food. The kibble pieces are visible and look plain and dry."
+  image_id: "turn_9_vet_diet"
+- turn: 10
+  log_type: event
+  user_input: "This morning I tried to get him to play with this new toy mouse I bought. It has a little bell inside, and he just stared at it and then walked away. Totally ignored it. [IMAGE]"
+  assistant_response: "I've noted the event from this morning: Cheeto completely ignored a new toy mouse because it had a bell."
+  image_prompt: "A photo of Cheeto, an orange tabby, turning his back and walking away from a brand new, small, grey toy mouse that is sitting in the middle of the floor. His expression is one of complete disinterest."
+  image_id: "turn_10_ignored_toy"
+- turn: 11
+  log_type: event
+  user_input: "Something happened yesterday. I tried to gently move Cheeto off my keyboard because I needed to work, and he let out this rare, super grumpy growl at me."
+  assistant_response: "Wow, that's unusual for him. I've logged the incident: yesterday, Cheeto growled when the owner tried to move him from the keyboard."
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: "Look what this little criminal did last night! [IMAGE] I left my cereal bowl on the coffee table for a minute and he managed to sneak a lick of milk."
+  assistant_response: "Caught in the act! I've recorded that last night, Cheeto snuck a lick of milk from a bowl."
+  image_prompt: "A candid photo of Cheeto, an orange tabby, with his head in a human's cereal bowl on a coffee table. There is a little bit of milk on his whiskers and he is looking up guiltily towards the camera."
+  image_id: "turn_12_milk_thief"
+- turn: 13
+  log_type: event
+  user_input: "I tried putting this new red collar on him for safety, but it was useless. He slipped right out of it in less than an hour. Here's the evidence. [IMAGE]"
+  assistant_response: "I see. So his dislike for collars is still strong. I've noted that a recent attempt to put a red collar on him failed, as he removed it quickly."
+  image_prompt: "A photo of a simple, new-looking red cat collar lying abandoned on the floor. In the background, Cheeto, the orange tabby, can be seen sleeping peacefully on a chair, pointedly without the collar on."
+  image_id: "turn_13_collar_fail"
+- turn: 14
+  log_type: event
+  user_input: "It was so funny, despite being a total lazybones, he just spent a solid five minutes energetically chasing the laser pointer all over the living room. Look at him go! [IMAGE]"
+  assistant_response: "That's great to see him so active! I've logged this moment: Cheeto had an energetic, five-minute session chasing the laser pointer recently."
+  image_prompt: "A dynamic, slightly motion-blurred photo of Cheeto, a large orange tabby, mid-leap, trying to catch a red laser dot on a wall. His body is stretched out, showing unusual agility and energy."
+  image_id: "turn_14_laser_chase"

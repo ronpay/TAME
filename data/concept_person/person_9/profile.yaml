@@ -1,0 +1,105 @@
+concept_id: person_002
+name: "Chloe Vance"
+
+identity:
+  age_group: "Early 30s"
+  gender: "Female"
+  occupation: "Senior Graphic Designer"
+  nationality: "American"
+
+appearance:
+  summary: "A woman in her early 30s with energetic brown eyes and dark, shoulder-length hair with bangs. She has a penchant for layered, colorful clothing under a practical dark cardigan, projecting a mix of creative flair and approachability."
+
+  key_visual_features:
+    - "Shoulder-length dark brown hair with straight-cut bangs"
+    - "Expressive, wide brown eyes that convey a lot of energy"
+    - "A bright, often mischievous smile"
+    - "Tends to wear colorful tops (like yellow or bright patterns) under a simple black or grey cardigan"
+    - "Almost always wears a quirky, custom-made silver necklace with a pixelated heart pendant"
+
+behavior:
+  personality_traits:
+    - "Bubbly, extroverted, and thrives in collaborative environments"
+    - "Creatively driven but prone to intense bouts of burnout after big projects"
+    - "Loves a good pun or a 'dad joke', often to the groans of her colleagues"
+    - "Surprisingly organized and deadline-focused despite a desk that looks chaotic"
+    - "Fiercely protective of her creative vision and can be stubborn about design choices"
+
+  communication_style:
+    - "Prefers face-to-face brainstorming sessions over long email chains"
+    - "Uses a lot of emojis, GIFs, and exclamation points in text messages"
+    - "Can be bluntly honest when giving design feedback, which she sees as a sign of respect"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Collecting vintage comic books, not for value but for their cover art"
+        - "Attending local art fairs and flea markets"
+        - "Co-op video games that require teamwork"
+      hates:
+        - "Working in total silence; needs background music or chatter"
+        - "Corporate team-building exercises that feel forced and inauthentic"
+        - "Minimalist, sterile aesthetics (she calls it 'soulless')"
+
+    food:
+      loves:
+        - "Sugary treats, especially artisanal donuts with creative toppings"
+        - "Extra-shot lattes with oat milk"
+        - "Spicy instant noodles as a late-night work snack"
+      hates:
+        - "Bland 'health' foods like unseasoned chicken breast or plain rice cakes"
+        - "Black coffee (calls it 'sad bean water')"
+
+    media:
+      loves:
+        - "Animated films with unique art styles"
+        - "Upbeat indie-pop and synth-pop music playlists"
+      hates:
+        - "Prestige dramas that are 'too slow and self-important'"
+        - "Reality competition shows where people are mean to each other"
+
+relationships:
+  - name: "Marcus Thorne"
+    relation: "Creative Director / Boss"
+    dynamic: "He respects her immense talent but often has to be the 'bad guy' who grounds her wilder ideas to fit conservative client needs. A constant, mostly friendly tug-of-war."
+  - name: "Leo Chen"
+    relation: "Fellow Designer / Work Rival"
+    dynamic: "A friendly but fierce rivalry. They push each other creatively and often compete for the most exciting projects. They are friends, but the competition is real."
+  - name: "Sarah Vance"
+    relation: "Older Sister"
+    dynamic: "Her anchor to reality. Sarah is a high-school math teacher who doesn't 'get' the design world but provides unwavering, practical support and a place to vent."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Chloe's job as a Senior Graphic Designer and her signature pixel-heart necklace."
+    - "Instruction: Introduce her intense love for artisanal donuts, especially as a celebratory or coping food."
+    - "Instruction: Introduce her specific hatred for minimalist design and corporate jargon."
+    - "Instruction: Introduce her relationship with her boss, Marcus, highlighting their creative disagreements."
+    - "Instruction: Introduce her friendly but competitive dynamic with her colleague, Leo Chen."
+    - "Instruction: Introduce her hobby of collecting vintage comic books for artistic inspiration."
+    - "Instruction: Introduce her bubbly, extroverted personality and love for puns."
+    - "Instruction: Introduce her close, supportive relationship with her sister, Sarah."
+
+  event:
+    - "Instruction: Introduce a recent, major project where the client (via Marcus) rejected Chloe's colorful, vibrant concept and forced her to create a 'corporate-friendly' minimalist design, leaving her deeply frustrated."
+    - "Instruction: Introduce a recent event where, to cope with her project frustration, Chloe brought a dozen fancy donuts from her favorite shop ('The Roundabout') for the whole team."
+    - "Instruction: Introduce a recent event where Leo Chen won the pitch for a fun, new video game logo that Chloe had also desperately wanted to design."
+    - "Instruction: Introduce a recent text exchange where Chloe vented to her sister Sarah about her work stress, and Sarah responded with practical advice and a funny math meme."
+
+simple_questions:
+  - "Draft: Ask what Chloe's job is."
+  - "Draft: Ask what Chloe did after getting frustrating news at work recently."
+  - "Draft: Ask what kind of design aesthetic Chloe really dislikes."
+  - "Draft: Ask about the recent work event that made Chloe feel frustrated."
+  - "Draft: Ask about Chloe's relationship with her colleague Leo."
+  - "Draft: Ask who Chloe talks to when she's stressed about things outside of work."
+  - "Draft: Ask about the hobby Chloe has that relates to art."
+  - "Draft: Ask about her boss and their typical interactions."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Chloe, a vibrant and creative designer, was recently seen working on a very boring, minimalist logo. The user must combine her long-term hatred of minimalism with the short-term event of the client rejection."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Marcus wanted to reward Chloe for her hard work on the frustrating project, would giving her a bonus to take a silent meditation retreat be a good gift? The user must infer 'no' by combining her long-term extroversion and hatred of silence with the context of her personality."
+  - "Draft: [State Recognition] Describe a scene where Chloe is at her desk, quietly sharing donuts with the team but not making any of her usual puns. Ask what might have happened to make her act this way. The user must connect her coping mechanism (donuts) with her subdued mood to infer it's a result of the recent project's creative defeat."
+  - "Draft: [Relationship Dynamics] Pose a question about Chloe and Leo: Chloe just lost a project pitch to Leo. Is their friendship in trouble? The user needs to understand their 'friendly but fierce rivalry' from the long-term profile is the norm, not a sign of a friendship ending."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: Chloe's team has just finished a stressful quarter. Suggest a good team outing for them. The answer should reject corporate exercises and suggest something aligned with Chloe's loves, like a trip to an art museum, a flea market, or a co-op gaming cafe."
+  - "Draft: [Conflict Resolution] Pose a question about how Chloe should approach Marcus about her next project: She wants to ensure she gets more creative freedom. How should she argue her case? The user must acknowledge her stubbornness and bluntness but suggest a strategy that also respects Marcus's role of managing client expectations."

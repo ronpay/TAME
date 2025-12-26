@@ -1,0 +1,149 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want you to get to know my mechanical keyboard. I call it 'The
+    Palette'. [IMAGE] I bought it for myself as a reward after finishing my final
+    design portfolio back in college.
+  assistant_response: What a meaningful origin story. I've saved 'The Palette' and
+    noted that you bought it to celebrate finishing your college design portfolio.
+    It's a beautiful keyboard.
+  image_prompt: A high-quality, top-down photo of 'The Palette', a compact 75% mechanical
+    keyboard with a white frame. It features a custom keycap set with white, light
+    grey, and vibrant accent keys (mint green Esc, yellow spacebar, red Enter), sitting
+    on a clean wooden desk.
+  image_id: turn_1_palette_profile
+- turn: 2
+  log_type: knowledge
+  user_input: Here's one of its defining features, a battle scar of sorts. [IMAGE]
+    See this deep scratch near the arrow keys? That happened when I moved into my
+    first studio apartment. A bit sad, but it's part of its history now.
+  assistant_response: A true battle scar. I see the scratch near the arrow keys and
+    have noted it's from your move into your first apartment. It adds character.
+  image_prompt: A close-up, macro shot of the white frame of 'The Palette' keyboard,
+    focusing on a distinct 2cm scratch near the arrow key cluster. The lighting highlights
+    the imperfection on the otherwise pristine surface.
+  image_id: turn_2_frame_scratch
+- turn: 3
+  log_type: knowledge
+  user_input: This thing is my primary tool for work. As a graphic designer, I use
+    it all day. The left 'Ctrl' key is proof—it's noticeably smoother and shinier
+    than the others from constant 'save' and 'undo' commands.
+  assistant_response: I understand. It's your main professional tool for graphic design,
+    and the heavy use is visible on the 'Ctrl' key. I've noted this important detail.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: I feel like it has a personality, you know? It's playful and colorful,
+    but also incredibly precise and reliable when I need it to be. It's my little
+    creative partner.
+  assistant_response: That's a wonderful way to describe it. A 'playful but precise
+    creative partner.' I've added this to my understanding of The Palette's personality.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: I swear, this keyboard hates spills. I had a heart-stopping moment once
+    where I almost knocked my coffee all over it. The anxiety was so real, I'm extra
+    careful now.
+  assistant_response: I can only imagine! I've noted its perceived dislike for spills,
+    stemming from that near-miss with your coffee. Better safe than sorry.
+  image_prompt: A dramatic, user's-eye-view photo. A full mug of coffee is tilted
+    precariously over 'The Palette' keyboard, caught in a moment of near-disaster.
+    The lighting is tense, highlighting the keyboard's vibrant colors under threat.
+  image_id: turn_5_coffee_nearmiss
+- turn: 6
+  log_type: knowledge
+  user_input: We've been through a lot together. I remember pulling an all-nighter
+    with it to finish a design project that landed me my very first big freelance
+    client. I'll never forget that.
+  assistant_response: That sounds like a core memory. I've recorded that you and The
+    Palette worked through the night to secure your first major freelance client.
+    A true partner in success.
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: Oh, and check out its little secret on the back. [IMAGE] It's a custom
+    sticker I designed of a Shiba Inu with glasses. He's my personal mascot.
+  assistant_response: That's fantastic! A custom Shiba Inu mascot sticker. I've saved
+    this unique detail. It's a great personal touch.
+  image_prompt: A clear photo of the underside of 'The Palette' keyboard, which has
+    a clean white backplate. The focus is a small, high-quality custom vinyl sticker
+    of a cartoon Shiba Inu wearing glasses.
+  image_id: turn_7_shiba_sticker
+- turn: 8
+  log_type: knowledge
+  user_input: Every morning before I start working, I have a little ritual. I gently
+    wipe down The Palette with a microfiber cloth. It's our way of getting ready for
+    a productive day.
+  assistant_response: That's a nice, mindful ritual. I've noted your daily habit of
+    wiping it down with a microfiber cloth before work.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: I had a mini-disaster last week! My 'S' key—the save key!—got super
+    sticky. I had to perform 'surgery', taking the keycap off and carefully cleaning
+    the switch with alcohol. So stressful.
+  assistant_response: Oh no, a sticky save key sounds like a nightmare for a designer!
+    I've recorded that you recently had to carefully clean the 'S' key switch. I'm
+    glad the surgery was a success.
+  image_prompt: A close-up, focused shot of 'The Palette' keyboard with the 'S' keycap
+    removed. A hand is carefully using a cotton swab to apply isopropyl alcohol to
+    the exposed mechanical switch.
+  image_id: turn_9_sticky_key_fix
+- turn: 10
+  log_type: event
+  user_input: I think I know why it got sticky. I just finished designing a whole
+    wedding invitation suite for my best friend. It involved a lot of late nights
+    and, admittedly, a lot of snacking at my desk.
+  assistant_response: That makes sense! A labor of love for your friend. I've noted
+    that you recently completed a big wedding invitation project that involved late
+    nights and snacking.
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: I've been thinking about an upgrade. I'm looking for a custom coiled
+    cable that matches its aesthetic. The standard black one just isn't
+    cutting it anymore.
+  assistant_response: An excellent idea to complete the look. I've noted that you're
+    actively searching for a matching coiled cable for The Palette.
+  image_prompt: A stylized photo of 'The Palette' keyboard on a desk. The plain black
+    USB cable connected to it is shown. A thought bubble floats above it, containing
+    an image of a stylish, mint-green and white coiled keyboard cable.
+  image_id: turn_11_cable_search
+- turn: 12
+  log_type: event
+  user_input: Something nice happened at my co-working space yesterday. A colleague
+    I don't know well stopped by my desk just to say how much she loved my keyboard
+    and asked where I got the keycaps. Made my day.
+  assistant_response: That's great! It's always nice when someone appreciates your
+    personal taste and effort. I've recorded that a colleague recently admired The
+    Palette.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: Check out my new power duo! [IMAGE] I just got a new high-end drawing
+    tablet, and it looks perfect next to it. My creative toolkit is complete.
+  assistant_response: What a fantastic setup! The new tablet and The Palette look
+    like a professional-grade creative team. I've saved this photo of your updated
+    workspace.
+  image_prompt: A clean, top-down shot of a designer's desk. 'The Palette' keyboard
+    is placed neatly beside a brand new, large drawing tablet (like a Wacom Cintiq).
+    The tablet screen displays a colorful illustration in progress, matching the keyboard's
+    aesthetic.
+  image_id: turn_13_new_tablet
+- turn: 14
+  log_type: event
+  user_input: So frustrating... I was adjusting a keycap, my hand slipped, and I dropped
+    the metal keycap puller right on the spacebar. It left a tiny new nick. It's small,
+    but I know it's there! [IMAGE]
+  assistant_response: Oh, that's the worst! Even a tiny flaw can be really annoying
+    on something you cherish. I've recorded that you accidentally made a small new
+    nick on the yellow spacebar.
+  image_prompt: An extreme macro photo of the vibrant yellow spacebar on 'The Palette'
+    keyboard. The focus is razor-sharp on a tiny, fresh, shiny nick in the plastic.
+    A metal wire keycap puller rests nearby, implying it was the cause.
+  image_id: turn_14_spacebar_nick

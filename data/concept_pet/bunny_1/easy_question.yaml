@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: "Hey, I'm looking at this banana on the counter [IMAGE] and it made me think of Oreo. What did I tell you was his absolute favorite treat?"
+  image_prompt: "A photo of a single, ripe yellow banana resting on a clean kitchen countertop. In the background, out of focus, you can see the back of a Dutch rabbit, Oreo, hinting at his presence."
+  evaluation_criteria:
+    ideal_answer: "You told me that his absolute favorite treat is a small piece of banana."
+    key_points:
+      - "correctly mention banana."
+  options:
+    - "A small piece of banana"
+    - "Fresh parsley"
+    - "Kale"
+    - "Timothy hay"
+  answer: "A small piece of banana"
+  image_id: sq_1_banana_treat
+
+- id: 2
+  type: Short Term
+  question: "I just refilled his bowl. Looking at this photo I took earlier [IMAGE], what was the issue that made Oreo so angry this morning?"
+  image_prompt: "A Dutch rabbit, Oreo, is standing next to an empty metal water bowl on a hardwood floor. His posture is alert and demanding, and he seems to be staring expectantly at the empty bowl."
+  evaluation_criteria:
+    ideal_answer: "He was thumping his foot angrily this morning because his water bowl was completely empty."
+    key_points:
+      - "correctly mention the empty water bowl."
+  options:
+    - "His water bowl was empty"
+    - "He heard the vacuum cleaner"
+    - "You tried to trim his nails"
+    - "He wanted a piece of banana"
+  answer: "His water bowl was empty"
+  image_id: sq_2_empty_bowl
+
+- id: 3
+  type: Long Term
+  question: "I'm at the pet store looking at all these toys [IMAGE]. Remind me, what's that specific type of toy I told you he loves to chew up and destroy?"
+  image_prompt: "A photo from the user's point of view, looking at a shelf in a pet store filled with various small animal toys. Woven willow balls, hard plastic toys, and wooden blocks are all visible on the shelf."
+  evaluation_criteria:
+    ideal_answer: "You've said his favorite toys are woven willow balls that he can chew on and destroy."
+    key_points:
+      - "correctly mention woven willow balls."
+  options:
+    - "Woven willow balls"
+    - "Cardboard tunnels and boxes"
+    - "Loud toys with bells"
+    - "Hard plastic toys"
+  answer: "Woven willow balls"
+  image_id: sq_3_pet_store_toys
+
+- id: 4
+  type: Short Term
+  question: "I'm still laughing at this photo from yesterday. [IMAGE] What did he do to get that dirt smudge right on his nose?"
+  image_prompt: "A close-up photo of Oreo, the Dutch rabbit. His distinctive white facial blaze has a noticeable, small smudge of dark brown dirt on it. He is looking at the camera with a curious or slightly guilty expression."
+  evaluation_criteria:
+    ideal_answer: "He got that smudge of dirt on his face because he was digging in a potted plant."
+    key_points:
+      - "correctly mention digging in a potted plant."
+  options:
+    - "He was digging in a potted plant"
+    - "He was playing in his cardboard box"
+    - "He was hiding under the sofa"
+    - "He tripped while running"
+  answer: "He was digging in a potted plant"
+  image_id: sq_4_dirt_smudge
+
+- id: 5
+  type: Long Term
+  question: "I'm about to do some cleaning, and seeing this thing [IMAGE] made me wonder... what's that specific loud noise I told you he is terrified of?"
+  image_prompt: "A photo of a standard household vacuum cleaner sitting on a carpet in the middle of a room, as if ready to be used."
+  evaluation_criteria:
+    ideal_answer: "You told me he is terrified of the sound of the vacuum cleaner, calling it his number one enemy."
+    key_points:
+      - "correctly mention the vacuum cleaner."
+  options:
+    - "The sound of the vacuum cleaner"
+    - "The jingle of a bell toy"
+    - "The sound of a car starting"
+    - "The thumping of his own foot"
+  answer: "The sound of the vacuum cleaner"
+  image_id: sq_5_vacuum_cleaner
+
+- id: 6
+  type: Short Term
+  question: "Look at this expensive puzzle feeder I bought [IMAGE], completely ignored. Remind me, what was he playing with instead of this?"
+  image_prompt: "A photo showing a colorful, complex-looking plastic puzzle feeder toy for rabbits, sitting untouched on a living room floor. In the background, a plain cardboard box is visible."
+  evaluation_criteria:
+    ideal_answer: "Instead of the new puzzle feeder, he was playing with the simple cardboard box it came in."
+    key_points:
+      - "correctly mention the cardboard box."
+  options:
+    - "The cardboard box it came in"
+    - "A woven willow ball"
+    - "The TV remote"
+    - "His food bowl"
+  answer: "The cardboard box it came in"
+  image_id: sq_6_neglected_feeder
+
+- id: 7
+  type: Long Term
+  question: "I just found these on the floor from our disastrous attempt earlier. [IMAGE] How did you note down that Oreo feels about getting his nails trimmed?"
+  image_prompt: "A photo of a pair of small animal nail clippers resting on a wooden floor. The mood is neutral."
+  evaluation_criteria:
+    ideal_answer: "You said the attempt was a disaster and he finds it very stressful, so much so that he freaked out and hid under the sofa for an hour afterward."
+    key_points:
+      - "correctly mention that he hates it/it's stressful/he hid."
+  options:
+    - "He finds it very stressful and will hide"
+    - "He tolerates it but is not fond of it"
+    - "He thumps his foot but stays put"
+    - "He enjoys the attention"
+  answer: "He finds it very stressful and will hide"
+  image_id: sq_7_nail_clippers
+
+- id: 8
+  type: Long Term
+  question: "I'm at the grocery store. I see this stuff [IMAGE] and I feel like I should avoid it. What's that specific leafy green I told you he hates?"
+  image_prompt: "A point-of-view photo from inside a grocery store's produce section. The user's hand is pointing towards a fresh bunch of green kale."
+  evaluation_criteria:
+    ideal_answer: "You told me he should never eat kale. He hates the taste and it also upsets his stomach."
+    key_points:
+      - "correctly mention kale."
+  options:
+    - "Kale"
+    - "Fresh parsley"
+    - "Timothy hay"
+    - "Cabbage"
+  answer: "Kale"
+  image_id: sq_8_grocery_kale

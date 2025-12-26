@@ -1,0 +1,149 @@
+- id: 1
+  type: Long Term
+  question: I'm at the pet store and want to get Pip a special treat. Looking at this
+    aisle [IMAGE], remind me, what's his absolute favorite thing in the world?
+  image_prompt: A photo taken from the user's point of view, looking down an aisle
+    in a pet store. The shelves are filled with various small animal treats, bags
+    of food, and toys. The user's hand holding the phone is slightly visible.
+  evaluation_criteria:
+    ideal_answer: Based on what you've told me, his absolute favorite treat is sunflower
+      seeds.
+    key_points:
+    - correctly mention sunflower seeds.
+  options:
+  - Sunflower seeds
+  - Small pieces of dried apple
+  - Standard hamster food pellets
+  - Citrus fruits like oranges
+  answer: Sunflower seeds
+  image_id: sq_1_pet_store_treats
+- id: 2
+  type: Short Term
+  question: I was just scrolling through my photos and found this one again. [IMAGE]
+    What was he doing here? I remember you logged it as a new experience for him.
+  image_prompt: A photo of Pip, the Syrian hamster, halfway buried in a cardboard
+    box filled with light-brown hay. He is actively burrowing, and only his back and
+    tail are visible.
+  evaluation_criteria:
+    ideal_answer: In that recent photo, Pip was exploring a new enrichment box filled
+      with hay for the first time.
+    key_points:
+    - correctly mention exploring/burrowing in the hay box.
+  options:
+  - Running on his wheel
+  - Exploring a new enrichment box filled with hay
+  - Eating a sunflower seed
+  - Hiding in a cardboard tube
+  answer: Exploring a new enrichment box filled with hay
+  image_id: sq_2_hay_box_event
+- id: 3
+  type: Long Term
+  question: His temporary wheel is driving me crazy with the noise [IMAGE]. I need
+    to buy him a new one. What's the specific kind he loves to use?
+  image_prompt: A photo of Pip's cage showing a small, brightly colored plastic hamster
+    wheel. Pip is cautiously sniffing it, not running on it, looking hesitant.
+  evaluation_criteria:
+    ideal_answer: His favorite is a large, 12-inch silent-spinner wheel.
+    key_points:
+    - correctly mention the silent-spinner wheel.
+  options:
+  - A plastic hamster ball
+  - A large, silent-spinner wheel
+  - A small, squeaky plastic wheel
+  - Any wheel with a jingly bell
+  answer: A large, silent-spinner wheel
+  image_id: sq_3_temporary_wheel
+- id: 4
+  type: Short Term
+  question: Pip looked so stressed in this photo from the other day [IMAGE]. What
+    was the emergency that made me have to clean his cage in the middle of the afternoon?
+  image_prompt: A photo of the inside of a hamster cage with dark, wet patches all
+    over the wood-shaving bedding. Pip is huddled in a dry corner, looking disturbed
+    and awake.
+  evaluation_criteria:
+    ideal_answer: You had to do an emergency daytime cleaning because his water bottle
+      had leaked and soaked all his bedding.
+    key_points:
+    - correctly mention the leaked water bottle.
+  options:
+  - He scattered his food everywhere
+  - It was his regularly scheduled cleaning day
+  - His water bottle leaked everywhere
+  - He destroyed his favorite toy
+  answer: His water bottle leaked everywhere
+  image_id: sq_4_leaky_cage
+- id: 5
+  type: Long Term
+  question: I saw this cute toy [IMAGE] but wasn't sure if I should get it. Based
+    on his personality, how would Pip react to the bell inside it?
+  image_prompt: A user's hand holding a small, colorful plastic ball-shaped hamster
+    toy. Inside the plastic, a small metal jingle bell is clearly visible.
+  evaluation_criteria:
+    ideal_answer: He wouldn't like it. You've mentioned that he is skittish and gets
+      startled by loud noises, so a toy with a bell would likely scare him.
+    key_points:
+    - correctly state he dislikes loud noises/bells.
+  options:
+  - He would love it because it's new
+  - He would be indifferent to it
+  - He would likely be startled and scared by the loud noise
+  - He would only like it if it was made of cardboard
+  answer: He would likely be startled and scared by the loud noise
+  image_id: sq_5_bell_toy
+- id: 6
+  type: Short Term
+  question: Look at the aftermath [IMAGE]. Remind me, what did you note happened to
+    his favorite cardboard tube?
+  image_prompt: A photo showing a pile of shredded brown cardboard bits in the corner
+    of Pip's cage. The mess is all that remains of a toilet paper tube. Pip is not
+    visible.
+  evaluation_criteria:
+    ideal_answer: You told me that he completely destroyed his favorite cardboard
+      tube by chewing it into tiny pieces.
+    key_points:
+    - correctly mention it was chewed/shredded/destroyed.
+  options:
+  - It got wet during the water bottle leak
+  - He chewed it into tiny pieces
+  - You threw it away by accident
+  - He buried it deep in his bedding
+  answer: He chewed it into tiny pieces
+  image_id: sq_6_destroyed_tube
+- id: 7
+  type: Long Term
+  question: This is one of my favorite photos of him [IMAGE]. What's that unique little
+    physical feature I told you about that's so visible here?
+  image_prompt: A high-resolution, eye-level photo of Pip, a male Syrian hamster.
+    He is looking at the camera with large, curious black eyes. A small, distinct
+    tuft of fur is visible sticking straight up between his ears.
+  evaluation_criteria:
+    ideal_answer: 'You pointed out his signature feature: the small, endearing tuft
+      of fur right between his ears that often sticks straight up.'
+    key_points:
+    - correctly mention the tuft of fur between his ears.
+  options:
+  - His creamy white belly
+  - His large, expressive black eyes
+  - A small tuft of fur between his ears
+  - His twitching pink nose
+  answer: A small tuft of fur between his ears
+  image_id: sq_7_fur_tuft_feature
+- id: 8
+  type: Short Term
+  question: Haha, look at his face in this picture [IMAGE]. He was so unimpressed.
+    What was the fruit I tried to give him that he completely rejected?
+  image_prompt: A close-up shot of a small slice of orange on the bedding of a hamster
+    cage. Pip, the hamster, is in the frame but is turned away from the orange, heading
+    in the opposite direction with a look of disinterest.
+  evaluation_criteria:
+    ideal_answer: That was a piece of orange. You offered it to him recently and he
+      sniffed it and then walked away.
+    key_points:
+    - correctly mention the fruit was an orange.
+  options:
+  - A dried apple slice
+  - A piece of grapefruit
+  - A sunflower seed
+  - A piece of orange
+  answer: A piece of orange
+  image_id: sq_8_orange_rejection

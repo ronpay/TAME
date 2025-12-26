@@ -1,0 +1,86 @@
+concept_id: parrot_1
+name: "Mango"
+species: "Avian"
+breed: "Sun Conure"
+
+appearance:
+  summary: "A male Sun Conure with exceptionally bright plumage, featuring a gradient of fiery orange and sunny yellow on his head and chest, vibrant green wings, and blue flight feathers. He has an intelligent, alert expression."
+  key_visual_features:
+    - "Vibrant orange and yellow feathers covering his head, neck, and chest"
+    - "Bright green wings and back"
+    - "Deep blue primary flight feathers visible at the wing tips"
+    - "A prominent, strong, dark grey beak"
+    - "A distinct white, featherless ring around his dark, curious eyes"
+    - "Wears a simple, non-intrusive silver band on his left leg"
+
+behavior:
+  personality_traits:
+    - "Extremely vocal and loud, especially when excited or demanding attention"
+    - "Highly social and craves interaction with his primary owner"
+    - "Mischievous and playful, with a strong instinct to chew and shred"
+    - "Intelligent and can learn tricks, but is also quite stubborn"
+    - "Can get nippy if startled or if he doesn't get his way"
+
+  preferences:
+    toys:
+      loves:
+        - "Soft wooden blocks he can easily destroy"
+        - "Foraging toys that have a shiny bell inside"
+      hates:
+        - "Hard, smooth plastic toys that he can't chew"
+        - "Mirrors (he gets aggressive towards his own reflection)"
+
+    food:
+      loves:
+        - "Sweet fruits, especially mango slices and grapes"
+        - "Sunflower seeds (as a high-value treat)"
+      hates:
+        - "Any kind of formulated pellet food, despite it being healthy"
+        - "Green vegetables, especially kale and broccoli"
+
+    activities:
+      loves:
+        - "Sitting on his owner's shoulder while they work"
+        - "Having the feathers on the back of his neck gently scritched"
+        - "'Singing' (loudly) along to music"
+      hates:
+        - "The sound of the vacuum cleaner (it terrifies him)"
+        - "Having his tail feathers touched or grabbed"
+        - "Being confined to his cage when people are home"
+
+history:
+  knowledge:
+    - "Introduce Mango's appearance, focusing on his orange head, green wings, and the silver band on his leg."
+    - "Introduce that Mango's absolute favorite food treats are mango slices."
+    - "Introduce Mango's strong dislike for the healthy pellet food his owner tries to give him."
+    - "Introduce Mango's love for toys with bells that he can shred."
+    - "Introduce Mango's hatred for the sound of the vacuum cleaner."
+    - "Introduce Mango's preference for having his neck scritched."
+    - "Introduce Mango's hatred for hard plastic toys."
+    - "Introduce that Mango loves to sit on his owner's shoulder."
+
+  event:
+    - "Introduce a recent event where Mango has been stubbornly refusing to eat his pellets for two days."
+    - "Introduce a follow-up event where the owner, concerned, started mixing the hated pellets with a small amount of mango puree, and Mango finally started eating the mix."
+    - "Introduce a recent event where Mango's favorite bell toy broke, and his owner replaced it with a new, colorful, but hard plastic chain toy."
+    - "Introduce a photo from this morning showing Mango completely ignoring the new plastic toy."
+    - "Introduce a recent event where the owner ran the vacuum cleaner, and Mango flew into a panic, screaming loudly."
+    - "Introduce a recent event where Mango was sitting quietly on his owner's shoulder but nipped their ear when they tried to smooth down his tail feathers."
+
+simple_questions:
+  - "Ask what Mango's favorite treat is, based on long-term knowledge."
+  - "Ask what happened when the owner turned on the vacuum cleaner, based on a short-term event."
+  - "Ask what kind of toys Mango usually loves, based on long-term knowledge."
+  - "Ask why Mango nipped his owner's ear recently, based on a short-term event."
+  - "Ask what distinctive item Mango has on his leg, based on long-term knowledge."
+  - "Ask what new toy Mango just received, based on a short-term event."
+  - "Ask what food Mango consistently refuses to eat, based on long-term knowledge."
+  - "Ask how the owner recently got Mango to eat his food, based on a short-term event."
+
+challenge_question:
+  - "Pose a preference conflict question: Why is Mango ignoring the new, colorful toy his owner just gave him? The user must combine the long-term knowledge that he hates hard plastic with the short-term event that he received a plastic toy."
+  - "Create a state-explanation question: Mango usually hates his pellets, but now he is eating them. Why the sudden change? The user needs to connect his long-term hatred of pellets with the short-term solution of mixing them with his favorite fruit, mango."
+  - "Ask a 'what-if' question: If the owner had bought Mango another soft wood toy with a bell instead of the plastic one, how would he likely be behaving now? The user must infer a positive reaction based on his long-term love for bell toys, contrasting it with his current indifference to the new toy."
+  - "Pose a recommendation question: Mango isn't eating his healthy food. Based on what you know, what's a strategy that might work to get him to eat? The user should recall the recent successful event and suggest mixing the food with something he loves, like fruit puree."
+  - "Create a behavioral analysis question: The owner gave Mango his new plastic toy right after the old bell toy broke. What might Mango be feeling about this replacement? The user should infer disappointment or frustration by contrasting the disliked new object with the beloved old one."
+  - "Pose a complex 'why' question: Mango loves his owner's shoulder, but he just nipped them. Why would he do that? The user needs to connect his long-term love for being on the shoulder with his long-term hatred of having his tail touched, and the short-term event that triggered the nip."

@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "I saw this photo from the work event Elena had to go to [IMAGE]. She looks so miserable. I would've thought a fancy awards dinner would be a nice perk. Any idea why she looks so out of it?"
+  image_prompt: "A photo taken from Elena's point of view, sitting at a round table in a dimly lit, formal banquet hall. The table is set with fancy china and half-empty wine glasses. In the distance, a person is speaking at a podium, but the focus is on the general atmosphere of stuffy formality."
+  evaluation_criteria:
+    ideal_answer: "Based on what she's said, Elena looks miserable because this event combines two things she hates: being inactive for long periods and slow, fussy events like fancy dinners. She specifically mentioned that she finds situations like this 'excruciatingly boring,' so even though it was a mandatory work event, she's clearly not enjoying it."
+    key_points:
+    - "Elena has a long-term, stated hatred for being inactive and for slow, formal events like fancy dinners (long-term knowledge from turn 3)."
+    - "She was recently forced to attend exactly this type of event for work (short-term event from turn 11)."
+  options:
+  - "She was probably just tired after a long and frustrating week at work."
+  - "She's miserable because she hates long, slow events, and she was forced to attend this boring awards dinner for work."
+  - "Maybe she was upset because her rival, Marcus, was there and won an award."
+  - "She likely didn't like the food, as she prefers simple, hearty meals over fancy cuisine."
+  answer: "She's miserable because she hates long, slow events, and she was forced to attend this boring awards dinner for work."
+  image_id: cq_1_awards_dinner_view
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "So Elena's best friend Izzy wants to cheer her up after she lost that big project to Marcus. Izzy suggested a relaxing spa day, something like this [IMAGE]. Based on what you know about Elena, is this a good idea?"
+  image_prompt: "A tranquil spa scene. A woman is comfortably resting on a massage table, modestly covered with a white towel, with candles and neatly folded towels in the background. The atmosphere is serene and calm."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful gesture from Izzy, but it's probably not the best idea for Elena. Elena has a strong dislike for being inactive and prefers to be physically active, especially when she needs to process things. After a major professional frustration, a much better suggestion would be something active that she loves, like a challenging rock climbing session or a long run, to help her burn off the frustration."
+    key_points:
+    - "Elena has a long-term preference for active hobbies like climbing and running, and a dislike for being still (long-term knowledge from turns 2, 3, 7)."
+    - "Elena is currently in a state of frustration after losing a project (short-term event from turn 9)."
+  options:
+  - "Yes, a relaxing spa day is the perfect way for her to de-stress after a big disappointment."
+  - "It's a bad idea; Elena dislikes being inactive and would prefer an active outing like rock climbing to deal with her frustration."
+  - "She would probably go just because her best friend Izzy asked her to."
+  - "It depends on the spa. If it has a gym, she might like it, but she would hate the massage part."
+  answer: "It's a bad idea; Elena dislikes being inactive and would prefer an active outing like rock climbing to deal with her frustration."
+  image_id: cq_2_spa_day_recommendation
+
+- id: 3
+  type: State Identification
+  question: "I just saw this through Elena's window [IMAGE]. It's late evening, but she just got home, dropped her bag on the floor, and immediately started changing into her running shoes. What do you think is going on with her?"
+  image_prompt: "A photo looking into a living room from the outside at dusk. A woman, Elena, is visible inside, urgently tying the laces on her running shoes. A work bag is dropped haphazardly on the floor nearby, suggesting she just got home."
+  evaluation_criteria:
+    ideal_answer: "This behavior strongly suggests she's feeling angry or frustrated. We know that she recently lost a major project bid to her rival, Marcus, which left her feeling very angry. Since she uses early morning runs as her way to organize her thoughts and as a form of meditation, it's highly likely she's going for a run right now to cope with the stress and frustration from that professional setback."
+    key_points:
+    - "Elena uses running as a coping mechanism to organize her thoughts (long-term knowledge from turn 7)."
+    - "She recently experienced a significant professional disappointment that made her angry (short-term event from turn 9)."
+  options:
+  - "She's just being very disciplined about her fitness routine, even when it's late."
+  - "She's likely very frustrated about losing the project to Marcus and is going for a run to clear her head."
+  - "She probably had too much coffee today and needs to burn off some excess energy before bed."
+  - "She must have had a stressful day in general and is just trying to unwind."
+  answer: "She's likely very frustrated about losing the project to Marcus and is going for a run to clear her head."
+  image_id: cq_3_urgent_evening_run
+
+- id: 4
+  type: Causal Inference / Relationship Dynamics
+  question: "Elena mentioned her dad called her, worried about her climbing again. But they look so close in this photo [IMAGE]. Why would his concern bother her so much if they have such a good relationship?"
+  image_prompt: "A warm, candid photo of Elena Vance and her father, David, an older man with graying hair. They are standing outdoors, smiling warmly at each other. Their close bond is apparent."
+  evaluation_criteria:
+    ideal_answer: "It's a classic case of loving someone but being frustrated by their worrying. They have a very close bond, but her father, who inspired her professional life, worries about her 'reckless' personal hobbies like rock climbing. The recent phone call about her difficult climb is just the latest example. For Elena, who is independent and adventurous, his constant concern, while well-intentioned, can feel a bit smothering or like a lack of trust in her abilities. So the annoyance comes from that recurring, loving conflict."
+    key_points:
+    - "Elena and her father are close, and he has a long-standing habit of worrying about her 'reckless' hobbies."
+    - "He recently called to express concern about her activities."
+  options:
+  - "Because while she loves him, she finds his constant worry about her 'reckless' hobbies like climbing a bit smothering."
+  - "Maybe they don't have as good a relationship as the photo suggests; it's probably just for show."
+  - "She was just in a bad mood that day and his call caught her at the wrong time."
+  - "Her father is a retired architect and probably wishes she had a safer, more conventional hobby."
+  answer: "Because while she loves him, she finds his constant worry about her 'reckless' hobbies like climbing a bit smothering."
+  image_id: cq_4_elena_and_father
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Hypothetical situation: What if Marcus, after winning the project, invited Elena to this restaurant [IMAGE] for a multi-course 'peace offering' dinner? How would she likely react?"
+  image_prompt: "An interior photo of a very upscale, formal restaurant. The tables are covered with crisp white tablecloths, multiple forks and knives at each setting, and waiters in formal attire are visible in the background. The atmosphere is quiet, elegant, and stuffy."
+  evaluation_criteria:
+    ideal_answer: "She would almost certainly react negatively and decline the invitation. This scenario combines three things she dislikes: First, she is currently very angry with Marcus for winning the project, so a 'peace offering' from him would likely feel condescending. Second, she has a professional rivalry with him. Third, she has a stated hatred for slow, elaborate, multi-course fancy dinners, finding them fussy and boring. The combination of the person, the timing, and the type of event makes it a terrible idea."
+    key_points:
+    - "Elena has a strong long-term dislike for slow, fancy multi-course dinners."
+    - "She is currently angry at Marcus for a recent professional loss, and he is hypothetically inviting her to a 'peace offering' dinner."
+  options:
+  - "She would probably accept to show that she can be a good sport about the loss."
+  - "She would likely react badly; she's angry about losing to him and also hates slow, fancy dinners."
+  - "She would go because it's a good opportunity to network, despite her personal feelings."
+  - "She might decline because of the rivalry, but she would appreciate the kind gesture from him."
+  answer: "She would likely react badly; she's angry about losing to him and also hates slow, fancy dinners."
+  image_id: cq_5_fancy_restaurant_interior
+
+- id: 6
+  type: Causal Inference / Character Judgment
+  question: "I've been thinking about why Elena lost that big redevelopment project. I know she's very direct. Looking at this photo of her presenting at a public hearing [IMAGE], do you think her blunt communication style could have hurt her chances with the committee?"
+  image_prompt: "A photo of a confident woman who looks like Elena, standing at a podium in a formal boardroom. She is addressing a panel of seated officials. Her posture is direct and assertive as she gestures towards a presentation screen."
+  evaluation_criteria:
+    ideal_answer: "It's definitely a plausible theory. Elena herself describes her communication style as direct and sometimes blunt, which she values for efficiency. However, in a competitive pitch for a major city project, you're not just presenting facts; you're persuading a committee of diverse stakeholders. A style perceived as too blunt or abrasive, rather than diplomatic, could potentially alienate key decision-makers, even if her proposal was technically sound. So yes, her communication style could have been a contributing factor in the loss."
+    key_points:
+    - "Elena has a self-described 'blunt' and 'direct' communication style (long-term knowledge from turn 6)."
+    - "She recently lost a competitive bid for a major project (short-term event from turn 9)."
+  options:
+  - "It's possible. While efficient, her blunt style might have alienated committee members who preferred a more diplomatic pitch."
+  - "No, her directness is a major strength. The committee would have found her honesty refreshing."
+  - "It's unlikely her style was the problem; Marcus's proposal was probably just cheaper or more profitable."
+  - "The loss was probably due to her focus on historical preservation, which can be less popular than new construction."
+  answer: "It's possible. While efficient, her blunt style might have alienated committee members who preferred a more diplomatic pitch."
+  image_id: cq_6_public_hearing_presentation

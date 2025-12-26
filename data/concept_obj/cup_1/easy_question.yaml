@@ -1,0 +1,153 @@
+- id: 1
+  type: Long Term
+  question: Looking at this photo I took of The Lavender Lifeline this morning [IMAGE],
+    it still makes me smile. Can you remind me of its origin story? How did I get
+    it?
+  image_prompt: A high-quality photo of a well-loved, lavender-colored ceramic mug
+    with a simple, modern shape and a white interior. It sits on a cozy wooden desk
+    next to a book, bathed in soft morning light.
+  evaluation_criteria:
+    ideal_answer: You received it as a going-away-to-college gift from your younger
+      sibling.
+    key_points:
+    - correctly mention it was a gift from their younger sibling for college.
+  options:
+  - It was a going-away-to-college gift from your younger sibling.
+  - You bought it for yourself right before your first job.
+  - A friend gave it to you for your birthday.
+  - You found it at a vintage thrift store.
+  answer: It was a going-away-to-college gift from your younger sibling.
+  image_id: sq_1_origin_story
+- id: 2
+  type: Long Term
+  question: Hey, look at this close-up [IMAGE]. I always forget the full story behind
+    this repair. What's the deal with its biggest battle scar again?
+  image_prompt: A detailed close-up of a purple mug's handle, showing a fine, visible
+    seam where it has been glued back onto the body of the mug. The shot is angled
+    to catch the light along the faint line of the repair.
+  evaluation_criteria:
+    ideal_answer: That's from when you dropped it and the handle broke off right before
+      your first job interview. You frantically glued it back on yourself.
+    key_points:
+    - correctly mention the handle broke before the first job interview.
+  options:
+  - The handle broke off before your first job interview and you glued it back on.
+  - It has a small chip on the rim from when you were studying for exams.
+  - It fell in the sink and the handle cracked while washing dishes.
+  - The dishwasher damaged the handle, which is why you hand-wash it now.
+  answer: The handle broke off before your first job interview and you glued it back
+    on.
+  image_id: sq_2_handle_scar
+- id: 3
+  type: Long Term
+  question: Ah, the perfect start to the day. [IMAGE] I know I used it for soup that
+    one time, but what's its main, dignified purpose in life?
+  image_prompt: A photo of the owner's hand holding the purple mug, which is filled
+    with steaming dark roast coffee. Morning light streams in from a window.
+  evaluation_criteria:
+    ideal_answer: Its primary and most important role is to hold your first cup of
+      coffee every morning.
+    key_points:
+    - correctly identify its main use is for morning coffee.
+  options:
+  - For your first cup of coffee every morning.
+  - For holding instant soup when all the bowls are dirty.
+  - For holding tea when you're sick.
+  - As a pen holder on your desk.
+  answer: For your first cup of coffee every morning.
+  image_id: sq_3_main_use
+- id: 4
+  type: Long Term
+  question: Just finished my coffee, time to clean up. [IMAGE] I have a very specific
+    rule for The Lavender Lifeline, what is it again? I want to make sure I remember
+    why.
+  image_prompt: A photo of the purple mug sitting on the edge of a kitchen sink, next
+    to a sponge. It's empty and ready to be washed.
+  evaluation_criteria:
+    ideal_answer: You have a strict 'hand-wash only' rule for it because you're worried
+      the dishwasher would be too rough on its glued handle.
+    key_points:
+    - correctly state it must be hand-washed only.
+  options:
+  - It must be hand-washed only.
+  - It can only be cleaned with a special ceramic polish.
+  - It's dishwasher safe on the top rack.
+  - You have to let it air dry to protect the faded glaze.
+  answer: It must be hand-washed only.
+  image_id: sq_4_cleaning_rule
+- id: 5
+  type: Long Term
+  question: I was just thinking about that time I had to do this... [IMAGE] It felt
+    so wrong. Based on the personality I've given it, what's one thing this mug definitely
+    'dislikes'?
+  image_prompt: A photo of the purple mug sitting on a kitchen counter, filled with
+    instant noodle soup. The scene is dimly lit, emphasizing the 'undignified' feeling.
+  evaluation_criteria:
+    ideal_answer: Based on what you've said, it 'dislikes' holding soup. You felt
+      it was an undignified experience for your dedicated coffee companion.
+    key_points:
+    - correctly mention it 'dislikes' holding soup.
+  options:
+  - Holding soup, which you felt was 'undignified' for it.
+  - Being held in your right hand, which has faded its glaze.
+  - The warmth of fresh coffee.
+  - Being hand-washed carefully.
+  answer: Holding soup, which you felt was 'undignified' for it.
+  image_id: sq_5_mug_dislikes
+- id: 6
+  type: Short Term
+  question: I'm looking at these shiny new mugs online [IMAGE] and it reminded me
+    of that conversation with my friend. What was my reaction when they recently offered
+    to get me a new one?
+  image_prompt: A screenshot from a web browser showing an online store's product
+    page for a set of sleek, modern, minimalist coffee mugs.
+  evaluation_criteria:
+    ideal_answer: You politely declined. You told your friend that even though their
+      offer was nice, you couldn't imagine replacing The Lavender Lifeline.
+    key_points:
+    - correctly state the owner declined the offer to get a new mug.
+  options:
+  - You declined the offer, saying you couldn't imagine replacing it.
+  - You told them you would think about it for your birthday.
+  - You decided to try a new high-tech mug for a few days instead.
+  - You asked them to find one in the same purple color.
+  answer: You declined the offer, saying you couldn't imagine replacing it.
+  image_id: sq_6_new_mug_offer
+- id: 7
+  type: Short Term
+  question: I'm looking at the handle again... [IMAGE] I had a scare about it recently.
+    What was the worry I told you about?
+  image_prompt: An anxious, macro close-up shot of the owner's finger tracing the
+    faint, glued seam on the purple mug's handle. The lighting is low and focused,
+    creating a sense of worry.
+  evaluation_criteria:
+    ideal_answer: You recently felt a pang of anxiety because you were worried that
+      the glued seam on the handle was starting to feel a tiny bit loose.
+    key_points:
+    - correctly mention the worry that the glued handle was loosening.
+  options:
+  - You were worried the glued handle was starting to feel a bit loose.
+  - You were worried the chip on the rim was getting bigger.
+  - You were worried the permanent coffee stain at the bottom was a sign of damage.
+  - You were worried you had accidentally put it in the dishwasher.
+  answer: You were worried the glued handle was starting to feel a bit loose.
+  image_id: sq_7_recent_worry
+- id: 8
+  type: Short Term
+  question: This mug always makes me think of family. Speaking of which... [IMAGE]
+    I got some good news recently related to the person who gave me this. Who is coming
+    to visit?
+  image_prompt: A photo of the purple mug sitting on top of a desk calendar. In the
+    background, next month's page is visible and a date is circled with a red heart.
+  evaluation_criteria:
+    ideal_answer: Your sibling, the one who originally gave you the mug, is scheduled
+      to visit you next month.
+    key_points:
+    - correctly identify that the owner's sibling is visiting.
+  options:
+  - Your sibling, who gave you the mug.
+  - Your friend who offered to buy you a new mug.
+  - Your parents.
+  - Your old college roommate.
+  answer: Your sibling, who gave you the mug.
+  image_id: sq_8_visitor_coming

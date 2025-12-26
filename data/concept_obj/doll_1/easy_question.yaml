@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: Looking at this old photo [IMAGE], I suddenly feel nostalgic. Mochi has been with me for so long. Do you remember how I got her in the first place?
+  image_prompt: A slightly faded, nostalgic-style photo of 'Mochi' the stuffed doll, sitting on a university dorm room desk next to a stack of books. The lighting is warm and suggests a past memory.
+  evaluation_criteria:
+    ideal_answer: She was a farewell gift from your long-distance partner when you started university, to keep you company.
+    key_points:
+      - correctly mention she was a farewell gift from a partner for university.
+  options:
+    - You bought her as a lucky charm during your university orientation.
+    - She was a gift from your parents to celebrate your admission to university.
+    - She was a farewell gift from your long-distance partner.
+    - You won her as a prize at a campus fair.
+  answer: She was a farewell gift from your long-distance partner.
+  image_id: sq_1_origin_story
+
+- id: 2
+  type: Long Term
+  question: I almost spilled ink just now—scared me a bit. Seeing this [IMAGE], I remembered Mochi also has a similar "scar." How did that little mark get there?
+  image_prompt: A close-up photo of 'Mochi' the doll. The user's finger is pointing directly at the faint, faded blue ink stain on its right foot. The rest of the doll is slightly out of focus.
+  evaluation_criteria:
+    ideal_answer: That was left by a leaky pen during one of your late-night study sessions—a faint blue ink stain.
+    key_points:
+      - correctly mention it's an ink stain from a leaky pen during study.
+  options:
+    - It got caught on your backpack zipper on the first day of school.
+    - It got stained by a leaky pen during a late-night study session.
+    - It was scratched by the new kitten.
+    - It accidentally touched some wet paint.
+  answer: It got stained by a leaky pen during a late-night study session.
+  image_id: sq_2_ink_stain_scar
+
+- id: 3
+  type: Long Term
+  question: I've been sitting too long—my wrist is sore. [IMAGE] Suddenly thought of Mochi. Besides hugging her to sleep, how else do I use her?
+  image_prompt: A first-person view of a desk with a computer. The user's hand is visible, rubbing their wrist as if it's sore from typing. 'Mochi' the doll is sitting on the corner of the desk.
+  evaluation_criteria:
+    ideal_answer: You usually hug her to sleep, and during long study sessions, you use her as a wrist rest.
+    key_points:
+      - correctly mention using it as a wrist rest.
+  options:
+    - As a backrest while watching movies, and as a pillow while traveling.
+    - As a wrist rest while studying, and to hug while sleeping.
+    - As a decoration on your bed, and as company while you make phone calls.
+    - To prop up books while reading, and to sunbathe on the windowsill.
+  answer: As a wrist rest while studying, and to hug while sleeping.
+  image_id: sq_3_functional_use
+
+- id: 4
+  type: Short Term
+  question: My kitten was especially well-behaved today—maybe trying to make up for something? [IMAGE] Remind me, what happened last week between the kitten and Mochi that made me so upset?
+  image_prompt: A cute photo of a small kitten sleeping peacefully on a fluffy blanket, looking completely innocent. The lighting is soft and warm.
+  evaluation_criteria:
+    ideal_answer: Last week, your kitten knocked Mochi off the nightstand, which made you very distressed.
+    key_points:
+      - correctly mention the kitten knocked Mochi off the nightstand.
+  options:
+    - It tried to drag Mochi under the bed to hide her.
+    - It accidentally spilled water on Mochi.
+    - It knocked Mochi off the nightstand and onto the floor.
+    - It used Mochi as a toy and bit her ear.
+  answer: It knocked Mochi off the nightstand and onto the floor.
+  image_id: sq_4_kitten_incident
+
+- id: 5
+  type: Long Term
+  question: I'm about to clean up and need to move Mochi somewhere else. Looking at this picture [IMAGE], I need to be careful. What did I tell you she "hates" the most?
+  image_prompt: A slightly precarious photo of 'Mochi' the doll sitting on the edge of a shelf, right next to a full glass of water. The scene implies a potential for falling or getting wet.
+  evaluation_criteria:
+    ideal_answer: As you said, she 'hates' being dropped onto the cold floor and getting wet.
+    key_points:
+      - correctly mention she dislikes being dropped and getting wet.
+  options:
+    - Being left home alone and friends calling her "old."
+    - Being dropped on the floor and getting wet.
+    - Being bothered by the kitten and being stuffed into a suitcase.
+    - Harsh lighting and loud noise.
+  answer: Being dropped on the floor and getting wet.
+  image_id: sq_5_perceived_hates
+
+- id: 6
+  type: Short Term
+  question: My friend sent me a link to a toy store [IMAGE], which reminded me of last time in the shop. What was I thinking about replacing Mochi at that time?
+  image_prompt: A screenshot of a smartphone screen showing an online store's webpage. The page displays several large, new-looking stuffed animals for sale.
+  evaluation_criteria:
+    ideal_answer: You saw a bigger, newer version, but decided you never even considered replacing Mochi because she's irreplaceable.
+    key_points:
+      - correctly state there's no desire to replace her.
+  options:
+    - You really wanted to buy a new one but resisted.
+    - You decided to wait until Mochi got even older before considering a replacement.
+    - You never even considered replacing her.
+    - You thought about buying a new one to keep her company.
+  answer: You never even considered replacing her.
+  image_id: sq_6_no_replacement
+
+- id: 7
+  type: Short Term
+  question: The friend who visited last week is coming again today. [IMAGE] I have to protect Mochi, haha. What did he joke about Mochi last time that made me a bit upset?
+  image_prompt: A photo of 'Mochi' sitting on a living room couch. The background is slightly blurry, but a front door is visible, suggesting the expectation of a guest's arrival.
+  evaluation_criteria:
+    ideal_answer: He joked that Mochi was 'lumpy' and 'a bit worn-out.'
+    key_points:
+      - correctly mention the friend called her 'lumpy' and 'worn-out'.
+  options:
+    - He said she looked a bit faded.
+    - He said she smelled like old things.
+    - He said she looked dirty.
+    - He said she was 'lumpy' and 'a bit worn-out.'
+  answer: He said she was 'lumpy' and 'a bit worn-out.'
+  image_id: sq_7_friend_comment
+
+- id: 8
+  type: Long Term
+  question: Getting ready to make my bed, and Mochi is waiting patiently by the side. [IMAGE] Do I have any morning rituals with her?
+  image_prompt: A photo of an unmade bed. 'Mochi' the doll is sitting on the nightstand, seemingly looking towards the bed as if waiting for something.
+  evaluation_criteria:
+    ideal_answer: Every morning when you make your bed, you place Mochi in the center of the main pillow so she can 'guard the bed' like a sentinel.
+    key_points:
+      - correctly mention placing her on the pillow to 'guard the bed'.
+  options:
+    - You put her on the windowsill to sunbathe.
+    - You give her a tight hug before getting up.
+    - You place her in the center of the main pillow to 'guard the bed.'
+    - You use her as a wrist rest while watching the morning news.
+  answer: You place her in the center of the main pillow to 'guard the bed.'
+  image_id: sq_8_morning_ritual

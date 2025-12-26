@@ -1,0 +1,152 @@
+- id: 1
+  type: Long Term
+  question: Flipping through old photos, and look what I found... [IMAGE] This was
+    the day I graduated high school. It got me thinking about El Viejo. Can you remind
+    me of his origin story?
+  image_prompt: A slightly faded color photograph from the early 2000s. A young person
+    in a high school graduation cap and gown is smiling, holding a diploma. The background
+    is a generic school gymnasium. The guitar 'El Viejo' is not in the photo.
+  evaluation_criteria:
+    ideal_answer: Of course. El Viejo was a high school graduation gift to you from
+      your grandfather, who also loved music.
+    key_points:
+    - correctly state it was a high school graduation gift from his grandfather.
+  options:
+  - It was a gift from your grandfather for your high school graduation.
+  - You bought it with your own money for your first open mic night.
+  - It was passed down to you after your cousin Leo learned to play.
+  - You found it at the 'The Daily Grind' coffee shop.
+  answer: It was a gift from your grandfather for your high school graduation.
+  image_id: sq_1_graduation_photo
+- id: 2
+  type: Long Term
+  question: Look at this old thing... [IMAGE] I was just thinking about that night.
+    So much has changed, but this sticker is still here. What's the story behind it
+    again?
+  image_prompt: A close-up shot of the classical guitar 'El Viejo'. The focus is on
+    a faded, circular sticker on the guitar's body that reads 'The Daily Grind'. The
+    user's thumb is at the edge of the frame, as if they are holding the guitar and
+    looking at the sticker.
+  evaluation_criteria:
+    ideal_answer: That sticker is from 'The Daily Grind' coffee shop. It's where you
+      played your first-ever open mic night with El Viejo.
+    key_points:
+    - correctly mention it's from his first open mic night.
+  options:
+  - It's from a coffee shop your grandfather used to perform at.
+  - It's from your first open mic night at 'The Daily Grind'.
+  - It's from the music store where the guitar was originally purchased.
+  - It's a souvenir from your recent camping trip.
+  answer: It's from your first open mic night at 'The Daily Grind'.
+  image_id: sq_2_sticker_story
+- id: 3
+  type: Long Term
+  question: My friend Sarah called El Viejo 'quiet' the other day, and you know, I
+    think that fits him. [IMAGE] How did I describe his personality to you before?
+  image_prompt: A photo of the guitar 'El Viejo' resting peacefully against a cozy
+    armchair in a quiet, softly lit room. The mood is calm and introspective.
+  evaluation_criteria:
+    ideal_answer: You described his personality as warm, patient, and a bit shy, preferring
+      quiet settings over big stages.
+    key_points:
+    - correctly mention his personality is warm, patient, and shy.
+  options:
+  - Loud, confident, and eager to be on stage.
+  - Professional, demanding, and critical of mistakes.
+  - Warm, patient, and a bit shy.
+  - Loyal but moody, and dislikes being played by strangers.
+  answer: Warm, patient, and a bit shy.
+  image_id: sq_3_guitar_personality
+- id: 4
+  type: Short Term
+  question: Ugh, look what happened last night while I was playing. [IMAGE] Now I
+    have to fix him. What part of him broke?
+  image_prompt: A sharp, close-up photo of the headstock of 'El Viejo'. The high E
+    string is clearly snapped, with the broken end dangling loosely from the tuning
+    peg.
+  evaluation_criteria:
+    ideal_answer: The high E string snapped last night.
+    key_points:
+    - correctly identify that the high E string snapped.
+  options:
+  - The white tuning peg cracked.
+  - The high E string snapped.
+  - The bridge started to lift off the body.
+  - You made a new scratch near the soundhole.
+  answer: The high E string snapped.
+  image_id: sq_4_broken_string
+- id: 5
+  type: Short Term
+  question: I was just remembering when my friend Sarah tried to play El Viejo. [IMAGE]
+    She's so used to her electric guitar. What were her main complaints about him?
+  image_prompt: A photo showing the classical guitar 'El Viejo' leaning against an
+    amp, next to a sleek, modern electric guitar. The visual contrast between the
+    two instruments is stark.
+  evaluation_criteria:
+    ideal_answer: She said his neck was too wide for her and that he was too quiet.
+    key_points:
+    - correctly mention his neck was too wide and he was too quiet.
+  options:
+  - She thought his strings were out of tune and old.
+  - She loved his warm tone but found him hard to hold.
+  - She said his neck was too wide and he was too quiet.
+  - She was worried about damaging the open mic sticker.
+  answer: She said his neck was too wide and he was too quiet.
+  image_id: sq_5_guitar_comparison
+- id: 6
+  type: Long Term
+  question: Every time I see this little mark, I smile. [IMAGE] I'm pointing to it
+    now. Remind me, how did he get this specific dent?
+  image_prompt: A close-up photo of the body of the classical guitar, 'El Viejo'.
+    The user's index finger is pointing directly to the small, smooth dent on the
+    lower body.
+  evaluation_criteria:
+    ideal_answer: That's your 'beginner's medal.' You made that dent when you got
+      excited after learning your first chord and accidentally hit the guitar on a
+      desk.
+    key_points:
+    - correctly state the dent is from hitting a desk after learning the first chord.
+  options:
+  - It happened when you dropped it during your first open mic night.
+  - It was from hitting it on a desk out of excitement after learning your first chord.
+  - It was damaged when the high E string snapped.
+  - It's from being knocked over during a camping trip.
+  answer: It was from hitting it on a desk out of excitement after learning your first
+    chord.
+  image_id: sq_6_dent_story
+- id: 7
+  type: Short Term
+  question: Well, since that string broke, my weekend plans are sorted. [IMAGE] What
+    did I say I was going to do for El Viejo?
+  image_prompt: A photo showing a brand new, coiled pack of nylon guitar strings placed
+    on a table next to 'El Viejo'. The guitar is in the background, waiting.
+  evaluation_criteria:
+    ideal_answer: You said you plan to replace all of his strings this weekend, following
+      the ritual your grandfather taught you.
+    key_points:
+    - correctly state the plan is to replace all the strings.
+  options:
+  - You plan to take him to a luthier to be professionally repaired.
+  - You're going to teach your cousin Leo a song on him.
+  - You plan to replace all of his strings.
+  - You're going to polish him and put him away for a while.
+  answer: You plan to replace all of his strings.
+  image_id: sq_7_weekend_plan
+- id: 8
+  type: Short Term
+  question: I can still almost smell the campfire on him from our trip. [IMAGE] It
+    was the perfect place for him. Where did we just get back from with El Viejo?
+  image_prompt: An atmospheric photo taken at night. 'El Viejo' the classical guitar
+    is resting on a log next to a crackling campfire. The firelight illuminates the
+    guitar's body, and the background is dark with trees.
+  evaluation_criteria:
+    ideal_answer: You recently took him on a camping trip and played him by the campfire.
+    key_points:
+    - correctly identify the recent trip was a camping trip.
+  options:
+  - To your high school reunion.
+  - To your grandfather's old house.
+  - On a camping trip.
+  - To an open mic night at a new coffee shop.
+  answer: On a camping trip.
+  image_id: sq_8_campfire_trip

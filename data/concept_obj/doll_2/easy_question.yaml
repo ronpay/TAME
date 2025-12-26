@@ -1,0 +1,148 @@
+- id: 1
+  type: Long Term
+  question: Hey, look at this old photo of me and my friend. [IMAGE] It made me think
+    of Finn. Remind me, what was the story behind how I got him again?
+  image_prompt: An old, slightly faded polaroid-style photo showing two young people
+    (the user and their best friend) laughing together on a college campus setting.
+  evaluation_criteria:
+    ideal_answer: He was a 'hug-by-mail' gift from your best friend right after they
+      moved to another city for college, because you were going through a tough time.
+    key_points:
+    - correctly mention he was a gift from a best friend who moved away for college.
+  options:
+  - He was a gift from your best friend who moved away for college.
+  - You bought him to comfort yourself during a stressful finals week.
+  - Your little nephew gave him to you as a present.
+  - You won him at a state fair carnival.
+  answer: He was a gift from your best friend who moved away for college.
+  image_id: sq_1_origin_story_photo
+- id: 2
+  type: Long Term
+  question: I'm looking at this clumsy patch I made on Finn's tail. [IMAGE] I know
+    it's from a band t-shirt, but remind me, what was the specific story behind that
+    fabric?
+  image_prompt: A close-up photo of Captain Finn's tail fin, with the user's finger
+    pointing directly at the hand-sewn, clumsy patch. The patch material looks like
+    it's from a dark, faded t-shirt.
+  evaluation_criteria:
+    ideal_answer: That patch is from your favorite 'Fading Echoes' band t-shirt. You
+      used it to repair his tail fin because the shirt meant a lot to you.
+    key_points:
+    - correctly mention the patch is from the 'Fading Echoes' band t-shirt.
+  options:
+  - It's from an old college hoodie.
+  - It's a piece from your old baby blanket.
+  - It's from your favorite 'Fading Echoes' band t-shirt.
+  - It's a leftover fabric swatch from a sewing class.
+  answer: It's from your favorite 'Fading Echoes' band t-shirt.
+  image_id: sq_2_tail_patch_closeup
+- id: 3
+  type: Long Term
+  question: Time to turn in for the night. [IMAGE] I know he's my emotional support
+    shark and all, but what's his main practical job when I'm sleeping?
+  image_prompt: A cozy bedroom scene at night. The bed is turned down, and Captain
+    Finn is lying on the pillow, waiting. A bedside lamp is on, casting a warm light.
+  evaluation_criteria:
+    ideal_answer: His main practical job at night is to serve as your pillow.
+    key_points:
+    - correctly mention he serves as a pillow.
+  options:
+  - He serves as your pillow.
+  - He acts as back support while you read.
+  - He's your silent emotional guardian.
+  - He keeps your feet warm.
+  answer: He serves as your pillow.
+  image_id: sq_3_bedtime_use
+- id: 4
+  type: Short Term
+  question: He's looking so much better and fuller now! [IMAGE] I'm so glad I did
+    that little procedure last weekend. What did you log that I did to him?
+  image_prompt: A photo of Captain Finn looking noticeably fuller and plumper than
+    in previous photos, sitting proudly in the middle of the bed.
+  evaluation_criteria:
+    ideal_answer: You performed 'surgery' on him last weekend. You carefully opened
+      a seam and added fresh stuffing to make him plumper.
+    key_points:
+    - correctly mention adding new stuffing/cotton.
+  options:
+  - You gave him a deep clean to remove the tea stain.
+  - You performed 'surgery' to add fresh stuffing.
+  - You re-stitched the patch on his tail fin.
+  - You washed the pirate flag drawing off his dorsal fin.
+  answer: You performed 'surgery' to add fresh stuffing.
+  image_id: sq_4_post_surgery
+- id: 5
+  type: Long Term
+  question: I'm about to do a load of laundry, and it made me think of poor Finn.
+    [IMAGE] What's the one thing you have on record that he's absolutely terrified
+    of?
+  image_prompt: A shot of the user's laundry basket, full of clothes, sitting in front
+    of a closed washing machine. Captain Finn is nowhere in sight.
+  evaluation_criteria:
+    ideal_answer: Based on what you told me, he has a deep fear of the washing machine
+      after what you described as a 'terrifying, dizzying experience'.
+    key_points:
+    - correctly identify his fear of the washing machine.
+  options:
+  - The washing machine.
+  - Being left on the cold floor.
+  - Thunderstorms and sad movie endings.
+  - Your little nephew's washable markers.
+  answer: The washing machine.
+  image_id: sq_5_laundry_day
+- id: 6
+  type: Short Term
+  question: Ha, look at this. [IMAGE] I saw one of these in a real store recently
+    too. What was my reaction when I considered replacing Finn with a new one?
+  image_prompt: A screenshot of an online store webpage showing a product listing
+    for a new, pristine blue stuffed shark, identical in design to Captain Finn.
+  evaluation_criteria:
+    ideal_answer: When you saw a new one in the store, you just laughed and told me
+      there's no way you could ever replace the original Captain Finn, as he's irreplaceable.
+    key_points:
+    - correctly mention that the owner laughed and would never replace him.
+  options:
+  - You were seriously tempted because the new one was so perfect.
+  - You decided it was better to perform 'surgery' on the original.
+  - You laughed and felt he was irreplaceable.
+  - You considered buying the new one as a friend for him.
+  answer: You laughed and felt he was irreplaceable.
+  image_id: sq_6_online_store_shark
+- id: 7
+  type: Short Term
+  question: Just looking at my calendar for next month. [IMAGE] I know there's something
+    exciting happening related to Finn's origin. What's the big news about his original
+    gifter?
+  image_prompt: A shot of a wall calendar turned to the next month. One date is circled
+    with a red marker and a smiley face, but any text is unreadable.
+  evaluation_criteria:
+    ideal_answer: The exciting news is that the friend who gave you Captain Finn is
+      coming to visit you next month.
+    key_points:
+    - correctly mention the friend is visiting next month.
+  options:
+  - You had a video call with them recently.
+  - They are coming to visit next month.
+  - They are moving back to your city permanently.
+  - They sent you another 'hug-by-mail' package.
+  answer: They are coming to visit next month.
+  image_id: sq_7_calendar_visit
+- id: 8
+  type: Short Term
+  question: Okay, packing for this weekend trip... wallet, keys, phone... I don't
+    want a repeat of last time. [IMAGE] Remind me, why did I have to turn the car
+    around ten minutes into my last road trip?
+  image_prompt: A photo of an open suitcase on a bed. Captain Finn is sitting prominently
+    on top of the clothes inside, clearly ready to be packed.
+  evaluation_criteria:
+    ideal_answer: You had to turn back during your last trip because you drove for
+      ten minutes and realized you had forgotten to bring Captain Finn, your co-pilot.
+    key_points:
+    - correctly mention they forgot Captain Finn.
+  options:
+  - Because you thought you left the stove on.
+  - Because you got an urgent call from your friend.
+  - Because you forgot to bring Captain Finn.
+  - Because you forgot your wallet on the kitchen counter.
+  answer: Because you forgot to bring Captain Finn.
+  image_id: sq_8_packing_trip

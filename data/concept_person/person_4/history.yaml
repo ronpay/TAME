@@ -1,0 +1,135 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, setting you up. Check out this pic of me at the skatepark. [IMAGE]
+    As you can see, I've got long blonde hair, and I'm never without this chunky digital
+    watch. It's super reliable for timing runs.
+  assistant_response: 'Got it, Casey. I''ve noted your key appearance details: long
+    blonde hair and a chunky retro digital watch you always wear. Thanks for the photo.'
+  image_prompt: Action shot of Casey Miller, a British girl in her early teens with
+    long, straight blonde hair, skateboarding in a concrete park. She's focused, with
+    a determined expression. A prominent, chunky retro-style digital watch is visible
+    on her left wrist. She's wearing skate-friendly clothes and has a visible scrape
+    on her elbow.
+  image_id: turn_1_skatepark_profile
+- turn: 2
+  log_type: knowledge
+  user_input: Ugh, just so you know, I absolutely hate my weekly piano lessons. They're
+    so boring. The only good thing about today is I get to have pizza with extra cheese
+    for dinner. That's the best.
+  assistant_response: 'Okay, I''ve made a note: you dislike your weekly piano lessons
+    but love pizza with extra cheese. Understood.'
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: This is my little brother, Leo. [IMAGE] He's a total pain and always
+    trying to follow me around, but I guess he's alright. Don't tell him I said that.
+  assistant_response: Thanks for introducing me to Leo. I've noted that he's your
+    younger brother and you have a typical sibling dynamic—you find him annoying but
+    are also protective of him.
+  image_prompt: A candid photo of Casey Miller and her younger brother Leo in their
+    backyard. Casey has a mock-annoyed expression on her face but her arm is loosely
+    around his shoulder. Leo is looking up at her admiringly. Casey's long blonde
+    hair is a bit messy.
+  image_id: turn_3_with_leo
+- turn: 4
+  log_type: knowledge
+  user_input: My next-door neighbor, Mr. Henderson, is the worst. He's always yelling
+    at me to stop skateboarding because of the 'noise'. Like, what else am I supposed
+    to do?
+  assistant_response: Got it. Mr. Henderson, your next-door neighbor, frequently complains
+    about the noise from your skateboarding. I've recorded this.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: This is me and my best friend, Maya. [IMAGE] We were exploring the woods
+    behind my house. It's our favorite thing to do when we're not skating.
+  assistant_response: That looks like fun! I've noted that Maya is your best friend
+    and you both love exploring the woods together.
+  image_prompt: Casey Miller and her best friend Maya are standing at the edge of
+    a dense wood. Both girls are in practical, slightly muddy clothes. Casey is pointing
+    excitedly into the trees, while Maya looks on with a more cautious but smiling
+    expression. Sunlight filters through the leaves.
+  image_id: turn_5_exploring_with_maya
+- turn: 6
+  log_type: knowledge
+  user_input: My dad tried to make me drink one of his 'healthy' green smoothies again.
+    No way. Look at this disgusting stuff. [IMAGE] I'm not drinking that. I'll just
+    grab a soda.
+  assistant_response: I see. You're not a fan of your dad's green smoothies and would
+    much rather have a fizzy soda. I'll remember that.
+  image_prompt: A first-person perspective photo showing a hand pushing away a tall
+    glass filled with a thick, unappetizing green liquid. In the background, a can
+    of cola is visible on the kitchen counter. The hand pushing the glass away has
+    a chunky digital watch on the wrist.
+  image_id: turn_6_hates_smoothies
+- turn: 7
+  log_type: knowledge
+  user_input: Just a heads up, I say what I think. My parents say I'm 'blunt' and
+    it gets me in trouble, but I don't see the point in wasting time with words. Just
+    get to it, you know?
+  assistant_response: Understood. You have a direct and blunt communication style
+    and prefer to be to-the-point. I've made a note of this.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: Spent the whole afternoon watching pro skate comps on YouTube. Trying
+    to break down how they land those gnarly kickflips. Check out the video I was
+    watching. [IMAGE]
+  assistant_response: Cool. So you watch professional skate videos on YouTube to learn
+    new tricks. I've added this to your hobbies.
+  image_prompt: A photo of a laptop screen, angled to be easily readable. The screen
+    is playing a YouTube video of a professional skateboarder in mid-air, performing
+    a complex trick at a competition. The video is paused. Casey's reflection is faintly
+    visible on the screen, showing her focused expression.
+  image_id: turn_8_skate_videos
+- turn: 9
+  log_type: event
+  user_input: So, I messed up. Was trying to grind the curb and totally bailed...
+    right into Mr. Henderson's garden. He's so mad, I crushed his stupid prize petunias.
+    Here's the damage. [IMAGE]
+  assistant_response: 'Oh no. I''ve recorded this event: you accidentally ruined your
+    neighbor Mr. Henderson''s prize petunias with your skateboard and he is very angry
+    about it.'
+  image_prompt: A photo taken from a low angle, showing a skateboard lying amidst
+    a patch of crushed and flattened purple petunia flowers in a neat garden bed.
+    In the background, a grumpy, elderly man (Mr. Henderson) is visible, standing
+    on his porch with his arms crossed, glaring.
+  image_id: turn_9_petunia_incident
+- turn: 10
+  log_type: event
+  user_input: Well, this is lame. I was trying that new trick and fell pretty hard.
+    My wrist is sprained, so I'm stuck inside for a while. It's so boring. Look at
+    this stupid brace. [IMAGE]
+  assistant_response: That's rough, Casey. I've noted that you recently sprained your
+    wrist while skateboarding and are now recovering indoors. Hope you feel better
+    soon.
+  image_prompt: A close-up photo of Casey Miller's left arm and wrist in a medical
+    brace. Her signature chunky digital watch has been awkwardly strapped over the
+    brace. She's sitting on her bed in her room, looking frustrated and bored.
+  image_id: turn_10_sprained_wrist
+- turn: 11
+  log_type: event
+  user_input: Some older kids were giving Leo a hard time at the park today. Even
+    with my sprained wrist, I had to step in. They backed off pretty quick. He's still
+    annoying, but no one messes with my brother.
+  assistant_response: I see. Even though your wrist is injured, you stepped in to
+    defend your brother Leo from bullies at the park. I've recorded this protective
+    moment.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: My parents' idea of a 'reward' for my school report was taking me to
+    this super fancy, quiet restaurant. It was awful. I was so bored. Here's a picture
+    of the fancy, gross food. [IMAGE] I would've rather had pizza.
+  assistant_response: 'Sounds like that wasn''t your kind of place. I''ve noted the
+    event: as a reward, you went to a formal restaurant with your parents and found
+    it extremely boring, preferring something like pizza instead.'
+  image_prompt: A photo of a plate of fancy, gourmet food at an upscale restaurant.
+    The portion is small and artistically arranged with drizzles of sauce. The background
+    shows a formal dining setting with white tablecloths and dim lighting. The photo
+    is taken from the perspective of someone who is clearly unimpressed.
+  image_id: turn_12_fancy_dinner

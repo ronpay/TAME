@@ -1,0 +1,140 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, let's get you set up with some info about my work. I'm a Lead UX
+    Designer. My whole approach is being super meticulous and always putting the user
+    first. Here’s a picture of me at my desk, in the zone. [IMAGE]
+  assistant_response: 'Understood, Serena. I''ve logged your role as Lead UX Designer
+    and your core work philosophy: meticulous and user-focused. Thanks for the photo.'
+  image_prompt: A polished, professional photo of Serena Kim, a Korean-American woman
+    in her early 30s with impeccably styled, shoulder-length dark brown hair. She
+    is at her minimalist, organized desk, sketching a user interface on a tablet.
+    Her expression is focused and calm. She's wearing a chic silk blouse.
+  image_id: turn_1_work_desk
+- turn: 2
+  log_type: knowledge
+  user_input: Just so you know for future reference, I absolutely love artisan coffee
+    from small, independent cafes. But I can't stand those overly sweet, artificial
+    energy drinks. They're the worst.
+  assistant_response: Got it. A strong preference for artisan coffee and a dislike
+    for sugary energy drinks. I've made a note of that.
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: Here's something about my boss, David Chen. We're actually very aligned
+    on our vision for creating elegant products. The main point of friction is that
+    he's always pushing for super aggressive timelines. Here's a photo of us from
+    a recent planning meeting. [IMAGE]
+  assistant_response: Okay, I understand the dynamic with your boss, David Chen. You
+    share a product vision but often clash over his demanding timelines. I've saved
+    this context.
+  image_prompt: A candid office photo. Serena Kim and a man, David Chen, are standing
+    in front of a whiteboard covered in flowcharts. Serena looks thoughtful and is
+    listening, while David is pointing at the board, looking driven and slightly impatient.
+    The atmosphere is professional but intense.
+  image_id: turn_3_david_chen_meeting
+- turn: 4
+  log_type: knowledge
+  user_input: I wanted you to understand my core design philosophy. I absolutely hate
+    cluttered, chaotic interfaces. Minimalism, clarity, and elegance are what I strive
+    for. This is a screenshot of a design I'm particularly proud of. [IMAGE]
+  assistant_response: 'Thank you for sharing. I''ve noted your core design philosophy:
+    a preference for minimalist and elegant interfaces and a strong dislike for cluttered
+    ones. I''ve saved the example design.'
+  image_prompt: A screenshot of an extremely clean and minimalist web application
+    dashboard. It features a lot of white space, a simple color palette of muted tones,
+    elegant typography, and only a few essential data visualizations. The design feels
+    calm and intuitive.
+  image_id: turn_4_minimalist_design
+- turn: 5
+  log_type: knowledge
+  user_input: Let me tell you about Leo Petrov, our lead engineer. We have this friendly
+    but intense rivalry. We both respect each other immensely, but we're constantly
+    debating design purity versus engineering feasibility. It keeps us both sharp.
+  assistant_response: Interesting dynamic. I've noted your relationship with Leo Petrov
+    as a 'friendly rivalry' rooted in mutual respect but with constant debate between
+    design and engineering perspectives.
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: This is my younger sister, Chloe. [IMAGE] She's a barista and my absolute
+    emotional anchor. She's the one who reminds me to step away from work and just
+    live a little.
+  assistant_response: She sounds wonderful. I've recorded that your younger sister
+    is Chloe, a barista, and that she's a very important, grounding person in your
+    life.
+  image_prompt: A warm, candid photo of Serena Kim and her younger sister, Chloe,
+    sitting at an outdoor cafe. Chloe, who looks more carefree, is laughing. Serena
+    is smiling gently at her. They both have a cup of coffee. Serena is wearing her
+    ginkgo leaf necklace.
+  image_id: turn_6_sister_chloe
+- turn: 7
+  log_type: knowledge
+  user_input: Speaking of my sister, this necklace I always wear was a gift from her.
+    [IMAGE] It's a silver ginkgo leaf. It's really special to me.
+  assistant_response: That's a lovely detail. I've noted that your silver ginkgo leaf
+    necklace is a significant gift from your sister, Chloe.
+  image_prompt: A close-up, detailed photo focusing on a delicate silver necklace
+    worn by Serena Kim. The pendant is a beautifully crafted ginkgo leaf. The photo
+    has a soft, warm light.
+  image_id: turn_7_ginkgo_necklace
+- turn: 8
+  log_type: knowledge
+  user_input: When I'm really stressed, my favorite way to unwind is with pottery.
+    It's so therapeutic to get my hands dirty and create something tangible. Here's
+    a pot I made last month. [IMAGE]
+  assistant_response: That's a great way to de-stress. I've added pottery to your
+    hobbies. The pot looks beautiful.
+  image_prompt: A photo of Serena's hands, lightly dusted with dry clay, carefully
+    shaping a small pot on a pottery wheel. The setting is a bright, airy studio.
+    The focus is on the craft and the calming nature of the activity.
+  image_id: turn_8_pottery_hobby
+- turn: 9
+  log_type: event
+  user_input: Ugh, work is insane right now. We have this huge project, codenamed
+    'Project Nightingale', and the deadline is ridiculously tight. David is putting
+    immense pressure on my team to deliver.
+  assistant_response: I've logged this. 'Project Nightingale' has a tight deadline,
+    and your boss, David, is applying significant pressure. This sounds stressful.
+  image_prompt: null
+  image_id: null
+- turn: 10
+  log_type: event
+  user_input: Had a really tough meeting today with Leo Petrov about 'Project Nightingale'.
+    I presented this mockup, [IMAGE] and he called my design 'beautiful but impractical
+    to build on time'. It was a classic, heated me vs. Leo debate.
+  assistant_response: I've recorded this event. A heated debate with Leo, who found
+    your 'Project Nightingale' mockup impractical for the current timeline. I've saved
+    the mockup image for context.
+  image_prompt: A close-up shot of a sleek, minimalist mobile app interface on a tablet
+    screen. The design is clean with a lot of white space, labeled 'Project Nightingale
+    - Dashboard v3'. The tablet is on a dark meeting room table, conveying a serious
+    tone.
+  image_id: turn_10_nightingale_mockup
+- turn: 11
+  log_type: event
+  user_input: I've been working so late on 'Project Nightingale' that my diet has
+    gone out the window. Look at my desk right now. [IMAGE] I've been surviving on
+    vending machine snacks and these awful canned sodas. I feel so sluggish.
+  assistant_response: I see. The pressure from the 'Project Nightingale' deadline
+    has led you to eat snacks and drink sodas from the vending machine, despite your
+    dislike for them. I hope things ease up soon.
+  image_prompt: A first-person view of a cluttered corner of an office desk at night.
+    There are empty wrappers from chips, a half-eaten granola bar, and two cans of
+    a generic-brand soda next to a laptop displaying complex UI designs. The lighting
+    is harsh and artificial.
+  image_id: turn_11_late_night_snacks
+- turn: 12
+  log_type: event
+  user_input: Just when I was about to lose my mind, my sister Chloe showed up at
+    the office. She brought me a real coffee—my favorite—and dragged me outside for
+    a 15-minute walk. It was exactly what I needed. [IMAGE]
+  assistant_response: That sounds like a perfect intervention. I've noted that Chloe
+    visited you at the office, brought you artisan coffee, and made you take a refreshing
+    break from the 'Project Nightingale' stress.
+  image_prompt: A photo taken from Serena's perspective, looking down at her hand
+    holding a beautifully made latte in a craft paper cup. In the background, out
+    of focus, are the legs of her sister Chloe and a city park path, suggesting a
+    brief walk away from the office.
+  image_id: turn_12_chloe_coffee_rescue

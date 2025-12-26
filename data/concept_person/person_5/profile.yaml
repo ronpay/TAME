@@ -1,0 +1,106 @@
+concept_id: person_002
+name: "Kenji Tanaka"
+
+identity:
+  age_group: "Early 40s"
+  gender: "Male"
+  occupation: "Senior Software Architect"
+  nationality: "Japanese-American"
+
+appearance:
+  summary: "A man in his early 40s, typically seen in business-casual attire like a polo shirt or button-down. He has a kind but often tired face, a result of long hours at work. Short, neat black hair and a stocky build."
+
+  key_visual_features:
+    - "Short, neatly-combed black hair"
+    - "Expressive eyes that crinkle at the corners when he smiles genuinely"
+    - "A small, faded scar above his right eyebrow from a childhood cycling accident"
+    - "Almost always wears a high-end but understated smartwatch"
+    - "A habit of massaging his temples when concentrating or stressed"
+
+behavior:
+  personality_traits:
+    - "Meticulous and detail-oriented in his work"
+    - "Calm and reserved on the surface, but carries a lot of internal stress"
+    - "Values efficiency and logic, dislikes unstructured chaos"
+    - "Has a surprising, almost childlike appreciation for simple pleasures"
+    - "Loyal and protective of his small team at work"
+
+  communication_style:
+    - "Prefers structured communication like scheduled meetings and detailed emails"
+    - "Can be very blunt and direct when discussing technical issues"
+    - "Uses analogies from engineering or architecture to explain complex problems"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Building intricate model kits (e.g., ships, Gundam) to de-stress"
+        - "Quiet weekend mornings spent on landscape photography"
+        - "Listening to classical jazz vinyl records"
+      hates:
+        - "Disorganized meetings with no clear agenda"
+        - "Loud, chaotic social gatherings or company mixers"
+        - "Mindless reality TV shows"
+
+    food:
+      loves:
+        - "Classic American hot dogs with all the toppings"
+        - "Greasy spoon diner breakfasts (pancakes, bacon, eggs)"
+        - "A simple, cold beer after a long week"
+      hates:
+        - "Pretentious fine-dining with tiny portions and foam"
+        - "Kale smoothies and 'health' bars that taste like cardboard"
+        - "Overly complex, deconstructed dishes"
+
+    media:
+      loves:
+        - "Old black-and-white samurai films (e.g., Kurosawa)"
+        - "Technical journals and engineering blogs"
+      hates:
+        - "Modern blockbuster action movies with thin plots"
+        - "Celebrity gossip magazines and websites"
+
+relationships:
+  - name: "Maria Flores"
+    relation: "Lead Project Manager"
+    dynamic: "A relationship of mutual professional respect, but often strained by deadlines. Maria pushes for speed, Kenji pushes for stability and quality, leading to frequent friction."
+  - name: "David Chen"
+    relation: "Junior Developer / Mentee"
+    dynamic: "Kenji is a patient but demanding mentor to David, seeing a lot of his younger self in him and wanting him to succeed."
+  - name: "Emily Tanaka"
+    relation: "Daughter (College Student)"
+    dynamic: "He adores her but struggles to connect with her fast-paced, social media-driven world. He often worries he's a 'boring' dad."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Kenji's job as a Senior Software Architect and his meticulous nature."
+    - "Instruction: Introduce his love for simple, 'unhealthy' food like hot dogs and his dislike for pretentious 'health' food like kale smoothies."
+    - "Instruction: Introduce his main hobby of building complex model kits as a way to manage his stress."
+    - "Instruction: Introduce his relationship with his daughter, Emily, and his feeling of being disconnected from her interests."
+    - "Instruction: Introduce his professional but tense relationship with the project manager, Maria Flores."
+    - "Instruction: Introduce his preference for quiet media like old samurai films and his dislike for loud blockbuster movies."
+    - "Instruction: Introduce his mentorship of the junior developer, David Chen."
+    - "Instruction: Introduce his strong dislike for unstructured social events like company parties."
+
+  event:
+    - "Instruction: Introduce a recent event where a critical project deployment is at risk due to a major, unexpected bug, causing Kenji and Maria to have several tense arguments."
+    - "Instruction: Introduce a recent photo showing Kenji looking completely happy and relaxed while eating a fully-loaded hot dog at a park on a Saturday."
+    - "Instruction: Introduce a recent, awkward phone call with his daughter Emily, where he tried to talk about his work, and she tried to talk about a TikTok trend, with neither understanding the other."
+    - "Instruction: Introduce a recent event where Kenji was forced to attend a mandatory company mixer and left after only 20 minutes because he found the noise and small talk unbearable."
+
+simple_questions:
+  - "Draft: Ask what Kenji does for a living."
+  - "Draft: Ask what Kenji was seen eating in a recent photo that made him happy."
+  - "Draft: Ask what kind of movies Kenji enjoys watching."
+  - "Draft: Ask why Kenji has been arguing with his colleague Maria recently."
+  - "Draft: Ask about Kenji's relationship with his mentee, David Chen."
+  - "Draft: Ask how Kenji reacted to the recent company mixer."
+  - "Draft: Ask what hobby Kenji uses to relax."
+  - "Draft: Ask about the recent phone call between Kenji and his daughter Emily."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining the paradox: Why would a meticulous, logical software architect who hates chaos find so much joy in a messy, simple hot dog? The user must connect his high-stress job (recent bug event) with his need for simple, non-intellectual pleasures as an escape."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Maria wanted to apologize to Kenji for a tense week by taking him out, would a loud, popular sports bar be a good idea? The user must infer 'no' by combining his long-term hatred of loud places with his current work stress."
+  - "Draft: [State Recognition] Describe a scene of Kenji at his desk late at night, surrounded by schematics, but he's carefully gluing a tiny piece onto a model ship. Ask what this tells you about his current state. The user must connect his coping mechanism (model kits) with the recent project crisis to deduce he is under extreme stress."
+  - "Draft: [Relationship Dynamics] Pose a question about Kenji's daughter: Given their recent awkward phone call, what kind of activity could Kenji suggest that might actually help them connect? The user should avoid his interests (samurai films) and her interests (TikTok) and suggest a neutral, simple activity like going for a walk or, ironically, getting hot dogs at the park."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: The high-stress project is finally over. What would be the perfect 'Kenji-style' weekend to recover? The answer should reject typical choices (party, fancy dinner) and suggest something like a quiet day for photography, a trip to his favorite diner, and uninterrupted time to work on his models."
+  - "Draft: [Conflict Resolution] Pose a question on communication: Kenji needs to explain the complex bug to a non-technical executive. How should he approach this, given his default blunt style? The user must recall his skill with analogies and suggest he use a simple architectural or engineering metaphor instead of technical jargon."

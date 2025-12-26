@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "Hey, check out Serena's desk in this picture [IMAGE]. I'm a bit confused. I thought she couldn't stand sugary drinks and junk food. What's going on here?"
+  image_prompt: "A first-person view of a cluttered corner of an office desk at night. There are empty wrappers from chips, a half-eaten granola bar, and two cans of a generic-brand soda next to a laptop displaying complex UI designs. The lighting is harsh and artificial."
+  evaluation_criteria:
+    ideal_answer: "That's a sharp observation. While Serena normally hates sugary drinks (as mentioned in turn 2) and junk food, she's currently under immense pressure because of the 'Project Nightingale' deadline (turn 9). It's highly likely she's eating this purely for convenience because she's working late and has no time for a proper meal (as seen in turn 11), even though it goes completely against her usual preferences."
+    key_points:
+    - "Serena has a long-term dislike for sugary drinks and unhealthy snacks (long-term knowledge from turn 2)."
+    - "She is currently under high pressure from a project deadline (short-term event from turn 9)."
+  options:
+  - "She's probably developed a new taste for snacks and sodas."
+  - "She normally hates sugary drinks, but is likely eating them for convenience due to the stressful 'Project Nightingale' deadline."
+  - "Maybe her colleague Leo bought them for her as a joke."
+  - "She must be very hungry to be eating vending machine food."
+  answer: "She normally hates sugary drinks, but is likely eating them for convenience due to the stressful 'Project Nightingale' deadline."
+  image_id: cq_1_deadline_snacks
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "Okay, for 'Project Nightingale', imagine her boss David, wanting to speed things up, showed her this [IMAGE] and said, 'Let's just buy this UI kit to save time.' Based on what you know, how would Serena likely react?"
+  image_prompt: "A screenshot of a generic, cluttered, and busy-looking pre-made user interface kit. It's filled with dozens of mismatched buttons, aggressive colors, multiple fonts, and crowded data tables, representing a maximalist design approach."
+  evaluation_criteria:
+    ideal_answer: "Serena would almost certainly react very negatively and push back strongly. This type of cluttered, chaotic design (as shown in the image) is the exact opposite of her core design philosophy, which values minimalism and elegance (turn 4). Even with the intense timeline pressure from David for 'Project Nightingale' (turn 3 & 9), she would argue that using such a kit would compromise the user experience and product quality, which goes against her meticulous, user-focused approach (turn 1)."
+    key_points:
+    - "Serena has a core design philosophy that hates cluttered interfaces (long-term knowledge from turn 4)."
+    - "David is known for pushing aggressive timelines, especially on the current project (short-term context from turn 3 & 9)."
+  options:
+  - "She would strongly object, as it violates her core design principle of minimalism."
+  - "She would probably agree just to meet the tight deadline from her boss, David."
+  - "She would ask the lead engineer, Leo, if it's feasible to use."
+  - "She would likely quit on the spot because it's so ugly."
+  answer: "She would strongly object, as it violates her core design principle of minimalism."
+  image_id: cq_2_cluttered_uikit
+
+- id: 3
+  type: State Identification
+  question: "I saw Serena and Leo having a discussion like this [IMAGE] over the 'Project Nightingale' designs. It looked pretty intense. Is their working relationship in trouble?"
+  image_prompt: "A photo of Serena and Leo Petrov standing side-by-side in front of a large monitor displaying a complex UI design. They are both pointing at different elements on the screen, engaged in an animated, intense conversation. Their expressions are serious and focused, not angry."
+  evaluation_criteria:
+    ideal_answer: "It's unlikely their relationship is in trouble. This scene is probably a normal and even productive part of their process. It was established that they have a 'friendly but intense rivalry' built on mutual respect (turn 5). The recent heated debate over the 'Project Nightingale' mockup, where Leo called her design impractical, was described as a 'classic' example of their dynamic (turn 10). So, this intensity is characteristic of their collaboration, not a sign of a problem."
+    key_points:
+    - "Serena and Leo's long-term relationship is defined as a 'friendly rivalry' (long-term knowledge from turn 5)."
+    - "They recently had a 'classic, heated debate' about the current project (short-term event from turn 10)."
+  options:
+  - "Yes, the intensity clearly shows their professional relationship is breaking down."
+  - "Not at all; this is likely a normal part of their 'friendly rivalry' and how they collaborate."
+  - "It's only tense because of the pressure David is putting on the project."
+  - "This probably means Serena is looking for a new engineer to work with."
+  answer: "Not at all; this is likely a normal part of their 'friendly rivalry' and how they collaborate."
+  image_id: cq_3_serena_leo_debate
+
+- id: 4
+  type: Causal Inference / Relationship Dynamics
+  question: "Chloe sent me this photo [IMAGE] from when she visited Serena at work. It seems like a nice gesture, but based on everything, why was this particular visit so significant?"
+  image_prompt: "A photo taken from Serena's perspective, looking down at her hand holding a beautifully made latte in a craft paper cup. In the background, out of focus, are the legs of her sister Chloe and a city park path, suggesting a brief walk away from the office."
+  evaluation_criteria:
+    ideal_answer: "This visit was particularly significant because of its timing and purpose. Serena was in a period of extreme stress from the 'Project Nightingale' deadline (turn 9), leading her to neglect her well-being (turn 11). Chloe, who is Serena's 'emotional anchor' (turn 6), didn't just bring a coffee; she intervened. By bringing an artisan coffee (which Serena loves, turn 2) and forcing her to take a walk (turn 12), Chloe was actively pulling Serena away from the source of her stress and providing a moment of relief, fulfilling her role as the person who reminds Serena to 'live a little'."
+    key_points:
+    - "Chloe is Serena's 'emotional anchor' (long-term knowledge from turn 6)."
+    - "Serena was in a state of high stress and self-neglect due to work (short-term event from turn 9 & 11)."
+  options:
+  - "It was significant because Chloe, her 'emotional anchor', intervened during a period of high work stress."
+  - "It was just a regular family visit because Chloe works nearby."
+  - "It was important because Serena had forgotten her wallet and couldn't buy her own coffee."
+  - "Chloe was likely worried after hearing Serena's debate with Leo."
+  answer: "It was significant because Chloe, her 'emotional anchor', intervened during a period of high work stress."
+  image_id: cq_4_chloe_rescue_visit
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "'Project Nightingale' is finally done! I want to take Serena out to celebrate. A friend suggested a huge launch party at a club like this [IMAGE]. Based on what she's like, is that a good idea for her?"
+  image_prompt: "A photo from inside a packed, noisy nightclub. People are cheering and dancing, confetti is in the air. The vibe is high-energy, chaotic, and loud."
+  evaluation_criteria:
+    ideal_answer: "That's a nice thought, but it's probably not the best way for Serena to celebrate. After a stressful project like 'Nightingale' (turn 9), she'd likely want to decompress. Her hobby is pottery, which she finds therapeutic and uses to unwind (turn 8), and her design philosophy is all about minimalism and calm (turn 4). A loud, chaotic club is the opposite of that. A much better recommendation would be something quiet and creative, like a pottery class or visiting a modern art gallery."
+    key_points:
+    - "Serena's established way of de-stressing is pottery, a calm activity (long-term knowledge from turn 8)."
+    - "She just finished a highly stressful project and would likely prefer a relaxing activity over a high-energy one (inference from turn 9)."
+  options:
+  - "Yes, a big party is a great way for anyone to blow off steam after a tough project."
+  - "It's a bad idea; she'd likely prefer a calm, creative activity like pottery to de-stress."
+  - "She would only go if her boss David insisted the whole team be there."
+  - "It depends on the music; if they play indie artists she might enjoy it."
+  answer: "It's a bad idea; she'd likely prefer a calm, creative activity like pottery to de-stress."
+  image_id: cq_5_celebration_party
+
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: "After that last debate where Leo called her design 'impractical' [IMAGE], what's the best strategy for Serena to convince him in their next meeting? How can she win him over?"
+  image_prompt: "A split-screen image. On the left is a beautiful, sleek UI mockup labeled 'Project Nightingale'. On the right is a screen filled with dense, complex programming code, representing engineering challenges."
+  evaluation_criteria:
+    ideal_answer: "To win Leo over, Serena needs to directly address his core concern: 'engineering feasibility' (turn 5). Simply defending her design's beauty won't work, as he already acknowledged that but called it 'impractical to build on time' (turn 10). The best strategy would be for her to use her persuasive skills not just to present mockups, but to come prepared with evidence that tackles his point. She should present a simplified prototype or performance data to demonstrate that her design is, in fact, practical and feasible within their constraints."
+    key_points:
+    - "Leo's main point of contention is 'engineering feasibility' (long-term knowledge from turn 5)."
+    - "He specifically criticized her recent design as 'impractical to build on time' (short-term event from turn 10)."
+  options:
+  - "She should go to her boss, David, and have him force Leo to build it."
+  - "She needs to explain her user-focused vision more passionately and articulately."
+  - "She should present a prototype or data to prove her design is feasible, not just beautiful."
+  - "She should make the design even more elegant and minimalist to prove her point."
+  answer: "She should present a prototype or data to prove her design is feasible, not just beautiful."
+  image_id: cq_6_design_vs_code

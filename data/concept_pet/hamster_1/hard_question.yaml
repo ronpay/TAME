@@ -1,0 +1,182 @@
+- id: 1
+  type: Causal Inference
+  question: He's been so restless and agitated for the last couple of nights, just
+    pacing around. Look at this picture from yesterday [IMAGE]. Any idea what's causing
+    this sudden change in his behavior?
+  image_prompt: A photo of Pip, the golden-brown hamster, pacing restlessly back and
+    forth inside his cage. In the background, his silent-spin running wheel is clearly
+    visible, but it's tilted at an unnatural angle, obviously broken and unusable.
+  evaluation_criteria:
+    ideal_answer: Pip is likely so agitated because his silent wheel is broken. You've
+      mentioned that running on his wheel for a long time is a major part of his nightly
+      routine, so being unable to do that for the past two nights has made him very
+      restless.
+    key_points:
+    - Running on his wheel is Pip's essential nightly routine (long-term information).
+    - His wheel recently broke, preventing this activity and causing his current agitation
+      (short-term information).
+  options:
+  - He's likely still stressed from the recent cage cleaning where you moved his main
+    food hoard, making him feel insecure in his territory.
+  - His agitation is likely due to his broken silent wheel, as running on it is his
+    primary nightly activity and he's been unable to do so.
+  - This behavior probably stems from the stress of being held for too long by your
+    cousin, which made him feel unsafe in his cage.
+  - His restlessness is probably because his ceramic house was replaced with a plastic
+    one, disrupting his sense of security and routine.
+  answer: His agitation is likely due to his broken silent wheel, as running on it
+    is his primary nightly activity and he's been unable to do so.
+  image_id: cq_1_pacing_broken_wheel
+- id: 2
+  type: Causal Inference
+  question: Poor Pip is hiding and won't come out, even for this apple slice which
+    he usually loves. Here's a picture [IMAGE]. What could be so scary that he's refusing
+    a treat?
+  image_prompt: A photo looking down into a hamster cage with clean bedding. A small,
+    fresh slice of apple sits untouched near the entrance to a burrow. Only Pip's
+    nose and a bit of his golden-brown fur are visible as he peeks out from deep within
+    the bedding pile, looking scared.
+  evaluation_criteria:
+    ideal_answer: Given that Pip is hiding and refusing a treat, it's almost certainly
+      because you were just using the vacuum cleaner. You've established that the
+      vacuum is his 'arch-nemesis' and he hates loud noises, so this extreme fear
+      is consistent with his known personality.
+    key_points:
+    - Pip has a long-standing, intense hatred for the sound of the vacuum cleaner
+      (long-term information).
+    - The vacuum was just used, and his current extreme fear (hiding, refusing a treat)
+      is a direct result of that event (short-term information).
+  options:
+  - He's likely terrified of the vacuum cleaner's noise, a fear so strong it overrides
+    his love for treats like apples.
+  - He's feeling unwell and has lost his appetite due to the general stress from his
+    silent wheel being broken for two nights.
+  - He's still upset about his food hoard being moved during the cleaning, so he's
+    hiding to protect his new stash from being taken.
+  - The stress from being held by your cousin may have made him generally fearful
+    of anyone approaching the cage, even with a treat.
+  answer: He's likely terrified of the vacuum cleaner's noise, a fear so strong it
+    overrides his love for treats like apples.
+  image_id: cq_2_hiding_from_vacuum
+- id: 3
+  type: State Identification
+  question: I had to swap out his cracked ceramic house for this plastic igloo for
+    now [IMAGE], but he's completely ignoring it and sleeping in a corner instead.
+    Why won't he use it?
+  image_prompt: A photo of a hamster cage setup. A new, brightly colored plastic igloo-style
+    hideout is prominently featured. Pip the hamster is seen sleeping in a corner
+    of the cage, burrowed into the bedding, clearly ignoring the new house.
+  evaluation_criteria:
+    ideal_answer: Pip is ignoring the new plastic igloo because it's not his beloved
+      purple-roofed ceramic house. You've established that the ceramic house is his
+      most prized possession, so this sudden replacement, even if temporary, is unwelcome
+      to him.
+    key_points:
+    - Pip has a strong long-term attachment to his specific purple-roofed ceramic
+      house (long-term information).
+    - The house was recently replaced by a plastic igloo, which he is now ignoring
+      (short-term information).
+  options:
+  - He prefers to sleep in deep burrows he creates himself rather than in any kind
+    of pre-made structure, plastic or ceramic.
+  - He is likely ignoring the igloo because he has a strong attachment to his specific
+    purple-roofed ceramic house, and this is an unwelcome replacement.
+  - He is likely feeling too agitated from his broken wheel to investigate new items,
+    preferring the familiarity of a simple burrow.
+  - He probably dislikes the smell of the plastic and finds the material too cold
+    compared to the ceramic house he was used to.
+  answer: He is likely ignoring the igloo because he has a strong attachment to his
+    specific purple-roofed ceramic house, and this is an unwelcome replacement.
+  image_id: cq_3_ignoring_igloo
+- id: 4
+  type: Counterfactual Reasoning
+  question: Last night I moved his food stash while cleaning, and he was a frantic
+    mess all night re-hoarding, like in this picture [IMAGE]. What do you think would
+    have happened if I'd cleaned the cage but managed to leave his main food hoard
+    exactly where it was?
+  image_prompt: A photo of Pip the hamster in a freshly cleaned cage. His cheek pouches
+    are stuffed full of food. He is captured mid-action, frantically moving pieces
+    of food mix into a new corner, creating a large pile. He looks stressed and single-minded.
+  evaluation_criteria:
+    ideal_answer: Based on his known personality, if you had cleaned the cage but
+      left his main food hoard undisturbed, he likely would have been much calmer.
+      The frantic, all-night re-hoarding you saw was a direct reaction to his stash
+      being moved, which you've noted makes him very grumpy. Without that trigger,
+      he probably would have just gone about his normal nightly routine.
+    key_points:
+    - Pip gets very grumpy and compulsively re-hoards when his main food stash is
+      moved (long-term information).
+    - Last night's frantic behavior was caused by his hoard being moved, so removing
+      that cause would have resulted in normal, calm behavior (short-term information
+      contrasted with a counterfactual).
+  options:
+  - He would have been much calmer and likely gone about his normal routine, as his
+    frantic behavior was a direct result of his main food hoard being moved.
+  - He would still have been somewhat agitated, as any change to his cage environment,
+    even just replacing the bedding, can be stressful for him.
+  - He would have spent the night re-scenting the entire cage to mark his new territory,
+    but without the frantic hoarding behavior.
+  - His behavior wouldn't have changed, as the stress was likely caused by the lingering
+    smell of cleaning products, not the location of his food.
+  answer: He would have been much calmer and likely gone about his normal routine,
+    as his frantic behavior was a direct result of his main food hoard being moved.
+  image_id: cq_4_frantic_rehoarding
+- id: 5
+  type: Causal Inference
+  question: I know hamsters are supposed to love treats, but I bought him these yogurt
+    drops [IMAGE] and he completely snubbed them. Why would he refuse a treat?
+  image_prompt: A photo taken inside a hamster cage. On the clean bedding, there is
+    a small pile of colorful (pink, yellow, green) yogurt drops. Pip, the hamster,
+    is shown in the frame turning his back on the treats and walking away, looking
+    completely uninterested.
+  evaluation_criteria:
+    ideal_answer: While hamsters are known for hoarding food, you've specifically
+      mentioned in the past that Pip has an intense dislike for sugary yogurt drops.
+      His recent refusal to eat the ones you offered is perfectly in line with this
+      very specific preference.
+    key_points:
+    - Pip has a specific, long-standing hatred for sugary yogurt drops (long-term
+      information).
+    - He recently refused these exact treats, which confirms his known preference
+      rather than being a contradiction (short-term information).
+  options:
+  - He didn't eat them because his cheek pouches were already full, and he prioritizes
+    hoarding his main food mix over eating new treats on the spot.
+  - He prefers natural treats like seeds and apple, and likely found the artificial
+    smell of the colorful yogurt drops unappealing.
+  - His refusal is consistent with his known strong dislike for the sugary, brightly
+    colored yogurt drops sold in pet stores.
+  - He might be refusing all new foods right now due to the combined stress of his
+    broken wheel and the recent cage cleaning.
+  answer: His refusal is consistent with his known strong dislike for the sugary,
+    brightly colored yogurt drops sold in pet stores.
+  image_id: cq_5_yogurt_rejection
+- id: 6
+  type: Counterfactual Reasoning
+  question: Since Pip's wheel is broken and he's so restless, I was thinking of getting
+    him a new toy to keep him busy. A friend suggested this plastic ball with a bell
+    inside [IMAGE]. Given his current agitated state, do you think this would be a
+    good distraction for him?
+  image_prompt: A person's hand holding a brightly colored, transparent plastic hamster
+    ball. A small metal bell is clearly visible inside the ball.
+  evaluation_criteria:
+    ideal_answer: That's probably not the best choice for him, especially right now.
+      You've mentioned before that Pip dislikes fancy, noisy plastic toys and prefers
+      simple things like cardboard tubes. A loud bell would likely add more stress
+      to his current agitated state rather than calming him down.
+    key_points:
+    - Pip has a long-term dislike for noisy plastic toys (long-term information).
+    - He is currently agitated because his wheel is broken, so a stressful toy would
+      be a bad choice for distraction (short-term information).
+  options:
+  - No, this is a poor choice because he is known to dislike loud, plastic toys, and
+    the bell would likely increase his current stress.
+  - Yes, the noise and movement could be a good mental distraction, helping him burn
+    off the energy he can't use on his wheel.
+  - It might work temporarily; while he dislikes noisy toys, his current restlessness
+    might make him desperate enough for any new stimulation.
+  - No, these balls can be unsafe as they don't allow for proper ventilation and prevent
+    him from using his whiskers to navigate properly.
+  answer: No, this is a poor choice because he is known to dislike loud, plastic toys,
+    and the bell would likely increase his current stress.
+  image_id: cq_6_noisy_ball_toy

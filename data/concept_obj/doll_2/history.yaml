@@ -1,0 +1,153 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to introduce you to someone very important. This is Captain
+    Finn. [IMAGE] He was a gift from my best friend right after they moved to another
+    city for college. It was a really tough time, so he was kind of a 'hug-by-mail'.
+  assistant_response: Hello, Captain Finn. A 'hug-by-mail' from a best friend during
+    a difficult transition. That sounds incredibly meaningful. I've saved this origin
+    story.
+  image_prompt: A high-quality photo of 'Captain Finn', a large blue stuffed shark,
+    sitting on a neatly made bed. The shark looks well-loved, slightly flattened from
+    use. Soft, warm light from a nearby window illuminates the scene.
+  image_id: turn_1_captain_finn_intro
+- turn: 2
+  log_type: knowledge
+  user_input: Let me show you some of his battle scars. [IMAGE] This patch on his
+    tail fin is from an old band t-shirt I loved, my sewing skills were terrible back
+    then. And see that little scratch on his right eye? That happened during a move,
+    it makes him look like he's winking.
+  assistant_response: 'Got it. I''ve noted his defining features: a hand-sewn patch
+    on the tail fin from a special t-shirt, and a scratch on his right eye from a
+    past move. These details tell a story.'
+  image_prompt: A close-up shot focusing on the tail fin of the blue stuffed shark,
+    'Captain Finn'. A clumsy, hand-stitched patch made from a faded black band t-shirt
+    is clearly visible. The focus then shifts to the shark's plastic right eye, showing
+    a subtle but distinct scratch.
+  image_id: turn_2_scars_details
+- turn: 3
+  log_type: knowledge
+  user_input: He's not just a stuffed animal, you know. At night, he's my pillow,
+    but during the day, he's more of an emotional guardian. A silent, steady presence.
+  assistant_response: 'I understand. Captain Finn serves a dual role: a functional
+    pillow for sleeping and a symbolic emotional guardian. I''ve recorded his importance
+    to you.'
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: If he had a personality, I'd say he's very calm and wise. A patient
+    listener who never judges. Loyal to the end.
+  assistant_response: 'That''s a lovely way to think of him. I''ve noted his projected
+    personality: calm, wise, and a loyal, non-judgmental listener.'
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: One thing he absolutely HATES, though, is the washing machine. We tried
+    it once. It was a terrifying, dizzying experience for him, and he was never the
+    same. We don't talk about it.
+  assistant_response: Understood. A traumatic experience with the washing machine
+    has left a lasting impression. I've marked this down as a strong aversion.
+  image_prompt: A fisheye lens perspective from inside a washing machine, looking
+    out through the glass door. The blue stuffed shark, 'Captain Finn', is tumbling
+    around amidst soap suds and water, his expression conveying panic and disorientation.
+    The image is slightly blurred to suggest motion.
+  image_id: turn_5_washing_machine_trauma
+- turn: 6
+  log_type: knowledge
+  user_input: I remember this one finals week, I was so stressed, pulling all-nighters.
+    He was right there with me the whole time. That faint tea stain on his belly is
+    from when I knocked over my chamomile tea studying. [IMAGE]
+  assistant_response: I see. He was your companion during a stressful finals week,
+    and the faint tea stain is a physical reminder of that time. I've added this memory.
+  image_prompt: A cozy, late-night scene. 'Captain Finn' is propped up against a pile
+    of textbooks on a desk. A desk lamp casts a warm glow. A half-empty mug of tea
+    sits nearby. The focus is on a very faint, small, brownish stain on the shark's
+    white underbelly.
+  image_id: turn_6_finals_week_memory
+- turn: 7
+  log_type: knowledge
+  user_input: It's become a bit of a ritual for me. Every morning before I leave for
+    the day, I make sure to place him properly in the center of my pillow.
+  assistant_response: A daily ritual. Placing Captain Finn in the center of the pillow
+    before you leave. I've noted this habit.
+  image_prompt: A top-down view of a made bed. The user's hands are seen carefully
+    positioning the large blue shark, 'Captain Finn', perfectly in the center of a
+    fluffy white pillow, as if tucking him in.
+  image_id: turn_7_daily_ritual
+- turn: 8
+  log_type: knowledge
+  user_input: Just to be clear about that patch on his tail—it's not just any fabric.
+    It's from my favorite t-shirt from a band called 'Fading Echoes'. That shirt meant
+    a lot to me, so it felt right to use it to patch him up.
+  assistant_response: Thank you for the clarification. The patch is from a meaningful
+    'Fading Echoes' band t-shirt. This adds another layer to his story. I've updated
+    my records.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: It was looking a little flat lately, so I performed some 'surgery'
+    this weekend. I carefully opened a seam and added some fresh stuffing to plump
+    him up. Here's a shot of the operation! [IMAGE]
+  assistant_response: That's very caring of you! I've recorded that you recently performed
+    'surgery' on Captain Finn, personally adding new stuffing to restore his shape.
+  image_prompt: A close-up shot of 'Captain Finn' lying on his side on a blanket.
+    A small seam on his underbelly is open, and a hand is gently pushing fluffy white
+    polyester stuffing inside. A needle and thread are visible nearby, ready for closing.
+  image_id: turn_9_stuffing_surgery
+- turn: 10
+  log_type: event
+  user_input: Some amazing news! The friend who gave me Captain Finn is coming to
+    visit next month! It's been so long.
+  assistant_response: That's wonderful news! I've noted that the friend who gifted
+    you Captain Finn will be visiting next month. A reunion is on the horizon.
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: I was at the store the other day and saw a brand new version of him.
+    Shiny and perfect. I just laughed. There's no way I could ever replace the original
+    Captain Finn.
+  assistant_response: I understand completely. The history and memories you share
+    with Captain Finn make him irreplaceable. I've noted this sentiment.
+  image_prompt: A shot from the user's perspective in a toy store aisle. In the foreground,
+    a brand new, perfectly shaped blue stuffed shark is on a shelf. In the background,
+    slightly out of focus, the user is reflected in a store mirror, smiling fondly.
+  image_id: turn_11_no_replacement
+- turn: 12
+  log_type: event
+  user_input: My little nephew came over and decided it needed to be more
+    of a pirate. He drew a little skull and crossbones on his dorsal fin with a washable
+    marker. [IMAGE] It's actually kind of cute.
+  assistant_response: Haha, an artistic addition! I've recorded that your nephew recently
+    drew a washable pirate flag on Captain Finn's dorsal fin. He's officially a pirate
+    now.
+  image_prompt: A close-up on the dorsal fin of the blue stuffed shark, 'Captain Finn'.
+    A child's drawing of a skull and crossbones, done in black washable marker, is
+    clearly visible on the fin. The lines are wobbly and charming.
+  image_id: turn_12_nephew_art
+- turn: 13
+  log_type: event
+  user_input: Check this out. I was on a video call with my friend—the one who gave
+    him to me—and I had it sitting right here with me. It felt like a little
+    reunion. [IMAGE]
+  assistant_response: That's a beautiful moment. Captain Finn, present for a video
+    call with his original gifter. I've saved this picture of your reunion.
+  image_prompt: A photo taken from over the user's shoulder. A laptop on a desk shows
+    a person on a video call, smiling. Next to the laptop, 'Captain Finn' is propped
+    up, facing the screen as if participating in the call.
+  image_id: turn_13_video_call
+- turn: 14
+  log_type: event
+  user_input: You won't believe what I did last weekend. I left for a short road trip,
+    drove for about ten minutes, and then had to turn around and come all the way
+    back because I had forgotten it on the bed. Couldn't leave my co-pilot
+    behind.
+  assistant_response: A co-pilot is essential! I've recorded that you recently turned
+    back on a trip just to get Captain Finn. It shows how important his presence is
+    to you, even on short journeys.
+  image_prompt: A view from the driver's seat of a car. 'Captain Finn', the blue stuffed
+    shark, is sitting in the passenger seat, secured by a seatbelt. The sun is shining
+    through the windshield as the car moves along a highway.
+  image_id: turn_14_road_trip_copilot

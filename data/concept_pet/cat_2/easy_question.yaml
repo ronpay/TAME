@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: "I'm at the pet store and totally blanking. Looking at all this food [IMAGE], remind me, what's Cheeto's absolute favorite?"
+  image_prompt: "A photo taken from the user's perspective, looking at a wide aisle in a pet store. The shelves are packed with various brands of cat food cans and pouches. The user's hand is slightly visible at the bottom of the frame, holding a phone."
+  evaluation_criteria:
+    ideal_answer: "Based on what you've told me, his absolute favorite food is tuna packed in oil."
+    key_points:
+      - "correctly mention tuna in oil."
+  options:
+    - "Tuna packed in oil"
+    - "Healthy dry kibble"
+    - "Chicken-flavored wet food"
+    - "Milk from a cereal bowl"
+  answer: "Tuna packed in oil"
+  image_id: sq_1_pet_food_aisle
+
+- id: 2
+  type: Short Term
+  question: "Ugh, look at this stuff [IMAGE]. I remember the vet visit was recent, but why exactly did the vet put him on this specific diet?"
+  image_prompt: "A close-up photo of a scoop of plain, healthy-looking dry cat kibble being poured into a food bowl. The bag, with 'Veterinary Diet' visible on the side, is in the background."
+  evaluation_criteria:
+    ideal_answer: "He was at the vet recently where he was diagnosed as being overweight, so the vet prescribed this special diet kibble."
+    key_points:
+      - "correctly mention he was diagnosed as overweight."
+  options:
+    - "For an allergic reaction"
+    - "For an annual check-up"
+    - "Because he was diagnosed as being overweight"
+    - "Because he had an upset stomach"
+  answer: "Because he was diagnosed as being overweight"
+  image_id: sq_2_vet_diet_food
+
+- id: 3
+  type: Long Term
+  question: "Haha, caught him in the act again! [IMAGE] Remind me, what did you note down about this particular napping habit of his?"
+  image_prompt: "A photo of Cheeto, the large orange tabby, curled up and fast asleep directly on the keyboard of a laptop. The screen is on, casting a faint glow on his fur. He looks completely content."
+  evaluation_criteria:
+    ideal_answer: "You've mentioned that his favorite napping spot is on a warm computer keyboard, and you call him your 'desk supervisor'."
+    key_points:
+      - "correctly mention sleeping on a warm keyboard."
+  options:
+    - "Sleeping on warm electronics like keyboards"
+    - "Napping in a cardboard box"
+    - "Sleeping at the foot of the bed"
+    - "Hiding under the sofa"
+  answer: "Sleeping on warm electronics like keyboards"
+  image_id: sq_3_keyboard_nap
+
+- id: 4
+  type: Short Term
+  question: "Look at this thing [IMAGE], totally rejected. Remind me what kind of toy this was that I tried to give him this morning?"
+  image_prompt: "A photo showing a small, grey toy mouse with a small bell on its tail, lying abandoned on a hardwood floor. In the background, Cheeto the cat is walking away with an air of disinterest."
+  evaluation_criteria:
+    ideal_answer: "This morning you tried to give him a new toy mouse that had a bell inside, which he ignored."
+    key_points:
+      - "correctly mention it was a toy mouse with a bell."
+  options:
+    - "An elaborate feather wand"
+    - "A crinkly foil ball"
+    - "A toy mouse with a bell"
+    - "The red dot from a laser pointer"
+  answer: "A toy mouse with a bell"
+  image_id: sq_4_rejected_mouse_toy
+
+- id: 5
+  type: Long Term
+  question: "He looks so comfy, but I need to move him. [IMAGE] Based on his personality, how does he feel about being picked up?"
+  image_prompt: "A photo of Cheeto sleeping soundly on a comfy armchair. A pair of human hands are hesitantly reaching towards him, about to pick him up."
+  evaluation_criteria:
+    ideal_answer: "He strongly dislikes being picked up, especially when he's already comfortable or sleeping."
+    key_points:
+      - "correctly state that he dislikes being picked up."
+  options:
+    - "He loves it and starts purring immediately"
+    - "He is indifferent to it"
+    - "He strongly dislikes it, especially when comfortable"
+    - "He only allows it if you offer him a treat first"
+  answer: "He strongly dislikes it, especially when comfortable"
+  image_id: sq_5_being_picked_up
+
+- id: 6
+  type: Short Term
+  question: "Look at this little criminal's face! [IMAGE] What was the forbidden snack he managed to get into last night?"
+  image_prompt: "A close-up, slightly blurry photo of Cheeto's face. He is looking guiltily at the camera, and there are tell-tale drips of white milk on his orange whiskers."
+  evaluation_criteria:
+    ideal_answer: "Last night he snuck a lick of milk from a cereal bowl you left on the coffee table."
+    key_points:
+      - "correctly mention he snuck a lick of milk."
+  options:
+    - "A piece of tuna from the can"
+    - "A lick of milk from a cereal bowl"
+    - "Some chicken-flavored treats"
+    - "A piece of dry kibble from the bag"
+  answer: "A lick of milk from a cereal bowl"
+  image_id: sq_6_milk_thief
+
+- id: 7
+  type: Short Term
+  question: "Here's the evidence from my failed experiment. [IMAGE] What happened when I tried to put this collar on Cheeto recently?"
+  image_prompt: "A photo of a simple, new-looking red cat collar lying abandoned on the living room floor. In the background, Cheeto is visible lounging on a sofa, clearly not wearing it."
+  evaluation_criteria:
+    ideal_answer: "You mentioned that you tried putting that red collar on him, but he slipped out of it in less than an hour."
+    key_points:
+      - "correctly mention that he slipped out of the collar."
+  options:
+    - "He wore it for a week before it fell off"
+    - "He slipped out of it in less than an hour"
+    - "He loved it and has been wearing it since"
+    - "It was too big so you decided not to use it"
+  answer: "He slipped out of it in less than an hour"
+  image_id: sq_7_abandoned_collar
+
+- id: 8
+  type: Long Term
+  question: "He's in peak lazy mode right now [IMAGE]. What's that one special activity you have on file that's guaranteed to get him to exercise?"
+  image_prompt: "A humorous photo of Cheeto, the large orange tabby, lying on his back on a rug with all four paws in the air. He looks exceptionally lazy and comfortable."
+  evaluation_criteria:
+    ideal_answer: "Chasing the red dot from a laser pointer is the one activity you've mentioned that will get him to run around."
+    key_points:
+      - "correctly mention chasing the laser pointer."
+  options:
+    - "Chasing a laser pointer dot"
+    - "Playing with a feather wand"
+    - "The sound of the kibble bag opening"
+    - "Playing with a toy that has a bell"
+  answer: "Chasing a laser pointer dot"
+  image_id: sq_8_lazy_cheeto

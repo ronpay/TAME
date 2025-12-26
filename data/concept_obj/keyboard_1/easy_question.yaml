@@ -1,0 +1,156 @@
+- id: 1
+  type: Long Term
+  question: Ugh, it's been a tough day with clients. Look at The Controller [IMAGE].
+    Remind me again, what's the full story behind this 'TAKE CONTROL' tag? I need
+    a little motivation.
+  image_prompt: A photo of 'The Controller' keyboard on a desk, with the 'TAKE CONTROL'
+    yellow tag prominently in focus. The lighting is slightly moody, suggesting a
+    long day.
+  evaluation_criteria:
+    ideal_answer: You added the 'TAKE CONTROL' tag on the first day you got the keyboard,
+      right after you were laid off and decided to start your own freelance business.
+      It's a symbol of taking control of your new career path.
+    key_points:
+    - correctly mention it was added after being laid off to symbolize starting a
+      freelance career.
+  options:
+  - You added it after getting laid off, to symbolize starting your freelance business.
+  - It was a keychain that came with the keyboard when you bought it.
+  - A client gave it to you as a gift after hearing your story.
+  - You won it as a prize at your first design competition.
+  answer: You added it after getting laid off, to symbolize starting your freelance
+    business.
+  image_id: sq_1_take_control_story
+- id: 2
+  type: Long Term
+  question: Packing for this trip is making me nervous. See this little mark? [IMAGE]
+    It's The Controller's most famous battle scar. What's the story behind this specific
+    scratch again?
+  image_prompt: A close-up, macro shot of the black aluminum keyboard, with a finger
+    pointing directly at the small, silvery scratch near the USB-C port.
+  evaluation_criteria:
+    ideal_answer: That silvery scratch near the USB port happened when you were hastily
+      packing The Controller for your first-ever design competition.
+    key_points:
+    - correctly mention it happened while packing for the first design competition.
+  options:
+  - It's from when you hastily packed it for your first design competition.
+  - The original 'Enter' key cracked and you had to replace it.
+  - It happened when the old USB cable frayed and you pulled it out.
+  - It's a groove worn down by your watch clasp on the wrist rest.
+  answer: It's from when you hastily packed it for your first design competition.
+  image_id: sq_2_scratch_story
+- id: 3
+  type: Long Term
+  question: I was just typing an email and realized how much I like the feel of this
+    custom key. [IMAGE] Why did I have to make a new 'Enter' key for The Controller
+    in the first place?
+  image_prompt: A photo of the keyboard with a finger pressing the custom, slightly
+    taller 3D-printed 'Enter' key. The difference in height and texture is subtly
+    visible.
+  evaluation_criteria:
+    ideal_answer: You created that custom 'Enter' key because the original one cracked
+      during a frustrating all-nighter.
+    key_points:
+    - correctly mention the original Enter key cracked.
+  options:
+  - The original one cracked during a frustrating all-nighter.
+  - You wanted a key with a custom logo on it for your business.
+  - You damaged the original one while packing for a competition.
+  - You lost the original key while cleaning the keyboard.
+  answer: The original one cracked during a frustrating all-nighter.
+  image_id: sq_3_enter_key_origin
+- id: 4
+  type: Long Term
+  question: I'm looking at 3D printers online, and it's funny to think it all started
+    with this keyboard. [IMAGE] What was the specific skill I had to learn to fix
+    The Controller back then?
+  image_prompt: A photo showing a computer screen with 3D modeling software visible.
+    In the foreground, 'The Controller' keyboard is on the desk, with its custom Enter
+    key in clear view.
+  evaluation_criteria:
+    ideal_answer: You learned basic 3D modeling to print the custom 'Enter' key after
+      the original one broke.
+    key_points:
+    - correctly identify the skill as '3D modeling' or '3D printing'.
+  options:
+  - You learned basic 3D modeling.
+  - You learned graphic design.
+  - You learned to code in Python.
+  - You learned how to solder new cables.
+  answer: You learned basic 3D modeling.
+  image_id: sq_4_learned_skill
+- id: 5
+  type: Short Term
+  question: I just saw an ad for a sleek wireless keyboard. [IMAGE] I know I was thinking
+    about this recently. What was my final decision about getting a new keyboard?
+  image_prompt: A screenshot of an online ad for a modern, minimalist wireless keyboard.
+  evaluation_criteria:
+    ideal_answer: You recently considered buying a new wireless keyboard but decided
+      against it because you value the specific aesthetic of The Controller with its
+      tag and cable.
+    key_points:
+    - correctly state the owner decided against getting a new keyboard.
+  options:
+  - You decided against it to keep The Controller's iconic look.
+  - You decided to buy it and it's arriving next week.
+  - You are looking for one because the wrist rest is broken.
+  - You decided to wait for a holiday sale.
+  answer: You decided against it to keep The Controller's iconic look.
+  image_id: sq_5_new_keyboard_decision
+- id: 6
+  type: Short Term
+  question: I can feel this little crack getting worse. [IMAGE] Which part of my keyboard
+    setup did I note was failing and needs a replacement?
+  image_prompt: A close-up photo of the user's hand resting on the black wrist rest.
+    Their finger is tracing the small crack that has formed near the watch groove.
+  evaluation_criteria:
+    ideal_answer: The black wrist rest has recently developed a crack near the watch
+      groove, and you've been looking for a suitable replacement for it.
+    key_points:
+    - correctly identify the wrist rest as the damaged part.
+  options:
+  - The wrist rest has developed a crack and needs to be replaced.
+  - The braided USB cable was frayed.
+  - The 'Enter' key was broken.
+  - The aluminum frame has a scratch.
+  answer: The wrist rest has developed a crack and needs to be replaced.
+  image_id: sq_6_damaged_part
+- id: 7
+  type: Short Term
+  question: The connection on The Controller has been so solid lately. [IMAGE] What
+    was that part I just replaced last week to fix the flaky connection?
+  image_prompt: A photo of 'The Controller' keyboard. The new yellow-and-black braided
+    cable is neatly arranged and plugged in, looking pristine and vibrant.
+  evaluation_criteria:
+    ideal_answer: You recently replaced the old, frayed yellow-and-black braided cable
+      with an identical new one to ensure a reliable connection.
+    key_points:
+    - correctly identify the braided USB cable as the recently replaced part.
+  options:
+  - You replaced the frayed yellow-and-black braided cable.
+  - You replaced the cracked wrist rest.
+  - You replaced the 'Enter' keycap.
+  - You replaced the key switches under the letter 'C'.
+  answer: You replaced the frayed yellow-and-black braided cable.
+  image_id: sq_7_replaced_part
+- id: 8
+  type: Short Term
+  question: I have another video call with a new client today. [IMAGE] It reminds
+    me of that cool conversation I had last week. Who was I talking to when I explained
+    the story of The Controller's tag?
+  image_prompt: A first-person view of a desk, with 'The Controller' keyboard in the
+    foreground and a laptop open, showing a video conference screen (could be a generic
+    waiting room).
+  evaluation_criteria:
+    ideal_answer: You recently shared the origin story of the 'TAKE CONTROL' tag with
+      a client during a video call.
+    key_points:
+    - correctly identify the person as a client.
+  options:
+  - You explained it to a client during a video call.
+  - You were talking to your friend who is starting her own business.
+  - You told the story to your parents over dinner.
+  - You posted the story on a social media forum.
+  answer: You explained it to a client during a video call.
+  image_id: sq_8_recent_conversation

@@ -1,0 +1,70 @@
+concept_id: cup_1
+name: "The Lavender Lifeline"
+object_profile:
+  type: "Coffee Mug/Thermos"
+  origin_story: "A going-away-to-college gift from the owner's younger sibling. The purple color was the sibling's favorite, a quirky choice that became a daily, tangible reminder of family."
+
+physical_attributes:
+  summary: "A well-loved, purple ceramic mug with a white interior. Its simple, modern shape is overshadowed by clear evidence of a long and cherished history."
+
+  defining_features:
+    - "A small, smooth chip on the rim, a memento from being nervously tapped against teeth while studying for final exams."
+    - "The handle has been carefully glued back on. The seam is visible if you look closely, a testament to a frantic morning drop before a first job interview."
+    - "A faint, permanent coffee ring at the bottom of the white interior that no amount of scrubbing can remove, marking thousands of shared mornings."
+    - "The purple glaze on the side opposite the handle is slightly faded from years of being held in the owner's right hand."
+
+owner_relationship:
+  functional_use: "Primarily for the owner's first cup of coffee every morning. It has also held tea during sickness and, in a moment of desperation, instant soup."
+  sentimental_role: "A steadfast companion. It's a physical link to home and family, a source of quiet comfort, and a silent witness to the owner's personal and professional growth."
+
+  projected_personality:
+    - "Quietly supportive and non-judgmental."
+    - "A bit fragile but resilient, proud of its repaired 'scar'."
+    - "Dependable and steadfast, especially in the morning."
+
+  perceived_preferences:
+    loves:
+      - "The warmth of a fresh pour of dark roast coffee."
+      - "Being hand-washed carefully."
+      - "Quiet mornings with the owner."
+    hates:
+      - "The dishwasher (it's a terrifying, rattling place for a fragile handle)."
+      - "Being left in the sink with other dirty dishes."
+      - "The memory of holding soup (it felt undignified)."
+
+history:
+  knowledge:
+    - "Introduce the mug's origin as a gift from a younger sibling for college."
+    - "Describe the chip on the rim from a stressful exam period."
+    - "Detail the story of the handle breaking before a job interview and the owner gluing it back on."
+    - "Explain its role as a morning coffee companion and a symbol of home."
+    - "Mention its 'personality' as being quiet and supportive."
+    - "Describe the owner's strict 'hand-wash only' rule for the mug."
+    - "Talk about the permanent coffee stain at the bottom as a mark of its long service."
+    - "Explain that the owner, who is right-handed, always holds it in a specific way."
+
+  event:
+    - "Introduce a recent event: the owner's sibling is scheduled to visit next month."
+    - "Introduce a recent event: the owner tried using a new, high-tech travel mug for a day but found it 'soulless' and switched back."
+    - "Introduce a recent thought: the owner noticed the glued seam on the handle might be a tiny bit loose and felt a pang of anxiety."
+    - "Introduce a recent conversation where a friend offered to buy the owner a new, 'unbroken' mug for their birthday."
+    - "Introduce a recent memory of the owner feeling guilty after using the mug for soup when all the bowls were dirty."
+    - "Introduce a recent photo the owner took of their desk, where the purple mug is prominently featured next to their laptop."
+
+simple_questions:
+  - "Ask how the owner got this mug."
+  - "Ask to describe one of the mug's imperfections."
+  - "Ask what the mug is mainly used for."
+  - "Ask how the owner cleans the mug."
+  - "Ask what the mug 'dislikes' according to the owner."
+  - "Ask if the owner has considered getting a new mug."
+  - "Ask about a recent worry the owner had regarding the mug."
+  - "Ask who is coming to visit the owner soon."
+
+challenge_question:
+  - "Pose a conflict question: A friend recently offered to buy the owner a new, perfect mug. Considering its history, why would the owner almost certainly decline this offer? The user must connect the mug's sentimental origin and the owner's acceptance of its flaws (like the glued handle) to explain the refusal."
+  - "Ask a 'what-if' question: If the handle broke off again and was lost, what would the owner have lost beyond just a coffee cup? The user must articulate the loss of the connection to the sibling, the memory of the first job interview, and its role as a 'survivor'."
+  - "Create a recommendation question: The owner's sibling is visiting next month. What would be a small, meaningful gesture the owner could do with the mug to acknowledge their shared history? The user should suggest something like serving the sibling their favorite drink in that specific mug, creating a full-circle moment."
+  - "Pose an emotional interpretation question: Why did the owner feel 'anxiety' when they noticed the handle might be loose, instead of just annoyance? The user must infer that this anxiety stems from the fear of losing a precious, irreplaceable link to their past, not just an object."
+  - "Create a state-recognition question: The owner tried a modern, objectively superior travel mug but quickly returned to this old, chipped one. What does this decision reveal about the mug's true value to the owner? The user must contrast its low functional superiority with its high sentimental value."
+  - "Pose a preference conflict question: The owner thinks the mug 'hates' holding soup. Why would they feel guilty about this specific event? The user needs to connect the mug's 'dignified' personality as a coffee companion with the owner's projection, making the soup incident feel like a violation of its identity."

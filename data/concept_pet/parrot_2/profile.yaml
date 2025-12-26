@@ -1,0 +1,85 @@
+concept_id: parrot_2
+name: "Kiko"
+species: "Avian"
+breed: "African Grey Parrot"
+
+appearance:
+  summary: "A male African Grey Parrot with classic scalloped grey feathers, a striking red tail, and intelligent, pale yellow eyes. He has a curious and highly focused demeanor."
+
+  key_visual_features:
+    - "Scalloped grey feathers, lighter on the head and darker on the wings"
+    - "A vibrant, short, bright red tail"
+    - "Pale yellow irises around dark, observant pupils"
+    - "A strong, hooked black beak used for climbing and cracking nuts"
+    - "Wears a permanent, plain metal band on his left leg"
+
+behavior:
+  personality_traits:
+    - "Extremely intelligent and a quick learner of words and sounds"
+    - "Can be very stubborn and demanding of attention"
+    - "Vocal, precisely mimics sounds like microwaves, phone rings, and human phrases"
+    - "Forms a very strong bond with his primary owner, wary of new people"
+
+  preferences:
+    toys:
+      loves:
+        - "Wooden blocks that he can splinter and destroy"
+        - "Foraging puzzles that hide treats"
+      hates:
+        - "Mirrors (he becomes agitated and aggressive)"
+        - "Loud plastic toys, especially those with high-pitched electronic sounds"
+
+    food:
+      loves:
+        - "Walnuts and almonds, especially in the shell"
+        - "Small pieces of crisp apple"
+      hates:
+        - "Commercial pellet food (he methodically throws it out of his bowl)"
+        - "Soft fruits like bananas or grapes"
+
+    activities:
+      loves:
+        - "Sitting on his owner's shoulder while they work"
+        - "Solving complex puzzles"
+        - "Shredding cardboard and paper"
+      hates:
+        - "The sound and sight of the vacuum cleaner"
+        - "Being left alone for long periods"
+        - "Having his cage covered during the day"
+
+history:
+  knowledge:
+    - "Introduce Kiko's appearance, highlighting his red tail and metal leg band."
+    - "Introduce that Kiko's absolute favorite foods are walnuts in the shell."
+    - "Introduce Kiko's deep-seated hatred for pellet-based bird food."
+    - "Introduce that Kiko's favorite type of toy is anything made of soft wood he can destroy."
+    - "Introduce Kiko's phobia of the vacuum cleaner."
+    - "Introduce Kiko's talent for mimicking the microwave beep when he wants food."
+    - "Introduce Kiko's dislike for soft fruits like bananas."
+    - "Introduce that Kiko loves to solve foraging puzzles."
+
+  event:
+    - "Introduce a recent photo showing Kiko on top of his cage, fascinated with a new yellow tennis ball his owner gave him."
+    - "Introduce a recent problem: The vet advised the owner to switch Kiko to a pellet-based diet for better nutrition."
+    - "Introduce a recent event where Kiko has started plucking a few of his chest feathers, which the owner suspects is due to boredom from being alone more often."
+    - "Introduce a recent event where Kiko perfectly mimicked the sound of a video call notification, making his owner check their computer repeatedly."
+    - "Introduce a recent attempt by the owner to hide the hated pellets inside a piece of apple, which Kiko cleverly ate around."
+    - "Introduce a recent gift: a fancy, new foraging puzzle box that Kiko has been working on diligently."
+
+simple_questions:
+  - "Ask what Kiko's favorite food is, based on his long-term knowledge."
+  - "Ask what new object Kiko is playing with in the recent photo, based on a short-term event."
+  - "Ask what food the vet recently recommended for Kiko, based on a short-term event."
+  - "Ask what kind of toys Kiko usually loves to play with, based on his long-term knowledge."
+  - "Ask what recent behavior indicates Kiko might be bored, based on a short-term event."
+  - "Ask what sound Kiko has recently been mimicking to get his owner's attention, based on a short-term event."
+  - "Ask what common household item Kiko is terrified of, based on his long-term knowledge."
+  - "Ask what new toy the owner recently got to keep Kiko from getting bored, based on a short-term event."
+
+challenge_question:
+  - "Pose a preference conflict question: Why is Kiko so interested in the tennis ball, given that his favorite toys are wooden blocks? The user must infer that the novelty of the texture and shape is a temporary fascination, contrasting his long-term destructive play with this new, non-destructive curiosity."
+  - "Create a recommendation question: Given that Kiko is plucking his feathers (short-term event) and the vet is pushing a pellet diet he hates (long-term preference vs. short-term advice), what's a good strategy for his owner? The user must synthesize these facts and his love for puzzles (long-term) to suggest using the new foraging toy to deliver the pellets, making the food a fun challenge."
+  - "Pose a 'why' question about the owner's actions: Why did Kiko's owner try to hide pellets in a piece of apple? The user must combine the knowledge of Kiko's love for apples (long-term) with his hatred for pellets (long-term) and the vet's recent advice (short-term) to explain the owner's logic."
+  - "Create a state-recognition question based on the image: The image shows Kiko with a tennis ball. Ask what this says about his current mood. The user should combine the visual evidence of him being engaged with a new object (short-term) with his known intelligence (long-term) to infer he is likely feeling curious and mentally stimulated, not bored."
+  - "Ask a 'what-if' question: If the owner scattered walnuts and pellets together in Kiko's bowl, what would Kiko likely do? The user must use his long-term preferences to predict he would meticulously pick out and eat the walnuts while throwing the pellets out of the cage."
+  - "Create a behavioral analysis question: Why is Kiko's mimicry of the video call sound a bigger problem than him mimicking the microwave? The user should infer that while the microwave beep is a predictable request for food (long-term learned behavior), the new, random call notification (short-term event) is more disruptive to the owner's work-from-home life."

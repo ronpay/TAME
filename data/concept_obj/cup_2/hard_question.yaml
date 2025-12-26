@@ -1,0 +1,198 @@
+- id: 1
+  type: Causal Inference
+  question: Here's the situation on my counter [IMAGE]. My old Pacemaker is cracked,
+    and I got this fancy new bottle for my birthday. Logically, I should just switch,
+    but I can't bring myself to do it. Based on what you know, why am I so hesitant?
+  image_prompt: A still-life photo on a kitchen counter. On the left is 'The Pacemaker',
+    a visibly worn white plastic bottle with a small, visible crack near the top.
+    On the right is a new, sleek, matte black metal bottle. The two are side-by-side,
+    creating a stark visual contrast.
+  evaluation_criteria:
+    ideal_answer: You're hesitant because 'The Pacemaker' is more than just a bottle;
+      it's a symbol of your entire running journey, which started with your first
+      half-marathon. Despite its new crack and the availability of a superior new
+      bottle, replacing it feels like abandoning a 'silent partner' that has been
+      with you through everything.
+    key_points:
+    - The Pacemaker is a 'silent partner' and a symbol of the owner's running journey
+      since their first race (long-term knowledge from turns 1, 3).
+    - The hesitation is a conflict between loyalty to this historic object and the
+      practical reality of its damage versus the new gift (reasoned inference from
+      short-term events in turns 9, 10, 11).
+  options:
+  - You're worried the new metal bottle will be too heavy for long races, unlike the
+    familiar, lightweight plastic of your old 'Pacemaker'.
+  - You're attached to the faded measurement markings on 'The Pacemaker' for mixing
+    drinks, a feature the new bottle might lack.
+  - Replacing it feels like abandoning a 'silent partner' from your first race, making
+    its history more important than its new crack.
+  - You feel a sense of obligation to keep using the old bottle because of its 'battle
+    scar', proving its resilience is superior to the new one.
+  answer: Replacing it feels like abandoning a 'silent partner' from your first race,
+    making its history more important than its new crack.
+  image_id: cq_1_hesitation_contrast
+- id: 2
+  type: State Identification
+  question: I took this photo this morning [IMAGE]. It really sums up the dilemma
+    I'm facing. Based on our conversations, can you analyze the core conflict this
+    image represents?
+  image_prompt: A photo showing the old, scratched white plastic bottle ('The Pacemaker')
+    sitting right next to a new, shiny, and unused metal water bottle on a kitchen
+    counter. The contrast between worn history and pristine modernity is the focus.
+  evaluation_criteria:
+    ideal_answer: This image represents a conflict between sentimental loyalty and
+      practical advancement. On one side is 'The Pacemaker,' your resilient 'silent
+      partner' that holds the history of your entire fitness journey. On the other
+      is a new, undamaged, and objectively better bottle. The core conflict is the
+      struggle between honoring the history of a cherished companion and embracing
+      a more modern, functional tool.
+    key_points:
+    - The Pacemaker has a long-term identity as a resilient 'silent partner' representing
+      the owner's history (long-term knowledge from turns 3, 4).
+    - The current situation, captured in the photo, pits this established loyalty
+      against the practical appeal of a new, undamaged replacement (identifying the
+      state from the short-term event in turn 13).
+  options:
+  - The image highlights a conflict of function versus habit; you're accustomed to
+    the old bottle's nozzle, despite the new one being better.
+  - The conflict is between loyalty to a 'silent partner' holding your running history
+    and the practical appeal of a new, undamaged tool.
+  - The image shows a conflict of durability; weighing the proven resilience of the
+    old bottle against the unknown toughness of the new one.
+  - The conflict is about race preparation; deciding if the old, cracked bottle is
+    still reliable enough or if you must switch to the new one.
+  answer: The conflict is between loyalty to a 'silent partner' holding your running
+    history and the practical appeal of a new, undamaged tool.
+  image_id: cq_2_conflict_analysis
+- id: 3
+  type: Counterfactual Reasoning
+  question: Remember I told you I almost lost The Pacemaker at the gym? Imagine I
+    hadn't run back in to get it. Looking at this photo [IMAGE], what would I have
+    *really* lost, beyond just a cheap plastic bottle?
+  image_prompt: A slightly melancholic photo of 'The Pacemaker' bottle sitting alone
+    and forgotten on a wooden bench in a gym locker room. The lighting is dim, emphasizing
+    its solitude.
+  evaluation_criteria:
+    ideal_answer: If you had lost it, you would have lost much more than a container.
+      You would have lost a physical trophy of your entire running journey, from your
+      first race to tough trail runs. It's a tangible link to your past, holding memories
+      like its 'battle scar' and the feeling of that first finish line. You would
+      have lost a symbol of your own endurance.
+    key_points:
+    - The bottle is a physical symbol of the owner's running history, containing memories
+      like the 'battle scar' and the first finish line (long-term knowledge from turns
+      1, 2, 8).
+    - Losing it would mean losing an irreplaceable, tangible connection to this personal
+      history, which explains the panic you felt when it was almost lost (reasoned
+      hypothesis based on short-term event in turn 12).
+  options:
+  - You would have lost a physical trophy of your running journey, a tangible link
+    to memories like your first race and its 'battle scar'.
+  - You would have lost your only tool for mixing electrolyte drinks, as the faded
+    measurement lines are calibrated by memory.
+  - You would have lost a piece of gear you're physically used to, from its grip to
+    the habit of biting the nozzle during races.
+  - You would have lost the chance to retire it on your own terms, especially now
+    that it is cracked and has a replacement waiting.
+  answer: You would have lost a physical trophy of your running journey, a tangible
+    link to memories like your first race and its 'battle scar'.
+  image_id: cq_3_what_if_lost
+- id: 4
+  type: Causal Inference
+  question: I still can't get over that moment of pure panic when I thought I'd lost
+    this bottle at the gym [IMAGE]. It was a cheap, last-minute buy. Why do you think
+    I had such an intense emotional reaction to almost losing it?
+  image_prompt: A point-of-view shot from inside a car, looking back at the entrance
+    of a gym. The image has a slight motion blur, conveying a sense of urgency and
+    anxiety, as if the driver just realized something and is about to rush out.
+  evaluation_criteria:
+    ideal_answer: You panicked because its value isn't monetary; it's historical.
+      Even though it was a 'cheap, last-minute buy,' it has become your 'silent partner'
+      and a keeper of your personal history, including its 'battle scar.' The panic
+      wasn't about losing an object; it was about the fear of losing a unique and
+      irreplaceable link to who you've become as a runner.
+    key_points:
+    - The bottle's identity is as a 'silent partner' and a keeper of memories like
+      its 'battle scar', despite its cheap origin (long-term knowledge from turns
+      1, 2, 3).
+    - The intense panic was a direct emotional reaction to the potential loss of this
+      irreplaceable personal history, not the object itself (inference from short-term
+      event in turn 12).
+  options:
+  - The panic was a practical reaction to nearly losing the only bottle with the faded
+    markings you trust for mixing your drinks.
+  - The panic stemmed from the fear of losing an irreplaceable piece of your history,
+    as its value is symbolic, not monetary.
+  - The panic was likely triggered by the thought of breaking your pre-race ritual,
+    which always involves filling that specific bottle.
+  - The panic was amplified by its recent crack; you felt irresponsible for potentially
+    losing it right after noticing it was damaged.
+  answer: The panic stemmed from the fear of losing an irreplaceable piece of your
+    history, as its value is symbolic, not monetary.
+  image_id: cq_4_panic_reasoning
+- id: 5
+  type: Causal Inference
+  question: I'm looking at this crack [IMAGE] and seriously thinking about trying
+    to repair it, even though I have a perfect replacement. What does this impulse
+    to fix it, rather than replace it, reveal about my relationship with The Pacemaker?
+  image_prompt: A macro, high-detail photo of the threaded neck of 'The Pacemaker'.
+    A small, hairline crack is clearly visible in the white plastic. A finger is gently
+    touching the plastic near the crack, as if inspecting it.
+  evaluation_criteria:
+    ideal_answer: The impulse to repair it reveals that you see 'The Pacemaker' as
+      a companion, not just a tool. With a new bottle readily available, the goal
+      isn't practicality or saving money. It's an act of loyalty to preserve your
+      'silent partner.' It reflects the bottle's own resilient personality—you want
+      to help it endure, just as it has helped you.
+    key_points:
+    - The bottle has an established identity as a resilient 'silent partner' (long-term
+      knowledge from turns 3, 4).
+    - The desire to repair it, despite having a new replacement, is an act of preserving
+      a meaningful bond, not a practical decision (inference from the short-term dilemma
+      in turns 9, 10).
+  options:
+  - It reveals a desire to preserve its unique physical features, like the nozzle
+    with your teeth marks, which can't be replaced.
+  - It shows you feel responsible for the crack from squeezing it, and your impulse
+    is a practical attempt to fix the damage you caused.
+  - It reveals you see it as a resilient companion, not a tool; the repair is an act
+    of loyalty to preserve this partnership, not save money.
+  - It suggests you want to fix it just for one last key race, ensuring your 'partner'
+    can cross one more finish line before retirement.
+  answer: It reveals you see it as a resilient companion, not a tool; the repair is
+    an act of loyalty to preserve this partnership, not save money.
+  image_id: cq_5_repair_impulse
+- id: 6
+  type: Counterfactual Reasoning
+  question: Looking at these two side-by-side [IMAGE], I need a path forward. Based
+    on everything, how do you predict I'll most likely end up using both of these
+    bottles in the future?
+  image_prompt: A still-life photo on a kitchen counter. On the left is 'The Pacemaker',
+    a visibly worn white plastic bottle. On the right is the new, sleek, matte black
+    metal bottle. They are side-by-side, creating a stark visual contrast.
+  evaluation_criteria:
+    ideal_answer: You'll likely adopt a two-bottle strategy. The new, insulated bottle
+      will probably become your daily driver for the gym and casual hydration, given
+      its practicality. However, you'll reserve 'The Pacemaker,' despite its crack,
+      for significant events like major races or key training runs, where its symbolic
+      value as your 'silent partner' from your very first half-marathon outweighs
+      its physical flaws.
+    key_points:
+    - The Pacemaker has deep symbolic value tied to milestone events like the first
+      half-marathon (long-term knowledge from turns 1, 8).
+    - 'Given its physical flaw and the availability of a new bottle, the most logical
+      prediction is a division of labor: the new one for daily use, and the old one
+      for sentimentally important occasions (predictive inference from short-term
+      events in turns 9, 10, 13).'
+  options:
+  - You'll likely use the new bottle for daily workouts but save 'The Pacemaker' for
+    key races where its symbolic value outweighs its physical flaws.
+  - You will probably use the new bottle for water and reserve the old one for mixing
+    electrolytes, relying on its familiar measurement marks.
+  - You will likely use the new bottle for training runs but switch to the old, familiar
+    one on race day out of nervous habit and comfort.
+  - You'll likely repair the old bottle and then alternate between the two for all
+    activities, hoping to extend the life of both of them.
+  answer: You'll likely use the new bottle for daily workouts but save 'The Pacemaker'
+    for key races where its symbolic value outweighs its physical flaws.
+  image_id: cq_6_future_prediction

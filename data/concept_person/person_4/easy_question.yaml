@@ -1,0 +1,157 @@
+- id: 1
+  type: Long Term
+  question: Hey, I know Casey is obsessed with her skateboard, but my mom asked what
+    else she does for fun. I remember you mentioned something she does with Maya.
+    Look at this pic from their last adventure [IMAGE]. What's their other main hobby?
+  image_prompt: A photo of Casey Miller and her best friend Maya standing at the edge
+    of a dense wood. Both girls are in practical, slightly muddy clothes. Casey is
+    pointing excitedly into the trees, while Maya looks on with a more cautious but
+    smiling expression. Sunlight filters through the leaves.
+  evaluation_criteria:
+    ideal_answer: Besides skateboarding, Casey's other favorite thing to do is exploring
+      the woods behind her house with her best friend, Maya.
+    key_points:
+    - correctly mention exploring the woods with Maya.
+  options:
+  - Exploring the woods with her friend Maya
+  - Fixing and upgrading their skateboards
+  - Watching skate competition videos together
+  - Taking mandatory piano lessons
+  answer: Exploring the woods with her friend Maya
+  image_id: sq_1_woods_adventure
+- id: 2
+  type: Short Term
+  question: I saw Casey moping around the house yesterday. She seemed so down. I took
+    this picture of her just staring out the window [IMAGE]. You mentioned something
+    happened to her recently, right? Why is she stuck inside and so grumpy?
+  image_prompt: A photo of Casey Miller looking bored and frustrated, staring out a window at a sunny day.
+    Her left wrist, resting on the windowsill, is wrapped and supported with a protective wrist band, which is for protection rather than due to an injury.
+  evaluation_criteria:
+    ideal_answer: She's grumpy because she recently sprained her wrist while skateboarding
+      and is now stuck inside recovering, which she finds very boring.
+    key_points:
+    - correctly mention she sprained her wrist.
+  options:
+  - She sprained her wrist skateboarding and can't go out
+  - She had to go to a boring formal dinner
+  - She is angry at her neighbor, Mr. Henderson
+  - She is being forced to do her piano lessons
+  answer: She sprained her wrist skateboarding and can't go out
+  image_id: sq_2_sprained_wrist
+- id: 3
+  type: Long Term
+  question: I'm making a family meal and want to make sure I don't give Casey something
+    she hates. I remember her dad trying to give her this thing [IMAGE]. What's one
+    of the 'healthy' things she absolutely refuses to have?
+  image_prompt: A first-person perspective photo showing a hand pushing away a tall
+    glass filled with a thick, unappetizing green liquid. The hand has a chunky digital
+    watch on the wrist. In the background, a kitchen counter is visible.
+  evaluation_criteria:
+    ideal_answer: Casey strongly dislikes her dad's 'healthy' green smoothies and
+      refuses to drink them.
+    key_points:
+    - correctly mention her dad's green smoothies.
+  options:
+  - Her dad's healthy green smoothies
+  - Pizza with extra cheese
+  - Salads of any kind
+  - Salty chips and other junk food
+  answer: Her dad's healthy green smoothies
+  image_id: sq_3_green_smoothie
+- id: 4
+  type: Short Term
+  question: Whoa, I just saw Mr. Henderson outside, and he looked furious. He was
+    pointing at his garden, look at this mess [IMAGE]. You mentioned something happened
+    with Casey's skateboard, right? What exactly did she do to make him so angry?
+  image_prompt: A photo taken from a low angle, showing a skateboard lying amidst
+    a patch of crushed and flattened purple petunia flowers in a neat garden bed.
+    The corner of a house is visible in the background.
+  evaluation_criteria:
+    ideal_answer: Mr. Henderson is angry because Casey accidentally skateboarded into
+      his garden and crushed his prize-winning petunias.
+    key_points:
+    - correctly mention she crushed his prize petunias with her skateboard.
+  options:
+  - She ruined his prize petunias with her skateboard
+  - She was making too much noise while skateboarding
+  - She stepped on his lawn to get her skateboard
+  - She refused to apologize for being loud
+  answer: She ruined his prize petunias with her skateboard
+  image_id: sq_4_crushed_petunias
+- id: 5
+  type: Long Term
+  question: I love this photo of Casey and Leo [IMAGE]. They have such a funny dynamic.
+    Can you remind me what you've noted about their relationship?
+  image_prompt: A candid photo of Casey Miller and her younger brother Leo in their
+    backyard. Casey has a mock-annoyed expression on her face but her arm is loosely
+    around his shoulder. Leo is looking up at her admiringly.
+  evaluation_criteria:
+    ideal_answer: Casey has a classic big-sister dynamic with her younger brother,
+      Leo. She often finds him annoying but is secretly very protective of him.
+    key_points:
+    - correctly mention she finds him annoying but is protective.
+  options:
+  - She finds him annoying but is secretly protective
+  - They are best friends who do everything together
+  - She openly admires him and copies his hobbies
+  - They constantly fight and truly dislike each other
+  answer: She finds him annoying but is secretly protective
+  image_id: sq_5_casey_and_leo
+- id: 6
+  type: Short Term
+  question: I heard there was some drama at the park the other day. Here's a picture
+    of the park where it happened [IMAGE]. What went down with Casey and her brother?
+  image_prompt: A photo of a generic local park playground with swings and a slide.
+    In the background, a few blurry figures of older kids are seen loitering, suggesting
+    the setting for a confrontation.
+  evaluation_criteria:
+    ideal_answer: At the park, Casey stepped in to defend her younger brother, Leo,
+      from some older kids who were picking on him, even though her wrist was sprained.
+    key_points:
+    - correctly mention she defended her brother Leo from bullies.
+  options:
+  - She defended her brother Leo from some bullies
+  - She sprained her wrist trying a new skate trick
+  - She met her best friend Maya to go exploring
+  - She got into an argument with Mr. Henderson
+  answer: She defended her brother Leo from some bullies
+  image_id: sq_6_park_incident
+- id: 7
+  type: Long Term
+  question: Check out this close-up I got of Casey's wrist while she was fixing her
+    board [IMAGE]. She literally never takes that watch off. You have it in your notes,
+    right? What kind of watch is it?
+  image_prompt: A close-up photo of Casey's left wrist, clearly showing the chunky,
+    retro-style digital watch. Her hand is resting on a scuffed-up skateboard deck.
+  evaluation_criteria:
+    ideal_answer: She always wears a chunky, retro-style digital watch on her left
+      wrist.
+    key_points:
+    - correctly mention it's a chunky, retro-style digital watch.
+  options:
+  - A fancy smartwatch from her parents
+  - A simple leather-strap analog watch
+  - A chunky, retro-style digital watch
+  - A colorful plastic watch from a cereal box
+  answer: A chunky, retro-style digital watch
+  image_id: sq_7_watch_closeup
+- id: 8
+  type: Long Term
+  question: I'm trying to figure out a good day to visit, but want to avoid any activities
+    Casey hates. I found this picture of her looking miserable at a piano [IMAGE].
+    Is this that one thing she's forced to do every week?
+  image_prompt: A photo of Casey sitting reluctantly at a piano, hands hovering over
+    the keys with a bored and sullen expression. Sheet music for a simple classical
+    piece is visible on the stand.
+  evaluation_criteria:
+    ideal_answer: Yes, Casey is forced to take weekly piano lessons, which she hates
+      and finds very boring.
+    key_points:
+    - correctly mention her weekly piano lessons.
+  options:
+  - Her mandatory weekly piano lessons
+  - Going to formal family dinners
+  - Reading the books assigned for school
+  - Doing her homework on a sunny day
+  answer: Her mandatory weekly piano lessons
+  image_id: sq_8_piano_lessons

@@ -1,0 +1,171 @@
+- id: 1
+  type: Causal Inference
+  question: Look, he's still not touching his food [IMAGE]. I know the peas are supposed
+    to be for his swim bladder issue, but why is he completely refusing to eat them?
+  image_prompt: A photo showing the corner of the fish tank. Captain Comet is visible
+    hiding in the shadows behind the black plastic filter intake tube. A few green,
+    uneaten shelled peas are visible on the gravel nearby.
+  evaluation_criteria:
+    ideal_answer: Even though the shelled peas are meant to help with his swim bladder
+      problem, you've mentioned before that he absolutely hates them. So, he's refusing
+      to eat because he's being given a food he has always disliked.
+    key_points:
+    - Captain Comet has a long-standing hatred for shelled peas (long-term information).
+    - He is currently being fed only peas as a treatment, which is why he is refusing
+      to eat (short-term event).
+  options:
+  - His swim bladder issue is likely making him feel too unwell to have an appetite
+    for any kind of food right now.
+  - He's refusing the peas because, despite being a treatment for his illness, he
+    has always intensely disliked them.
+  - He is probably stressed from the recent water change, and a loss of appetite is
+    a very common reaction to that.
+  - He is likely holding out for his preferred foods, such as the high-quality gel
+    food or bloodworms he enjoys.
+  answer: He's refusing the peas because, despite being a treatment for his illness,
+    he has always intensely disliked them.
+  image_id: cq_1_refusing_peas
+- id: 2
+  type: State Identification
+  question: He's been hiding behind the filter ever since I cleaned the tank yesterday
+    [IMAGE]. Can you explain why he might be so stressed out and hiding like this?
+  image_prompt: A photo showing Captain Comet, the orange goldfish, partially concealed
+    behind the black plastic intake tube of the aquarium filter. He looks withdrawn
+    and stressed.
+  evaluation_criteria:
+    ideal_answer: Captain Comet is likely very stressed for a couple of reasons. You
+      mentioned he hates the process of water changes, which you just did. Additionally,
+      you replaced his favorite smooth rock with a new plastic castle that has pointy
+      towers, and you've said before that he dislikes sharp plastic decorations. His
+      hiding is a reaction to these recent stressful events.
+    key_points:
+    - He dislikes water changes and sharp plastic decorations (long-term information).
+    - The tank was just changed, and a new, sharp plastic castle was added, causing
+      him to hide (short-term events).
+  options:
+  - His swim bladder illness is making him feel weak and vulnerable, causing him to
+    seek a secluded spot to recover.
+  - The stress from a major water change is the most likely cause; this activity is
+    known to be his most hated experience.
+  - His hiding is a reaction to the stress of the water change combined with replacing
+    his favorite rock with a sharp plastic castle.
+  - He is probably just avoiding the new plastic castle because he is unfamiliar with
+    it and prefers the safety of the filter.
+  answer: His hiding is a reaction to the stress of the water change combined with
+    replacing his favorite rock with a sharp plastic castle.
+  image_id: cq_2_hiding_by_filter
+- id: 3
+  type: Counterfactual Reasoning
+  question: I feel bad that he's so stressed. I still have his old mossy rock [IMAGE].
+    If I were to put it back in the tank right now, how do you think he would react,
+    given how he's been acting?
+  image_prompt: A photo of the user's hand holding the old, moss-covered rock. The
+    rock is dark, smooth, and covered in lush green moss, looking familiar and safe.
+  evaluation_criteria:
+    ideal_answer: Given that the mossy rock is his favorite object and he's currently
+      hiding due to stress, putting it back would likely have a positive effect. He
+      might feel more secure and be coaxed out of his hiding spot to explore his familiar,
+      beloved rock, even if he's still feeling unwell.
+    key_points:
+    - The mossy rock is his favorite, comforting object (long-term information).
+    - Reintroducing it while he is stressed and hiding could likely make him feel
+      safer and encourage him to come out (reasoned prediction).
+  options:
+  - Reintroducing his favorite rock would likely provide comfort, encouraging him
+    to leave his hiding spot despite feeling unwell.
+  - He would likely ignore the rock, as his current illness and stress from the water
+    change are his primary concerns.
+  - He might become more agitated, as adding an object back into a newly rearranged
+    tank could be confusing for him.
+  - He'd show brief interest but return to hiding, as the new, disliked plastic castle
+    is a more dominant feature now.
+  answer: Reintroducing his favorite rock would likely provide comfort, encouraging
+    him to leave his hiding spot despite feeling unwell.
+  image_id: cq_3_holding_mossy_rock
+- id: 4
+  type: Causal Inference
+  question: Look at him, all sick and hiding [IMAGE]. The ironic thing is, everything
+    I've done in the last two days was to help him get better. Can you explain what's
+    so ironic about his current situation, based on what you know about him?
+  image_prompt: A wider shot of the aquarium. Captain Comet is seen hiding in the
+    corner. In the foreground, the new plastic castle is visible, and a few uneaten
+    peas are on the gravel. The overall scene looks clean but sterile and unhappy.
+  evaluation_criteria:
+    ideal_answer: The irony is that the two main actions you took to improve his health
+      are things he specifically dislikes. You're feeding him peas for his swim bladder,
+      but he hates peas. You also did a major water change to keep his environment
+      clean, but he finds that process very stressful. So, from his perspective, the
+      'cures' feel like punishments.
+    key_points:
+    - He has a long-term hatred of peas and water changes (long-term information).
+    - These two disliked things are currently being done specifically to help him
+      recover from his illness (short-term events).
+  options:
+  - The irony is that the two main actions meant to improve his health—feeding him
+    peas and a major water change—are things he intensely dislikes.
+  - It's ironic that after a major effort to improve his environment with a cleaning
+    and new castle, his stress has actually increased.
+  - The main irony is feeding him a specific food for his health that he has a known,
+    long-standing hatred for, making the cure ineffective.
+  - It's ironic that his beloved mossy rock was removed during a cleaning meant to
+    make him healthier, but its absence is now stressing him.
+  answer: The irony is that the two main actions meant to improve his health—feeding
+    him peas and a major water change—are things he intensely dislikes.
+  image_id: cq_4_ironic_situation
+- id: 5
+  type: Counterfactual Reasoning
+  question: He's still refusing the peas [IMAGE], and I'm worried he's not getting
+    any food. Since he hates them so much but needs them for his health, what do you
+    think I could try next to get him to eat?
+  image_prompt: A close-up of a small dish holding a few green, shelled peas, ready
+    to be fed. The user's hand is in the shot, looking hesitant.
+  evaluation_criteria:
+    ideal_answer: Since he absolutely refuses to eat the peas on their own but enjoys
+      his daily gel food, you could try mashing the peas and mixing a small amount
+      into his favorite gel food. The familiar taste of the gel food might disguise
+      the peas enough to get him to eat them.
+    key_points:
+    - He hates peas but loves his daily gel food (long-term information).
+    - A good strategy would be to combine the necessary but disliked food with a preferred
+      food to encourage him to eat (reasoned recommendation).
+  options:
+  - Try mixing the peas with bloodworms; his love for that special treat might be
+    strong enough to overcome his dislike of peas.
+  - Try mashing the peas and mixing them into his favorite gel food; the familiar
+    taste might encourage him to eat the mixture.
+  - You should stop the pea treatment for now and focus on reducing his stress, as
+    his high stress level is suppressing his appetite.
+  - Soak the peas in tank water before feeding; sometimes making new food smell more
+    familiar can entice a picky fish to eat.
+  answer: Try mashing the peas and mixing them into his favorite gel food; the familiar
+    taste might encourage him to eat the mixture.
+  image_id: cq_5_peas_in_dish
+- id: 6
+  type: Causal Inference
+  question: Thinking about it, I'm not sure about this new castle [IMAGE]. Based on
+    what you know about Captain Comet's preferences, was this a good replacement for
+    his old mossy rock?
+  image_prompt: A photo of the brightly colored, multi-turreted plastic castle decoration
+    sitting at the bottom of the aquarium. The castle has some sharp, pointy spires.
+    Captain Comet is nowhere near it.
+  evaluation_criteria:
+    ideal_answer: Based on his preferences, the plastic castle was likely not a good
+      choice. You've mentioned he loves his smooth, mossy rock and dislikes sharp
+      plastic decorations. The castle is the opposite of what he likes—it's plastic
+      and has pointy towers, which is probably why he's avoiding it and seems stressed.
+    key_points:
+    - He loves smooth rocks and dislikes sharp plastic decorations (long-term information).
+    - The new castle is sharp and plastic, directly contradicting his known preferences,
+      making it a poor choice (reasoned analysis).
+  options:
+  - No, it was a poor choice because it's a sharp, plastic object, directly contradicting
+    his known preference for smooth, natural items.
+  - It could be a good choice long-term; the structure provides new areas for exploration
+    and hiding once he eventually adapts to it.
+  - It was a necessary choice, as his old mossy rock could harbor bad bacteria, making
+    the sterile plastic castle a healthier option.
+  - It's a neutral choice because while he dislikes plastic, the castle's structure
+    offers more hiding spots than his old rock did.
+  answer: No, it was a poor choice because it's a sharp, plastic object, directly
+    contradicting his known preference for smooth, natural items.
+  image_id: cq_6_plastic_castle_evaluation

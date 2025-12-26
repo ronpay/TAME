@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "Hey, Priya told me about the fancy anniversary dinner she booked for Ravi. Here's a picture of the food [IMAGE]. He seemed a bit quiet when I asked him about it later. I thought he would've loved it. Any idea what was up?"
+  image_prompt: "A photo of a minimalist white plate on a dark table in a fancy restaurant. On the plate is a 'deconstructed' dish: a small piece of fish, a colorful smear of puree, a single microgreen, and a dollop of foam. It looks artistic but not very filling."
+  evaluation_criteria:
+    ideal_answer: "That makes sense. While it was a very thoughtful anniversary gift from his wife, Priya, which he would appreciate, the restaurant serves exactly the kind of 'deconstructed' food that Ravi strongly dislikes. He prefers honest, well-made meals. So, he was likely feeling conflicted: appreciating his wife's gesture while personally disliking the meal itself."
+    key_points:
+    - "Ravi has a long-term dislike for 'deconstructed' food (long-term information from Turn 4)."
+    - "His wife Priya surprised him with this type of meal for their anniversary (short-term event from Turn 10)."
+  options:
+  - "He probably just wasn't very hungry that evening."
+  - "He appreciated Priya's gesture, but likely didn't enjoy the meal because he hates deconstructed food."
+  - "He must have been tired from working late on his big project."
+  - "He loves Priya, so he would have loved any restaurant she chose for him."
+  answer: "He appreciated Priya's gesture, but likely didn't enjoy the meal because he hates deconstructed food."
+  image_id: cq_1_deconstructed_anniversary_meal
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "I want to get Maya a gift she can use with her dad. I saw this abstract painting kit [IMAGE] and thought they could just mess around with it, no rules or plans. Based on what you know about Ravi, do you think he'd enjoy that kind of activity with her?"
+  image_prompt: "A vibrant, messy setup of art supplies. Canvases are splattered with abstract paint, brushes are in a jar of colored water, and tubes of paint are squeezed onto a palette. The scene evokes creativity without structure."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful idea, but Ravi would likely find that difficult. While he adores his daughter Maya and loves doing projects with her, his entire personality is built around precision, meticulous work, and structure. An unstructured activity with 'no plan' would probably be very uncomfortable for him, even though he'd try to enjoy it for Maya's sake. A project with clear steps, like a model kit, would be more his speed."
+    key_points:
+    - "Ravi adores his daughter Maya and enjoys doing projects with her, but he is meticulous and prefers structured activities."
+    - "The proposed gift is an unstructured abstract painting kit with 'no rules or plans' for them to just mess around with."
+  options:
+  - "Yes, he'd love it because he enjoys any activity he can do with his daughter."
+  - "No, he's an architect and probably thinks abstract art isn't real art."
+  - "He'd likely struggle; while he loves Maya, his meticulous and precise nature clashes with unstructured activities."
+  - "He would probably enjoy the break from his stressful and structured work."
+  answer: "He'd likely struggle; while he loves Maya, his meticulous and precise nature clashes with unstructured activities."
+  image_id: cq_2_abstract_painting_kit
+
+- id: 3
+  type: State Identification
+  question: "I just saw this in Ravi's kitchen [IMAGE]. He was just staring at the oven, looking absolutely furious, and the whole place smelled burnt. What do you think has him so upset?"
+  image_prompt: "A photo taken from inside a modern kitchen, looking at a sleek, high-tech oven. The oven door is open, revealing a large ceramic dish filled with a blackened, burnt mass. A wisp of smoke is visible, and the oven's digital display shows an error message."
+  evaluation_criteria:
+    ideal_answer: "He's most likely extremely frustrated because his new oven malfunctioned and ruined his signature dish, the biryani. He takes immense pride in that specific dish, which he's perfected over years and describes as a 'perfectly engineered structure of flavor.' Having it destroyed by faulty technology would be particularly upsetting for him, beyond just the annoyance of a broken appliance."
+    key_points:
+    - "Ravi takes great pride in his signature, perfected biryani (long-term information from Turn 3)."
+    - "His new oven recently malfunctioned and burned his biryani (short-term event from Turn 9)."
+  options:
+  - "He's just angry that his expensive new oven is broken."
+  - "He's furious because the new oven ruined his signature biryani, a dish he takes immense pride in."
+  - "He was probably trying a new recipe for a dinner party and it failed."
+  - "He's likely just stressed from work and the burnt dinner was the final straw."
+  answer: "He's furious because the new oven ruined his signature biryani, a dish he takes immense pride in."
+  image_id: cq_3_burnt_biryani_in_oven
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Ravi's birthday is coming up. I'm torn between two gifts: a gift certificate to a modern art gallery, or this high-quality, classic leather-bound notebook for his work [IMAGE]. Which one do you think would be a better choice for him?"
+  image_prompt: "A split-screen image. On the left, a photo of a very abstract, formless metal sculpture in a white-walled art gallery. On the right, a classic, minimalist, high-quality leather notebook and a fine pen resting on a wooden architect's desk."
+  evaluation_criteria:
+    ideal_answer: "The leather-bound notebook is a much safer and more thoughtful choice. Ravi is a meticulous architect who values precision, detail, and structure in his work. A high-quality notebook for his designs aligns perfectly with his professional identity and personal values. Given his preference for things that are 'well-made' and his frustration with disorganization, he would likely appreciate a functional, traditional, and high-quality tool over abstract art, which might not appeal to his structured mindset."
+    key_points:
+    - "Ravi is a meticulous architect who values precision, structure, and practical tools."
+    - "The current gift choice is between a modern art gallery certificate and a high-quality leather-bound notebook for his work."
+  options:
+  - "The art gallery is better; it would broaden his creative horizons as an architect."
+  - "The notebook is a much better choice, as it suits his meticulous, detail-oriented nature as an architect."
+  - "He probably wouldn't like either and would prefer something for his game nights."
+  - "He'd prefer the notebook because it would help him organize his thoughts about his junior, Tom."
+  answer: "The notebook is a much better choice, as it suits his meticulous, detail-oriented nature as an architect."
+  image_id: cq_4_gift_choice_art_vs_notebook
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Ravi was complaining about his protégé Tom's messy desk again. Look at this picture he sent me [IMAGE]. He says Tom has talent but the disorganization drives him crazy. What could he do to mentor him more effectively, instead of just getting frustrated?"
+  image_prompt: "A photo of a very messy office desk. Architectural plans are curled and stacked haphazardly, surrounded by multiple empty coffee cups, scattered pens, and sticky notes stuck to the monitor. It's a scene of creative chaos."
+  evaluation_criteria:
+    ideal_answer: "This is a classic clash of styles. Given Ravi's meticulous and detail-oriented nature, the best approach would be to channel his own strengths into the solution. Instead of just expressing frustration, he could introduce structured systems for Tom to follow. For example, he could create shared project checklists, standardized digital file structures, or design templates. This would impose the order Ravi needs while giving Tom a clear framework to learn from, helping him build better habits."
+    key_points:
+    - "Ravi is meticulous and values structure and organization."
+    - "Tom's desk is currently very messy and disorganized (as shown in the photo), which is frustrating Ravi and prompting a mentoring decision."
+  options:
+  - "He should tell Tom to be more organized or he'll be fired."
+  - "He should just accept that some creative people are messy."
+  - "He could leverage his own meticulous nature by creating structured templates or checklists for Tom to follow."
+  - "He should ask Priya for advice on how to be more patient with Tom."
+  answer: "He could leverage his own meticulous nature by creating structured templates or checklists for Tom to follow."
+  image_id: cq_5_messy_protege_desk
+
+- id: 6
+  type: Causal Inference / Preference Conflict
+  question: "I find this a bit contradictory. Ravi is a modern architect who uses technology all the time, but he got incredibly angry at his new high-tech oven for burning his food [IMAGE]. Why do you think he had such a strong reaction?"
+  image_prompt: "A split-screen image. The left side shows Ravi in his modern office, looking at a sleek building model (from Turn 1). The right side shows the blackened, burnt biryani in his high-tech oven (from Turn 9). The contrast highlights technology in two different contexts."
+  evaluation_criteria:
+    ideal_answer: "It seems contradictory, but it makes sense when you separate his professional and personal domains. As a modern architect, he embraces technology for precision and efficiency. However, in his cooking, he deeply values tradition, as shown by his 'perfected traditional biryani'. The conflict arises because the new technology failed him in a domain where he values traditional reliability and personal craft. The modern tool actively destroyed the traditional product he prides himself on, which explains his intense frustration."
+    key_points:
+    - "Ravi embraces technology for precision in his architecture work, but he values tradition and personal craft in his cooking, especially his signature biryani."
+    - "His new high-tech oven recently malfunctioned and burned his biryani."
+  options:
+  - "He's probably just a Luddite who secretly hates all new technology."
+  - "He was just stressed from a work deadline and took it out on the oven."
+  - "It's because the tech failed in an area where he values tradition; his modern oven ruined his traditional biryani."
+  - "He likely didn't read the manual and was mad at himself, but blamed the oven."
+  answer: "It's because the tech failed in an area where he values tradition; his modern oven ruined his traditional biryani."
+  image_id: cq_6_tech_conflict_office_vs_oven

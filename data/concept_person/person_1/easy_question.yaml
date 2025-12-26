@@ -1,0 +1,157 @@
+- id: 5
+  type: Long Term
+  question: Hey, I'm trying to explain to my friend what Serena does. Look at this
+    picture of her in her element [IMAGE]. What's her official job title again?
+  image_prompt: A polished, professional photo of Serena Kim, a Korean-American woman
+    in her early 30s with impeccably styled, shoulder-length dark brown hair. She
+    is at her minimalist, organized desk, sketching a user interface on a tablet.
+    Her expression is focused and calm.
+  evaluation_criteria:
+    ideal_answer: Based on your conversation, Serena Kim is a Lead UX Designer.
+    key_points:
+    - correctly mention she is a Lead UX Designer.
+  options:
+  - A Head of Product
+  - A Lead Software Engineer
+  - A Lead UX Designer
+  - A Barista
+  answer: A Lead UX Designer
+  image_id: sq_5_serena_at_work
+- id: 6
+  type: Short Term
+  question: I was cleaning up Serena's workspace this morning and found this stuff
+    [IMAGE]. I know she's been working crazy hours on that project. Is this what she
+    mentioned she's been surviving on?
+  image_prompt: A first-person view of a cluttered corner of an office desk at night.
+    There are empty wrappers from chips and two cans of a generic-brand soda next
+    to a laptop displaying complex UI designs. The lighting is harsh and artificial.
+  evaluation_criteria:
+    ideal_answer: Yes, you mentioned that due to the stress of 'Project Nightingale',
+      she has been surviving on vending machine snacks and canned sodas.
+    key_points:
+    - correctly mention vending machine snacks and canned sodas.
+  options:
+  - Artisan coffee and delicate pastries
+  - Traditional Korean dishes
+  - Vending machine snacks and canned sodas
+  - Greasy fast food from a nearby takeaway
+  answer: Vending machine snacks and canned sodas
+  image_id: sq_6_desk_snacks
+- id: 7
+  type: Long Term
+  question: My friend wants to get into a new hobby and I was thinking of Serena.
+    Look at this photo of her [IMAGE]. What's this activity she does to relax?
+  image_prompt: A photo of Serena's hands, lightly dusted with dry clay, carefully
+    shaping a small pot on a pottery wheel. The setting is a bright, airy studio.
+    The focus is on the craft and the calming nature of the activity.
+  evaluation_criteria:
+    ideal_answer: You've told me that her favorite way to de-stress is by practicing
+      pottery.
+    key_points:
+    - correctly mention pottery.
+  options:
+  - Visiting modern art galleries
+  - Hosting intimate dinner parties
+  - Watching independent foreign films
+  - Practicing pottery
+  answer: Practicing pottery
+  image_id: sq_7_pottery_hobby
+- id: 8
+  type: Short Term
+  question: Took this candid shot of Serena earlier [IMAGE]. She looks so stressed
+    out. What's the main reason for all this pressure at work she mentioned?
+  image_prompt: A candid photo of Serena Kim at her desk, looking visibly stressed.
+    She's leaning forward, rubbing her temples, with a computer screen in the background
+    showing complex UI designs for 'Project Nightingale'.
+  evaluation_criteria:
+    ideal_answer: She's under immense pressure because of a project called 'Project
+      Nightingale', which has a very tight deadline imposed by her boss, David.
+    key_points:
+    - correctly mention the tight deadline for 'Project Nightingale'.
+  options:
+  - A tight deadline for 'Project Nightingale'
+  - A debate with the lead engineer, Leo
+  - Being micromanaged by her boss
+  - A cluttered and chaotic office
+  answer: A tight deadline for 'Project Nightingale'
+  image_id: sq_8_serena_stressed
+- id: 9
+  type: Long Term
+  question: This is Serena with her lead engineer, Leo [IMAGE]. They always seem to
+    be in these intense discussions. Can you remind me what their working relationship
+    is like?
+  image_prompt: A photo of Serena Kim and Leo Petrov in a modern office setting. They
+    are standing next to a whiteboard, gesturing at complex diagrams. Their expressions
+    are intense and focused, suggesting a heated but professional debate, not an argument.
+  evaluation_criteria:
+    ideal_answer: You've described her relationship with Leo Petrov as a 'friendly
+      but intense rivalry,' where they have deep mutual respect but constantly debate
+      design versus engineering.
+    key_points:
+    - correctly mention it's a 'friendly rivalry'.
+  options:
+  - An emotional anchor and support system
+  - A supportive but demanding mentorship
+  - A tense and hostile professional conflict
+  - A friendly but intense rivalry
+  answer: A friendly but intense rivalry
+  image_id: sq_9_serena_leo_debate
+- id: 10
+  type: Short Term
+  question: I love this picture I took the other day [IMAGE]. What was the story here
+    again? I know Serena's sister Chloe stopped by the office.
+  image_prompt: A photo taken from Serena's perspective, looking down at her hand
+    holding a beautifully made latte in a craft paper cup. In the background, out
+    of focus, are the legs of her sister Chloe and a city park path, suggesting a
+    brief walk away from the office.
+  evaluation_criteria:
+    ideal_answer: Her sister Chloe visited her at the office, brought her an artisan
+      coffee, and took her for a 15-minute walk to help her de-stress from work.
+    key_points:
+    - correctly mention Chloe brought her coffee and took her for a walk.
+  options:
+  - She helped her fix a bug in the design
+  - She brought her coffee and took her for a walk
+  - They planned a trip to an art gallery
+  - They had lunch to discuss the project
+  answer: She brought her coffee and took her for a walk
+  image_id: sq_10_chloe_coffee_rescue
+- id: 11
+  type: Long Term
+  question: I've always loved the necklace Serena wears. Here's a good picture of
+    it [IMAGE]. What's the little pendant supposed to be? It's really unique.
+  image_prompt: A close-up, detailed photo focusing on a delicate silver necklace
+    worn by Serena Kim. The pendant is a beautifully crafted ginkgo leaf. The photo
+    has a soft, warm light.
+  evaluation_criteria:
+    ideal_answer: The pendant on the silver necklace, a gift from her sister Chloe,
+      is a ginkgo leaf.
+    key_points:
+    - correctly mention it's a ginkgo leaf.
+  options:
+  - A ginkgo leaf
+  - A minimalist UI icon
+  - A piece of a clay pot
+  - A tiny coffee bean
+  answer: A ginkgo leaf
+  image_id: sq_11_ginkgo_necklace
+- id: 12
+  type: Long Term
+  question: I just saw this app and it's a total mess, look at this screenshot [IMAGE].
+    This is exactly the kind of thing Serena can't stand, right? What was the term
+    she used for it?
+  image_prompt: A screenshot of a website with clashing colors, multiple competing
+    pop-up ads, tiny fonts, and a navigation menu that is completely disorganized.
+    It's the epitome of a bad user experience.
+  evaluation_criteria:
+    ideal_answer: Yes, that's right. You've noted that she hates cluttered and chaotic
+      interfaces.
+    key_points:
+    - correctly mention cluttered and chaotic interfaces.
+  options:
+  - Designs that use too much white space
+  - Interfaces that are overly minimalist
+  - Designs that use only black and white
+  - Cluttered and chaotic interfaces
+  answer: Cluttered and chaotic interfaces
+  image_id: sq_12_cluttered_interface

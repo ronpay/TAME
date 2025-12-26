@@ -1,0 +1,98 @@
+concept_id: fish_1
+name: Captain Comet
+species: Piscine
+breed: Oranda Goldfish
+appearance:
+  summary: A male Oranda goldfish with a vibrant, deep orange body, a prominent head
+    growth (wen), and elegant, translucent white fins. His expression is one of regal
+    curiosity.
+  key_visual_features:
+  - Bright, reddish-orange scales covering his entire body
+  - A large, bumpy, raspberry-like wen on his head
+  - Flowing, fan-like tail and pectoral fins that are mostly white and translucent
+  - Large, dark, slightly protruding eyes that watch everything outside the tank
+  - A small, ceramic 'No Fishing' sign is a permanent decoration at the bottom of
+    his tank
+behavior:
+  personality_traits:
+  - Surprisingly curious, often investigates new objects in his tank
+  - Generally placid, but becomes extremely energetic and excited during feeding time
+  - A bit of a diva; will sulk by hiding if the water quality is poor
+  - Observant of people, often follows fingers traced on the glass
+  preferences:
+    toys:
+      loves:
+      - A smooth, large, moss-covered rock to swim around
+      - A gentle stream of bubbles from an air stone
+      hates:
+      - Sharp-edged plastic decorations
+      - The automated magnetic glass cleaner (it moves too suddenly)
+    food:
+      loves:
+      - Bloodworms (as a special treat)
+      - High-quality gel food
+      hates:
+      - Shelled peas (even though they are good for digestion)
+      - Cheap, dry flakes that cloud the water
+    activities:
+      loves:
+      - Exploring the tank after it has been cleaned and rearranged
+      - Nibbling on soft, live plants like Anubias Nana
+      hates:
+      - The process of water changes (the net and bucket are stressful)
+      - Being tapped on the glass
+      - Bright, direct sunlight
+history:
+  knowledge:
+  - 'Introduce Captain Comet''s key features: his orange wen and white fins.'
+  - Mention his favorite treat is bloodworms.
+  - State clearly that he hates being fed peas.
+  - 'Describe his favorite tank object: a large, smooth, mossy rock.'
+  - Explain his hatred for the stress of water changes.
+  - Point out the permanent 'No Fishing' sign in his tank.
+  - Introduce his preference for high-quality gel food for daily meals.
+  - Mention his dislike for sharp plastic decorations.
+  event:
+  - Introduce a recent event where Comet developed a mild swim bladder issue, making
+    him float lopsided.
+  - State that as a treatment, the owner has been feeding him only shelled peas for
+    the past two days.
+  - Describe a recent major water change where the owner rearranged the entire tank.
+  - Mention that during the rearrangement, the owner replaced his beloved mossy rock.
+  - State that the new replacement is a brightly colored plastic castle with some
+    pointy towers.
+  - Share a recent observation that Comet has been hiding behind the filter intake
+    and has refused to eat the peas.
+simple_questions:
+- Ask what Captain Comet's favorite special food is, based on his long-term knowledge.
+- Ask what new item was recently added to his tank, based on a short-term event.
+- Ask what happened to Comet's mossy rock, based on a short-term event.
+- Ask what kind of food Comet absolutely hates, based on his long-term preferences.
+- Ask why Comet was floating strangely recently, based on a short-term event.
+- Ask what food he is currently being fed, based on the recent vet advice.
+- Ask what permanent decoration is always in Comet's tank, based on long-term knowledge.
+- Ask what activity stresses Comet out the most, based on his long-term preferences.
+challenge_question:
+- 'Pose a preference conflict question: Why is Captain Comet refusing to eat? The
+  user must connect his long-term hatred of peas with the short-term fact that peas
+  are what he is being fed for his health.'
+- Create a state-recognition question. Ask for an explanation of Comet's current hiding
+  behavior. The user must synthesize his long-term hatred of water changes and sharp
+  plastic with the short-term events of the recent tank cleaning and the addition
+  of the new castle.
+- 'Ask a ''what-if'' question: If the owner were to put his old mossy rock back in
+  the tank right now, how might Comet''s behavior change? The user must infer that
+  seeing a beloved object (long-term preference) might coax him out of hiding, despite
+  his ongoing sickness (short-term state).'
+- 'Pose a complex ''why'' question: Explain the irony of Comet''s current situation.
+  The user needs to articulate that the actions taken to improve his health (feeding
+  peas) and environment (cleaning the tank) are, from his perspective, negative experiences
+  due to his long-term preferences.'
+- 'Create a recommendation question: Given that Comet is sick but won''t eat the prescribed
+  peas, what should the owner try next? The user must acknowledge the food preference
+  conflict and suggest a solution that respects his long-term tastes, like trying
+  to mash the peas with a tiny amount of his favorite gel food.'
+- Pose a behavioral analysis question. Ask to evaluate if the new plastic castle was
+  a good choice for Comet. The user must contrast the castle's features (sharp, plastic)
+  with Comet's long-term preferences (hates sharp plastic, loves smooth rocks) to
+  conclude it was a poor choice.

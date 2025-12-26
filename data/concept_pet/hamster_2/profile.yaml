@@ -1,0 +1,99 @@
+concept_id: hamster_2
+name: Pip
+species: Rodent
+breed: Syrian Hamster
+appearance:
+  summary: A male Syrian hamster with soft, golden-blonde fur, large black bead-like
+    eyes, and a perpetually curious but cautious demeanor.
+  key_visual_features:
+  - Short, dense fur of a golden-blonde color with a creamy white belly
+  - Large, expressive, solid black eyes
+  - A tiny, twitching pink nose
+  - Delicate, round, slightly translucent ears
+  - A small, endearing tuft of fur right between his ears that often sticks straight
+    up
+behavior:
+  personality_traits:
+  - Primarily nocturnal, most active around dusk and dawn
+  - Extremely curious and an avid explorer
+  - Skittish and easily startled by loud noises or sudden movements
+  - A meticulous hoarder, constantly stuffing his cheek pouches with food
+  - Generally gentle, but will nip if woken up suddenly or feels cornered
+  preferences:
+    toys:
+      loves:
+      - Cardboard toilet paper tubes for chewing and hiding
+      - A large, 12-inch silent-spinner wheel
+      hates:
+      - Plastic hamster balls (finds them stressful and confusing)
+      - Any toy with a jingly bell attached
+    food:
+      loves:
+      - Sunflower seeds (as a high-value treat)
+      - Small pieces of dried apple
+      hates:
+      - Standard hamster food pellets (he scatters them everywhere)
+      - Citrus fruits like oranges or grapefruit
+    activities:
+      loves:
+      - Burrowing deep into his bedding to create tunnels
+      - Running on his wheel for hours during the night
+      hates:
+      - Being held for more than a few minutes at a time
+      - Having his cage cleaned, especially during the daytime when he's sleeping
+      - Loud sounds like the vacuum cleaner
+history:
+  knowledge:
+  - Introduce Pip's appearance, highlighting his golden-blonde fur and the unique
+    tuft of fur between his ears.
+  - Introduce that Pip's absolute favorite treat is sunflower seeds.
+  - Introduce that Pip strongly dislikes citrus fruits, like oranges.
+  - Introduce Pip's love for running on his silent-spinner wheel at night.
+  - Introduce Pip's hatred for having his cage cleaned during the day.
+  - Introduce Pip's skittish nature and his fear of loud noises.
+  - 'Introduce Pip''s favorite toy: simple cardboard tubes.'
+  - Introduce that Pip gets anxious and doesn't like being held for a long time.
+  event:
+  - Introduce a recent event where Pip ate too many sunflower seeds and got a bit
+    chubby, so the owner has stopped giving them to him for now.
+  - Introduce a recent event where his silent wheel broke, and the owner had to temporarily
+    replace it with a smaller, slightly squeaky one.
+  - Introduce a recent photo showing Pip exploring a new enrichment box filled with
+    hay for the first time.
+  - Introduce a recent event where the owner had to do an emergency cage cleaning
+    during the day because Pip's water bottle leaked everywhere.
+  - Introduce a recent event where the owner offered Pip a piece of orange, which
+    he sniffed and then completely ignored.
+  - Introduce a recent event where Pip chewed his favorite cardboard tube into tiny
+    pieces, so it's gone now.
+simple_questions:
+- Ask what Pip's favorite treat is, based on his long-term knowledge.
+- Ask what Pip was seen doing in the recent photo, based on a short-term event.
+- Ask what kind of wheel Pip usually loves, based on his long-term knowledge.
+- Ask why the owner had to clean Pip's cage during the day recently, based on a short-term
+  event.
+- Ask if Pip enjoys loud noises like bells, based on his long-term preferences.
+- Ask what happened to Pip's favorite cardboard tube, based on a recent event.
+- Ask to describe a unique feature of Pip's fur, based on long-term knowledge.
+- Ask what fruit the owner recently tried to give Pip, based on a short-term event.
+challenge_question:
+- 'Pose a preference conflict question: Ask why Pip isn''t getting his favorite sunflower
+  seeds right now. The user must combine the long-term knowledge that he loves them
+  with the short-term event that the owner restricted them due to his weight.'
+- 'Create a state-recognition question: Ask why Pip might seem less active or happy
+  at night lately. The user must connect his long-term love for a silent wheel with
+  the short-term event of it being replaced by a squeaky, temporary one.'
+- 'Ask a ''what-if'' question: If the owner decides to deep-clean Pip''s cage at 1
+  PM tomorrow, how would Pip likely react? The user must use long-term knowledge about
+  his nocturnal nature and hatred for daytime cleaning to predict his stressed reaction.'
+- 'Pose a question explaining a recent observation: The owner offered Pip a piece
+  of fruit, but he refused to eat it. Why? The user needs to combine the specific
+  short-term event (offered an orange) with the long-term knowledge that he dislikes
+  citrus fruits.'
+- 'Create a recommendation question: Pip seems bored and has destroyed his favorite
+  toy. What would be a good, cheap, and safe replacement toy for him? The user must
+  recall his long-term love for cardboard tubes to suggest a new one.'
+- 'Pose a complex behavioral question: Why was it particularly stressful for Pip to
+  have his cage cleaned recently? The user must combine the short-term event (it was
+  an emergency clean) with the long-term knowledge (he hates daytime cleaning) to
+  explain the heightened stress.'

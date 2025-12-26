@@ -1,0 +1,89 @@
+concept_id: bunny_1
+name: "Oreo"
+species: "Leporid"
+breed: "Dutch Rabbit"
+
+appearance:
+  summary: "A plump male Dutch rabbit with classic black and white markings. His fur is exceptionally soft and dense, with a perfect white blaze down his face and a 'saddle' of white fur around his shoulders. He has large, dark, curious eyes and often maintains a calm, slightly regal posture."
+
+  key_visual_features:
+    - "Distinctive black and white Dutch markings"
+    - "A sharp, symmetrical white blaze on his face"
+    - "Plush, velvety-looking fur"
+    - "Large, round, dark brown eyes that are very expressive"
+    - "Sturdy, upright black ears"
+    - "Noticeably clean paws, as he is a meticulous groomer"
+
+behavior:
+  personality_traits:
+    - "Generally calm and gentle, but can be stubborn"
+    - "Highly food-motivated and intelligent"
+    - "A creature of habit; dislikes changes to his environment or routine"
+    - "Expresses displeasure by thumping his hind leg loudly"
+    - "Curious and enjoys exploring safe spaces"
+    - "Tolerates being held by his owner but is not fond of it"
+
+  preferences:
+    toys:
+      loves:
+        - "Woven willow balls that he can chew and destroy"
+        - "Cardboard tunnels and boxes to hide in and remodel"
+      hates:
+        - "Loud toys with bells or squeakers"
+        - "Hard plastic toys he can't get a grip on"
+
+    food:
+      loves:
+        - "Fresh parsley"
+        - "Small pieces of banana as a high-value treat"
+        - "Timothy hay (his main food)"
+      hates:
+        - "Kale and cabbage (upsets his stomach)"
+        - "Rabbit food mixes with seeds and colorful bits"
+
+    activities:
+      loves:
+        - "Getting gentle cheek and forehead rubs"
+        - "Free-roaming time in a bunny-proofed room"
+        - "Napping in his favorite sunbeam spot"
+      hates:
+        - "The sound of the vacuum cleaner"
+        - "Car rides"
+        - "Having his nails trimmed"
+
+history:
+  knowledge:
+    - "Introduce Oreo's breed as a Dutch rabbit and describe his black and white markings."
+    - "Introduce that Oreo's absolute favorite treat is a small piece of banana."
+    - "Introduce that Oreo hates loud noises, especially the vacuum cleaner."
+    - "Introduce that Oreo's favorite toys are willow balls he can chew."
+    - "Introduce that Oreo expresses annoyance by thumping his back leg."
+    - "Introduce that kale is a food Oreo hates and should not eat."
+    - "Introduce that Oreo loves getting his forehead rubbed."
+    - "Introduce that Oreo dislikes car rides intensely."
+
+  event:
+    - "Introduce a recent vet visit where Oreo was diagnosed with mild GI stasis. The vet prescribed a strict diet of only hay and water for one week, with absolutely no treats."
+    - "Introduce a recent event where Oreo's owner bought him a new, fancy puzzle feeder, but he completely ignored it to play with the simple cardboard box it came in."
+    - "Introduce a photo from yesterday showing Oreo with a small smudge of dirt on his white facial blaze after digging in a potted plant."
+    - "Introduce that the owner is planning a short road trip next weekend and is worried about how to transport Oreo."
+    - "Introduce that Oreo thumped his foot repeatedly this morning because his water bowl was empty."
+    - "Introduce a recent event where his owner tried to trim his nails, and Oreo hid under the sofa for an hour afterward."
+
+simple_questions:
+  - "Ask what Oreo's favorite treat is, based on his long-term knowledge."
+  - "Ask why Oreo thumped his foot this morning, based on a short-term event."
+  - "Ask what kind of toy Oreo usually loves, based on his long-term knowledge."
+  - "Ask why Oreo has a smudge on his face in the recent photo, based on a short-term event."
+  - "Ask what sound Oreo really dislikes, based on his long-term preferences."
+  - "Ask what Oreo was playing with instead of his new puzzle feeder, based on a recent event."
+  - "Ask how Oreo feels about having his nails trimmed, based on his long-term activities preference."
+  - "Ask what kind of food Oreo dislikes, based on his long-term knowledge."
+
+challenge_question:
+  - "Pose a question explaining why the owner can't give Oreo a piece of banana right now to make him feel better. The user must combine the long-term knowledge that he loves bananas with the short-term event that he's on a strict vet-prescribed diet for GI stasis."
+  - "Create a state-recognition question. Based on the photo showing a dirt smudge on Oreo's usually clean face, ask if this is normal for him. The user must contrast his long-term trait of being a meticulous groomer with the short-term event of him digging in a plant to infer this is unusual."
+  - "Pose a preference conflict question. Ask why Oreo is ignoring his new, expensive toy for a plain cardboard box. The user should infer that this is likely due to his long-term preference for simple, chewable cardboard over complex toys, highlighting a temporary novelty."
+  - "Create a recommendation question. Given that the owner has to take Oreo on a car trip next weekend (short-term event), ask for advice on how to make it less stressful for him. The user must reference Oreo's long-term hatred of car rides to provide good advice."
+  - "Ask a 'what-if' question: If Oreo hadn't hidden under the sofa after the nail trim attempt, what might he have done to show his displeasure? The user must recall his long-term habit of thumping his foot when annoyed."
+  - "Create a complex inference question. Ask why it's a particularly bad idea to offer Oreo kale this week. The user must combine two long-term facts (he hates kale and has sensitive digestion) with the short-term event (he is currently recovering from GI stasis) to explain the heightened risk."

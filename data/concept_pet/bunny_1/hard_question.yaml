@@ -1,0 +1,184 @@
+- id: 1
+  type: Causal Inference
+  question: Poor Oreo is feeling down because of his GI stasis. I was thinking of
+    giving him his favorite treat, a little piece of banana [IMAGE], to cheer him
+    up. Why would that be a bad idea right now?
+  image_prompt: A close-up photo of a human hand holding a small, perfectly ripe slice
+    of banana. In the background, slightly out of focus, is Oreo the Dutch rabbit,
+    looking lethargic in an area with a lot of hay.
+  evaluation_criteria:
+    ideal_answer: Although a piece of banana is Oreo's absolute favorite treat, it
+      would be a very bad idea right now. He was recently diagnosed with GI stasis,
+      and the veterinarian prescribed a strict one-week diet of only hay and water,
+      with no treats of any kind. Giving him a banana would violate the vet's orders
+      and could be harmful to his recovery.
+    key_points:
+    - Banana is Oreo's favorite treat (long-term information).
+    - He is on a strict, treat-free diet for GI stasis as per vet's orders (short-term
+      information).
+  options:
+  - Because his stomach is sensitive from GI stasis, even a favorite treat like a
+    banana could make his current condition worse.
+  - He loves bananas, but the vet prescribed a strict hay-and-water-only diet for
+    his GI stasis, so all treats are forbidden.
+  - His food preferences may have changed due to his illness; he might now prefer
+    fresh parsley, which is easier on his stomach.
+  - It's better to offer his main food, Timothy hay, as introducing any rich food
+    like a banana can disrupt his fragile routine.
+  answer: He loves bananas, but the vet prescribed a strict hay-and-water-only diet
+    for his GI stasis, so all treats are forbidden.
+  image_id: cq_1_banana_temptation
+- id: 2
+  type: State Identification
+  question: Here's a photo I took of Oreo yesterday [IMAGE]. You know how he normally
+    has such perfect markings. Is this dirt smudge on his face a common thing for
+    him?
+  image_prompt: A close-up photo of Oreo, the Dutch rabbit. His normally pristine
+    white facial blaze has a noticeable smudge of dark brown dirt on it. He is looking
+    at the camera with a curious expression. A houseplant is slightly visible in the
+    background.
+  evaluation_criteria:
+    ideal_answer: No, this is not normal for him. Based on his introduction, Oreo
+      has very distinct and clean black-and-white markings. This dirt smudge is an
+      unusual, temporary state that happened because, as you mentioned, he was recently
+      digging in a potted plant.
+    key_points:
+    - Oreo is characterized by his clean, distinct markings (long-term information).
+    - The dirt on his face is a recent, temporary result of him digging in a plant
+      (short-term information).
+  options:
+  - Yes, this is fairly common for a curious rabbit like Oreo; he often gets a little
+    messy when he's busy exploring new things.
+  - No, this is unusual. He's normally a meticulous groomer, so this temporary smudge
+    must be from recently digging in a plant.
+  - This is just a temporary state from his digging. Being an active rabbit, he'll
+    likely have it cleaned off by his next nap.
+  - His distinct markings can sometimes look smudged depending on how his dense fur
+    lies; it's probably not actually dirt.
+  answer: No, this is unusual. He's normally a meticulous groomer, so this temporary
+    smudge must be from recently digging in a plant.
+  image_id: cq_2_dirty_face
+- id: 3
+  type: Causal Inference
+  question: I'm a bit confused. I bought Oreo this new, expensive puzzle feeder [IMAGE],
+    but he completely ignores it and is obsessed with the cardboard box it came in.
+    Based on his toy preferences, why do you think that is?
+  image_prompt: A Dutch rabbit, Oreo, is happily chewing on the corner of a plain
+    cardboard box. In the background, a colorful plastic puzzle feeder toy for small
+    animals sits completely untouched.
+  evaluation_criteria:
+    ideal_answer: This behavior makes sense given his preferences. You've said that
+      his favorite toys are woven willow balls that he can chew on and destroy. The
+      simple cardboard box fits this preference for a chewable, destructible item
+      perfectly, which is likely why he prefers it over the more complex, non-chewable
+      puzzle feeder.
+    key_points:
+    - Oreo's favorite toys are items he can chew and destroy, like willow balls (long-term
+      information).
+    - He is ignoring the new feeder in favor of the cardboard box because the box
+      aligns with his preference for chewing (short-term information explained by
+      long-term preference).
+  options:
+  - As a creature of habit, he is likely wary of the new plastic toy and prefers the
+    familiar texture and smell of plain cardboard.
+  - The new puzzle feeder might have small bells or make noise, which he dislikes,
+    so he's choosing the silent cardboard box instead.
+  - This fits his known preference for simple, chewable items like willow balls, making
+    the cardboard more appealing than the hard toy.
+  - Being intelligent, he may have already solved the puzzle and is now more interested
+    in the new project of remodeling the box.
+  answer: This fits his known preference for simple, chewable items like willow balls,
+    making the cardboard more appealing than the hard toy.
+  image_id: cq_3_box_vs_toy
+- id: 4
+  type: Counterfactual Reasoning
+  question: I have to take Oreo on that road trip next weekend. Given how much you
+    know he hates car rides, what's your advice for making it less stressful for him?
+    This is the carrier I'm planning to use [IMAGE].
+  image_prompt: A standard, hard-shell plastic pet carrier sits on a wooden floor.
+    The carrier door is open.
+  evaluation_criteria:
+    ideal_answer: Since Oreo finds car rides intensely stressful and dislikes loud
+      noises, the key is to make the carrier feel safe and comfortable. You could
+      put one of his favorite chewable willow balls inside, along with plenty of hay.
+      Covering the carrier with a light blanket can also help by blocking out scary
+      sights and muffling noise, making the trip more tolerable for him.
+    key_points:
+    - Oreo intensely dislikes car rides and is sensitive to loud noises (long-term
+      information).
+    - To mitigate stress for the upcoming trip, one should provide comfort items he
+      loves (like a willow ball) and reduce sensory input (like covering the carrier)
+      (reasoned recommendation).
+  options:
+  - Since he's recovering from GI stasis, giving him a calming banana treat just for
+    the trip would be a good exception to the rule.
+  - To combat his stress, make the carrier safe with hay and a willow ball inside,
+    and cover it to block out scary sights and sounds.
+  - He dislikes being confined, so a harness on the car seat may be better. If you
+    must use a carrier, leave the door slightly ajar.
+  - Get him used to the carrier at home first. During the ride, just focus on driving
+    smoothly to avoid sudden, scary movements.
+  answer: To combat his stress, make the carrier safe with hay and a willow ball inside,
+    and cover it to block out scary sights and sounds.
+  image_id: cq_4_travel_carrier
+- id: 5
+  type: Counterfactual Reasoning
+  question: After that awful nail trim attempt where he hid under the sofa [IMAGE],
+    I was wondering... if he hadn't run away to hide, what's another way he would
+    have likely shown me how upset he was?
+  image_prompt: A low-angle photo showing the scared eyes and ears of Oreo, a Dutch
+    rabbit, peeking out from the dark space underneath a sofa. A pair of nail clippers
+    are on the floor in the foreground.
+  evaluation_criteria:
+    ideal_answer: Based on what you've told me about how he communicates, if he hadn't
+      hidden, it's very likely he would have started thumping his hind leg loudly
+      on the floor. That's the specific behavior you've identified as his way of showing
+      he's annoyed.
+    key_points:
+    - Oreo's established method for showing annoyance is thumping his hind leg (long-term
+      information).
+    - In a hypothetical scenario where he didn't hide after the stressful nail trim,
+      he would have likely used this thumping behavior instead (counterfactual reasoning).
+  options:
+  - He would have turned his back on you and meticulously groomed himself, pointedly
+    ignoring you to show his strong disapproval.
+  - He would have likely run to his cardboard box and started chewing it aggressively,
+    taking out his frustration on a favorite object.
+  - Based on his established behavior, it's most likely he would have thumped his
+    hind leg loudly on the floor to express displeasure.
+  - He might have gone to his food bowl and rattled it, demanding a treat like parsley
+    to make up for the stressful experience.
+  answer: Based on his established behavior, it's most likely he would have thumped
+    his hind leg loudly on the floor to express displeasure.
+  image_id: cq_5_hiding_after_trim
+- id: 6
+  type: Causal Inference
+  question: My friend suggested I try giving Oreo some kale [IMAGE] to encourage him
+    to eat while he's recovering. Why is this a particularly bad idea for him this
+    week?
+  image_prompt: A person's hand holds a large, fresh green leaf of kale. The background
+    is a neutral indoor setting.
+  evaluation_criteria:
+    ideal_answer: That's a particularly bad idea for two critical reasons. First,
+      you've said that Oreo is on a strict vet-prescribed diet of only hay and water
+      for his GI stasis. But even more importantly, you've specifically noted in the
+      past that kale upsets his stomach. Giving him a food known to cause him digestive
+      issues while he's already suffering from a serious digestive condition could
+      be very dangerous.
+    key_points:
+    - Oreo has a known intolerance to kale, as it upsets his stomach (long-term information).
+    - He is currently recovering from GI stasis, so feeding him a known digestive
+      irritant is especially risky and against vet orders (combining long-term knowledge
+      with short-term event).
+  options:
+  - The primary reason is that it directly violates the vet's orders; he is on a strict
+    hay-and-water-only diet for GI stasis.
+  - It's a bad idea because he is a creature of habit, and since he dislikes kale,
+    forcing it on him now would only add more stress.
+  - It's very risky because not only is he on a vet-ordered diet, but kale is a food
+    you know specifically upsets his digestion.
+  - Because he's not eating well, it's better to tempt him with something he loves,
+    like fresh parsley, instead of a food he dislikes.
+  answer: It's very risky because not only is he on a vet-ordered diet, but kale is
+    a food you know specifically upsets his digestion.
+  image_id: cq_6_offering_kale

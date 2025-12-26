@@ -1,0 +1,219 @@
+- id: 1
+  type: Causal Inference
+  question: So I've been thinking... the strap on The Shell is starting to fray, and
+    I saw that ad for the slick new version. Look at this picture I snapped while
+    pondering [IMAGE]. Logically, it might be time for an upgrade. So why do you think
+    I'm so hesitant to replace it?
+  image_prompt: A thoughtful, slightly conflicted photo. In the foreground, the owner's
+    hand is gently touching the fraying shoulder strap of 'The Shell' backpack. In
+    the background, a laptop screen is visible and in focus, displaying the advertisement
+    for the new, upgraded version of the backpack from turn 11.
+  evaluation_criteria:
+    ideal_answer: You're hesitating because 'The Shell' is far more than a functional
+      object. It was a graduation gift from your parents marking the start of your
+      career, and it has become your symbolic 'urban armor'. Its deep sentimental
+      value and history as a reliable companion create a strong emotional bond that
+      makes you loyal, despite the physical wear and the temptation of a newer model.
+    key_points:
+    - The backpack's value comes from its origin as a parental gift and its long-term
+      role as symbolic 'urban armor'. (long-term information)
+    - This deep sentimental value is the reason for your hesitation, overriding practical
+      concerns like a fraying strap or the appeal of a new version. (reasoned inference
+      from short-term events)
+  options:
+  - You're probably hesitant because fixing the fraying strap seems more personal
+    and satisfying than simply buying an impersonal, mass-produced replacement.
+  - You are likely worried that the new model, despite its looks, might not be as
+    reliably waterproof as The Shell proved to be during the recent downpour.
+  - It's because the backpack is your symbolic 'urban armor' and a gift from your
+    parents. This sentimental history creates a loyalty that outweighs the fraying
+    strap or a new model's appeal.
+  - You likely feel obligated to keep it out of respect for your parents who gave
+    it to you, and replacing it would feel like discarding their thoughtful gift.
+  answer: It's because the backpack is your symbolic 'urban armor' and a gift from
+    your parents. This sentimental history creates a loyalty that outweighs the fraying
+    strap or a new model's appeal.
+  image_id: cq_1_hesitation_and_temptation
+- id: 2
+  type: Counterfactual Reasoning
+  question: I need to do something about this fraying strap [IMAGE]. I'm not sure
+    what the best approach is. Given my history with The Shell, what kind of repair
+    do you think would be most 'me'?
+  image_prompt: A clear, close-up shot of the fraying stitching on the shoulder strap
+    of 'The Shell', just like in turn 9. The focus is entirely on the point of wear
+    and tear, highlighting the need for a decision.
+  evaluation_criteria:
+    ideal_answer: Given that you personally fixed the broken zipper with a hand-tied
+      paracord loop, the most fitting repair would be another personal, hands-on fix.
+      Instead of taking it to a generic repair shop, you might consider reinforcing
+      the stitching yourself with a strong, dark thread. This approach would be consistent
+      with the character you've built with it, blending durability with personal history.
+    key_points:
+    - You have a history of performing personal, hands-on repairs to the backpack,
+      like the paracord zipper pull. (long-term information)
+    - Based on this history, a DIY repair for the fraying strap would be more appropriate
+      and in-character than a generic, impersonal one. (reasoned recommendation based
+      on a short-term need)
+  options:
+  - Based on how you fixed the zipper with a paracord loop, a personal, DIY fix is
+    most fitting. Reinforcing the stitching yourself with strong, dark thread would
+    continue its story of personal care.
+  - To maintain a consistent aesthetic, you should use more red paracord to fix the
+    strap. Weaving it into the stitching would create a unique look that matches the
+    zipper pull.
+  - Given its role protecting your work laptop, you should take it to a professional
+    repair shop. This ensures the fix is structurally sound and doesn't risk a catastrophic
+    failure.
+  - Since the original stitching failed, the most logical fix is to buy a heavy-duty
+    sewing kit and re-stitch the entire strap yourself to make it stronger than it
+    was before.
+  answer: Based on how you fixed the zipper with a paracord loop, a personal, DIY
+    fix is most fitting. Reinforcing the stitching yourself with strong, dark thread
+    would continue its story of personal care.
+  image_id: cq_2_fraying_strap_decision
+- id: 3
+  type: Counterfactual Reasoning
+  question: Remember that time the pen exploded on the flight? I was lucky. But what
+    if it had been much worse? Look at this hypothetical disaster [IMAGE]. If that
+    had actually happened, how might my feelings about The Shell's 'protective' nature
+    have changed?
+  image_prompt: A dramatic, simulated photo showing a laptop being pulled out of 'The
+    Shell' backpack's inner sleeve. A large, fresh blue ink stain is smeared across
+    the laptop's screen and silver casing, clearly indicating catastrophic damage.
+  evaluation_criteria:
+    ideal_answer: If the ink had ruined your laptop, it would have likely shattered
+      your perception of 'The Shell' as a 'protective' companion and 'personal armor'.
+      Since its core identity is to shield your belongings, a failure this significant
+      would have been a fundamental breach of trust. Your relationship might have
+      shifted from reliance and affection to one of deep disappointment.
+    key_points:
+    - The backpack's core identity for you is being 'protective' and serving as 'personal
+      armor'. (long-term information)
+    - A catastrophic failure to protect, like a ruined laptop, would directly violate
+      this identity, leading to a breakdown of trust. (reasoned inference from a hypothetical
+      short-term event)
+  options:
+  - It would have shattered your view of it as a 'protective' companion. Since being
+    your 'urban armor' is its core identity, such a major failure would have been
+    a fundamental breach of trust.
+  - Your trust would be shaken, but you'd likely see it as another 'battle scar,'
+    similar to the scuff from the train station, and eventually forgive it because
+    of its sentimental value.
+  - You would feel that its 'hatred' of uncapped pens was justified, and your primary
+    feeling would be regret for not being more careful, rather than anger at the backpack.
+  - The incident would have simply confirmed it's an old bag, making you less hesitant
+    to finally buy the newer, upgraded model you were already considering.
+  answer: It would have shattered your view of it as a 'protective' companion. Since
+    being your 'urban armor' is its core identity, such a major failure would have
+    been a fundamental breach of trust.
+  image_id: cq_3_hypothetical_disaster
+- id: 4
+  type: Causal Inference
+  question: Here’s a shot from right after I got to the office after that downpour
+    last week [IMAGE]. I was obviously relieved, but what deeper feeling do you think
+    I had towards The Shell in that specific moment?
+  image_prompt: A photo taken from the owner's point of view. One hand is opening
+    the zipper of the still-damp black backpack. Inside, a laptop and a notebook are
+    visible, perfectly pristine and dry. The contrast between the wet exterior and
+    dry interior is clear.
+  evaluation_criteria:
+    ideal_answer: Beyond simple relief, that moment was likely a profound affirmation
+      of your trust in The Shell. It perfectly validated its identity as your 'stoic
+      protector' and 'urban armor'. Seeing your things completely safe after you got
+      soaked wasn't just good luck; it was proof of its reliability, deepening your
+      appreciation and reinforcing your emotional bond with it.
+    key_points:
+    - The backpack's established identity is that of a 'stoic protector' and 'urban
+      armor'. (long-term information)
+    - The event of it keeping things dry in a storm was a powerful, real-world validation
+      of this identity, leading to a deeper feeling of trust and appreciation. (reasoned
+      inference from a short-term event)
+  options:
+  - It was likely pride in your parents' original choice of gift, reminding you of
+    the quality and thoughtfulness behind it even after all these years of use.
+  - The feeling was probably surprise mixed with relief. Given its age and the fraying
+    strap, you might have secretly worried its water resistance had faded.
+  - Beyond relief, it was likely a deep affirmation of trust. The moment perfectly
+    validated its identity as your 'stoic protector,' proving its reliability in a
+    crisis.
+  - You probably felt vindicated for not buying the new model, as this proved your
+    old, reliable backpack is still perfectly capable and doesn't need replacing.
+  answer: Beyond relief, it was likely a deep affirmation of trust. The moment perfectly
+    validated its identity as your 'stoic protector,' proving its reliability in a
+    crisis.
+  image_id: cq_4_rainstorm_proof
+- id: 5
+  type: State Identification
+  question: Look at where The Shell ended up last weekend [IMAGE]. This is a long
+    way from the office buildings and train stations it's used to. What do you think
+    this little adventure says about the evolution of my relationship with it?
+  image_prompt: The black backpack 'The Shell' is sitting on a mossy log next to a
+    hiking trail. There are trees and dappled sunlight in the background. A light
+    layer of trail dust is visible on the backpack's surface, showing it has been
+    used.
+  evaluation_criteria:
+    ideal_answer: Taking your 'urban armor' on a hike suggests your relationship with
+      it is evolving. It's expanding beyond its original role as a tool for the 'professional
+      world'. This shows you now see 'The Shell' not just as a work accessory, but
+      as a trusted, all-purpose companion for all parts of your life, including personal
+      recreation and adventure.
+    key_points:
+    - The backpack's established identity is tied to the professional, 'urban jungle'
+      environment. (long-term information)
+    - Using it for a recreational hike, an activity outside this established context,
+      indicates its role has evolved into a trusted companion for all life's adventures.
+      (inference about state change from a short-term event)
+  options:
+  - It suggests its role is evolving from just 'urban armor' to a trusted companion
+    for all parts of your life, including personal adventures, showing a deepening
+    bond.
+  - It likely indicates you now see it as a purely functional item. If it were still
+    highly sentimental, you might have been more careful to protect it from trail
+    dust and dirt.
+  - It probably shows you were testing its durability. Given you're considering a
+    replacement, you may have been pushing it to see if it could still handle new
+    challenges.
+  - This likely just shows that convenience was key. It was already packed from the
+    work week, so it was simply easier to grab it than to find and pack a different
+    bag.
+  answer: It suggests its role is evolving from just 'urban armor' to a trusted companion
+    for all parts of your life, including personal adventures, showing a deepening
+    bond.
+  image_id: cq_5_hike_evolution
+- id: 6
+  type: Causal Inference
+  question: This was a fun moment during my weekly clean-out [IMAGE]. But it's a bit
+    of a contradiction, right? We've talked about how The Shell 'hates' clutter and
+    how I have that neat repacking ritual. So why was finding this old forgotten ticket
+    such a positive moment?
+  image_prompt: A person's hand holding a faded concert ticket stub. In the background,
+    the open 'The Shell' backpack is visible, with its contents neatly arranged beside
+    it on the floor as part of the weekly ritual from turn 8.
+  evaluation_criteria:
+    ideal_answer: The positivity of that moment comes from a conflict between the
+      backpack's two roles. While you project a 'preference' for neatness onto it,
+      which is reinforced by your weekly ritual, its deeper role is as a silent witness
+      to your life's journey. The wave of nostalgia from the ticket affirmed this
+      deeper role, making the discovery of 'clutter' a welcome connection to your
+      past that outweighs the preference for perfect order.
+    key_points:
+    - The backpack has a projected personality that values neatness, reinforced by
+      your weekly cleaning ritual. (long-term information)
+    - The positive emotion from finding the ticket comes from nostalgia, which highlights
+      the backpack's more important role as a keeper of memories, overriding its projected
+      dislike of clutter. (reasoned inference resolving a conflict in a short-term
+      event)
+  options:
+  - The positive feeling likely came from the ritual itself. Discovering the ticket
+    was an unexpected part of the satisfying process of being organized and prepared.
+  - Because its role as a silent witness to your life is more important than its projected
+    'hatred' of clutter. The ticket's nostalgia affirmed this deeper value.
+  - You were likely happy because it reinforced the backpack's protective nature,
+    proving that even a small, fragile item could be kept safe and not lost inside
+    it.
+  - Because it was a physical link to your past, much like the backpack itself is
+    a link to your graduation. The ticket simply echoed the bag's sentimental nature.
+  answer: Because its role as a silent witness to your life is more important than
+    its projected 'hatred' of clutter. The ticket's nostalgia affirmed this deeper
+    value.
+  image_id: cq_6_nostalgia_vs_neatness

@@ -1,0 +1,156 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, let's get you set up. Here's a recent picture of me after a run.
+    [IMAGE] You can see my usual style—athletic clothes and hair tied back. Oh, and
+    if you zoom in on my knee, you can see this faint old scar from when I was a kid.
+  assistant_response: 'Thanks, Maya. I''ve noted your typical appearance: athletic
+    build, long dark hair often tied back, and a small scar on your right kneecap.
+    Got it.'
+  image_prompt: Full-body photo of Maya Rodriguez, a woman in her mid-20s with an
+    athletic build, standing on a park trail. She has long dark brown hair in a high
+    ponytail and is wearing running shorts and a tank top. She's smiling, and there's
+    a visible faded scar on her right kneecap. She is wearing a digital sports watch.
+  image_id: turn_1_athletic_profile
+- turn: 2
+  log_type: knowledge
+  user_input: 'Just so you have my food preferences down: I''m all about high-energy
+    food I can eat on the go. Tacos from a food truck are my absolute favorite, and
+    I basically live on protein-rich fruit smoothies. Check out my lunch today! [IMAGE]'
+  assistant_response: Got it. Your favorite foods are high-energy options like street
+    food tacos and protein smoothies. I've saved this preference. That looks delicious!
+  image_prompt: A vibrant, first-person perspective photo of a hand holding two delicious-looking
+    street-style tacos from a food truck. In the background, a colorful food truck
+    is slightly out of focus. The person is also holding a large cup containing a
+    bright pink fruit smoothie.
+  image_id: turn_2_taco_lunch
+- turn: 3
+  log_type: knowledge
+  user_input: 'A little about my work: I''m a pediatric physical therapist. It''s
+    incredibly rewarding but can be tough. My main challenge right now is a little
+    guy named Leo, he''s 8 and recovering from a leg fracture. He''s a sweet kid but
+    can be super stubborn about his exercises.'
+  assistant_response: Okay, I've noted your occupation as a pediatric physical therapist.
+    I've also created a note about your current patient, Leo, an 8-year-old who you
+    describe as stubborn but rewarding to work with.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: Random thought, but if you're ever helping me plan my schedule, please
+    remember I absolutely cannot stand activities that require sitting still for hours.
+    Things like opera, formal concerts, or fancy multi-course dinners make me super
+    restless.
+  assistant_response: Understood. I've logged your strong preference against long,
+    sedentary activities like formal concerts or dinners. I'll keep that in mind for
+    any future scheduling.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: My older brother Carlos and I have been competitive gamers our whole
+    lives. It's how we bond. Here's a shot of us from last weekend going head-to-head.
+    [IMAGE] He's my biggest cheerleader, except when I'm about to beat his high score!
+  assistant_response: That sounds like a fun rivalry! I've noted your close relationship
+    with your older brother, Carlos, centered around a shared passion for competitive
+    video games.
+  image_prompt: A dynamic, candid photo of Maya and her older brother Carlos in a
+    living room, intensely focused on a video game. Maya is on her feet, leaning forward
+    with a controller, a look of concentration on her face. Carlos is laughing next
+    to her. The TV screen shows a vibrant, fast-paced game.
+  image_id: turn_5_gaming_with_carlos
+- turn: 6
+  log_type: knowledge
+  user_input: For my media tastes, I'm all about high energy. I love action movies
+    with amazing fight choreography and my workout playlists are full of upbeat pop
+    and dance music. I just can't get into slow, philosophical dramas or quiet folk
+    music.
+  assistant_response: 'Got it. Your media preferences lean towards high-energy content:
+    action movies and upbeat pop/dance music. You''re not a fan of slow dramas or
+    folk music. I''ve saved this.'
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: I've been told that when I'm explaining things, especially at work,
+    I tend to use a lot of analogies from video games. I'll tell a kid their stretching
+    is like a 'power-up' or that completing a set of exercises is 'leveling up'. It
+    seems to help them understand!
+  assistant_response: 'That''s a great insight. I''ve noted your communication style:
+    encouraging and often using video game analogies, like ''power-ups'' and ''leveling
+    up'', to explain concepts.'
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: This is my best friend, Jenna! [IMAGE] We're workout buddies. We push
+    each other at the gym and then grab smoothies to vent about life. She's always
+    trying to get me to do 'relaxing' things, but I think our gym sessions are the
+    best kind of therapy.
+  assistant_response: Thanks for introducing me to Jenna. I've recorded that she is
+    your best friend and workout buddy. You motivate each other at the gym and debrief
+    over smoothies.
+  image_prompt: A selfie of two women in their mid-20s, Maya and Jenna, in a gym locker
+    room. They are both in workout clothes, slightly sweaty but smiling. Maya is holding
+    up a large smoothie cup. They look happy and energized.
+  image_id: turn_8_jenna_workout
+- turn: 9
+  log_type: event
+  user_input: I had such a breakthrough with my patient Leo today! He was refusing
+    to do his leg exercises, so I told him we were playing a 'real-life video game'.
+    Each exercise was a challenge to beat a 'boss', and he totally got into it! Look
+    at him go! [IMAGE]
+  assistant_response: 'That''s fantastic, Maya! It sounds like a perfect application
+    of your communication style. I''ve recorded this successful event: you motivated
+    Leo by gamifying his physical therapy session.'
+  image_prompt: A photo taken in a brightly lit pediatric therapy room. Maya is kneeling
+    on the floor, enthusiastically encouraging an 8-year-old boy, Leo, who has a brace
+    on his leg. Leo is carefully stepping over a series of colorful foam blocks on
+    the floor, a look of determined concentration on his face. The scene feels playful
+    and positive.
+  image_id: turn_9_leo_breakthrough
+- turn: 10
+  log_type: event
+  user_input: Ugh, what a night. Jenna meant well, but she dragged me to a three-hour
+    classical music concert. It was her idea of 'relaxing'. I was so bored and couldn't
+    stop fidgeting. Here's a sneaky picture I took of my program... and my watch.
+    [IMAGE] So. Much. Sitting.
+  assistant_response: I see. That sounds like it wasn't your kind of activity. I've
+    noted that you recently attended a long classical concert with Jenna and found
+    it boring and difficult to sit through, which aligns with the preferences you've
+    told me about.
+  image_prompt: A first-person perspective photo taken from a seat in a dimly lit,
+    ornate concert hall. The focus is on the lap of the person, showing a classical
+    music program brochure and a hand with a digital sports watch. The stage with
+    the orchestra is visible but out of focus in the background. The overall mood
+    is one of boredom and restlessness.
+  image_id: turn_10_concert_boredom
+- turn: 11
+  log_type: event
+  user_input: Was going through some old boxes and found this gem. [IMAGE] That's
+    me as a kid, probably around 10, completely lost in some motion-controlled game.
+    I guess my love for active video games started pretty early! It's funny how some
+    things never change.
+  assistant_response: What a great find! A true throwback. I've saved this memory
+    and the photo. It's clear your passion for active gaming has been a long-standing
+    part of your life.
+  image_prompt: A slightly faded, nostalgic photograph from the early 2000s. A young
+    girl, about 10 years old (younger Maya), is standing in the middle of a classic
+    suburban living room, intensely focused on a TV screen that is out of frame. She
+    is holding a motion-game controller (like a Wii remote) and is mid-motion, looking
+    energetic and completely absorbed in the game.
+  image_id: turn_11_nostalgic_photo
+- turn: 12
+  log_type: event
+  user_input: 'My entire Saturday morning was dedicated to one mission: beating Carlos''s
+    new high score on a new VR fitness game. He set a ridiculously high bar. I didn''t
+    quite make it, but I got so close! Here’s my setup. [IMAGE] The rematch is already
+    scheduled.'
+  assistant_response: Mission accepted, it seems! I've recorded that you spent last
+    Saturday morning in a competitive VR fitness game session, trying to beat your
+    brother Carlos's high score. I'll be cheering for you in the rematch!
+  image_prompt: A photo of a living room set up for VR gaming. A VR headset and controllers
+    are on a small table in front of a large TV screen that displays the high-score
+    leaderboard of a rhythm fitness game. The name 'CARLOS' is at the top with a high
+    score, and 'MAYA' is just below it. The room is a bit messy, with a water bottle
+    and towel nearby, suggesting an intense workout session.
+  image_id: turn_12_vr_challenge

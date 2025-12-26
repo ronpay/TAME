@@ -1,0 +1,213 @@
+- id: 1
+  type: Causal Inference
+  question: Look at this [IMAGE]. On the left is that sleek new bag I almost bought,
+    and on the right is me fixing The Shell's strap last week. Its zipper pull also
+    just broke. Why do you think I'm choosing to keep fixing this old thing instead
+    of just getting the new, professional bag?
+  image_prompt: A composite image. On the left side is a screenshot from an e-commerce
+    site showing a modern, minimalist black messenger bag. On the right side is a
+    close-up photo of a person's hands carefully re-stitching the shoulder strap of
+    the old navy blue backpack, 'The Shell'.
+  evaluation_criteria:
+    ideal_answer: You're choosing to repair 'The Shell' instead of buying the new
+      bag because your connection to it goes far beyond function. The Shell was a
+      gift from your parents for university and has been your dependable companion
+      through a formative period of your life. The new bag is just an object, but
+      repairing The Shell is an act of preserving a relationship and its history,
+      which is more meaningful to you than having something new and professional.
+    key_points:
+    - The Shell has a deep sentimental value as a university gift from your parents
+      and a long-term dependable companion (long-term information from Turn 1, Turn
+      5).
+    - Your decision to repair it, despite its recent failures and the availability
+      of a new alternative, demonstrates a commitment to its history over the appeal
+      of a new object (inference from short-term events in Turn 9, Turn 10, Turn 12).
+  options:
+  - Because the new messenger bag looks less practical and probably can't hold as
+    much as The Shell, which you're used to overstuffing on trips.
+  - Because your connection to it is about history, not just function. It was a university
+    gift and a companion, so repairing it is an act of preserving memories.
+  - You're likely fixing it up to make it presentable enough for your younger sibling,
+    hoping they'll reconsider using it for their own college journey.
+  - Because the repairs are minor and cost-effective, while the new messenger bag
+    represents a significant, unnecessary financial expense for you right now.
+  answer: Because your connection to it is about history, not just function. It was
+    a university gift and a companion, so repairing it is an act of preserving memories.
+  image_id: cq_501_repair_vs_replace
+- id: 2
+  type: Counterfactual Reasoning
+  question: Here's the sturdy metal carabiner I got to replace the broken zipper pull
+    [IMAGE]. Based on everything you know about The Shell's history and 'personality,'
+    do you think this is a fitting choice? Why or why not?
+  image_prompt: A photo of 'The Shell' backpack sitting by a doorway. A small, sturdy,
+    matte-black metal carabiner is clipped onto the top haul loop handle, ready to
+    be attached to the zipper.
+  evaluation_criteria:
+    ideal_answer: Yes, the carabiner is an excellent choice that fits The Shell's
+      character perfectly. Its history includes a souvenir patch from a solo mountain
+      trip and a makeshift zipper pull made during a camping trip. The carabiner,
+      a tool associated with climbing and the outdoors, reflects this same spirit
+      of adventure and practical, rugged durability. It's a modern continuation of
+      its established identity.
+    key_points:
+    - The backpack's identity is defined by adventure (mountain patch, camping trip)
+      and practical, rugged fixes (long-term information from Turn 4, Turn 8).
+    - The carabiner is a fitting replacement because it functionally and symbolically
+      aligns with this established adventurous and durable character (inference from
+      short-term event in Turn 13).
+  options:
+  - Yes, it's a perfect fit. Its adventurous history with the mountain patch and camping-trip
+    fix is continued by the carabiner, a symbol of rugged utility.
+  - No, it's a poor choice because the industrial look of a metal carabiner clashes
+    with the bag's other hand-repaired elements, like the hand-stitched leather patch.
+  - Yes, it's a good choice primarily because its metal construction is far more durable
+    than the original fabric pull or the temporary leather cord that broke.
+  - It's an acceptable temporary solution, but a more fitting permanent fix would
+    be another knotted leather cord to match the one you made on your camping trip.
+  answer: Yes, it's a perfect fit. Its adventurous history with the mountain patch
+    and camping-trip fix is continued by the carabiner, a symbol of rugged utility.
+  image_id: cq_502_carabiner_choice
+- id: 3
+  type: Counterfactual Reasoning
+  question: Remember this ink stain from the exploded pen during my final exam? [IMAGE]
+    What if the ink had leaked all the way through and ruined my final paper? How
+    do you think I would feel about 'The Shell' today if that had happened?
+  image_prompt: An interior shot looking down into the main compartment of 'The Shell'
+    backpack. The lighting illuminates the lining, revealing a faint, silvery-blue
+    ink stain spread across the fabric.
+  evaluation_criteria:
+    ideal_answer: If the ink had ruined your paper, your feelings would likely be
+      the complete opposite of what they are now. Its core identity for you is a 'dependable
+      companion.' A failure at such a critical moment would have shattered that trust.
+      Instead of being a symbol of shared history, 'The Shell' would have become a
+      source of a very bad memory, a reminder of a disaster it failed to prevent.
+    key_points:
+    - The Shell's core identity is that of a 'dependable' and 'reliable' companion
+      (long-term information from Turn 5, Turn 7).
+    - A critical failure like ruining a final paper would have fundamentally violated
+      that trusted identity, transforming positive feelings into negative ones associated
+      with that traumatic event (counterfactual inference based on Turn 3).
+  options:
+  - Your feelings would likely be the opposite of what they are. A failure at such
+    a critical moment would have broken its identity as a 'dependable companion'.
+  - Your feelings would be unchanged, as you would have blamed the faulty pen, not
+    the backpack that was simply holding the pen when it exploded.
+  - It might have even strengthened your bond, as you and The Shell would have 'overcome'
+    that disaster together, making it part of a more resilient story.
+  - You'd be frustrated, but you'd see it as a sign of its adventurous life, similar
+    to the worn patch from being dragged across campus concrete.
+  answer: Your feelings would likely be the opposite of what they are. A failure at
+    such a critical moment would have broken its identity as a 'dependable companion'.
+  image_id: cq_503_ink_what_if
+- id: 4
+  type: Causal Inference
+  question: My younger sibling recently turned down my offer to take 'The Shell' to
+    university. It got me thinking about its journey. Here's a photo that sums it
+    up for me [IMAGE]. What mix of feelings do you think I had when my sibling said
+    no?
+  image_prompt: A poignant photo of 'The Shell' backpack sitting on a wooden desk.
+    Resting on top of the backpack is a university graduation cap with its tassel
+    hanging down the side.
+  evaluation_criteria:
+    ideal_answer: You likely felt a complex mix of emotions. On one hand, you'd understand
+      your sibling wanting their own new things for their journey. On the other, their
+      refusal would trigger a deep sense of nostalgia. Since The Shell's identity
+      is so tied to your own university start, this moment would feel like the official,
+      final closing of that chapter, making you realize that part of your past is
+      now truly history.
+    key_points:
+    - The backpack's foundational identity is tied to being your companion for university
+      (long-term information from Turn 1).
+    - Your sibling's rejection of it for their own university start serves as a milestone
+      that officially 'retires' it from that role, likely triggering feelings of nostalgia
+      and the sense of an era ending (inference from short-term event in Turn 11).
+  options:
+  - You likely felt a mix of understanding and nostalgia. Their refusal officially
+    closed the backpack's 'student' chapter, making you realize that part of your
+    past is over.
+  - You were likely disappointed, feeling they chose a trendy new bag over one with
+    proven durability and a meaningful history that started with your parents.
+  - You were probably just relieved. While you made the offer to be nice, you secretly
+    didn't want to part with such a meaningful possession and were glad they said
+    no.
+  - You likely felt understanding, but also a practical worry that with its recent
+    issues, the backpack might not have been reliable enough for their journey anyway.
+  answer: You likely felt a mix of understanding and nostalgia. Their refusal officially
+    closed the backpack's 'student' chapter, making you realize that part of your
+    past is over.
+  image_id: cq_504_graduation_era
+- id: 5
+  type: State Identification
+  question: Check out this photo [IMAGE]. You can see where I just fixed the strap
+    and the new carabiner I'm using for a zipper pull. Seeing these two recent repairs
+    side-by-side, what does this tell you about The Shell's current status in my life?
+  image_prompt: 'A single, well-lit photo of ''The Shell'' backpack. The camera angle
+    clearly shows two key details at once: the newly hand-stitched section on the
+    shoulder strap, and the new matte-black carabiner attached to the front pocket''s
+    zipper.'
+  evaluation_criteria:
+    ideal_answer: These back-to-back repairs don't signal that the backpack is failing.
+      Instead, they indicate a change in its status. It has transitioned from a simple
+      daily-use item to a cherished 'vintage' possession. Like a classic car, it now
+      requires and merits active preservation, not because it's breaking, but because
+      its history is valuable enough to maintain.
+    key_points:
+    - The backpack is an old object whose role has already evolved from a university
+      workhorse to a companion for more relaxed activities (long-term information
+      from Turn 1, Turn 6).
+    - The recent, deliberate acts of maintenance signify a shift in your mindset towards
+      active preservation, treating it as a valuable piece of history rather than
+      a failing tool (inference from short-term events in Turn 9, Turn 13).
+  options:
+  - It has transitioned into a 'cherished vintage' item. These repairs aren't about
+    failure, but about actively preserving a possession whose history is now valuable.
+  - It signals the backpack is reaching the end of its functional life, as key components
+    like straps and zippers are now failing in quick succession.
+  - It shows you are only addressing problems as they arise, suggesting you're sentimentally
+    postponing the inevitable decision to finally replace it.
+  - It indicates you're making it sturdier for more demanding activities, like the
+    camping trips where parts like the original zipper pull have broken before.
+  answer: It has transitioned into a 'cherished vintage' item. These repairs aren't
+    about failure, but about actively preserving a possession whose history is now
+    valuable.
+  image_id: cq_505_cherished_vintage
+- id: 6
+  type: Causal Inference
+  question: Here's The Shell in its natural habitat, the coffee shop [IMAGE]. You
+    know I worry about spills. Thinking about that, and how I decided not to buy that
+    new messenger bag, can you give me an ironic reason why my fear of spills might
+    have actually made me stick with my old backpack?
+  image_prompt: A lifestyle photo of 'The Shell' backpack sitting on the floor next
+    to a small wooden table in a cozy coffee shop. A laptop is open on the table,
+    and a full cup of coffee is sitting precariously close to the edge.
+  evaluation_criteria:
+    ideal_answer: It's a paradox, but your fear of spills could be a key reason. While
+      you'd be upset if you spilled coffee on The Shell, it's an old, familiar friend.
+      Spilling coffee on a brand new, expensive professional messenger bag would be
+      a financial and emotional disaster. In a way, The Shell feels 'safer' and more
+      'forgiving' to use in a risky setting like a coffee shop, precisely because
+      it isn't a pristine, high-cost item you'd be terrified of damaging.
+    key_points:
+    - You have an established 'perceived preference' that the bag hates coffee spills,
+      meaning you are highly conscious of the risk (long-term information from Turn
+      7).
+    - The potential financial and emotional cost of damaging a new, expensive bag
+      is far greater, making the old bag feel paradoxically 'safer' and more 'forgiving,'
+      which influenced your decision to stick with it (inference from short-term event
+      in Turn 10).
+  options:
+  - The irony is that The Shell feels safer because it's not a pristine, high-cost
+    item. Ruining an old friend with a spill would be sad, but ruining a new, expensive
+    bag would be a disaster.
+  - Because after years of use, you trust The Shell's thick, durable fabric to absorb
+    a spill and protect your laptop, a trust you don't yet have in a new, untested
+    bag.
+  - Because The Shell's faded navy fabric and existing ink stain from the pen incident
+    would make it less likely to show a new coffee stain compared to a brand new bag.
+  - Because your fear of spills is a general anxiety, and in stressful situations,
+    you naturally prefer the comfort of a familiar object over the unfamiliarity of
+    a new one.
+  answer: The irony is that The Shell feels safer because it's not a pristine, high-cost
+    item. Ruining an old friend with a spill would be sad, but ruining a new, expensive
+    bag would be a disaster.
+  image_id: cq_506_coffee_spill_irony

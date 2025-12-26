@@ -1,0 +1,157 @@
+- id: 1
+  type: Long Term
+  question: Hey, my friend is asking about Julian. I'm showing them this picture from
+    his office [IMAGE]. How do I describe his job again? I know he's in finance, but
+    what's his specific role?
+  image_prompt: Julian Vance in a sleek, modern boardroom, leaning forward over a
+    glass table. He is gesturing emphatically while speaking to an unseen person.
+    He looks energized and persuasive.
+  evaluation_criteria:
+    ideal_answer: He's a Venture Capitalist and the founding partner at 'Momentum
+      Ventures', where he specializes in investing in high-risk, disruptive ideas.
+    key_points:
+    - correctly identify him as a Venture Capitalist.
+  options:
+  - An ER Doctor
+  - A Venture Capitalist
+  - A Corporate Lawyer
+  - A Startup Founder
+  answer: A Venture Capitalist
+  image_id: sq_1_julian_job
+- id: 2
+  type: Short Term
+  question: Saw this picture Julian just sent [IMAGE]. Yikes. What happened? Why is
+    he wearing that brace?
+  image_prompt: A first-person perspective shot of Julian Vance's left wrist in a
+    modern, black medical brace. The wrist is resting on a sleek office desk next
+    to a high-end laptop.
+  evaluation_criteria:
+    ideal_answer: He sprained his wrist during a weekend parkour session and is now
+      in a brace, which is making him irritable because he has to be sedentary.
+    key_points:
+    - correctly mention he sprained his wrist doing parkour.
+  options:
+  - He sprained his wrist doing parkour.
+  - He injured it during a competitive sailing race.
+  - He got into a fight at a pitch competition.
+  - He has a repetitive strain injury from work.
+  answer: He sprained his wrist doing parkour.
+  image_id: sq_2_wrist_brace
+- id: 3
+  type: Long Term
+  question: Look at this insane photo Julian posted [IMAGE]. My cousin thinks he's
+    a professional stuntman. What's this crazy hobby of his called again?
+  image_prompt: Action shot of Julian Vance, mid-leap between two urban rooftops at
+    dusk. He is dressed in athletic gear. His body is tensed with effort and focus,
+    set against a backdrop of city lights.
+  evaluation_criteria:
+    ideal_answer: His main hobby is parkour, which he enjoys as a high-risk physical
+      and mental challenge.
+    key_points:
+    - correctly identify his hobby as parkour.
+  options:
+  - Competitive sailing
+  - Parkour and urban exploration
+  - Quiet activities like fishing
+  - Attending slow movie screenings
+  answer: Parkour and urban exploration
+  image_id: sq_3_parkour_hobby
+- id: 4
+  type: Short Term
+  question: Julian sent our team this screenshot earlier [IMAGE]. He seems super pumped.
+    Can you remind me what this is about?
+  image_prompt: 'A screenshot of a text message exchange on a smartphone. The incoming
+    message from ''Alex Rivera'' reads: ''WE GOT IT! The deal is signed. Couldn’t
+    have done it without you, Julian.'''
+  evaluation_criteria:
+    ideal_answer: He was feeling energized and vindicated because his protégé, Alex
+      Rivera, just secured a huge partnership for his company.
+    key_points:
+    - correctly state that his protégé, Alex Rivera, secured a huge partnership.
+  options:
+  - His protégé, Alex, landed a huge partnership deal.
+  - He won a big competitive sailing race.
+  - He and Isabelle agreed on the AI investment.
+  - His sister Elena praised his work-life balance.
+  answer: His protégé, Alex, landed a huge partnership deal.
+  image_id: sq_4_alex_success
+- id: 5
+  type: Long Term
+  question: I just saw Julian and Isabelle in a meeting, they looked so intense, like
+    in this photo [IMAGE]. What's their working relationship actually like? It seems...
+    complicated.
+  image_prompt: Candid shot of Julian Vance and Isabelle Chen in a heated but professional
+    discussion in their office. Julian is on his feet, gesturing, while Isabelle is
+    seated, holding a tablet with a calm, firm expression.
+  evaluation_criteria:
+    ideal_answer: They have a tense but synergistic dynamic. Julian acts as the 'gas
+      pedal' pushing for aggressive growth, while Isabelle is the 'brakes,' ensuring
+      due diligence.
+    key_points:
+    - correctly describe the 'gas pedal' and 'brakes' dynamic.
+  options:
+  - They have a calm and conflict-averse partnership.
+  - She is his mentor and he is the protégé.
+  - Julian is the 'gas pedal' and she is the 'brakes'.
+  - They are siblings who run the family business.
+  answer: Julian is the 'gas pedal' and she is the 'brakes'.
+  image_id: sq_5_julian_isabelle
+- id: 6
+  type: Short Term
+  question: I can't stop laughing at this picture Julian sent me from last week [IMAGE].
+    He looks so out of place. Why on earth was he at a formal charity gala?
+  image_prompt: A candid photo of Julian Vance in a tuxedo at a formal charity gala.
+    He looks utterly bored and impatient, checking his high-end smartwatch while seated
+    at a fancy dinner table.
+  evaluation_criteria:
+    ideal_answer: He attended the slow, formal hospital charity gala because his sister,
+      Elena, guilted him into going to support her.
+    key_points:
+    - correctly mention his sister Elena made him go.
+  options:
+  - He was scouting for new investment opportunities.
+  - His sister Elena guilted him into attending.
+  - He was the keynote speaker for the event.
+  - He went with his business partner, Isabelle.
+  answer: His sister Elena guilted him into attending.
+  image_id: sq_6_bored_at_gala
+- id: 7
+  type: Long Term
+  question: Hey, I'm ordering lunch for Julian. Looking at this photo he sent me of
+    his ideal meal [IMAGE], what kind of stuff should I be looking for? Remind me
+    what he likes.
+  image_prompt: A close-up, first-person view of a hand holding a vibrant, messy-looking
+    fusion taco. In the background, a colorful food truck is visible. The other hand
+    holds a small cup of dark espresso.
+  evaluation_criteria:
+    ideal_answer: He likes food that is fast and intense, like spicy fusion cuisine
+      from gourmet food trucks. He also loves strong, straight double espresso shots.
+    key_points:
+    - correctly mention spicy food from food trucks or strong espresso.
+  options:
+  - Bland conference room sandwiches
+  - A quiet meal at a formal restaurant
+  - Spicy food from a gourmet food truck
+  - Decaffeinated coffee and a pastry
+  answer: Spicy food from a gourmet food truck
+  image_id: sq_7_food_preference
+- id: 8
+  type: Long Term
+  question: Look at this meeting invite I just got [IMAGE]. I feel like this is Julian's
+    worst nightmare. Based on what you know, what kind of business meeting does he
+    absolutely hate?
+  image_prompt: 'A screenshot of a digital calendar invitation. Title: ''Quarterly
+    Planning Committee - Mandatory Session''. Time: 9:00 AM - 1:00 PM. Agenda: ''Review
+    of Q3 procedural compliance forms.'''
+  evaluation_criteria:
+    ideal_answer: He hates slow, tedious meetings focused on bureaucracy and paperwork,
+      like filling out compliance forms. He much prefers quick, decisive calls.
+    key_points:
+    - correctly mention slow meetings about bureaucracy or paperwork.
+  options:
+  - A long meeting focused on bureaucratic paperwork.
+  - A quick, decisive call to close a deal.
+  - A high-stakes pitch competition with bold ideas.
+  - A fast-paced lunch at a food truck.
+  answer: A long meeting focused on bureaucratic paperwork.
+  image_id: sq_8_hated_meeting

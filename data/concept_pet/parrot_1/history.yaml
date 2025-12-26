@@ -1,0 +1,84 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Hey, let's set up a profile for my bird, Mango. He's a Sun Conure. Here's a photo of him. [IMAGE] You can see his super bright orange head, green wings, and the little silver band he wears on his left leg."
+  assistant_response: "What a stunning bird! Okay, I've noted that Mango is a Sun Conure with an orange head, green wings, and a silver band on his left leg. It's all saved."
+  image_prompt: "A high-quality, full-body photo of Mango, a vibrant Sun Conure. His plumage is a fiery orange and sunny yellow on his head and chest, with bright green wings and back. A simple, non-intrusive silver band is clearly visible on his left leg. He is perched on a wooden dowel, looking alert and curious."
+  image_id: turn_1_profile_photo
+- turn: 2
+  log_type: knowledge
+  user_input: "Just so you know, his absolute favorite food in the world is fresh mango slices. He goes crazy for them!"
+  assistant_response: "Got it. Mango's favorite treat is mango slices. I'll remember that!"
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: "On the other hand, he absolutely despises the formulated pellet food I try to give him. He won't touch it, even though I know it's healthy for him."
+  assistant_response: "Okay, I've noted a strong dislike: Mango hates his pellet food. Thanks for sharing this detail."
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: "When it comes to toys, he loves anything he can shred, especially foraging toys that have a shiny bell inside. Look at this one he destroyed. [IMAGE]"
+  assistant_response: "I see! So Mango loves shreddable toys, particularly those with bells. I've added this to his preferences."
+  image_prompt: "A close-up shot of a well-loved bird toy made of soft wood and woven fibers, now mostly shredded. A small, shiny metal bell is visible amidst the destroyed pieces. Mango, the Sun Conure, can be seen in the background."
+  image_id: turn_4_shredded_toy
+- turn: 5
+  log_type: knowledge
+  user_input: "Something important to know is that he is terrified of the vacuum cleaner. The sound alone makes him panic."
+  assistant_response: "Understood. Mango has a strong aversion to the sound of the vacuum cleaner. I've made a note of this."
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: "He's very affectionate, though. He absolutely loves it when I gently scritch the feathers on the back of his neck. [IMAGE]"
+  assistant_response: "That's sweet. I've recorded that Mango loves getting neck scritches."
+  image_prompt: "A close-up, gentle photo showing a human hand carefully and gently scratching the back of the neck of Mango, the Sun Conure. The bird has his eyes closed in contentment, feathers slightly fluffed up."
+  image_id: turn_6_neck_scritches
+- turn: 7
+  log_type: knowledge
+  user_input: "Also, a quick note on toys he doesn't like: he hates hard, smooth plastic toys. He can't get a grip to chew them, so he just ignores them completely."
+  assistant_response: "Got it. A clear dislike for hard, smooth plastic toys. I've added this to his profile."
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: "His favorite place to be is on my shoulder while I'm working or just hanging out. Here we are now. [IMAGE]"
+  assistant_response: "Okay, I've noted that Mango's favorite activity is sitting on your shoulder. That's a lovely bond."
+  image_prompt: "A photo taken from the owner's perspective, looking slightly to the side at Mango, the Sun Conure, who is perched happily on their shoulder. A computer monitor or desk is visible in the background, suggesting a work-from-home environment."
+  image_id: turn_8_shoulder_perch
+- turn: 9
+  log_type: event
+  user_input: "Ugh, He has been so stubborn lately. For the past two days, he's just refused to eat his pellets. Look at his full food bowl. [IMAGE]"
+  assistant_response: "I see. I'm noting a recent event: for the last two days, Mango has been refusing his pellet food."
+  image_prompt: "A photo of a bird food bowl inside a cage. The bowl is completely full of formulated pellets. Mango, the Sun Conure, is visible in the cage but is pointedly looking away from the food bowl."
+  image_id: turn_9_refusing_pellets
+- turn: 10
+  log_type: event
+  user_input: "I had an idea and it worked! I was worried, so I tried mixing a little bit of mango puree into his hated pellets, and he's finally eating! [IMAGE]"
+  assistant_response: "That's great news! I've updated his log: Mango started eating his pellets when they were mixed with mango puree."
+  image_prompt: "A photo of Mango, the Sun Conure, enthusiastically eating from his food bowl. The pellets in the bowl are visibly coated in a light orange puree. He looks focused on his food."
+  image_id: turn_10_eating_mix
+- turn: 11
+  log_type: event
+  user_input: "So, a bit of bad news... his favorite bell toy finally broke. I replaced it with this new colorful chain toy made of hard plastic. [IMAGE]"
+  assistant_response: "Okay, I've logged this event. His favorite bell toy broke and has been replaced with a new, hard plastic chain toy."
+  image_prompt: "A photo showing two bird toys side-by-side. One is a broken and shredded wooden toy with a bell. The other is a brand-new, brightly colored toy made of interlocking hard plastic links and shapes."
+  image_id: turn_11_toy_replacement
+- turn: 12
+  log_type: event
+  user_input: "I took this picture this morning. As you can see, he is completely ignoring the new plastic toy I got him. [IMAGE]"
+  assistant_response: "I see. I've noted that this morning, Mango was observed ignoring the new plastic toy."
+  image_prompt: "A photo of Mango, the Sun Conure, perched inside his cage. In the foreground, the new, colorful hard plastic chain toy hangs untouched. Mango is on the other side of the cage, preening his feathers and paying no attention to the toy."
+  image_id: turn_12_ignoring_toy
+- turn: 13
+  log_type: event
+  user_input: "We just had a scary moment. I had to run the vacuum cleaner, and poor Mango flew into a total panic, screaming his head off. He's all ruffled now. [IMAGE]"
+  assistant_response: "Oh no, that sounds stressful. I've recorded the event: running the vacuum cleaner caused Mango to panic and scream loudly."
+  image_prompt: "A photo of Mango, the Sun Conure, perched shakily on a stand. His feathers are visibly ruffled and disheveled, and he has a wide-eyed, panicked expression, looking towards the direction of an off-camera vacuum cleaner."
+  image_id: turn_13_vacuum_panic
+- turn: 14
+  log_type: event
+  user_input: "Something weird just happened. Mango was sitting quietly on my shoulder like he loves to do, but when I reached up to smooth down his tail feathers, he nipped my ear! It wasn't hard, but it was a clear warning."
+  assistant_response: "Okay, I've logged the incident. While on your shoulder, Mango nipped your ear when you tried to touch his tail feathers. I've noted this specific behavior."
+  image_prompt: null
+  image_id: null

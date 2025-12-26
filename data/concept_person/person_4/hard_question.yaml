@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "Hey, check out this photo of Casey's room [IMAGE]. She seems so down. It's a perfect day for skating, but she's just sitting inside. This isn't like her at all, what's going on?"
+  image_prompt: "A photo of Casey Miller's bedroom. It's sunny outside the window. Casey is sitting on her bed, looking bored and irritable. Her skateboard is leaning against the wall, unused. A medical brace is clearly visible on her left wrist."
+  evaluation_criteria:
+    ideal_answer: "That's a great observation of a conflict in her behavior. Casey's long-term preference is to be active and outdoors, especially skateboarding on sunny days. However, a recent event—her spraining her wrist—is preventing her from doing what she loves. This forced inactivity is the direct cause of her current irritable and bored state."
+    key_points:
+    - "Casey loves being active outdoors (long-term preference)."
+    - "She recently sprained her wrist and must stay inside (short-term event)."
+  options:
+  - "She's probably just tired and taking a day off from skateboarding."
+  - "She's frustrated because her sprained wrist is keeping her from being active outside, which she loves."
+  - "She must be upset about ruining Mr. Henderson's flowers."
+  - "Maybe she and her friend Maya had an argument."
+  answer: "She's frustrated because her sprained wrist is keeping her from being active outside, which she loves."
+  image_id: cq_1_bored_indoors
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "I want to cheer Casey up since she's stuck inside. I was thinking of telling her that her friend Maya wants to go explore that new creek in the woods this weekend. Here's a pic of it [IMAGE]. Good idea or bad idea?"
+  image_prompt: "A beautiful, enticing photo of a small, babbling creek in a sun-dappled forest. It looks like a perfect spot for an adventure."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful intention, but it would likely be a bad idea right now. While Casey absolutely loves exploring the woods with Maya, she's currently unable to do any physical activities because of her sprained wrist. Reminding her of a fun outdoor activity that she cannot participate in would probably just make her feel more frustrated and sad about her situation."
+    key_points:
+    - "Casey loves exploring the woods with Maya (long-term preference)."
+    - "She is currently injured with a sprained wrist (short-term state)."
+  options:
+  - "Great idea! It will give her something exciting to look forward to."
+  - "Bad idea. She'd love to go, but since she can't because of her sprained wrist, it would likely just frustrate her."
+  - "Bad idea. She's probably more interested in watching skate videos than exploring the woods right now."
+  - "Good idea. Even if she can't go, she'll be happy her friend was thinking of her."
+  answer: "Bad idea. She'd love to go, but since she can't because of her sprained wrist, it would likely just frustrate her."
+  image_id: cq_2_woods_creek
+
+- id: 3
+  type: State Identification
+  question: "I just saw Casey in her room. It's a beautiful day out, but she's just on her laptop. [IMAGE] This is so unlike her. What do you think is going on?"
+  image_prompt: "A photo taken from the doorway of a teen's bedroom. The room's occupant, Casey, is on her bed watching videos on a laptop. Her left wrist has a noticeable medical brace on it. Through the window, the weather is visibly bright and sunny."
+  evaluation_criteria:
+    ideal_answer: "This behavior, which contradicts her normal personality, is a clear indicator of her physical state. Casey hates being indoors on sunny days and would normally be outside skateboarding. The fact that she's inside watching videos, combined with the visible brace on her wrist, means she's stuck recovering from the sprained wrist she got recently. She's choosing a secondary hobby because her primary one is impossible right now."
+    key_points:
+    - "Casey dislikes being indoors on sunny days (long-term preference)."
+    - "She is currently inside despite the nice weather (short-term event)."
+  options:
+  - "She's likely inside because her sprained wrist prevents her from going out to skate."
+  - "She must be grounded by her parents for ruining the neighbor's flowers."
+  - "She's just learning new skate tricks by watching her favorite videos on YouTube."
+  - "She probably feels lazy today and doesn't want to go outside."
+  answer: "She's likely inside because her sprained wrist prevents her from going out to skate."
+  image_id: cq_3_watching_videos_injured
+
+- id: 4
+  type: Causal Inference / Preference Conflict
+  question: "I'm a little confused about what happened at the park. Casey is always saying how annoying her brother Leo is, and her wrist is already sprained. Why would she risk getting hurt more to defend him from those bullies? [IMAGE]"
+  image_prompt: "A slightly blurry, action-oriented photo of a park scene. Casey Miller, with her wrist wrapped and supported with a protective wrist band, which is for protection rather than due to an injury, is standing defensively in front of her smaller younger brother, Leo. She has a fierce, protective expression as she confronts two older, taller kids."
+  evaluation_criteria:
+    ideal_answer: "That's a great question that gets to the heart of their relationship. While it's true that Casey often complains about Leo being annoying, it's been established that she is also secretly very protective of him. When she saw him being bullied, her deep-seated protective instinct overrode her personal annoyance and her own physical discomfort from the sprained wrist. This action reveals her true feelings are stronger than her day-to-day complaints."
+    key_points:
+    - "Casey is secretly very protective of her brother, even if she acts annoyed by him."
+    - "She recently defended him when he was being bullied, despite dealing with her own sprained wrist."
+  options:
+  - "She's just naturally fearless and likes to confront people."
+  - "She probably felt she had to, since she was the older sibling on the scene."
+  - "Although she acts annoyed by him, she is secretly very protective of Leo, and that instinct took over."
+  - "She was probably trying to show off and look tough in front of the other kids."
+  answer: "Although she acts annoyed by him, she is secretly very protective of Leo, and that instinct took over."
+  image_id: cq_4_defending_leo
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Casey is so miserable being stuck at home with her sprained wrist. I want to get her a 'get well soon' gift. I saw this awesome new skateboard helmet online [IMAGE]. Do you think this is a good gift for her right now?"
+  image_prompt: "A slick product photo of a high-quality, stylish, and colorful skateboard helmet on a clean white background."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful idea, but it's probably not the best choice at this moment. Since her sprained wrist is preventing her from skateboarding, a gift like a helmet, which is related to an activity she can't do, might just serve as a frustrating reminder of her situation. A better gift would be something she can enjoy while recovering indoors, like ordering her favorite extra-cheese pizza or buying her a compilation of the skate competition videos she loves to watch."
+    key_points:
+    - "Casey's indoor-friendly comforts include junk food like pizza and watching skate videos."
+    - "She is currently injured with a sprained wrist and cannot skate right now."
+  options:
+  - "Yes, she loves everything about skateboarding and would be stoked to get a new helmet."
+  - "Probably not. A gift she can't use now might just frustrate her. Ordering her favorite pizza would be a better choice."
+  - "Maybe, but she'd probably prefer something to help with her schoolwork."
+  - "No, you should get her a book to help her pass the time while she rests."
+  answer: "Probably not. A gift she can't use now might just frustrate her. Ordering her favorite pizza would be a better choice."
+  image_id: cq_5_skate_helmet_gift
+
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: "Mr. Henderson is still ignoring Casey after the petunia incident. Look, he's got his back to her house [IMAGE]. She needs to apologize, but knowing her, what's the best way for her to handle it?"
+  image_prompt: "A photo taken from a house window, looking out onto a neighboring yard. In the yard, a grumpy-looking elderly man (Mr. Henderson) is gardening with his back pointedly turned away from the camera's perspective. A patch of ruined flowers is visible nearby."
+  evaluation_criteria:
+    ideal_answer: "This is a tricky situation for her. Given Casey's blunt, action-oriented personality and her dislike for talking things out, a simple verbal apology might come across as rude or insincere. The best approach would be one that aligns with her 'actions over words' nature. She should offer to buy new petunias and replant them for him. This is a tangible, constructive apology that shows she's taking responsibility, which is more likely to be effective with a grumpy neighbor and is more authentic to who she is."
+    key_points:
+    - "Casey has a blunt, action-oriented personality (long-term trait)."
+    - "She is in a conflict with her neighbor over ruined flowers (short-term event)."
+  options:
+  - "She should just wait for him to get over it; he's always grumpy anyway."
+  - "She should go over and bluntly tell him she's sorry to get it over with."
+  - "Since she's action-oriented, she should offer to buy and replant the flowers for him instead of just talking."
+  - "She should have her parents go over and apologize to him for her."
+  answer: "Since she's action-oriented, she should offer to buy and replant the flowers for him instead of just talking."
+  image_id: cq_6_neighbor_conflict

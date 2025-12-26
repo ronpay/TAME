@@ -1,0 +1,153 @@
+- id: 1
+  type: Long Term
+  question: Hey, showing my friend a picture of Leo at his new job [IMAGE]. He looks
+    so professional! Remind me, what's his official title again?
+  image_prompt: A medium shot of Leo Vance, a male in his early 20s with neat brown
+    hair and blue eyes, sitting at a pristine, organized office desk. He's wearing
+    a crisp button-down shirt and tie, looking at the camera with a polite, slightly
+    eager smile. A computer monitor with marketing analytics charts is visible in
+    the background.
+  evaluation_criteria:
+    ideal_answer: He's a Junior Marketing Analyst.
+    key_points:
+    - correctly mention he is a Junior Marketing Analyst.
+  options:
+  - A Human Resources Coordinator
+  - A Junior Marketing Analyst
+  - A Productivity App Developer
+  - The CEO of a startup
+  answer: A Junior Marketing Analyst
+  image_id: sq_1_leo_at_work
+- id: 2
+  type: Short Term
+  question: I took this photo of Leo last week [IMAGE], he looks completely frazzled.
+    What was going on with work that had him so stressed?
+  image_prompt: A photo of Leo Vance at his desk late at night, illuminated by his
+    monitor. He has his hands on his head, looking at the screen with an expression
+    of pure stress. His usually neat desk is slightly cluttered with coffee cups and
+    scattered notes.
+  evaluation_criteria:
+    ideal_answer: He was very stressed because a major project he was managing had
+      a last-minute technical glitch right before launch.
+    key_points:
+    - correctly mention the technical glitch with a major project launch.
+  options:
+  - He got critical feedback from his manager, Jessica
+  - He had to attend a chaotic team lunch
+  - A technical glitch with a major project launch
+  - He had a fight with his parents
+  answer: A technical glitch with a major project launch
+  image_id: sq_2_leo_stressed
+- id: 3
+  type: Long Term
+  question: Hey, I saw this ad for a new escape room [IMAGE] and it made me think
+    of Leo. You know how he is, what kind of hobbies did he say he was into again?
+  image_prompt: A photo of a promotional flyer for a complex-looking, high-tech escape
+    room. The flyer has words like 'SOLVE,' 'ESCAPE,' and 'CHALLENGE' in bold letters
+    over a mysterious-looking backdrop.
+  evaluation_criteria:
+    ideal_answer: He loves strategy-based video games and escape rooms.
+    key_points:
+    - correctly mention strategy games and/or escape rooms.
+  options:
+  - Strategy games and escape rooms
+  - Listening to electronic music while working out
+  - Reading biographies of successful CEOs
+  - Going to unstructured social gatherings
+  answer: Strategy games and escape rooms
+  image_id: sq_3_escape_room_flyer
+- id: 4
+  type: Short Term
+  question: Leo sent me this picture from his team lunch the other day [IMAGE]. He
+    said he hated it, can you remind me what the event was?
+  image_prompt: A first-person perspective photo looking down at a stainless-steel
+    food bar. Various bowls are filled with nacho toppings like ground beef, liquid
+    cheese, salsa, and jalapenos. Tongs and spoons are scattered haphazardly. It looks
+    messy and chaotic.
+  evaluation_criteria:
+    ideal_answer: It was a 'make your own messy nachos' bar, which he found chaotic
+      and greasy.
+    key_points:
+    - correctly mention it was a 'make your own messy nachos' bar.
+  options:
+  - A family-style meal with shared plates
+  - A potluck where everyone brought a dish
+  - A 'make your own messy nachos' bar
+  - A perfectly organized sushi tasting
+  answer: A 'make your own messy nachos' bar
+  image_id: sq_4_nacho_bar
+- id: 5
+  type: Long Term
+  question: Look at this picture of Leo's wrist [IMAGE]. He never takes that thing
+    off. What's the story behind that watch again?
+  image_prompt: A close-up shot of Leo Vance's wrist. He is wearing a crisp, white
+    shirt cuff and a sleek, modest smartwatch with a dark band. The watch face shows
+    a simple, professional layout.
+  evaluation_criteria:
+    ideal_answer: It's a smartwatch that his parents gave him for his college graduation.
+    key_points:
+    - correctly mention it's a smartwatch from his parents for graduation.
+  options:
+  - A high-end watch he bought to look professional
+  - A gift from his manager, Jessica, for a job well done
+  - A fitness tracker he uses for his workouts
+  - A smartwatch his parents gave him for graduation
+  answer: A smartwatch his parents gave him for graduation
+  image_id: sq_5_leo_watch
+- id: 6
+  type: Short Term
+  question: This is a photo from Leo's company party [IMAGE]. He told me he found
+    a way to not feel awkward. What did he end up doing all night?
+  image_prompt: A photo of Leo Vance from behind a makeshift bar at an office party.
+    He's wearing a button-down shirt and a slightly forced, polite smile as he hands
+    a drink to a coworker. The background is filled with people mingling.
+  evaluation_criteria:
+    ideal_answer: He volunteered to serve drinks at the bar all night so he would
+      have a specific role and could avoid awkward small talk.
+    key_points:
+    - correctly mention he volunteered to serve drinks.
+  options:
+  - He was the life of the party, mingling with everyone
+  - He stayed in a corner talking to his friend Sam
+  - He was in charge of the music playlist
+  - He volunteered to serve drinks at the bar
+  answer: He volunteered to serve drinks at the bar
+  image_id: sq_6_leo_bartending
+- id: 7
+  type: Long Term
+  question: I love this picture of Leo with his colleague [IMAGE]. He mentioned she's
+    his go-to person at work. What's her name again?
+  image_prompt: A candid photo of Leo Vance and a female colleague, Samira Joshi,
+    standing in a modern office pantry. Leo looks earnest and is talking, while Sam
+    has a slightly cynical, friendly smirk as she listens, holding a coffee mug.
+  evaluation_criteria:
+    ideal_answer: Her name is Samira Joshi, but he calls her Sam. She's his close
+      confidante and reality check at the office.
+    key_points:
+    - correctly identify her as Samira 'Sam' Joshi.
+  options:
+  - Jessica Chen
+  - Samira 'Sam' Joshi
+  - Emily Carter
+  - Laura Davis
+  answer: Samira 'Sam' Joshi
+  image_id: sq_7_leo_and_sam
+- id: 8
+  type: Long Term
+  question: My office has the exact same coffee setup as in this picture [IMAGE].
+    Leo mentioned he hates a specific kind of coffee, was it this stuff?
+  image_prompt: A close-up photo of a stained glass coffee pot on a warmer in a generic
+    office breakroom. The coffee inside is dark and murky. A stack of styrofoam cups
+    sits next to it. The lighting is sterile and uninviting.
+  evaluation_criteria:
+    ideal_answer: Yes, he can't stand cheap, bitter office coffee that's been sitting
+      in a pot for hours.
+    key_points:
+    - correctly mention cheap, bitter office coffee.
+  options:
+  - Expensive, perfectly brewed pour-over coffee
+  - Overly sweet flavored lattes
+  - Cheap, bitter office coffee from a pot
+  - Instant coffee granules
+  answer: Cheap, bitter office coffee from a pot
+  image_id: sq_8_bad_coffee

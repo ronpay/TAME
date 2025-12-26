@@ -1,0 +1,152 @@
+- id: 1
+  type: Long Term
+  question: I'm thinking of getting Pip a new treat. Looking at this picture of him
+    [IMAGE] with his little paws reminds me, what did we say is his absolute favorite
+    food?
+  image_prompt: A cute, close-up photo of Pip the Syrian hamster. He is standing on
+    his hind legs, with his tiny pink paws held up near his mouth as if waiting for
+    a treat. His large black eyes look directly at the camera.
+  evaluation_criteria:
+    ideal_answer: You've told me his absolute favorite treat is a pumpkin seed.
+    key_points:
+    - correctly mention pumpkin seed.
+  options:
+  - Pumpkin seeds
+  - Small pieces of apple
+  - Sugary yogurt drops
+  - Citrus fruits
+  answer: Pumpkin seeds
+  image_id: sq_1_favorite_food
+- id: 2
+  type: Short Term
+  question: Hey, I just found this picture on my phone from a couple of nights ago.
+    [IMAGE] Can you remind me why Pip was so agitated and restless then?
+  image_prompt: A photo focusing on a broken hamster wheel inside a cage. One of the
+    support axles is visibly snapped, and the wheel is tilted at an awkward angle.
+    In the background, Pip the hamster can be seen restlessly pacing near the cage
+    bars.
+  evaluation_criteria:
+    ideal_answer: He was agitated and restless for two nights because his silent running
+      wheel was broken.
+    key_points:
+    - correctly mention his silent wheel was broken.
+  options:
+  - His silent wheel broke
+  - The vacuum cleaner was running
+  - His main food hoard was moved
+  - His ceramic house was cracked
+  answer: His silent wheel broke
+  image_id: sq_2_broken_wheel
+- id: 3
+  type: Long Term
+  question: Pip is ignoring this temporary plastic igloo I got him. [IMAGE] Remind
+    me, what's the special house he normally has in his cage that he loves so much?
+  image_prompt: A photo of a hamster cage setup. In the middle, there is a brightly
+    colored plastic igloo-style hideout. Pip the hamster is sitting outside the igloo,
+    looking at it suspiciously, refusing to go inside.
+  evaluation_criteria:
+    ideal_answer: His normal, beloved house is the purple-roofed ceramic one.
+    key_points:
+    - correctly mention the purple-roofed ceramic house.
+  options:
+  - A purple-roofed ceramic house
+  - A plastic igloo hideout
+  - A cardboard tube
+  - A multi-level climbing structure
+  answer: A purple-roofed ceramic house
+  image_id: sq_3_normal_house
+- id: 4
+  type: Short Term
+  question: Haha, I was just scrolling through my photos and found this. [IMAGE] What
+    were these colorful things I bought that Pip completely rejected?
+  image_prompt: A photo taken inside a hamster cage. On the bedding, there is a small
+    pile of colorful (pink, yellow, green) yogurt drops. Pip, the hamster, is shown
+    in the frame turning his back on the treats and walking away.
+  evaluation_criteria:
+    ideal_answer: Those were the colorful, sugary yogurt drops. You noted he sniffed
+      them and walked away.
+    key_points:
+    - correctly mention the yogurt drops.
+  options:
+  - A slice of apple
+  - A pumpkin seed
+  - Colorful yogurt drops
+  - A piece of orange
+  answer: Colorful yogurt drops
+  image_id: sq_4_rejected_treat
+- id: 5
+  type: Long Term
+  question: Poor little guy looks so scared in this picture. [IMAGE] I know he hates
+    loud noises, but what's that one specific sound you have noted down as his arch-nemesis?
+  image_prompt: A photo looking down into a hamster cage. The only visible part of
+    Pip is his nose and a bit of his fur peeking out from deep under a large pile
+    of paper bedding. A small, fresh slice of apple sits untouched near his burrow.
+  evaluation_criteria:
+    ideal_answer: You've said his arch-nemesis is the loud noise from the vacuum cleaner.
+    key_points:
+    - correctly mention the vacuum cleaner.
+  options:
+  - The vacuum cleaner
+  - Bells inside plastic toys
+  - The silent-spin running wheel
+  - Someone knocking on the door
+  answer: The vacuum cleaner
+  image_id: sq_5_hated_noise
+- id: 6
+  type: Short Term
+  question: Look at this massive stash he built! [IMAGE] Why did he spend all night
+    frantically re-hoarding his food like this recently?
+  image_prompt: A photo of the inside of a freshly cleaned hamster cage. In one corner,
+    Pip the hamster is captured in a flurry of activity, his cheek pouches visibly
+    stuffed full. He is surrounded by a large pile of hamster food that he is organizing.
+  evaluation_criteria:
+    ideal_answer: He spent the night re-hoarding because you had moved his main food
+      stash when you did a deep clean of his cage.
+    key_points:
+    - correctly mention that his food hoard was moved during a cage clean.
+  options:
+  - Because his cousin was visiting
+  - Because you moved his main food hoard during a cage clean
+  - Because his wheel was broken and he was bored
+  - Because he found new treats he liked
+  answer: Because you moved his main food hoard during a cage clean
+  image_id: sq_6_rehoarding
+- id: 7
+  type: Short Term
+  question: I was just looking at this photo again, he looks so stressed. [IMAGE]
+    Who was it that was holding him here?
+  image_prompt: A photo showing a child's hands carefully but firmly holding Pip,
+    the Syrian hamster. Pip's eyes are wide, and his body is tense, clearly signaling
+    stress and a desire to escape.
+  evaluation_criteria:
+    ideal_answer: That was your young cousin who was holding him for too long, which
+      you mentioned stressed him out.
+    key_points:
+    - correctly identify the person as 'your young cousin'.
+  options:
+  - Me (the owner)
+  - A veterinarian
+  - My young cousin
+  - A pet sitter
+  answer: My young cousin
+  image_id: sq_7_stressful_hold
+- id: 8
+  type: Long Term
+  question: I'm at the pet store and saw this. [IMAGE] It looks fun, but it reminded
+    me to ask, what's that super simple type of toy you have noted that he actually
+    prefers?
+  image_prompt: A photo from the user's point of view, holding a brightly colored
+    plastic hamster ball with a bell inside. The background is the aisle of a pet
+    store.
+  evaluation_criteria:
+    ideal_answer: He prefers simple cardboard tubes from toilet paper rolls and dislikes
+      fancy, noisy plastic toys.
+    key_points:
+    - correctly mention cardboard tubes.
+  options:
+  - Loud plastic balls with bells
+  - Simple cardboard tubes
+  - A silent-spin running wheel
+  - Complex multi-level climbing structures
+  answer: Simple cardboard tubes
+  image_id: sq_8_toy_preference

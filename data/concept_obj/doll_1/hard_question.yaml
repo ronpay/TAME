@@ -1,0 +1,230 @@
+- id: 1
+  type: Causal Inference
+  question: My friend recently called Mochi 'lumpy' and 'worn-out' [IMAGE], and I
+    also saw a brand new, bigger version in a store. It got me thinking... why do
+    you think I'm so attached to this specific one, even with all her imperfections?
+  image_prompt: A photo of the 'Mochi' doll sitting on a chair. The lighting highlights
+    its slightly flattened, asymmetrical shape, clearly showing the 'lumpiness' and
+    well-loved, worn texture mentioned by the friend.
+  image_id: cq_1_lumpy_and_loved
+  evaluation_criteria:
+    ideal_answer: You're attached to Mochi not despite her imperfections, but because
+      of them. The 'lumpiness' and 'worn-out' look are physical proof of her history
+      as a constant comforter—a gift from your partner to see you through university.
+      These marks, like the compressed side from your hugs, tell a story a new doll
+      couldn't, which is why you rejected the new one and were bothered by your friend's
+      comment. She is irreplaceable because her flaws are her history.
+    key_points:
+    - Mochi is a sentimental gift from a partner and has a long history of providing
+      comfort, which is physically manifested in her compressed shape (long-term information).
+    - The owner's attachment is proven by their rejection of a new doll and their
+      negative emotional reaction to a friend's comment, linking the physical 'flaws'
+      directly to her value (reasoned inference from short-term events).
+  options:
+  - Your attachment comes from her origin as a farewell gift from your partner. Her
+    imperfections remind you of the time you've spent apart, making it feel like a
+    betrayal to replace her with a new version.
+  - The attachment is about deep-seated habit; her specific 'lumpy' shape has been
+    perfectly molded to your body for comfort while sleeping. A new, different doll
+    wouldn't provide the same sense of physical security.
+  - Your attachment is because her flaws are her history. The 'lumpiness' is a record
+    of your journey and the comfort she's provided since your partner gave her to
+    you, a story a new doll could never tell.
+  - It's a protective reaction. When your friend called her 'lumpy' and you saw a
+    'better' version, it likely triggered a defiant sense of loyalty, reinforcing
+    your bond with the original Mochi you've always had.
+  answer: Your attachment is because her flaws are her history. The 'lumpiness' is
+    a record of your journey and the comfort she's provided since your partner gave
+    her to you, a story a new doll could never tell.
+- id: 2
+  type: Causal Inference
+  question: Look what my kitten did yesterday [IMAGE]. I know it's silly to get so
+    upset over a stuffed animal, but I was genuinely distressed when I saw her on
+    the floor. Based on everything you know, why do you think my reaction was so strong?
+  image_prompt: A dramatic, low-angle shot of the pale-yellow 'Mochi' doll lying on
+    a cold, wooden floor. In the blurry background, a small, playful kitten can be
+    seen on a nightstand, looking down at the doll. The lighting suggests an unexpected
+    event.
+  image_id: cq_2_fallen_mochi
+  evaluation_criteria:
+    ideal_answer: Your strong reaction likely wasn't just about a doll falling. It's
+      because Mochi is a cherished symbol of your relationship and a source of deep
+      comfort. You've even projected feelings onto her, like her 'hatred' of being
+      dropped. Seeing her knocked carelessly onto the floor probably felt like a violation
+      or disrespect towards something deeply personal and important to you, triggering
+      a protective emotional response.
+    key_points:
+    - Mochi is a highly sentimental object with a projected 'hatred' of being dropped
+      (long-term information).
+    - The kitten's action was perceived by the owner as a violation of a cherished
+      object's 'dignity', causing a disproportionately strong emotional reaction that
+      goes beyond simple annoyance (reasoned inference from short-term event).
+  options:
+  - Your distress was strong because Mochi is a symbol of calm and security. The kitten's
+    chaotic action directly violated that sense of peace, creating a disproportionate
+    feeling of anxiety for you.
+  - Your reaction was likely a fear of permanent damage. Given her age and unique
+    marks like the loose thread, you were probably worried the fall could have damaged
+    an irreplaceable part of her history.
+  - Your distress was because Mochi is a cherished symbol of your relationship. Seeing
+    her knocked carelessly to the floor felt like a violation of something deeply
+    personal, especially given her 'hatred' of being dropped.
+  - The reaction was probably more about the kitten's behavior than the doll itself.
+    You were likely upset that your new pet was being destructive and not respecting
+    your personal belongings or safe spaces.
+  answer: Your distress was because Mochi is a cherished symbol of your relationship.
+    Seeing her knocked carelessly to the floor felt like a violation of something
+    deeply personal, especially given her 'hatred' of being dropped.
+- id: 3
+  type: Counterfactual Reasoning
+  question: You know about the small ink stain on Mochi's foot. But what if the accident
+    had been worse? Imagine the pen had left a big, dark ink splotch right across
+    her face, like in this edited photo [IMAGE]. Based on our conversations, how do
+    you think that would have changed my feelings for her?
+  image_prompt: A digitally altered photo of Mochi. A large, prominent, dark blue
+    ink stain is Photoshopped across the doll's embroidered face, obscuring one eye
+    and its mouth, making it look jarring and damaged.
+  image_id: cq_3_damaged_face
+  evaluation_criteria:
+    ideal_answer: That would likely have changed your connection significantly. A
+      small stain on her foot is a 'scar' with a memory, but a large stain across
+      her face would be disfiguring. It would disrupt the calm, patient personality
+      you project onto her. While her origin as a gift remains, the severe damage
+      to her 'face' might have made it too hard for you to see her as the same comforting
+      supporter, potentially breaking the emotional bond.
+    key_points:
+    - Mochi's value is deeply tied to the owner's ability to project a calm, patient
+      personality onto her (long-term information).
+    - A disfiguring facial stain would directly contradict this projected personality,
+      turning a character-defining 'scar' into 'damage' and likely weakening the emotional
+      connection (counterfactual reasoning based on proposed event).
+  options:
+  - A large facial stain would likely disrupt the emotional bond. A scar on the foot
+    adds character, but disfiguring her 'face' would clash with the calm personality
+    you project onto her, turning her into a damaged object.
+  - Your feelings likely wouldn't have changed, as her core value comes from being
+    a gift from your partner. While you would have been sad, her origin story is more
+    important than any physical damage she might sustain.
+  - Your connection might have become stronger. A more significant 'wound' from a
+    stressful time like exam prep would make her an even more powerful symbol of resilience,
+    deepening your shared history and your bond.
+  - You would have focused on a project of 'healing' her, perhaps by embroidering
+    a patch over the stain. This would have changed your dynamic from passive comfort
+    to active care, altering but not breaking the connection.
+  answer: A large facial stain would likely disrupt the emotional bond. A scar on
+    the foot adds character, but disfiguring her 'face' would clash with the calm
+    personality you project onto her, turning her into a damaged object.
+- id: 4
+  type: State Identification
+  question: Here's that picture I took of Mochi on my desk this week [IMAGE]. Looking
+    at this specific scene, what job or role would you say she's performing for me
+    right now?
+  image_prompt: A desk scene with a tall stack of heavy university textbooks. At the
+    very top of the stack, the 'Mochi' doll is sitting, looking out over the desk.
+    A desk lamp illuminates the scene, creating a late-night study atmosphere.
+  image_id: cq_4_study_guardian
+  evaluation_criteria:
+    ideal_answer: In this moment, Mochi has taken on the specific role of a 'study
+      mascot' or a 'guardian of final exams'. You've elevated her from a general comforter
+      to a focused supporter for a specific challenge. By placing her atop your textbooks,
+      you're blending her long-term identity as a 'silent supporter' and 'guardian'
+      with the immediate, high-stakes context of studying for finals.
+    key_points:
+    - Mochi has an established long-term identity as a 'silent supporter' and a 'guardian'
+      (long-term information).
+    - In the immediate context of finals week, this general identity is focused into
+      the specific, temporary role of a 'study mascot' overseeing an academic challenge
+      (synthesis of long-term identity and short-term state).
+  options:
+  - She is fulfilling her usual role as a calm and steady presence. Placing her in
+    your line of sight while you study is a way to draw on her familiar comfort and
+    patience during a stressful period.
+  - In this context, she's a 'study mascot' or a guardian for your exams. You've elevated
+    her from a general comforter to a focused supporter for this specific challenge,
+    overseeing your hard work.
+  - She is serving as a tangible link to your support system. Seeing her, a gift from
+    your partner, is meant to motivate you to succeed, connecting your academic efforts
+    to your personal relationship.
+  - By placing her at the top of the stack, you are symbolically putting her 'above'
+    the academic stress. It's a gesture to protect her from the anxiety, keeping her
+    as a separate and pure source of comfort.
+  answer: In this context, she's a 'study mascot' or a guardian for your exams. You've
+    elevated her from a general comforter to a focused supporter for this specific
+    challenge, overseeing your hard work.
+- id: 5
+  type: Causal Inference
+  question: I sent you this picture of me washing Mochi last weekend [IMAGE]. I was
+    being incredibly careful. What does the specific way I chose to wash her tell
+    you about how I see her?
+  image_prompt: A close-up shot of the 'Mochi' doll being gently hand-washed in a
+    sink. The owner's hands are carefully lathering the doll with soap, purposefully
+    moving around the left ear and the right foot area.
+  image_id: cq_5_careful_washing
+  evaluation_criteria:
+    ideal_answer: The extreme care you took reveals that you see Mochi as a historical
+      artifact, not just a toy. By deliberately and gently washing around the loose
+      thread and the ink stain, you're showing that you view these 'scars' not as
+      flaws to be removed, but as cherished parts of her story and identity that must
+      be consciously preserved. It's an act of curatorship and love.
+    key_points:
+    - The loose thread and ink stain are established as meaningful 'scars' that are
+      part of Mochi's history (long-term information).
+    - The owner's meticulous act of washing *around* these scars demonstrates a conscious
+      effort to preserve Mochi's history, revealing they see the flaws as integral
+      to her identity (inference from short-term action).
+  options:
+  - The care you took shows you see her as a historical artifact. By washing around
+    the thread and stain, you are consciously preserving her 'scars' as vital parts
+    of her story, not as flaws to be removed.
+  - Your carefulness shows a practical concern for her age. You are trying to prevent
+    her from becoming more worn out or losing a feature like the loose thread, which
+    would be an irreplaceable loss.
+  - Your gentle approach reflects the personality you've given her. Knowing she 'hates'
+    getting wet after the ink incident, you're treating her with empathy to make an
+    unpleasant experience comfortable for her.
+  - The meticulous washing is a way of honoring your partner. By treating their gift
+    with such reverence and care, you are showing your deep respect for the person
+    who gave her to you and your relationship.
+  answer: The care you took shows you see her as a historical artifact. By washing
+    around the thread and stain, you are consciously preserving her 'scars' as vital
+    parts of her story, not as flaws to be removed.
+- id: 6
+  type: Counterfactual Reasoning
+  question: Amazing news! My partner, who gave me Mochi, is finally moving to my city!
+    I want to do a small, symbolic gesture with Mochi to mark this huge moment. Here
+    she is, waiting on the bed as usual [IMAGE]. Based on her whole story, what do
+    you think would be a meaningful thing to do?
+  image_prompt: The 'Mochi' doll is sitting in her usual 'guardian' spot on the pillow
+    of a neatly made bed. The room is clean and bright, as if in preparation for someone's
+    arrival. The mood is one of happy anticipation.
+  image_id: cq_6_waiting_for_reunion
+  evaluation_criteria:
+    ideal_answer: A wonderful and symbolic gesture would be to 'graduate' Mochi from
+      her duties. Since she was a gift to keep you company while your partner was
+      away, her primary mission is now complete. Together with your partner, you could
+      place her on a special bookshelf or display spot in your room. This way, she
+      transitions from being your personal stand-in guardian to a cherished symbol
+      of your journey and a shared memory that now watches over both of you.
+    key_points:
+    - Mochi's original purpose was to be a substitute comforter during a long-distance
+      relationship (long-term information).
+    - With the partner's arrival, a meaningful action would be to transition Mochi
+      from an active, substitute role to a passive, memorial one, symbolizing the
+      successful completion of her 'mission' (recommendation based on synthesizing
+      origin story with a new life event).
+  options:
+  - You and your partner could add a new token to her, like a ribbon, to symbolize
+    this new chapter. This gesture would add to her history, representing the start
+    of your life together in the same city.
+  - You should have Mochi 'formally' meet your partner and then keep her in her usual
+    spot. This would signify that she remains a core comforter in your life, now ready
+    to guard and welcome your partner as well.
+  - You should 'graduate' her from her duties. Together, place her on a bookshelf
+    to transition her from a stand-in guardian to a shared symbol of your journey,
+    signifying her mission is successfully complete.
+  - You should recreate the moment she was given to you, with your partner 'gifting'
+    her again. This would bring her story full circle, reaffirming her importance
+    and marking the official end of the long-distance period.
+  answer: You should 'graduate' her from her duties. Together, place her on a bookshelf
+    to transition her from a stand-in guardian to a shared symbol of your journey,
+    signifying her mission is successfully complete.

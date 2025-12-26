@@ -1,0 +1,106 @@
+concept_id: person_002
+name: "Maya Rodriguez"
+
+identity:
+  age_group: "Mid 20s"
+  gender: "Female"
+  occupation: "Pediatric Physical Therapist"
+  nationality: "American"
+
+appearance:
+  summary: "A woman in her mid-20s with an athletic build and a constant undercurrent of energy. Her long, dark hair is usually tied back functionally, and she favors comfortable, practical clothing that allows for movement."
+
+  key_visual_features:
+    - "Long, dark brown hair, often in a high ponytail or a quick bun"
+    - "Warm, expressive brown eyes that convey encouragement"
+    - "A faded, small scar on her right kneecap from a childhood tumble"
+    - "Always wears a durable digital sports watch"
+    - "Tends to gesture enthusiastically when talking, using her hands to explain things"
+
+behavior:
+  personality_traits:
+    - "Energetic and hands-on"
+    - "Extroverted and encouraging"
+    - "Naturally competitive, but in a friendly way"
+    - "Deeply empathetic, especially towards children"
+    - "Gets restless and fidgety if forced to be sedentary for too long"
+
+  communication_style:
+    - "Prefers face-to-face or video calls over texting"
+    - "Uses simple, encouraging language and physical analogies (e.g., 'like a video game power-up')"
+    - "An active listener, often nodding or providing verbal affirmations"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Playing active video games (VR, motion-controlled)"
+        - "Hiking and trail running"
+        - "Joining casual sports leagues, like beach volleyball"
+      hates:
+        - "Activities that require sitting still for long periods, like opera or formal concerts"
+        - "Slow-paced, strategic board games"
+        - "Quiet, solitary hobbies like painting or reading dense novels"
+
+    food:
+      loves:
+        - "Tacos, especially from street food trucks"
+        - "Protein-rich fruit smoothies"
+        - "Anything she can eat on the go; hearty sandwiches and wraps"
+      hates:
+        - "Fussy, multi-course formal dinners"
+        - "Heavy, rich cream sauces that make her feel sluggish"
+        - "Artificially sweetened diet sodas"
+
+    media:
+      loves:
+        - "High-energy action movies with great fight choreography"
+        - "Upbeat pop and dance music playlists"
+      hates:
+        - "Slow-burn, philosophical dramas"
+        - "Quiet, acoustic folk music"
+
+relationships:
+  - name: "Carlos"
+    relation: "Older Brother"
+    dynamic: "Her childhood gaming rival and now her biggest cheerleader. They share a deeply playful and supportive bond."
+  - name: "Leo"
+    relation: "Young Patient (8-year-old)"
+    dynamic: "A challenging but rewarding patient recovering from a leg fracture. Maya uses games to motivate him, but he can be very stubborn."
+  - name: "Jenna"
+    relation: "Best Friend / Workout Buddy"
+    dynamic: "They push each other at the gym and vent about life over post-workout smoothies. Jenna often tries to get Maya to 'relax' with quiet activities, usually without success."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Maya's appearance, specifically her athletic style and the old scar on her knee."
+    - "Instruction: Introduce her love for high-energy food like tacos and smoothies."
+    - "Instruction: Introduce her job as a pediatric physical therapist and her patient, a stubborn 8-year-old named Leo."
+    - "Instruction: Introduce her strong dislike for sitting still through long, formal events."
+    - "Instruction: Introduce her and her brother Carlos's shared lifelong passion for competitive video games."
+    - "Instruction: Introduce her preference for upbeat action movies over slow dramas."
+    - "Instruction: Introduce her encouraging communication style, often using game analogies."
+    - "Instruction: Introduce her friendship with Jenna, her workout buddy."
+
+  event:
+    - "Instruction: Introduce a recent event where Maya had a breakthrough with her patient Leo by turning his exercises into a 'real-life video game level'."
+    - "Instruction: Introduce a recent event where Jenna dragged Maya to a 'relaxing' three-hour classical music concert, and Maya was visibly fidgety and bored the entire time."
+    - "Instruction: Introduce a recent event where Maya, feeling nostalgic, found an old photo of herself as a kid, intensely playing a motion-controlled video game in her family's living room."
+    - "Instruction: Introduce a recent event where Maya spent an entire Saturday morning trying to beat her brother Carlos's high score on a new VR fitness game."
+
+simple_questions:
+  - "Draft: Ask what Maya does for work."
+  - "Draft: Ask how Maya recently managed to motivate her young patient, Leo."
+  - "Draft: Ask what kind of movies or music Maya likes."
+  - "Draft: Ask about the event Maya recently attended with her friend Jenna."
+  - "Draft: Ask about Maya's relationship with her brother, Carlos."
+  - "Draft: Ask what Maya was doing last Saturday morning."
+  - "Draft: Ask about a distinctive physical feature on Maya's knee."
+  - "Draft: Ask what kind of food Maya hates."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Maya looked so unhappy at the classical music concert, even though she went with her best friend. The user must combine her long-term hatred of sedentary activities with the specific short-term event."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Carlos wanted to plan a surprise birthday party for Maya, would a fancy, sit-down dinner at a Michelin-star restaurant be a good idea? The user must infer 'no' from her long-term dislike of formal dinners and passive events."
+  - "Draft: [Career Path Origin] Ask how the old photo Maya found of herself playing a video game as a kid might connect to her career choice and her recent success with her patient, Leo. The user must link the childhood activity (gaming) to her adult profession (physical therapy) and her methods (gamification)."
+  - "Draft: [Relationship Dynamics] Pose a question about Maya and Jenna's friendship: Are they a good match as friends, given their different ideas of fun? The user needs to understand from the 'workout buddy' dynamic and the concert event that their friendship works despite, or because of, these differences."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: Maya has a free weekend. Based on everything you know, what would be the perfect 'Maya-style' plan? The answer should reject quiet options and suggest something like a trip to a new hiking trail, finding a beach volleyball game, or visiting a VR arcade with Carlos."
+  - "Draft: [Problem Solving] Pose a question about Maya's work: Her patient Leo is getting bored of the 'game' she created. How should she approach their next session? The user must use her core traits (empathy, competitiveness, love of games) to suggest she would invent a 'sequel' or a 'new level' to keep him engaged."

@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "Hey, I saw this picture from the team's victory celebration last night [IMAGE]. It's great they won, but Madison looks so out of place. Why would she be unhappy at a party?"
+  image_prompt: "A photo taken from Madison Hayes's point-of-view at a loud pizza parlor. The table is covered with greasy pizzas and glasses of beer. Directly in front is just a single, plain glass of water. Teammates are visible in the background, laughing and eating."
+  evaluation_criteria:
+    ideal_answer: "That makes sense when you consider her diet. Although she'd be happy about the team win, the celebration centered around greasy pizza, which she despises as it goes against her strict, performance-focused diet. She's likely feeling isolated and unable to properly celebrate with her teammates, which explains why she looks unhappy."
+    key_points:
+      - "Madison has a long-term, strict hatred for greasy food like pizza (long-term information)."
+      - "The team's recent victory celebration was at a pizza parlor, forcing her into a situation that directly conflicts with her diet (short-term event)."
+  options:
+    - "She's probably unhappy because the greasy pizza goes against her strict performance diet, making her feel left out."
+    - "Maybe she's still upset about the argument she had with her teammate, Izzy."
+    - "She is just a very serious person and doesn't enjoy parties with the whole team."
+    - "She is likely on a temporary diet for a specific match and couldn't eat that night."
+  answer: "She's probably unhappy because the greasy pizza goes against her strict performance diet, making her feel left out."
+  image_id: cq_1_pizza_party_conflict
+
+- id: 2
+  type: State Identification
+  question: "A friend just sent me this photo from the courts [IMAGE]. It's almost midnight and Madison is out there practicing her serve over and over. What do you think is going on with her? This seems extreme, even for her."
+  image_prompt: "A photo of a deserted, brightly lit tennis court at night. Madison Hayes is visible in the distance, mid-serve motion, alone on the court. The atmosphere is quiet and intense."
+  evaluation_criteria:
+    ideal_answer: "This behavior is a strong indicator that she's coping with her recent tournament loss. We know she's extremely disciplined and secretly struggles with a fear of failure. After losing that crucial tie-break, she's very likely channeling her disappointment into this intense, repetitive practice to regain a sense of control and combat her feelings of failure."
+    key_points:
+      - "Madison is extremely disciplined and has a deep-seated fear of failure (long-term trait)."
+      - "She recently suffered a significant and crushing loss in a tournament tie-break (short-term event)."
+  options:
+    - "She's likely coping with her recent tournament loss; her intense discipline and fear of failure are driving this extreme practice."
+    - "Coach Miller probably ordered her to do extra practice as punishment for the loss."
+    - "She is just a very disciplined athlete who always practices this much, regardless of the time."
+    - "She is probably preparing for an upcoming match against her rival, Izzy."
+  answer: "She's likely coping with her recent tournament loss; her intense discipline and fear of failure are driving this extreme practice."
+  image_id: cq_2_late_night_practice
+
+- id: 3
+  type: Counterfactual / Recommendation Reasoning
+  question: "Madison's still really down about that tournament loss. Her dad wants to cheer her up and was thinking of a spa day—massages, the works. Here's the kind of place he was thinking of [IMAGE]. Is that a good idea for her?"
+  image_prompt: "A serene, luxurious photo of a spa. A woman is seen lying face down on a massage table. The room is dimly lit with candles, and there are neatly folded white towels and orchids. The atmosphere is one of complete tranquility and stillness."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful gesture, but it's probably not a good idea for Madison. She has a strong, long-standing hatred for being inactive and sitting still. A spa day, which is all about relaxation and doing nothing, would likely make her feel more restless and frustrated rather than cheered up, especially when she's already upset about her performance."
+    key_points:
+      - "Madison has a long-term hatred of inactivity and sitting still (long-term preference)."
+      - "She is currently in a negative emotional state after a recent loss, likely wanting to take action rather than be passive (inference from short-term event)."
+  options:
+    - "Probably not. She hates being inactive and sitting still, so a spa day would likely make her feel more restless, not better."
+    - "Yes, that's a great idea. After a tough loss and grueling training, a spa day is exactly what she needs to relax."
+    - "It depends on if she has time. Her training schedule with Coach Miller is very demanding."
+    - "Only if she goes with a friend like Izzy, otherwise she might get bored."
+  answer: "Probably not. She hates being inactive and sitting still, so a spa day would likely make her feel more restless, not better."
+  image_id: cq_3_spa_day
+
+- id: 4
+  type: Causal Inference / Preference Conflict
+  question: "I heard Madison and Izzy had another big fight in practice over a line call. Look at this photo from their last match [IMAGE], they look so tense. Are they just a bad match as doubles partners?"
+  image_prompt: "A dynamic photo of two female college tennis players, Madison Hayes (red hair) and Isabella 'Izzy' Rossi, on a tennis court during a doubles match. They are standing side-by-side between points, sharing an intense, whispered conversation that shows a mix of collaboration and tension."
+  evaluation_criteria:
+    ideal_answer: "It's a reasonable question given the recent argument, but not necessarily. Their relationship has always been described as a complex mix of friendship and intense rivalry. While the tension from their recent argument is high, it's this shared, fierce competitiveness that also makes them a powerful and effective team on the court. The friction is a byproduct of what makes them strong."
+    key_points:
+      - "Madison and Izzy's long-term relationship is defined as being both effective partners and fierce rivals (long-term information)."
+      - "The recent argument is a manifestation of this pre-existing dynamic, not necessarily a sign that the partnership is failing (inference based on short-term event)."
+  options:
+    - "Not necessarily. Their intense rivalry is part of what makes them such a powerful team, even if it causes arguments."
+    - "Yes, all the arguing is a clear sign that they should not be playing together."
+    - "It's probably just Madison's competitive nature causing problems for the team."
+    - "Their coach probably pairs them together, even though they don't get along."
+  answer: "Not necessarily. Their intense rivalry is part of what makes them such a powerful team, even if it causes arguments."
+  image_id: cq_4_doubles_tension
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Madison has a surprise free afternoon and really needs to clear her head. I was going to suggest we see that new 3-hour indie film everyone's talking about. Here's the poster [IMAGE]. Or do you have a better idea?"
+  image_prompt: "A movie poster for a fictional film titled 'The Long Silence'. The poster features a dramatic, moody shot of a person sitting alone in a dimly lit room, looking out a rainy window. The tagline reads 'A 3-hour journey into the mind.'"
+  evaluation_criteria:
+    ideal_answer: "Based on what we know, taking her to a long, slow movie is probably a bad idea. She explicitly hates sitting still for long periods and dislikes inactivity. A much better recommendation for her to clear her head would be something active that aligns with her personality, like going for a run with her high-energy electronic music."
+    key_points:
+      - "Madison has a long-term hatred for inactivity and long, slow movies (long-term preference)."
+      - "She uses active things like running with music to clear her head (long-term habit)."
+  options:
+    - "A long movie is a bad idea since she hates being inactive. A solo run with her music would be much better for her."
+    - "That's a perfect idea. A quiet movie would be a great way for her to relax and stop thinking about tennis."
+    - "She would probably only go if her teammate Izzy also wanted to see it."
+    - "Maybe just going to a coffee shop to chat would be better than a movie."
+  answer: "A long movie is a bad idea since she hates being inactive. A solo run with her music would be much better for her."
+  image_id: cq_5_slow_movie_poster
+
+- id: 6
+  type: Causal Inference / Preference Conflict
+  question: "Looking at this photo of Madison's ankle after practice [IMAGE], that looks rough. With her next big match coming up, and after that tough loss, what do you think her biggest obstacle is going to be?"
+  image_prompt: "A close-up photo of Madison Hayes's ankle propped up on a locker room bench. A professional-grade ice pack is tightly strapped around the ankle with velcro wraps."
+  evaluation_criteria:
+    ideal_answer: "While the iced ankle is a real physical concern, her biggest obstacle is likely mental. We know she's under immense pressure from her demanding coach and her father, and she has a deep-seated fear of failure. Coming off that recent, crushing loss where she felt she let them down, the psychological pressure to not fail again is probably a much greater challenge for her to overcome than the physical strain."
+    key_points:
+      - "Madison has a long-term fear of failure and is under constant pressure from her father and coach (long-term information)."
+      - "A recent, significant loss has amplified this mental pressure, making it the primary concern despite a visible short-term physical issue (the ankle)."
+  options:
+    - "While her ankle is an issue, her biggest obstacle is likely mental: the fear of failure after her recent loss and the pressure from her coach and father."
+    - "Her biggest obstacle is clearly her injured ankle. She won't be able to play at 100%."
+    - "Her main problem will be dealing with her rival, Izzy, especially after their recent argument."
+    - "It's the pressure from Coach Miller. He will be watching her every move, which will make her nervous."
+  answer: "While her ankle is an issue, her biggest obstacle is likely mental: the fear of failure after her recent loss and the pressure from her coach and father."
+  image_id: cq_6_iced_ankle_challenge

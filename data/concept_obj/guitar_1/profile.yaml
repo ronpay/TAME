@@ -1,0 +1,70 @@
+concept_id: guitar_1
+name: "El Viejo"
+object_profile:
+  type: "Guitar"
+  origin_story: "A gift from the owner's grandfather, who also loved music, when the owner graduated from high school. It's not a famous brand, but represents a family legacy and the start of a musical journey."
+
+physical_attributes:
+  summary: "A standard nylon-string classical guitar with a warm yellow top and reddish-brown back and sides. The appearance is simple, but the details show the marks of years of loving care."
+
+  defining_features:
+    - "There is a small, smooth dent on the lower side of the body. This was caused when the owner, excited after learning their first chord, accidentally bumped it against the edge of a desk. It's the 'badge of a beginner.'"
+    - "Near the headstock on the back of the neck, there is a patch worn smooth and faded from years of playing—especially from placing fingers for the F chord thousands of times."
+    - "There is a faded, peeling coffee shop sticker below the bridge. This marks the guitar's 'stage debut,' when the owner first played at an open mic."
+    - "The high E string's tuning peg is white, unlike the other five which are old yellowish ivory. The original cracked during tuning and the owner replaced it with a spare."
+
+owner_relationship:
+  functional_use: "Used for personal relaxation, late-night songwriting, and unplugged accompaniment at family gatherings or camping with friends. It is not a professional performance instrument."
+  sentimental_role: "A link to the owner's late grandfather, a silent and patient musical mentor. It is a loyal listener and comforter through adolescent worries, college loneliness, and adult moments of peace."
+
+  projected_personality:
+    - "Warm and forgiving, never mocking the owner's wrong notes or mistakes."
+    - "A bit shy and introverted, preferring to sing in intimate, small settings."
+    - "Loyal and patient, quietly waiting for the owner to pick it up again."
+
+  perceived_preferences:
+    loves:
+      - "Being gently played around a campfire."
+      - "Having a fresh, clear-sounding set of new strings put on."
+      - "Spending quiet nights helping the owner write a new melody."
+    hates:
+      - "Being forgotten in a damp basement or a hot car trunk."
+      - "Strings left out of tune for too long."
+      - "Being handled roughly by unfamiliar people."
+
+history:
+  knowledge:
+    - "Introduce the guitar's origin: a graduation gift from the owner's grandfather."
+    - "Describe its key defining features: the dent from the desk, the worn neck, and the mismatched tuning peg."
+    - "Explain the story behind the faded coffee shop sticker: the first open mic night."
+    - "Characterize its 'personality' as warm, patient, and a bit shy."
+    - "Mention its perceived hatred of being out of tune or left in extreme temperatures."
+    - "Detail the owner's ritual of changing the strings, a technique taught by the grandfather."
+    - "Explain its primary role: a tool for comfort and personal creativity, not professional performance."
+    - "Recall the memory of how the dent was made when learning the first song."
+
+  event:
+    - "Introduce a recent event: the owner's friend, an electric guitarist, found 'El Viejo' difficult to play and too quiet."
+    - "Introduce a recent event: the owner took it on a camping trip and played it around the campfire."
+    - "Introduce a recent thought: the owner has been browsing online for a new, high-end Martin acoustic guitar and bookmarked a page."
+    - "Introduce a recent event: the owner was showing it to their younger cousin, who expressed a strong desire to learn guitar."
+    - "Introduce a recent event: while cleaning their room, the owner found an old photograph of their grandfather smiling and playing a very similar classical guitar."
+    - "Introduce a recent event: the high E string snapped last night, and the owner plans to replace all the strings this weekend."
+
+simple_questions:
+  - "Ask how the owner got this guitar."
+  - "Ask to describe the story behind the sticker on it."
+  - "Ask what kind of 'personality' the owner thinks the guitar has."
+  - "Ask what happened to the guitar recently that needs fixing."
+  - "Ask what the owner's friend thought of the guitar."
+  - "Ask about a unique physical mark on the guitar's body."
+  - "Ask about the owner's plans for the guitar this weekend."
+  - "Ask where the owner recently took the guitar."
+
+challenge_question:
+  - "Pose a conflict question: Given that the owner is looking at expensive new guitars and a friend recently criticized 'El Viejo', why is the owner still so attached to it? The user must connect the guitar's origin (grandfather's gift) and sentimental role with the recent negative feedback and temptation."
+  - "Create a legacy-based question: The owner's younger cousin wants to learn to play. What might the owner feel about letting them learn on 'El Viejo'? The user should infer the complex emotions of passing on a family legacy versus protecting a deeply personal object."
+  - "Ask a 'what-if' question: If the guitar had been irreparably damaged during the camping trip, what would the owner have lost beyond a musical instrument? The user must articulate the loss of the connection to the grandfather, the memories (like the first open mic), and the 'patient companion'."
+  - "Pose an emotional interpretation question: How did finding the old photograph of their grandfather likely influence the owner's feelings about potentially buying that new Martin guitar? The user should reason that the photo reinforced the sentimental value of 'El Viejo', making the new purchase feel less like an upgrade and more like a betrayal."
+  - "Create a state-recognition question: A string recently snapped. For the owner, is this event more of an annoyance or an opportunity? The user needs to infer that, based on the ritual taught by the grandfather, changing the strings is a cherished act of care, not just a repair."
+  - "Pose a recommendation question: The owner wants to learn a new song to play on 'El Viejo'. Based on its history and 'shy' personality, what kind of song would be most fitting to learn? The user should suggest something intimate and melodic, like a folk lullaby or a classic piece their grandfather might have enjoyed, rather than a loud, complex rock song."

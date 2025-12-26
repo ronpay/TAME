@@ -1,0 +1,85 @@
+concept_id: cat_1
+name: "Smokey"
+species: "Feline"
+breed: "Russian Blue"
+
+appearance:
+  summary: "A sleek male Russian Blue with a solid, shimmering silver-grey coat, piercing yellow-gold eyes, and an expression that often looks unimpressed or judgmental."
+
+  key_visual_features:
+    - "Solid, short silver-grey fur with a distinct sheen"
+    - "Intense, almond-shaped yellow-gold eyes"
+    - "A slender, elegant build with long legs"
+    - "Long, prominent white whiskers"
+    - "Refuses to wear a collar, finding them undignified"
+
+behavior:
+  personality_traits:
+    - "Dignified and somewhat aloof"
+    - "A creature of habit, dislikes disruptions to his routine"
+    - "Quiet and observant, rarely meows but is very expressive with his eyes"
+    - "Enjoys affection strictly on his own terms"
+
+  preferences:
+    toys:
+      loves:
+        - "A red laser pointer dot"
+        - "Simple, crinkled balls of foil"
+      hates:
+        - "Noisy toys with bells or squeakers"
+        - "Large, fluffy plush toys"
+
+    food:
+      loves:
+        - "Tuna packed in oil"
+        - "Freeze-dried chicken treats"
+      hates:
+        - "Any kind of wet food with gravy or sauce (considers it messy)"
+        - "Standard dry kibble (finds it boring and beneath him)"
+
+    activities:
+      loves:
+        - "Napping in warm sunbeams"
+        - "Being gently brushed with a soft-bristle brush"
+        - "Silently judging household activities from a high perch, like the top of a bookshelf"
+      hates:
+        - "Being dressed up in any kind of costume or clothing"
+        - "Loud noises and sudden movements"
+        - "Having his belly touched"
+
+history:
+  knowledge:
+    - "Introduce Smokey's appearance: his sleek silver-grey coat and yellow-gold eyes."
+    - "Mention Smokey's long-standing hatred for being dressed up in costumes."
+    - "State clearly that Smokey's favorite food is tuna in oil."
+    - "Explain that Smokey despises messy wet food, especially if it has gravy."
+    - "Describe Smokey's favorite quiet activity: napping in sunbeams."
+    - "Introduce his love for the simple laser pointer game."
+    - "Mention his dislike for noisy toys with bells."
+    - "Point out that Smokey considers having his belly touched a major violation of trust."
+
+  event:
+    - "Introduce the recent photo where his owner put a festive elf hat with reindeer antlers on him."
+    - "Describe a recent event where his owner bought a new 'gourmet' wet food, which turned out to be tuna in a thick gravy."
+    - "Mention a recent incident where a visiting child tried to pet Smokey's belly, causing him to stalk off and hide."
+    - "Introduce a recent morning where Smokey ignored the laser pointer to meticulously stalk a dust bunny for an hour."
+    - "Describe the owner's attempt to give him a new toy, a mouse with a jingle bell inside, which Smokey just stared at with disdain before walking away."
+    - "Introduce a recent vet visit for a check-up, where the vet suggested a special dental health kibble to improve his gum health."
+
+simple_questions:
+  - "Ask what Smokey was wearing in the holiday photo, based on a short-term event."
+  - "Ask what Smokey's favorite food is, based on his long-term knowledge."
+  - "Ask what toy Smokey recently rejected, based on a short-term event."
+  - "Ask what activity Smokey loves for relaxation, based on his long-term knowledge."
+  - "Ask why Smokey ran away from the visiting child, based on a recent event."
+  - "Ask what his primary fur color is, based on his long-term appearance."
+  - "Ask what kind of food the vet recently recommended, based on a short-term event."
+  - "Ask what kind of toy he actually enjoys, based on his long-term preferences."
+
+challenge_question:
+  - "Provide the image of Smokey in the elf hat. Ask to explain his expression. The user must connect his long-term hatred of costumes with the short-term evidence of him wearing one to infer his annoyance."
+  - "Pose a preference conflict question: Why didn't Smokey eat the new gourmet tuna his owner bought? The user must combine the knowledge that he loves tuna (long-term) but hates gravy (long-term) to resolve the conflict presented by the short-term event."
+  - "Create a 'what-if' question: If his owner starts feeding him the dental kibble recommended by the vet, how will Smokey likely react? The user must infer his displeasure by combining his long-term hatred of kibble with the short-term necessity of the medicated food."
+  - "Ask to predict Smokey's behavior: A guest is coming over with a loud, energetic puppy. Where would you expect to find Smokey during the visit? The user must synthesize his personality (aloof, hates loud noises) to predict he would be hiding on a high perch or under a bed."
+  - "Pose a behavioral anomaly question: Why would Smokey, who loves the laser pointer, be so fascinated by a simple dust bunny? The user should reason that this is a temporary, instinct-driven distraction, contrasting his stable preference with a fleeting behavior."
+  - "Create a recommendation question: Based on everything you know, what would be the perfect 'I'm sorry' gift for Smokey after the hat incident? The user must suggest something that aligns with his established loves (tuna in oil, laser pointer) and avoids his hates (costumes, noisy toys, gravy)."

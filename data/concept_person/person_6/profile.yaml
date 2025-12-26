@@ -1,0 +1,106 @@
+concept_id: person_002
+name: "Julian Vance"
+
+identity:
+  age_group: "Mid 30s"
+  gender: "Male"
+  occupation: "Venture Capitalist (Founding Partner at 'Momentum Ventures')"
+  nationality: "American"
+
+appearance:
+  summary: "A man in his mid-30s with a high-energy, confident demeanor. His most striking features are his spiky, bleached-blond hair and intense blue eyes, often paired with a sharp suit and a brightly colored, unconventional tie."
+
+  key_visual_features:
+    - "Spiky, artificially bleached-blond hair, contrasting with his naturally reddish-blond eyebrows"
+    - "Piercing, intelligent blue eyes that seem to analyze everything"
+    - "A wide, charismatic smile that he uses to great effect in negotiations"
+    - "Almost always in a tailored business suit, but subverts the formality with vibrant, patterned silk ties"
+    - "Wears a minimalist, high-end smartwatch on his left wrist, which he checks frequently"
+
+behavior:
+  personality_traits:
+    - "Charismatic and highly persuasive"
+    - "Driven by a high-risk, high-reward mindset"
+    - "Restlessly energetic; finds it difficult to stay still or focus on slow tasks"
+    - "Pragmatic to the point of being ruthless in business decisions"
+    - "Values disruptive ideas and bold personalities"
+
+  communication_style:
+    - "Fast-talker, often uses metaphors from finance and extreme sports"
+    - "Prefers face-to-face meetings or quick, decisive phone calls over long email chains"
+    - "Extremely direct with feedback, can be perceived as blunt or impatient"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Urban exploration and parkour (as a physical and mental challenge)"
+        - "Attending high-stakes pitch competitions"
+        - "Competitive sailing"
+      hates:
+        - "Slow-paced, quiet activities like meditation or fishing"
+        - "Bureaucracy and filling out excessive paperwork"
+        - "Following traditional, 'safe' career or investment paths"
+
+    food:
+      loves:
+        - "Gourmet food trucks with exotic fusion cuisines"
+        - "Strong, straight double espresso shots"
+        - "Spicy food that provides a 'jolt' of energy"
+      hates:
+        - "Bland, uninspired conference room sandwiches"
+        - "Microwave dinners or overly processed food"
+        - "Decaffeinated coffee"
+
+    media:
+      loves:
+        - "Biographies of ambitious entrepreneurs and risk-takers"
+        - "Fast-paced action movies with complex plots"
+      hates:
+        - "Slow-burn historical dramas"
+        - "Self-help books focused on 'finding balance' or 'slowing down'"
+
+relationships:
+  - name: "Isabelle Chen"
+    relation: "Business Partner / Co-founder"
+    dynamic: "Synergistic but tense; Julian is the 'gas pedal' focused on aggressive growth, while Isabelle is the 'brakes,' ensuring due diligence. They argue often but respect each other immensely."
+  - name: "Dr. Elena Vance"
+    relation: "Older Sister"
+    dynamic: "Loving but disapproving; as an ER doctor, she constantly worries about his high-stress job and dangerous hobbies (like parkour)."
+  - name: "Alex Rivera"
+    relation: "Protégé / Founder of a backed company"
+    dynamic: "High-pressure mentorship; Julian sees a younger version of himself in Alex's chaotic brilliance and pushes him relentlessly to succeed."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Julian's signature look: the professional suit combined with the rebellious bleached hair and a colorful tie."
+    - "Instruction: Introduce his job as a VC who specifically looks for 'disruptive' and high-risk ideas."
+    - "Instruction: Introduce his passion for physically demanding, high-risk hobbies like parkour."
+    - "Instruction: Introduce his deep-seated hatred for bureaucracy, slow processes, and playing it safe."
+    - "Instruction: Introduce his preference for quick, intense flavors, like espresso and spicy food from food trucks."
+    - "Instruction: Introduce his business partner, Isabelle Chen, and their dynamic of being the 'gas' and 'brakes' of their firm."
+    - "Instruction: Introduce his sister, Dr. Elena Vance, and her constant worry about his lifestyle."
+    - "Instruction: Introduce his direct, fast-talking communication style."
+
+  event:
+    - "Instruction: Introduce a recent, major argument between Julian and Isabelle over investing in a new, unproven AI company, which has left Julian feeling frustrated."
+    - "Instruction: Introduce a recent event where Julian sprained his wrist during a weekend parkour session, forcing him to be unusually sedentary and irritable."
+    - "Instruction: Introduce a recent success where his protégé, Alex Rivera, secured a huge partnership, making Julian feel vindicated and energized."
+    - "Instruction: Introduce a recent event where, to appease his sister Elena, Julian attended a slow, formal hospital charity gala and was visibly bored the entire evening."
+
+simple_questions:
+  - "Draft: Ask what Julian's job is."
+  - "Draft: Ask why Julian has a brace on his wrist, based on a recent event."
+  - "Draft: Ask what kind of hobbies Julian is into, based on long-term knowledge."
+  - "Draft: Ask why Julian was in such a good mood about the Alex Rivera situation, based on a short-term event."
+  - "Draft: Ask about the working relationship between Julian and his partner Isabelle."
+  - "Draft: Ask what Julian was doing at the charity gala last week, based on a short-term event."
+  - "Draft: Ask about the kind of food Julian prefers."
+  - "Draft: Ask what kind of business meeting Julian would absolutely hate."
+
+challenge_question:
+  - "Draft: [State Recognition] Julian seems unusually agitated and impatient in the office this week, even for him. What two recent events could be contributing to his mood? The user must combine the frustration from his argument with Isabelle and the forced inactivity from his sprained wrist."
+  - "Draft: [Recommendation Decision] You're a founder with a solid, stable, low-risk business plan that promises slow but steady growth. How would you need to frame your pitch to get Julian's attention? The user must recognize Julian's hatred for 'safe' ideas and suggest focusing on a hidden 'disruptive' angle or a potential for massive scaling, ignoring the safety aspect."
+  - "Draft: [Relationship Dynamics] Given that Julian despises slow, formal events, why would he even agree to go to the hospital charity gala? The user must connect his long-term preference with his relationship to his sister, Elena, deducing she was the reason."
+  - "Draft: [Counterfactual Reasoning] If Isabelle were to go on a month-long vacation, what would likely happen to the firm's investment strategy during that time? The user must infer that without the 'brakes,' Julian would likely make several aggressive, high-risk investments."
+  - "Draft: [Preference Conflict] Describe the fundamental conflict of interest that led to the recent argument between Julian and Isabelle regarding the AI company. The user must use their core personalities—Julian's love of risk vs. Isabelle's caution—to explain the clash."
+  - "Draft: [Conflict Resolution] Julian's sister, Elena, wants to have a serious talk with him about his 'dangerous' lifestyle. What would be the worst way for her to approach this conversation, and what might be a better way? The user must understand that a slow, lecturing approach would fail, and a better way might be to frame it as a strategic problem or a risk-management issue to appeal to his mindset."

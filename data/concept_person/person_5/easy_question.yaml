@@ -1,0 +1,158 @@
+- id: 1
+  type: Long Term
+  question: Hey, I'm trying to explain to a new colleague what Kenji does. Look at
+    this photo from his work profile [IMAGE]. He looks so professional. What's his
+    official job title again?
+  image_prompt: A headshot-style photo of Kenji Tanaka, a Japanese-American man in
+    his early 40s. He is in a modern office, sitting at a clean desk. He wears a business-casual
+    polo shirt and has short, neat black hair. He looks focused and professional.
+    A small scar is visible over his right eyebrow.
+  evaluation_criteria:
+    ideal_answer: Kenji Tanaka is a Senior Software Architect.
+    key_points:
+    - correctly mention he is a Senior Software Architect.
+  options:
+  - A Lead Project Manager
+  - A Junior Developer
+  - A Senior Software Architect
+  - A Systems Analyst
+  answer: A Senior Software Architect
+  image_id: sq_1_kenji_professional
+- id: 2
+  type: Short Term
+  question: I was just looking at this picture of Kenji from last weekend [IMAGE].
+    He looks so genuinely happy for once! What was he eating that put such a big smile
+    on his face?
+  image_prompt: A candid, sunlit photo of Kenji Tanaka sitting on a park bench. He
+    has a look of pure, relaxed happiness on his face as he takes a bite of a classic
+    American hot dog loaded with mustard, relish, and onions. His usual work stress
+    is completely gone.
+  evaluation_criteria:
+    ideal_answer: He was eating a classic American hot dog with all the fixings at
+      the park.
+    key_points:
+    - correctly mention a hot dog.
+  options:
+  - A greasy spoon diner breakfast
+  - A classic American hot dog
+  - A kale smoothie
+  - A pretentious fine-dining meal
+  answer: A classic American hot dog
+  image_id: sq_2_kenji_hotdog
+- id: 3
+  type: Long Term
+  question: My friend is a big movie buff and I was telling him about Kenji. I showed
+    him this picture of Kenji's living room [IMAGE]. What kind of movies did Kenji
+    say he loves to watch?
+  image_prompt: A photo of a cozy living room. On a large TV screen, a still frame
+    from a classic black-and-white Kurosawa samurai film is paused. A record player
+    with a classical jazz album is visible on a nearby shelf.
+  evaluation_criteria:
+    ideal_answer: He loves watching old black-and-white samurai films, like those
+      by Kurosawa.
+    key_points:
+    - correctly mention old black-and-white samurai films.
+  options:
+  - Modern blockbuster action movies
+  - Mindless reality TV shows
+  - Documentaries about landscape photography
+  - Old black-and-white samurai films
+  answer: Old black-and-white samurai films
+  image_id: sq_3_samurai_movie
+- id: 4
+  type: Short Term
+  question: I just saw this picture again from Kenji's office last week [IMAGE]. It
+    looks so intense. Remind me, what was the specific reason he and Maria were arguing
+    so much?
+  image_prompt: A photo of a whiteboard in a conference room, covered in complex software
+    architecture diagrams and frustrated scribbles. The words 'CRITICAL BUG!' are
+    circled in red marker.
+  evaluation_criteria:
+    ideal_answer: They were arguing because a major, unexpected bug was found right
+      before a critical project deployment, putting the project at risk.
+    key_points:
+    - correctly mention a major/critical bug before deployment.
+  options:
+  - About the general project timeline and budget
+  - Over a critical bug found before a project deployment
+  - Because Kenji wanted to spend more time mentoring David
+  - About whether to attend the company mixer
+  answer: Over a critical bug found before a project deployment
+  image_id: sq_4_critical_bug_whiteboard
+- id: 5
+  type: Long Term
+  question: Hey, who is this younger guy with Kenji in this picture [IMAGE]? I remember
+    Kenji mentioning him. What's their relationship?
+  image_prompt: An over-the-shoulder photo in an office setting. Kenji Tanaka is pointing
+    at a line of code on a monitor, explaining it to a younger developer, David Chen,
+    who is listening intently and nodding.
+  evaluation_criteria:
+    ideal_answer: That's David Chen, a junior developer on his team. Kenji is mentoring
+      him.
+    key_points:
+    - correctly mention he is mentoring him / he is his mentee (David Chen).
+  options:
+  - He is David Chen, a junior developer Kenji is mentoring.
+  - He is Kenji's new manager from corporate.
+  - He is his daughter Emily's new boyfriend.
+  - He is a professional rival from another team.
+  answer: He is David Chen, a junior developer Kenji is mentoring.
+  image_id: sq_5_kenji_mentoring_david
+- id: 6
+  type: Short Term
+  question: This picture Kenji sent from that company event looks awful [IMAGE]. I
+    know he hates these things. How did he say he handled it?
+  image_prompt: A photo taken from Kenji's perspective, looking out over a crowded,
+    noisy room during a corporate social mixer. The overall feeling is one of chaotic,
+    overwhelming social activity.
+  evaluation_criteria:
+    ideal_answer: He found it unbearable and left after only about 20 minutes.
+    key_points:
+    - correctly mention that he left early (after 20 minutes).
+  options:
+  - He got into an argument with Maria there.
+  - He stayed for hours and tried to enjoy it.
+  - He found it unbearable and left after only 20 minutes.
+  - He hid in a corner and read a technical journal.
+  answer: He found it unbearable and left after only 20 minutes.
+  image_id: sq_6_mixer_chaos
+- id: 7
+  type: Long Term
+  question: Look at this photo of Kenji's desk [IMAGE]. He looks so focused. I remember
+    him saying this is what he does to de-stress. What is this hobby called again?
+  image_prompt: A close-up shot of Kenji Tanaka's hands carefully using tweezers to
+    place a tiny piece onto a highly detailed model ship. The table is neatly organized
+    with hobby tools, small plastic parts, and instructions.
+  evaluation_criteria:
+    ideal_answer: He builds intricate model kits, like ships or Gundams, to relax
+      and de-stress.
+    key_points:
+    - correctly mention building model kits (ships, Gundam).
+  options:
+  - Landscape photography
+  - Building intricate model kits
+  - Listening to classical jazz records
+  - Repairing old smartwatches
+  answer: Building intricate model kits
+  image_id: sq_7_model_kit_hobby
+- id: 8
+  type: Short Term
+  question: This is such a nice photo of Kenji and Emily [IMAGE]. But I remember he
+    said he had an awkward phone call with her recently. What happened on that call?
+  image_prompt: A candid photo of Kenji Tanaka and his college-aged daughter, Emily.
+    They are sitting on a couch. Kenji looks at her with adoration, while Emily is
+    laughing at something on her phone, which she is showing him.
+  evaluation_criteria:
+    ideal_answer: The call was awkward because they were talking past each other.
+      He was trying to talk about his work stress, while she was trying to talk about
+      a TikTok trend.
+    key_points:
+    - correctly mention they talked past each other / disconnect over work stress
+      and TikTok.
+  options:
+  - They argued about her college grades.
+  - They had a great conversation and felt very connected.
+  - She asked for money for a trip he disapproved of.
+  - They talked past each other about his work and a TikTok trend.
+  answer: They talked past each other about his work and a TikTok trend.
+  image_id: sq_8_kenji_and_emily

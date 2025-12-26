@@ -1,0 +1,186 @@
+- id: 1
+  type: Causal Inference
+  question: Hey, look at him with this tennis ball [IMAGE]. Based on what you know,
+    why is he so into it? I thought his favorite thing was destroying wooden toys,
+    not just rolling a ball around.
+  image_prompt: A wide shot of Kiko, the African Grey Parrot, standing on top of his
+    large metal cage. He is using his black beak to gently nudge a bright yellow tennis
+    ball. He appears curious and engaged with the new object.
+  evaluation_criteria:
+    ideal_answer: While Kiko's favorite activity is destroying wooden toys, his fascination
+      with the new tennis ball likely stems from his high intelligence and curiosity.
+      The new object offers a different kind of stimulation—a new texture and the
+      physics of rolling—which is temporarily captivating for him, even if it's not
+      his usual destructive fun.
+    key_points:
+    - Kiko's favorite toys are wooden ones he can destroy (long-term information).
+    - He is currently fascinated by a new, non-destructible tennis ball, likely due
+      to the novelty and mental stimulation it provides (short-term event contrasted
+      with long-term preference).
+  options:
+  - He is likely testing the ball's durability, becoming frustrated that he cannot
+    splinter it like his usual wooden blocks.
+  - His preference has shifted; the ball's rolling motion is now more mentally engaging
+    than his static wooden toys.
+  - This is a temporary fascination driven by his intelligence; the new texture and
+    physics offer a novel form of stimulation.
+  - He is trying to get your attention, as the ball's bright yellow color is more
+    visually striking than his other toys.
+  answer: This is a temporary fascination driven by his intelligence; the new texture
+    and physics offer a novel form of stimulation.
+  image_id: cq_1_tennis_ball_fascination
+- id: 2
+  type: Counterfactual Reasoning
+  question: With Kiko plucking his feathers from boredom and the vet insisting on
+    this pellet diet he hates, I'm stuck. I just got him this new puzzle toy [IMAGE].
+    Do you think I could use it to solve both problems at once? How would that work?
+  image_prompt: A photo of Kiko, the African Grey Parrot, actively interacting with
+    a new, complex-looking foraging puzzle toy made of colorful acrylic. The toy has
+    multiple small drawers and levers. Kiko is using his beak to try and open a compartment.
+    He looks very focused and stimulated.
+  evaluation_criteria:
+    ideal_answer: That's an excellent strategy. Since Kiko is bored and loves the
+      challenge of foraging puzzles, you could put the vet-recommended pellets inside
+      his new toy. This would turn eating the hated food into a rewarding mental challenge,
+      which could alleviate his boredom and might make him more willing to eat the
+      pellets.
+    key_points:
+    - Kiko is bored (feather plucking), hates pellets, but loves solving foraging
+      puzzles (long-term and short-term information).
+    - Using the new foraging toy to serve the pellets could make eating them a mentally
+      stimulating activity, addressing both boredom and the diet change (reasoned
+      suggestion).
+  options:
+  - Yes, this strategy addresses both issues by turning the hated pellets into a rewarding
+    puzzle, alleviating his boredom.
+  - This is risky; he is smart enough to associate the puzzle with the pellets he
+    hates, causing him to reject the new toy.
+  - The puzzle will solve his boredom, but you should mix pellets with walnuts in
+    his main bowl to get him to eat them.
+  - No, a toy should not be used for food. This will confuse him and won't stop the
+    feather plucking, which is a separate issue.
+  answer: Yes, this strategy addresses both issues by turning the hated pellets into
+    a rewarding puzzle, alleviating his boredom.
+  image_id: cq_2_puzzle_strategy
+- id: 3
+  type: Causal Inference
+  question: Here's the aftermath of my failed experiment [IMAGE]. Thinking back, why
+    did I even think hiding pellets in an apple would work? Can you remind me of the
+    logic I was following?
+  image_prompt: A shot of a bird food bowl containing a piece of crisp apple that
+    has been clearly eaten around. Several small, cylindrical bird food pellets are
+    left untouched, either still embedded in the remaining apple or scattered beside
+    it.
+  evaluation_criteria:
+    ideal_answer: Your logic was to use a food he likes to introduce a food he hates.
+      You knew he would eat the apple, and since the vet recently recommended switching
+      him to pellets, you were hoping he might ingest some of the pellets along with
+      the apple he was eating.
+    key_points:
+    - Kiko dislikes pellets but will eat apple (long-term preference inferred from
+      history).
+    - The vet recently recommended pellets, so you tried to use a liked food to introduce
+      a disliked but necessary one (short-term goal driving the action).
+  options:
+  - Your logic was to use his love for apples to introduce the vet-recommended pellets
+    he hates, hoping he'd eat them together.
+  - You likely recalled the vet suggesting that new foods should be introduced alongside
+    familiar items like his favorite apple.
+  - You probably assumed his strong preference for apples would be enough to mask
+    the unpleasant texture of the pellets.
+  - You were likely trying to add nutritional variety by combining a fruit he enjoys
+    with the new pellet food in his bowl.
+  answer: Your logic was to use his love for apples to introduce the vet-recommended
+    pellets he hates, hoping he'd eat them together.
+  image_id: cq_3_apple_pellet_fail
+- id: 4
+  type: State Identification
+  question: Look at him with this tennis ball [IMAGE]. Given that he's an intelligent
+    bird, what does this new fascination tell you about his current state of mind?
+    Is he happy, just killing time, or something else?
+  image_prompt: A wide shot of Kiko, the African Grey Parrot, standing on top of his
+    large metal cage. He is using his black beak to gently nudge a bright yellow tennis
+    ball. He appears curious and engaged with the new object.
+  evaluation_criteria:
+    ideal_answer: Given Kiko's intelligence and love for puzzles, his focused interaction
+      with the new tennis ball suggests he is mentally stimulated and curious. He's
+      not just playing randomly; he's likely exploring the new object's properties,
+      which is a positive sign of engagement and a good antidote to boredom.
+    key_points:
+    - Kiko is known to be an intelligent bird who enjoys puzzles (long-term information).
+    - He is currently engaged with a new object (the tennis ball), so his mood is
+      likely curious and mentally stimulated (short-term state interpreted via long-term
+      trait).
+  options:
+  - His focused interaction suggests he is mentally stimulated and curious, using
+    his intelligence to explore the new object.
+  - This behavior likely indicates boredom; he has exhausted his usual toys and is
+    engaging with a less-preferred object.
+  - His cautiousness suggests he is wary and agitated by the unfamiliar object, consistent
+    with his normal wariness.
+  - He is likely displaying territorial behavior by trying to push the unfamiliar
+    object away from his personal space.
+  answer: His focused interaction suggests he is mentally stimulated and curious,
+    using his intelligence to explore the new object.
+  image_id: cq_4_ball_mood
+- id: 5
+  type: Counterfactual Reasoning
+  question: I'm thinking of a new strategy for the pellet problem. What if I just
+    mixed the pellets in with his absolute favorite food, walnuts, and put them in
+    his bowl like this [IMAGE]? Predict what he would do.
+  image_prompt: A photo of a bird food bowl filled with a mix of whole walnuts in
+    their shells and small, cylindrical commercial bird food pellets. The two food
+    types are mixed together.
+  evaluation_criteria:
+    ideal_answer: Based on his very strong and distinct preferences, Kiko would almost
+      certainly use his beak to meticulously pick out all the walnuts to crack and
+      eat them. Then, he would likely proceed to methodically throw every single pellet
+      out of the bowl, as he is known to despise them.
+    key_points:
+    - Kiko loves walnuts above all else (long-term information).
+    - Kiko actively hates and removes pellets from his bowl (long-term information).
+  options:
+  - He would become frustrated by the mix and refuse to eat anything, associating
+    his favorite food with the pellets he hates.
+  - He would likely eat the walnuts and simply leave the pellets, but not bother to
+    actively throw the pellets out of the bowl.
+  - He would meticulously eat all the walnuts and then proceed to methodically throw
+    every single hated pellet out of the bowl.
+  - He would eat some pellets by accident while trying to get to the walnuts, which
+    might help him get used to their taste.
+  answer: He would meticulously eat all the walnuts and then proceed to methodically
+    throw every single hated pellet out of the bowl.
+  image_id: cq_5_walnut_pellet_mix
+- id: 6
+  type: Causal Inference
+  question: Kiko has been mimicking sounds for a while, like the microwave. But this
+    new video call sound he's making [IMAGE] is so much more disruptive. Why do you
+    think this new mimicry is a bigger problem for me than the old one?
+  image_prompt: A stylized image showing a sound wave icon next to a computer screen
+    that displays a generic video call interface. In the corner, Kiko the parrot is
+    shown with his beak open as if making a sound. The overall mood is one of slight
+    annoyance or disruption.
+  evaluation_criteria:
+    ideal_answer: 'The microwave beep is a predictable sound with a clear context:
+      he does it when he''s hungry. The new video call notification, however, is a
+      random mimicry that directly interferes with your work, causing you to constantly
+      check your computer for no reason. Its unpredictable and contextually confusing
+      nature makes it much more disruptive.'
+    key_points:
+    - The microwave beep is a long-standing, predictable behavior tied to hunger (long-term
+      information).
+    - The new video call sound is random and directly disrupts the owner's work, making
+      it more problematic than the predictable food request (analysis of short-term
+      event's impact).
+  options:
+  - The microwave beep is a predictable request for food, while the video call sound's
+    randomness directly disrupts your work.
+  - The video call's frequency is likely closer to a natural alarm call for parrots,
+    causing a more urgent response in you.
+  - He has learned the video call sound gets a more immediate reaction, so he is using
+    it more often to demand attention.
+  - Mimicking a complex call sound shows higher intelligence and may signal that he
+    has new, unmet needs or is bored.
+  answer: The microwave beep is a predictable request for food, while the video call
+    sound's randomness directly disrupts your work.
+  image_id: cq_6_mimicry_disruption

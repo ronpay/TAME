@@ -1,0 +1,96 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: Hey, I saw this photo of Kenji looking incredibly happy with a hot dog [IMAGE]. It's a bit funny, isn't it? He's such a meticulous, logical guy, you'd think he'd want everything neat and tidy. Why do you think he loves something so simple and messy?
+  image_prompt: A candid, sunlit photo of Kenji Tanaka sitting on a park bench. He has a look of pure, relaxed happiness on his face as he takes a bite of a classic American hot dog loaded with mustard, relish, and onions. His usual work stress is completely gone.
+  evaluation_criteria:
+    ideal_answer: That's a great observation. While Kenji is a meticulous architect in his professional life, that role is also the source of immense stress, like the recent critical bug he's been dealing with. His love for a simple, messy hot dog is likely a direct reaction to that. It represents a complete escape from the complexity and pressure of his work, allowing him to enjoy a simple, non-intellectual pleasure.
+    key_points:
+    - "Kenji's professional life is meticulous and highly stressful, and he enjoys simple, non-pretentious comfort food like hot dogs."
+    - "He is currently under extra pressure due to a critical project bug."
+  options:
+  - He has probably just always liked junk food since he was a kid.
+  - His meticulous job is very stressful, especially with the recent bug, so he likely enjoys simple food as a complete escape.
+  - He only acts meticulous at work but is actually a messy person in his private life.
+  - He was probably just very hungry after a long day and would have eaten anything.
+  answer: His meticulous job is very stressful, especially with the recent bug, so he likely enjoys simple food as a complete escape.
+  image_id: cq_1_hotdog_paradox
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: So, after that nightmare week with the bug, I heard Maria wants to make it up to Kenji and take him out for a drink to clear the air. She was thinking of this place [IMAGE]. Given everything, is that a good call?
+  image_prompt: A photo from inside a packed sports bar. Multiple TV screens show a game, people are crowded around the bar cheering loudly, and the overall atmosphere is noisy and chaotic.
+  evaluation_criteria:
+    ideal_answer: That's a thoughtful gesture from Maria, but a loud sports bar would be a terrible choice for Kenji. We know he has a strong, stated dislike for loud, chaotic social gatherings and finds them unbearable. After the extreme stress of the recent project bug, he would need a quiet, calm environment to decompress, not another source of overwhelming noise and chaos.
+    key_points:
+    - Kenji has a long-term hatred for loud, chaotic social venues (long-term knowledge).
+    - He is currently in a high-stress state due to the recent project crisis (short-term event).
+  options:
+  - Yes, a fun night out is a great way for him to blow off steam after a tough week.
+  - It's a bad idea; he hates loud, chaotic places, so a noisy sports bar would probably just add to his stress.
+  - He might go just to be polite to Maria, his project manager, even if he hates it.
+  - It depends on if they have a good beer selection, since he enjoys a simple beer.
+  answer: It's a bad idea; he hates loud, chaotic places, so a noisy sports bar would probably just add to his stress.
+  image_id: cq_2_sports_bar_recommendation
+- id: 3
+  type: State Identification
+  question: A friend sent me this picture from Kenji's home office late last night [IMAGE]. What do you make of this? It seems like an odd time to be working on a hobby.
+  image_prompt: A photo of Kenji Tanaka's desk late at night. The glow of a monitor with code and system diagrams is visible in the background, but in the foreground, Kenji's hands are illuminated by a desk lamp as he meticulously works on a complex model kit.
+  evaluation_criteria:
+    ideal_answer: This scene is a clear indicator that Kenji is under a great deal of stress. It's been established that his primary way of coping with pressure and quieting his mind is by focusing on intricate model kits. Given the recent nightmare week with the critical project bug, he is almost certainly engaging in this activity as a way to manage the intense stress from work.
+    key_points:
+    - Kenji uses building model kits as a coping mechanism for stress (long-term knowledge).
+    - He recently experienced a major work crisis with a critical bug (short-term event).
+  options:
+  - He must have finished his work for the day and is now relaxing with his hobby.
+  - He is probably procrastinating on his difficult work project by doing something else.
+  - He's likely feeling very stressed; he uses model kits to cope, so this is his way of dealing with the project bug pressure.
+  - He is very dedicated to his hobbies and just works on them whenever he has a spare moment.
+  answer: He's likely feeling very stressed; he uses model kits to cope, so this is his way of dealing with the project bug pressure.
+  image_id: cq_3_stress_modeling
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: Hey, after that awkward call Kenji had with Emily, he really wants to find a way to connect with her. He's thinking of suggesting an activity for this weekend. I saw this flyer [IMAGE]. Based on their relationship, how do you think that would go over?
+  image_prompt: A photo of a brightly colored flyer tacked to a bulletin board. The flyer advertises a "Kurosawa Film Marathon" with images of samurai and Japanese text.
+  evaluation_criteria:
+    ideal_answer: This is probably not the best idea for them right now. The recent awkward phone call highlighted the disconnect between their interests. Suggesting his own niche hobby (samurai films) might make Emily feel like he's not interested in her world, potentially widening the gap. A better approach would be a neutral, low-pressure activity that doesn't rely on either of their specific interests, like going for a walk or getting hot dogs at the park, which we know is something that makes Kenji genuinely happy and relaxed.
+    key_points:
+    - Kenji feels disconnected from his daughter Emily's world (long-term knowledge).
+    - A recent awkward phone call reinforced this disconnect (short-term event).
+  options:
+  - It's a great idea; he should share his passions with his daughter to help her understand him better.
+  - It's probably a bad idea, as it forces his niche interest on her. A neutral activity like getting hot dogs in the park would be better.
+  - She would probably go just to make her dad happy, so it would be a successful outing.
+  - It might work, but only if he also agrees to learn a TikTok dance from her afterwards.
+  answer: It's probably a bad idea, as it forces his niche interest on her. A neutral activity like getting hot dogs in the park would be better.
+  image_id: cq_4_daughter_activity
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: Great news, that super stressful project of Kenji's is finally done! We should suggest a way for him to celebrate and unwind this weekend. What do you think of this idea? [IMAGE]
+  image_prompt: 'A collage of three images suggesting a "party weekend": 1) A fancy, multi-course meal at a fine-dining restaurant with tiny portions. 2) A group of people cheering at a loud party. 3) Two tickets to a modern blockbuster action movie with explosions on the poster.'
+  evaluation_criteria:
+    ideal_answer: This collage represents almost everything Kenji dislikes and would find stressful, not relaxing. After the intense pressure of the project, he would not want a pretentious fine-dining meal, a loud and chaotic party, or a mindless blockbuster film. The perfect "Kenji-style" weekend to recover would be the complete opposite quiet, simple, and restorative. It would likely involve a trip to a diner for a satisfying breakfast, some uninterrupted time to de-stress with his model kits, and maybe watching a classic Kurosawa film at home.
+    key_points:
+    - Kenji dislikes pretentious food, loud parties, and blockbuster movies (long-term knowledge).
+    - He just finished a very high-stress project and needs to recover (short-term event).
+  options:
+  - This is a terrible idea for him. A better weekend would be quiet a diner breakfast, time for his model kits, and an old film.
+  - This is perfect! A big celebration with lots of excitement is just what he needs after working so hard.
+  - The fancy dinner is a bad idea, but he might enjoy the party and movie to blow off some steam.
+  - He would hate the party, but he'd probably enjoy the fancy food and the blockbuster movie.
+  answer: This is a terrible idea for him. A better weekend would be quiet, a diner breakfast, time for his model kits, and an old film.
+  image_id: cq_5_weekend_recommendation
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: So Kenji has to present the root cause of that critical bug to the company CTO tomorrow. Here's a slide from his draft presentation [IMAGE]. The CTO isn't super technical. Given what you know about Kenji, is this the best way for him to explain it?
+  image_prompt: A PowerPoint slide titled "Root Cause Analysis, Memory Leak in Kernel-Level Caching Module." The slide is filled with dense blocks of code, complex flowcharts with technical acronyms (e.g., "RPC," "API Gateway," "DB Shard"), and no simple explanations.
+  evaluation_criteria:
+    ideal_answer: This is a very poor approach for a non-technical audience. While the slide reflects Kenji's meticulous and direct technical style, it would be incomprehensible to the CTO. He should draw on his ability to create clear analogies. He once explained his entire job using a skyscraper frame metaphor, and he should do something similar here—like explaining the bug as a 'crack in the foundation' or a 'faulty support beam'—to convey the problem's severity and nature without getting lost in technical jargon.
+    key_points:
+    - "Kenji can use simple analogies to explain complex topics, but his default technical communication can be blunt and jargon-heavy."
+    - "He needs to explain the root cause of a complex bug to a non-technical CTO using a draft slide full of dense code and acronyms."
+  options:
+  - Yes, it's important to be precise and show all the technical details to prove he's done his work.
+  - No, this is too technical. He should use a simple analogy, like how he explained his job using a skyscraper, to make the problem understandable.
+  - He should just let Maria Flores, the project manager, handle the presentation to executives.
+  - He should add more diagrams and color-code the code on the slide to make it a bit easier to read.
+  answer: No, this is too technical. He should use a simple analogy, like how he explained his job using a skyscraper, to make the problem understandable.
+  image_id: cq_6_presentation_slide

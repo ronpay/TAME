@@ -1,0 +1,158 @@
+- id: 1
+  type: Long Term
+  question: Hey, I was just looking through this old photo album from my childhood.
+    [IMAGE] It made me think of Red Comet. Can you remind me of the story of how I
+    got it?
+  image_prompt: A slightly faded, vintage-style photograph from the 1990s. An elderly
+    man (grandfather) is handing the 'Red Comet' guitar to a very young child (7 years
+    old) who is looking at it with wide-eyed excitement. The photo is taken at a birthday
+    party.
+  evaluation_criteria:
+    ideal_answer: Of course. Your grandfather gave it to you for your 7th birthday
+      to spark your passion for music.
+    key_points:
+    - correctly mention it was a 7th birthday gift from their grandfather.
+  options:
+  - Your grandfather gave it to you for your 7th birthday.
+  - Your parents bought it for you after you saw it in a store.
+  - You saved up your allowance to buy it yourself.
+  - It was a hand-me-down from an older cousin.
+  answer: Your grandfather gave it to you for your 7th birthday.
+  image_id: sq_1_origin_photo
+- id: 2
+  type: Long Term
+  question: I'm giving Red Comet a gentle clean today. [IMAGE] I'm looking at its
+    most famous battle scar. What was the story behind this deep scratch again?
+  image_prompt: A close-up shot focusing on a deep, half-inch scratch on the lower
+    body of the glossy, bright red toy guitar 'Red Comet'. A soft cleaning cloth is
+    visible next to the scratch.
+  evaluation_criteria:
+    ideal_answer: That scratch is from when a cheap strap you were using broke, causing
+      the guitar to fall and hit the corner of your desk.
+    key_points:
+    - correctly mention it fell against a desk when a strap broke.
+  options:
+  - It fell against a desk corner when a cheap strap broke.
+  - Your niece accidentally dropped it during her recent visit.
+  - It happened when you clumsily tried to repair the tuning peg.
+  - It got scratched during a move to a new house.
+  answer: It fell against a desk corner when a cheap strap broke.
+  image_id: sq_2_scratch_story
+- id: 3
+  type: Long Term
+  question: Looking at Red Comet up on the wall... [IMAGE] it really does look more
+    like art now. Remind me, what did I say about its current role? Do I still play
+    it regularly?
+  image_prompt: A photo of the 'Red Comet' guitar hanging on a wall mount in a living
+    room, displayed like a piece of art next to some framed pictures. The lighting
+    is soft and highlights its placement as a decorative piece.
+  evaluation_criteria:
+    ideal_answer: You don't play it seriously anymore because its intonation is poor.
+      You've said its main role now is as a decorative memento of where your musical
+      journey began.
+    key_points:
+    - correctly mention it's now a decorative memento, not played seriously.
+  options:
+  - It's mainly a decorative memento; you don't play it seriously.
+  - You play it every day to practice basic chords.
+  - You only play it when your niece visits to teach her.
+  - You use it for recording alongside your Fender guitar.
+  answer: It's mainly a decorative memento; you don't play it seriously.
+  image_id: sq_3_memento_role
+- id: 4
+  type: Short Term
+  question: I just saw an ad for vintage instrument restoration. [IMAGE] It reminded
+    me that I was thinking about doing something similar for Red Comet. What did I
+    recently decide about that?
+  image_prompt: A screenshot of a smartphone screen showing an online advertisement
+    for 'Professional Guitar Restoration & Repair'. In the background, out of focus,
+    is the 'Red Comet' guitar.
+  evaluation_criteria:
+    ideal_answer: You recently considered getting it professionally restored, but
+      you decided against it because you felt that would erase its history and memories.
+    key_points:
+    - correctly mention the decision was against restoration to preserve its history.
+  options:
+  - You decided against restoring it to preserve its history.
+  - You decided to get it fully restored to make it look new.
+  - You decided to only fix the wobbly tuning peg but leave the scratch.
+  - You're still looking for a good repair shop to do the work.
+  answer: You decided against restoring it to preserve its history.
+  image_id: sq_4_restoration_decision
+- id: 5
+  type: Short Term
+  question: My musician friend is coming over later. [IMAGE] I remember he made a
+    joke about Red Comet last time he was here. How did I react to that?
+  image_prompt: A close-up of a smartphone screen showing a text conversation. The
+    contact name is 'Mark (Musician)'. The last message from Mark says 'Be there in
+    20! Can't wait to see the old Red Comet haha'.
+  evaluation_criteria:
+    ideal_answer: When he jokingly asked if it could even stay in tune, you mentioned
+      that you got weirdly defensive about it.
+    key_points:
+    - correctly mention the feeling was 'defensive'.
+  options:
+  - You felt defensive.
+  - You laughed and agreed with him.
+  - You felt proud that he noticed it.
+  - You ignored his joke completely.
+  answer: You felt defensive.
+  image_id: sq_5_friend_joke
+- id: 6
+  type: Long Term
+  question: I've had 'Twinkle, Twinkle, Little Star' stuck in my head all day. [IMAGE]
+    It always makes me think of my grandpa and Red Comet. What's that specific memory
+    I told you about them?
+  image_prompt: A photo looking down at the 'Red Comet' guitar resting on a person's
+    lap. The person's fingers are positioned over the frets as if they are about to
+    play a simple song. The lighting is warm and nostalgic.
+  evaluation_criteria:
+    ideal_answer: You told me about a cherished memory of playing a clumsy version
+      of 'Twinkle, Twinkle, Little Star' on it for your grandfather and how happy
+      his smile made you.
+    key_points:
+    - correctly mention playing 'Twinkle, Twinkle, Little Star' for their grandfather.
+  options:
+  - Playing 'Twinkle, Twinkle, Little Star' for your grandfather.
+  - Your grandfather teaching you how to tune it.
+  - Fixing the broken strap together with your grandfather.
+  - Showing it to your grandfather after you put new stickers on it.
+  answer: Playing 'Twinkle, Twinkle, Little Star' for your grandfather.
+  image_id: sq_6_twinkle_memory
+- id: 7
+  type: Short Term
+  question: I'm looking at this wobbly peg again. [IMAGE] I was checking on it the
+    other day. What was the new concern I had about it?
+  image_prompt: A person's finger is gently wiggling the wobbly tuning peg on the
+    'Red Comet' guitar. The shot is a close-up, conveying a sense of careful inspection
+    and concern. The lighting is focused on the peg.
+  evaluation_criteria:
+    ideal_answer: You recently noticed that the wobbly peg, the one you glued as a
+      kid, has become even looser, which made you concerned.
+    key_points:
+    - correctly mention the wobbly peg has become looser.
+  options:
+  - That it has become even looser.
+  - That the superglue you used was cracking.
+  - That it was starting to rust.
+  - That it was preventing the string from staying in tune.
+  answer: That it has become even looser.
+  image_id: sq_7_looser_peg
+- id: 8
+  type: Short Term
+  question: I just found this little toy car under the sofa, it must be from my niece's
+    visit. [IMAGE] Speaking of which, who was the special person I recently allowed
+    to play Red Comet?
+  image_prompt: A photo of a person's hand holding a small, brightly colored toy car.
+    In the background, out of focus, is the 'Red Comet' guitar hanging on the wall.
+  evaluation_criteria:
+    ideal_answer: You recently let your young niece gently play it.
+    key_points:
+    - correctly identify their niece as the person who recently played it.
+  options:
+  - Your young niece.
+  - Your musician friend, Mark.
+  - Your grandfather.
+  - Yourself, for the first time in years.
+  answer: Your young niece.
+  image_id: sq_8_niece_played

@@ -1,0 +1,84 @@
+concept_id: dog_1
+name: "Mochi"
+species: "Canine"
+breed: "Shiba Inu"
+
+appearance:
+  summary: "A male Shiba Inu with classic red-brown and cream 'urajiro' markings, a sturdy build, and a perpetually curious yet slightly smug expression."
+
+  key_visual_features:
+    - "Short, dense fur with red-brown and cream 'urajiro' markings"
+    - "Expressive, almond-shaped dark brown eyes"
+    - "A small, distinctive white spot on the bridge of his nose"
+    - "Signature tightly curled tail, often held high with confidence"
+    - "Consistently wears a simple, black nylon collar"
+
+behavior:
+  personality_traits:
+    - "Highly energetic and intelligent"
+    - "Independent and famously stubborn, dislikes being forced into anything"
+    - "Vocal, often communicates with the classic 'shiba scream' when highly displeased"
+    - "Wary of strangers but deeply loyal and affectionate with his primary owner"
+
+  preferences:
+    toys:
+      loves:
+        - "Squeaky plush hedgehog toy"
+        - "Durable rope toys for tug-of-war"
+      hates:
+        - "Loud, hard plastic toys"
+        - "Frisbees (he prefers to chase, not catch)"
+
+    food:
+      loves:
+        - "Chicken jerky"
+        - "Small pieces of apple"
+      hates:
+        - "Any kind of vegetable, especially carrots"
+        - "Fish-flavored wet dog food"
+
+    activities:
+      loves:
+        - "Long hikes in the woods"
+        - "Car rides with the window slightly open"
+      hates:
+        - "Baths, will hide upon hearing the word"
+        - "Having his paws touched, which makes nail trimming a nightmare"
+        - "Loud, sudden noises like thunder or vacuum cleaners"
+
+history:
+  knowledge:
+    - "Introduce Mochi's appearance, specifically his black collar and the white spot on his nose."
+    - "Introduce that Mochi's favorite treats are chicken jerky and apples."
+    - "Introduce that Mochi absolutely hates baths and fish-flavored food."
+    - "Introduce Mochi's favorite squeaky hedgehog toy."
+    - "Introduce Mochi's personality, noting he is stubborn and wary of strangers."
+    - "Introduce Mochi's hatred for having his paws touched."
+    - "Introduce Mochi's love for car rides."
+    - "Introduce Mochi's dislike for loud noises like thunder."
+
+  event:
+    - "Introduce a recent event where Mochi played in the mud during a hike and got extremely dirty."
+    - "Introduce that because he got so muddy, Mochi had to have a bath yesterday, and he was very unhappy about it."
+    - "Introduce a recent event where Mochi snuck some leftover fish tacos and got an upset stomach. The vet prescribed a special fish-flavored therapeutic wet food for a week."
+    - "Introduce that there was a thunderstorm last night, and Mochi spent the whole evening hiding under the bed."
+    - "Introduce a recent photo showing Mochi wearing a festive red bowtie for a family picture."
+    - "Introduce a recent event where Mochi is ignoring his favorite hedgehog toy to play with a simple cardboard box he found."
+
+simple_questions:
+  - "Ask what Mochi's favorite food is, based on his long-term knowledge."
+  - "Ask what Mochi was wearing for the recent family photo, based on a short-term event."
+  - "Ask what kind of toy Mochi usually loves, based on his long-term knowledge."
+  - "Ask why Mochi had to visit the vet recently, based on a short-term event."
+  - "Ask what activity Mochi despises, which involves water, based on his long-term preferences."
+  - "Ask what Mochi was playing with this morning instead of his usual toys, based on a recent event."
+  - "Ask where Mochi was during last night's thunderstorm, based on a short-term event."
+  - "Ask what specific feature is on Mochi's nose, based on his long-term appearance."
+
+challenge_question:
+  - "Pose a question that requires explaining the paradox of Mochi's current diet. The user needs to combine the long-term knowledge that he hates fish-flavored food with the short-term event that he's on a vet-prescribed fish-flavored diet due to sickness."
+  - "Create a state-recognition question. After mentioning Mochi got muddy, ask why he might be avoiding his owner. The user must infer that he's avoiding the inevitable bath, which he hates (long-term trait), triggered by the short-term event."
+  - "Pose a preference conflict question. Ask why Mochi is ignoring his beloved hedgehog toy for a simple cardboard box. The user should infer this is a temporary fascination with novelty, contrasting his stable long-term preference with a fleeting short-term behavior."
+  - "Ask a 'what-if' question: If you wanted to cheer Mochi up after his dreaded bath, would offering him a piece of apple be a good idea? The user must combine his long-term love for apples with the short-term context of his upset stomach to give a nuanced answer (it's a good thought, but maybe not right now)."
+  - "Create a recommendation question. Given that Mochi's nails are getting long (implied short-term problem) and he hates having his paws touched (long-term trait), ask for advice on the best way to handle his nail trimming. The answer should acknowledge the conflict and suggest solutions that respect his personality."
+  - "Pose an appearance-based reasoning question. Ask what is different about Mochi's neckwear in the family photo compared to his usual look. The user needs to recall his usual black collar (long-term) and contrast it with the festive bowtie (short-term)."

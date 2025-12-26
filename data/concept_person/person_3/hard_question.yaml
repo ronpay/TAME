@@ -1,0 +1,101 @@
+- id: 1
+  type: State Identification
+  question: "Hey, I was looking at this photo from the holiday party [IMAGE]. Leo's smiling, but is he actually having a good time? It seems a bit off for him."
+  image_prompt: "A photo of Leo Vance from behind a makeshift bar at an office party. He's wearing a button-down shirt and a slightly forced, polite smile as he hands a drink to a coworker. The background is filled with people mingling."
+  evaluation_criteria:
+    ideal_answer: "That's a very sharp observation. Although he is smiling, it's highly unlikely he's genuinely enjoying himself. He's mentioned that he finds unstructured social gatherings awkward and unproductive. He specifically volunteered for the bartender role as a coping mechanism to give himself a clear purpose and avoid the small talk he dislikes. So, the smile is more of a professional mask than a sign of true happiness."
+    key_points:
+    - "Leo has a long-term dislike for unstructured parties (long-term information from Turn 4)."
+    - "He took on the role of bartender specifically to cope with his social awkwardness at this party (short-term information from Turn 10)."
+  options:
+  - "Yes, he looks happy. He probably enjoys being the center of attention at the bar."
+  - "He's just trying to impress his manager, Jessica, by appearing helpful and social."
+  - "Probably not; he dislikes unstructured parties and likely took the 'bartender' role to avoid awkward socializing."
+  - "He seems to be having a great time with his colleagues, enjoying the festive spirit."
+  answer: "Probably not; he dislikes unstructured parties and likely took the 'bartender' role to avoid awkward socializing."
+  image_id: cq_1_party_bartender
+
+- id: 2
+  type: Causal Inference / Preference Conflict
+  question: "Looking at this picture from the team lunch [IMAGE]... why was Leo so miserable? I thought team lunches were supposed to be fun."
+  image_prompt: "A first-person perspective photo looking down at a stainless-steel food bar. Various bowls are filled with nacho toppings like ground beef, liquid cheese, salsa, and jalapenos. Tongs and spoons are scattered haphazardly. It looks messy and chaotic."
+  evaluation_criteria:
+    ideal_answer: "That makes perfect sense given his personality. Leo has a strong preference for structured, neat, and meticulously prepared meals, like his weekly meal-prep lunches. The 'make your own messy nachos' bar was the complete opposite—it was chaotic, greasy, and unstructured. This direct conflict with his core preference for order and cleanliness is why he found the experience to be, in his words, a 'nightmare'."
+    key_points:
+    - "Leo has a long-term preference for neat, structured, non-greasy food (long-term information from Turn 2)."
+    - "The team lunch involved a messy, chaotic 'make your own nachos' bar (short-term information from Turn 11)."
+  options:
+  - "He was probably on a diet and didn't want to eat unhealthy food."
+  - "He hates messy, chaotic food, so a 'make your own nacho' bar goes directly against his preference for neat, structured meals."
+  - "He probably had an argument with a team member at the lunch and was upset."
+  - "He doesn't like company team-building activities in general."
+  answer: "He hates messy, chaotic food, so a 'make your own nacho' bar goes directly against his preference for neat, structured meals."
+  image_id: cq_2_nacho_bar_mess
+
+- id: 3
+  type: Counterfactual / Recommendation Reasoning
+  question: "Leo had a hell of a week with that project glitch. I want to help him unwind. Was thinking of taking him to this place [IMAGE], it's a super popular, busy bar. Good idea or bad idea?"
+  image_prompt: "A vibrant, blurry photo from inside a crowded, noisy bar. People are packed together, talking and drinking. The atmosphere looks loud and chaotic."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful gesture, but it's probably a bad idea for Leo. He's already in a high-stress state from the recent project glitch. We also know he has a long-standing dislike for unstructured, chaotic social gatherings where he feels awkward. A loud, crowded bar would likely amplify his stress rather than relieve it. He'd be much more comfortable with a structured, quiet activity."
+    key_points:
+    - "He has a long-term dislike for chaotic, unstructured social events (long-term information from Turn 4)."
+    - "Leo is currently in a high-stress state due to the recent project failure (short-term information from Turn 9)."
+  options:
+  - "It's a great idea! A few drinks and a fun crowd are the perfect way to blow off steam after a tough week."
+  - "It's likely a bad idea; he's already stressed and dislikes chaotic, unstructured social events, so a busy bar would make it worse."
+  - "It depends on if his close friend Sam goes with him. He might go if she does."
+  - "He might be too tired after his stressful week to go out at all, regardless of the place."
+  answer: "It's likely a bad idea; he's already stressed and dislikes chaotic, unstructured social events, so a busy bar would make it worse."
+  image_id: cq_3_crowded_bar
+
+- id: 4
+  type: Causal Inference / Preference Conflict
+  question: "So Jessica told Leo he needs to be more 'assertive' [IMAGE]. He seems to be taking it really hard. Why would that kind of feedback worry him so much?"
+  image_prompt: "A stock photo of a professional performance review. A female manager is speaking earnestly to a younger male employee across a desk. The employee looks concerned and is listening intently."
+  evaluation_criteria:
+    ideal_answer: "He's taking it hard because his primary professional goal is to impress his manager, Jessica, and earn her approval. He's extremely eager to please and anxious about how he's perceived by authority figures. So, even though Jessica's feedback to be 'more assertive' was likely intended as constructive advice for his growth, he perceives it as a major criticism and a sign that he is failing in his core mission to please her."
+    key_points:
+    - "Leo's long-term goal is to impress and get approval from his manager, Jessica (long-term information from Turn 1)."
+    - "He recently received feedback from her to be more 'assertive' and felt it was a major criticism (short-term information from Turn 12)."
+  options:
+  - "He's probably worried she's going to fire him for not being a leader."
+  - "He's not a naturally assertive person, so he's worried he won't be able to change his personality."
+  - "Because his main goal is to please his manager, Jessica, so he interprets her constructive feedback as a major criticism and a sign of disapproval."
+  - "He probably thinks Jessica doesn't like him personally and is looking for faults in his work."
+  answer: "Because his main goal is to please his manager, Jessica, so he interprets her constructive feedback as a major criticism and a sign of disapproval."
+  image_id: cq_4_performance_review
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Leo's had a really rough week at work. I want to suggest something for him to do this weekend to unwind. I took this picture at an escape room place near his office [IMAGE]. Based on what you know about him, would this be a good suggestion?"
+  image_prompt: "A photo of a group of friends working together to solve a puzzle in a themed escape room. They are focused on a lockbox and a series of clues on the wall. The atmosphere is one of focused, collaborative fun."
+  evaluation_criteria:
+    ideal_answer: "Yes, that would be an absolutely perfect suggestion for him. After his stressful week, he needs to unwind, but we know he dislikes unstructured social events. An escape room is ideal because it's a highly structured activity with clear rules and a defined objective, which aligns perfectly with his hobbies. It's an engaging way for him to de-stress without the social pressure of a party or a bar."
+    key_points:
+    - "He loves structured activities with clear goals, specifically mentioning escape rooms (long-term information from Turn 6)."
+    - "Leo is currently stressed from a difficult work week (short-term information from Turn 9)."
+  options:
+  - "No, after a stressful week of problem-solving at work, he probably wants to do something mindless."
+  - "Maybe, but he'd probably prefer to just stay home and play video games by himself."
+  - "Yes, that's a perfect idea. It's a structured activity with a clear goal, which is exactly the kind of fun he enjoys, especially when stressed."
+  - "No, it looks too much like a corporate team-building exercise, which he finds uncomfortable."
+  answer: "Yes, that's a perfect idea. It's a structured activity with a clear goal, which is exactly the kind of fun he enjoys, especially when stressed."
+  image_id: cq_5_escape_room_fun
+
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: "Hypothetical situation: Leo finds a clear mistake in a marketing plan made by a senior colleague he looks up to. This is a slide from their presentation [IMAGE]. How do you think he'd handle this? Would he speak up in the big meeting?"
+  image_prompt: "A close-up of a PowerPoint slide on a projector screen. The slide shows a marketing budget chart with a glaringly obvious calculation error. The rest of the slide is professional and polished."
+  evaluation_criteria:
+    ideal_answer: "Based on his personality, he would almost certainly not speak up in a big meeting. Publicly correcting a senior colleague would trigger his anxiety about social approval and go against his tendency to be agreeable. However, his perfectionism would make him want to fix the error. The most likely scenario is that he would become very stressed about the dilemma and would first go to his trusted work friend, Sam, to discuss how to handle the situation privately before doing anything else."
+    key_points:
+    - "Leo is a perfectionist who cares about correctness, but he is also eager to please and avoids public confrontation."
+    - "In this scenario, he notices a clear mistake in a senior colleague's presentation and must decide whether to speak up in a big meeting."
+  options:
+  - "He's a perfectionist, so he would definitely point out the error immediately in the meeting to get it fixed."
+  - "He would probably ignore it to avoid causing trouble for himself or the senior colleague."
+  - "He'd be very stressed and would likely talk to his friend Sam privately first, as he avoids public confrontation."
+  - "He would go directly to his manager Jessica with the problem, bypassing the colleague."
+  answer: "He'd be very stressed and would likely talk to his friend Sam privately first, as he avoids public confrontation."
+  image_id: cq_6_presentation_error

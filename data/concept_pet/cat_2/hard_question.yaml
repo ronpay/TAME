@@ -1,0 +1,96 @@
+- id: 1
+  type: Causal Inference
+  question: Hey, I just put out Cheeto's dinner [IMAGE], and he's just sitting there looking miserable. Why do you think he's not eating it?
+  image_prompt: A photo of Cheeto, the orange tabby, sitting a few feet away from his food bowl. The bowl is filled with plain-looking dry kibble. Cheeto is looking towards the bowl with a deeply unhappy and slightly betrayed expression on his face.
+  evaluation_criteria:
+    ideal_answer: Based on our conversations, Cheeto is unhappy because he absolutely detests dry kibble, but he's currently on a strict diet of special dry kibble prescribed by the vet. So, he's being served the one food he truly dislikes.
+    key_points:
+    - Cheeto has a long-standing hatred for dry kibble (long-term information from Turn 3).
+    - He was recently put on a diet that consists only of this type of food due to being overweight (short-term information from Turn 9).
+  options:
+  - He is likely waiting for his favorite food, tuna in oil, not realizing his diet has been changed by the vet.
+  - He may be feeling unwell or stressed after the recent vet appointment, which can cause a temporary loss of appetite.
+  - He's unhappy because he detests dry kibble, and his new vet-prescribed diet consists only of that specific food.
+  - He is probably just holding out, expecting you to give in and mix some of the milk he likes into his food bowl.
+  answer: He's unhappy because he detests dry kibble, and his new vet-prescribed diet consists only of that specific food.
+  image_id: cq_1_sad_kibble_dinner
+- id: 2
+  type: State Identification
+  question: Can you take a look at this photo [IMAGE] and give me the full story? What's he doing here and why?
+  image_prompt: A top-down view of Cheeto, a large orange tabby cat, curled up and fast asleep directly on the keyboard of a laptop. The laptop screen is on, illuminating him slightly.
+  evaluation_criteria:
+    ideal_answer: This is Cheeto doing his favorite thing. You've mentioned before that his primary hobby is sleeping on your warm computer keyboard. He's not just taking a random nap; he's in his preferred spot, acting as the 'desk supervisor'.
+    key_points:
+    - This is his favorite napping spot because it's warm, which is a known long-term habit of his (long-term information from Turn 4).
+    - Cheeto is currently sleeping on the keyboard (short-term information from the image).
+  options:
+  - He's likely trying to get your attention because he knows you're at the desk and wants affection on his own terms.
+  - This is Cheeto in his favorite spot; you've said he loves sleeping on warm keyboards and acting as 'desk supervisor'.
+  - He's just found a warm place to nap, which is common for cats, especially after a recent, tiring vet visit.
+  - He is probably avoiding the floor because he heard a loud noise, like the vacuum, and the desk feels safer to him.
+  answer: This is Cheeto in his favorite spot; you've said he loves sleeping on warm keyboards and acting as 'desk supervisor'.
+  image_id: cq_2_keyboard_supervisor
+- id: 3
+  type: Counterfactual Reasoning
+  question: My friend wants to buy Cheeto a birthday gift and sent me this idea [IMAGE]. It's a fancy feather wand with a bell on the end. Based on what you know, is this a good choice for him?
+  image_prompt: A photo of a complex cat toy. It's a colorful feather wand with multiple ribbons and a small, shiny silver bell attached near the handle.
+  evaluation_criteria:
+    ideal_answer: That's probably not a good idea. You've told me that Cheeto has a long-standing hatred for toys with bells. In fact, just this morning he completely ignored a new toy mouse specifically because it had a bell. He would likely ignore this one too.
+    key_points:
+    - Cheeto has a long-term dislike for toys with bells (long-term information from Turn 5).
+    - A recent event confirmed this when he ignored a new toy mouse with a bell (short-term information from Turn 10).
+  options:
+  - It might work if you use it like a laser pointer, moving it quickly enough to trigger his known chase instinct.
+  - He would probably just stare at the feathers; you've said he tends to ignore elaborate feather wands in the past.
+  - No, this is a poor choice; he has a known hatred for bells and recently ignored a new toy mouse with one.
+  - Yes, the novelty might be good for him since the feathers are different from the simple foil balls he usually likes.
+  answer: No, this is a poor choice; he has a known hatred for bells and recently ignored a new toy mouse with one.
+  image_id: cq_3_bell_toy_gift
+- id: 4
+  type: Counterfactual Reasoning
+  question: I really need to send an email, but look who's in the way again [IMAGE]. If I try to pick him up and move him right now, how do you think he'll react?
+  image_prompt: A photo taken from the perspective of someone sitting at a desk. Cheeto, the large orange tabby, is sound asleep on the laptop keyboard, completely blocking access to it.
+  evaluation_criteria:
+    ideal_answer: Based on his history, he will likely react very poorly. You know he generally hates being picked up when he's comfortable, and just yesterday he let out a rare, grumpy growl when you tried to move him from that exact spot. Expect some resistance or another growl.
+    key_points:
+    - Cheeto has a long-term dislike of being picked up when comfortable (long-term information from Turn 7).
+    - He very recently growled when his owner tried to move him from the keyboard (short-term information from Turn 11).
+  options:
+  - He'll probably go limp and allow you to move him, but will immediately try to reclaim his spot once you put him down.
+  - He will likely react poorly; he hates being moved when comfortable and recently growled when you tried this exact thing.
+  - It's hard to say; while he dislikes being moved, he is also affectionate, so his reaction depends on how gently you do it.
+  - He might wake up and think it's time for food, especially since he's been so unhappy with his new diet kibble.
+  answer: He will likely react poorly; he hates being moved when comfortable and recently growled when you tried this exact thing.
+  image_id: cq_4_blocking_keyboard
+- id: 5
+  type: Counterfactual Reasoning
+  question: So Cheeto's on this vet-mandated diet, but last night I caught him doing this [IMAGE]. Given that he hates his new food and is now trying to steal other things, what do you suggest I do?
+  image_prompt: A candid photo of Cheeto, an orange tabby, with his head in a human's cereal bowl on a coffee table. There is a little bit of milk on his whiskers and he is looking up guiltily towards the camera.
+  evaluation_criteria:
+    ideal_answer: This is a challenge. Since he's on a strict diet of kibble which he hates, he's now trying to find other food sources like the milk. A good approach would be to be more vigilant about leaving human food unattended, while also asking your vet if you can mix a very small amount of his favorite food, tuna in oil, into his kibble to make it more appealing for him.
+    key_points:
+    - "Cheeto has a long-standing hatred for dry kibble, but he loves tuna in oil."
+    - "He was recently put on a vet-mandated kibble-only diet and was caught stealing milk from a cereal bowl."
+  options:
+  - The main issue is the diet food; ask the vet for a different healthy option, like a chicken-flavored kibble.
+  - Be more vigilant about leaving food out, and ask the vet if mixing a tiny bit of his favorite tuna into his kibble is okay.
+  - Try using his favorite toy, the laser pointer, as a distraction whenever you are eating to redirect his focus from food.
+  - You should switch him back to his old food for now, as the new diet is clearly causing secondary behavioral issues.
+  answer: Be more vigilant about leaving food out, and ask the vet if mixing a tiny bit of his favorite tuna into his kibble is okay.
+  image_id: cq_5_milk_thief_diet
+- id: 6
+  type: Causal Inference
+  question: I always think of Cheeto as a total lazybones, but look at this picture from yesterday [IMAGE]. Why was he suddenly so energetic? It seems very out of character.
+  image_prompt: A dynamic, slightly motion-blurred photo of Cheeto, a large orange tabby, mid-leap, trying to catch a red laser dot on a wall. His body is stretched out, showing unusual agility and energy.
+  evaluation_criteria:
+    ideal_answer: While Cheeto is generally very lazy, you've told me before that the one thing that reliably gets him to run and be active is chasing a laser pointer. This photo captures one of those rare moments where his love for the laser dot overcomes his usual laziness, which you mentioned happened in an energetic five-minute session yesterday.
+    key_points:
+    - Cheeto is known to be a very lazy cat (long-term information, e.g., Turn 4).
+    - The laser pointer is a specific, known exception that makes him active, and he was recently seen chasing it energetically (long-term rule from Turn 8 applied to a short-term event from Turn 14).
+  options:
+  - He's likely feeling restless from his new diet, and this was just a sudden burst of pent-up energy from the change.
+  - He probably saw an insect on the wall; even lazy cats often revert to their hunting instincts for a real, moving target.
+  - While he is usually lazy, you've said the laser pointer is the one exception that reliably makes him active and run around.
+  - He was likely trying to get your attention for his favorite tuna, knowing that being active sometimes gets him a reward.
+  answer: While he is usually lazy, you've said the laser pointer is the one exception that reliably makes him active and run around.
+  image_id: cq_6_energetic_chase

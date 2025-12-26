@@ -1,0 +1,126 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I'd like you to remember my pet. This is Captain Comet! [IMAGE]
+    He's an Oranda goldfish. Check out his big orange head growth—they call it a wen—and
+    his pretty white fins.
+  assistant_response: What a majestic fish! I've noted that Captain Comet is an Oranda
+    goldfish with a prominent orange wen and white fins.
+  image_prompt: A high-quality, close-up photo of Captain Comet, a male Oranda goldfish,
+    in a clean aquarium. His vibrant orange body, large raspberry-like wen on his
+    head, and flowing translucent white fins are clearly visible. He is looking curiously
+    towards the camera.
+  image_id: turn_1_profile_intro
+- turn: 2
+  log_type: knowledge
+  user_input: For his daily meals, I feed him this high-quality gel food. He seems
+    to really enjoy it.
+  assistant_response: Got it. Captain Comet's daily diet consists of high-quality
+    gel food.
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: And for a special treat, he goes absolutely crazy for bloodworms. It's
+    his absolute favorite.
+  assistant_response: 'Okay, I''ve added it to his profile: his favorite special treat
+    is bloodworms.'
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: One thing to remember, he absolutely hates shelled peas. He just won't
+    eat them, even though I hear they're good for goldfish.
+  assistant_response: Understood. It's noted that Captain Comet has a strong dislike
+    for shelled peas.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: This is his favorite thing in the tank. [IMAGE] He loves swimming around
+    this big, smooth rock that's covered in moss.
+  assistant_response: I see! His favorite decoration is a large, smooth, moss-covered
+    rock. I've saved this.
+  image_prompt: A photo focusing on a large, smooth, dark grey rock covered in lush
+    green moss at the bottom of a fish tank. Captain Comet, the orange and white goldfish,
+    is visible swimming happily next to it.
+  image_id: turn_5_mossy_rock
+- turn: 6
+  log_type: knowledge
+  user_input: Also, see that little sign? [IMAGE] It's a permanent fixture in his
+    tank. A little 'No Fishing' sign, it's pretty funny.
+  assistant_response: That's a cute detail! I've noted the permanent 'No Fishing'
+    sign in his tank.
+  image_prompt: A close-up shot of the bottom of Captain Comet's aquarium, showing
+    a small, ceramic 'No Fishing' sign nestled in the gravel. Captain Comet might
+    be partially visible in the background.
+  image_id: turn_6_no_fishing_sign
+- turn: 7
+  log_type: knowledge
+  user_input: Just a general note, he's not a fan of any sharp plastic decorations.
+    I think they might snag his fins.
+  assistant_response: Good to know. I've recorded that he dislikes sharp plastic decorations.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: Oh, and he really hates water changes. The whole process with the net
+    and the bucket really stresses him out.
+  assistant_response: I understand. Water changes are a stressful activity for Captain
+    Comet. I'll remember that.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: Hey, I'm a bit worried about him today. Look at this picture,
+    he's been floating a bit lopsided. [IMAGE] I think it might be a mild swim bladder
+    issue.
+  assistant_response: 'Oh no, I see he''s floating lopsided. I''ve recorded this event:
+    a potential mild swim bladder issue.'
+  image_prompt: A photo of Captain Comet, the Oranda goldfish, in his tank. He is
+    clearly tilted to one side and struggling to swim upright, indicating a swim bladder
+    problem. His expression looks stressed.
+  image_id: turn_9_swim_bladder
+- turn: 10
+  log_type: event
+  user_input: The advice I got was to feed him only shelled peas for a couple of days
+    to help with digestion. So that's what I've been doing for the last two days.
+  assistant_response: 'Okay, I''ve noted the current treatment plan: a diet of only
+    shelled peas for the past two days.'
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: I also did a big water change and rearranged everything in his tank
+    to make sure the environment was super clean for his recovery.
+  assistant_response: I've logged that you recently performed a major water change
+    and rearranged the tank.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: While I was cleaning, I decided to swap out his old mossy rock. It was
+    getting a bit messy.
+  assistant_response: Got it. During the rearrangement, his moss-covered rock was
+    replaced.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: Here's the new decoration I put in. [IMAGE] It's a colorful plastic
+    castle. It has some pointy towers, but I thought it looked cheerful.
+  assistant_response: Okay, the new decoration is a colorful plastic castle with pointy
+    towers. I've recorded the update.
+  image_prompt: A photo of a brightly colored, multi-turreted plastic castle decoration
+    sitting at the bottom of the aquarium. The castle has some sharp, pointy spires.
+    The water is clean, but Captain Comet is not near the castle.
+  image_id: turn_13_plastic_castle
+- turn: 14
+  log_type: event
+  user_input: But since yesterday, he's just been hiding behind the filter intake.
+    [IMAGE] And he's completely refusing to eat the peas I'm giving him.
+  assistant_response: 'I''ve noted this new behavior: Captain Comet is hiding behind
+    the filter intake and has refused to eat the peas.'
+  image_prompt: A photo showing the corner of the fish tank. Captain Comet is visible
+    hiding in the shadows behind the black plastic filter intake tube. A few green,
+    uneaten shelled peas are visible on the gravel nearby.
+  image_id: turn_14_hiding_refusing_food

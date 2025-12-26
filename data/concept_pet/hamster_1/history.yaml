@@ -1,0 +1,151 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want you to meet my pet, Pip! Here's a photo of him. [IMAGE]
+    He's a Syrian Hamster with fluffy golden-brown and cream fur, and these really
+    noticeable dark brown 'cheek flashes' right by his whiskers.
+  assistant_response: What a cutie! I've noted that Pip is a Syrian Hamster with golden-brown
+    and cream fur and distinctive dark cheek flashes. His profile is started.
+  image_prompt: A high-quality, well-lit photograph of a male Syrian Hamster named
+    Pip. He has a fluffy coat that is golden-brown on top and creamy white on his
+    belly. His large, black, beady eyes are looking at the camera. The dark brown
+    fur 'cheek flashes' extending from his whiskers are clearly visible.
+  image_id: turn_1_introduction
+- turn: 2
+  log_type: knowledge
+  user_input: Check out his cage setup. [IMAGE] That purple-roofed ceramic house is
+    his absolute favorite thing in the world. He's always in or around it.
+  assistant_response: Got it. Pip's most prized possession is his purple-roofed ceramic
+    house. I've added this to his profile.
+  image_prompt: A photo of the inside of a hamster cage. The main focus is a small,
+    purple-roofed ceramic house. Pip, the golden-brown Syrian hamster, is peeking
+    his head out of the doorway of the house. The cage has clean bedding and other
+    hamster accessories in the background.
+  image_id: turn_2_ceramic_house
+- turn: 3
+  log_type: knowledge
+  user_input: I've discovered his absolute favorite treat! Look at how excited he
+    gets for a single pumpkin seed. [IMAGE]
+  assistant_response: That's great to know! I've recorded that Pip's favorite treat
+    is a pumpkin seed.
+  image_prompt: A close-up shot of a person's hand offering a single, flat pumpkin
+    seed to Pip, the Syrian hamster. Pip is standing on his hind legs, eagerly reaching
+    for the seed with his tiny pink paws, his cheek pouches slightly puffed.
+  image_id: turn_3_pumpkin_seed
+- turn: 4
+  log_type: knowledge
+  user_input: 'Just a note for his food preferences: he has an intense dislike for
+    those sugary yogurt drops you see in pet stores. He won''t touch them.'
+  assistant_response: 'Understood. I''ve noted a strong dislike: Pip hates sugary
+    yogurt drops. I''ll remember that.'
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: Here’s a little clip of his nightly routine. [IMAGE] He spends so much
+    time on his silent wheel, he's a true marathon runner.
+  assistant_response: Wow, he's fast! I've logged that Pip has a nightly routine of
+    running for a long time on his silent wheel.
+  image_prompt: A slightly motion-blurred photo capturing Pip, the Syrian hamster,
+    running at full speed inside a 'silent-spin' running wheel. The wheel is transparent
+    or semi-transparent, showing his focused expression and fast-moving legs. The
+    photo is taken in a dimly lit room to suggest it's nighttime.
+  image_id: turn_5_wheel_running
+- turn: 6
+  log_type: knowledge
+  user_input: 'Also, something important about his personality: he has a specific
+    hatred for loud noises. The vacuum cleaner is his arch-nemesis.'
+  assistant_response: That's a very important detail. I've noted that Pip hates loud
+    noises, especially the vacuum cleaner.
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: He's a major hoarder, and he gets super grumpy if I ever have to move
+    his main food stash during a cage clean. He'll spend the rest of the night putting
+    it all back.
+  assistant_response: Okay, I understand. Moving his main food hoard makes him very
+    grumpy. I've recorded this personality trait.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: It's funny, he prefers the simplest toys. He'll take a cardboard tube
+    from a toilet paper roll over a fancy, noisy plastic ball any day. [IMAGE]
+  assistant_response: 'That''s interesting! I''ve noted his toy preference: simple
+    cardboard tubes are a favorite, and he dislikes noisy plastic toys.'
+  image_prompt: A photo of Pip, the Syrian hamster, inside his cage. He is actively
+    chewing on and trying to crawl through a simple brown cardboard tube. In the background,
+    a brightly colored plastic ball with a bell inside sits untouched and ignored.
+  image_id: turn_8_cardboard_tube
+- turn: 9
+  log_type: event
+  user_input: I tried to be nice and got him some of those colorful yogurt drops today.
+    Total failure. Look at this picture - he just sniffed them and walked away. [IMAGE]
+  assistant_response: 'I see. I''ve recorded a recent event: Pip was offered colorful
+    yogurt drops and he refused to eat them, confirming his dislike.'
+  image_prompt: A photo taken inside a hamster cage. On the bedding, there is a small
+    pile of colorful (pink, yellow, green) yogurt drops. Pip, the hamster, is shown
+    in the frame turning his back on the treats and walking away, looking completely
+    uninterested.
+  image_id: turn_9_yogurt_rejection
+- turn: 10
+  log_type: event
+  user_input: Ugh, disaster. his beloved silent wheel broke a couple of days ago!
+    He's been so agitated and restless for the past two nights without his run.
+  assistant_response: 'Oh no! I''ve logged this event: his silent wheel broke, and
+    as a result, Pip has been agitated and restless for two nights. I hope you can
+    get it fixed soon!'
+  image_prompt: A photo focusing on a broken hamster wheel inside a cage. One of the
+    support axles is visibly snapped, and the wheel is tilted at an awkward angle.
+    In the background, Pip the hamster can be seen restlessly pacing or trying to
+    chew on the cage bars.
+  image_id: turn_10_broken_wheel
+- turn: 11
+  log_type: event
+  user_input: My young cousin visited yesterday and tried to hold him for way too
+    long. I snapped this photo when he started looking really stressed out. [IMAGE]
+  assistant_response: 'I see, he does look uncomfortable. I''ve noted the event: your
+    cousin held Pip for too long, causing him stress.'
+  image_prompt: A photo showing a child's hands carefully but firmly holding Pip,
+    the Syrian hamster. Pip's eyes are wide, and his body is tense, clearly signaling
+    stress and a desire to escape. He is trying to squirm out of the hands.
+  image_id: turn_11_stressed_hold
+- turn: 12
+  log_type: event
+  user_input: I did a deep clean on the cage last night, which meant I had to move
+    his main food hoard. Just as I predicted, he spent the entire night frantically
+    re-hoarding everything into a new corner. [IMAGE]
+  assistant_response: I've recorded it. After you moved his main food hoard during
+    a cage clean, Pip spent the whole night frantically re-hoarding. This confirms
+    his known behavior.
+  image_prompt: A photo of the inside of a freshly cleaned hamster cage. In one corner,
+    Pip the hamster is captured in a flurry of activity, his cheek pouches visibly
+    stuffed full. He is surrounded by a large pile of hamster food mix that he is
+    organizing. The rest of the cage is neat and tidy.
+  image_id: turn_12_rehoarding
+- turn: 13
+  log_type: event
+  user_input: I just noticed a crack in his favorite ceramic house. For his safety,
+    I had to take it out and temporarily replaced it with this plastic igloo hideout.
+    He's not a fan. [IMAGE]
+  assistant_response: Okay, I've logged this important temporary change. The purple-roofed
+    ceramic house is cracked and has been temporarily replaced with a plastic igloo,
+    which Pip seems to dislike.
+  image_prompt: A photo of a hamster cage setup. In the place where the ceramic house
+    used to be, there is now a brightly colored plastic igloo-style hideout. Pip the
+    hamster is sitting outside the igloo, looking at it suspiciously, refusing to
+    go inside.
+  image_id: turn_13_igloo_replacement
+- turn: 14
+  log_type: event
+  user_input: I was just vacuuming near his cage, and poor Pip totally freaked out.
+    He's been hiding in his bedding for the last hour and won't even come out for
+    a slice of apple. [IMAGE]
+  assistant_response: 'Poor little guy. I''ve recorded the incident: the sound of
+    the vacuum cleaner caused Pip to hide, and he is so scared that he even refused
+    an apple slice, a food he normally likes.'
+  image_prompt: A photo looking down into a hamster cage. The only visible part of
+    Pip is his nose and a bit of his fur peeking out from deep under a large pile
+    of paper bedding. A small, fresh slice of apple sits untouched near the entrance
+    to his burrow.
+  image_id: turn_14_hiding_from_vacuum

@@ -1,0 +1,159 @@
+- id: 1
+  type: Long Term
+  question: Look at this old photo from my first race [IMAGE]. It's wild to think
+    this is how it all started. Remind me, what was the story behind getting The Pacemaker
+    in the first place?
+  image_prompt: A slightly faded, nostalgic photo of the user wearing a race bib with
+    a low number on it, holding 'The Pacemaker'. The user looks younger and less experienced.
+    The photo has a vintage filter.
+  evaluation_criteria:
+    ideal_answer: You bought it as a cheap, last-minute purchase right before your
+      first-ever half-marathon, which marked the beginning of your running journey.
+    key_points:
+    - correctly mention it was bought for the first half-marathon.
+  options:
+  - It was a birthday gift from a friend.
+  - You bought it for your first half-marathon.
+  - You found it at the gym after someone left it behind.
+  - It was a prize for winning a local 5k race.
+  answer: You bought it for your first half-marathon.
+  image_id: sq_1_origin_photo
+- id: 2
+  type: Long Term
+  question: I'm cleaning The Pacemaker, and just noticed this huge scratch again [IMAGE].
+    I know it has a cool story. What did I tell you was the origin of this 'battle
+    scar'?
+  image_prompt: A close-up shot of the user's hand holding 'The Pacemaker' bottle
+    under a running tap. The user's thumb is pointing directly at the long, deep scratch
+    on the bottle's side.
+  evaluation_criteria:
+    ideal_answer: That's the 'battle scar' it got when you fell during a tough trail
+      run, and the bottle hit a rock, protecting your hip.
+    key_points:
+    - correctly state it's from a fall during a trail run where it hit a rock.
+  options:
+  - It's from a fall during a trail run where it hit a rock.
+  - It was damaged when you squeezed it too hard during hill sprints.
+  - It has teeth marks on it from your nervous habit.
+  - It got scratched when you dropped it at the gym.
+  answer: It's from a fall during a trail run where it hit a rock.
+  image_id: sq_2_scratch_story
+- id: 3
+  type: Long Term
+  question: Getting my gym bag ready [IMAGE]. It's funny how this old thing is always
+    the first thing I pack for a workout. What did I say its main role in my life
+    is?
+  image_prompt: An open gym bag with a towel, headphones, and running shoes inside.
+    The user's hand is placing 'The Pacemaker' into the bag.
+  evaluation_criteria:
+    ideal_answer: You see it as your primary hydration bottle and a 'silent partner'
+      for your entire fitness journey, especially for running and workouts.
+    key_points:
+    - correctly mention it is the primary bottle for running/fitness activities.
+  options:
+  - It's mainly for mixing electrolyte drinks.
+  - It's your primary water bottle for all fitness activities.
+  - It's a sentimental trophy you keep on a shelf.
+  - It's for carrying water when you go hiking.
+  answer: It's your primary water bottle for all fitness activities.
+  image_id: sq_3_packing_gym_bag
+- id: 4
+  type: Short Term
+  question: I'm inspecting the bottle again [IMAGE]. I'm still really worried about
+    that new damage I found the other day. What was the specific issue I was concerned
+    about?
+  image_prompt: A very close-up, detailed photo of the bottle's neck. The user's finger
+    is pointing directly at the tiny, hairline crack just below the threads for the
+    lid.
+  evaluation_criteria:
+    ideal_answer: You recently discovered a small crack near the screw-on lid and
+      you're worried that it's going to start leaking soon.
+    key_points:
+    - correctly identify the recent damage as a small crack near the lid.
+  options:
+  - The deep scratch on its side was getting worse.
+  - The measurement markings had completely faded.
+  - A small crack has formed near the lid.
+  - The push-pull nozzle started leaking.
+  answer: A small crack has formed near the lid.
+  image_id: sq_4_worried_about_crack
+- id: 5
+  type: Long Term
+  question: I was about to put some of this sugary powder in The Pacemaker [IMAGE],
+    but I stopped. I feel like I'd be betraying it. What did I tell you the bottle
+    'hates'?
+  image_prompt: A shot of 'The Pacemaker' on a kitchen counter. Next to it is a container
+    of brightly colored, sugary sports drink mix. The user's hand is holding a scoop,
+    hesitating above the bottle's opening.
+  evaluation_criteria:
+    ideal_answer: You said that you feel it 'hates' being filled with sugary, sticky
+      sports drinks, as well as being left in a hot car.
+    key_points:
+    - correctly recall it 'hates' sugary or sticky drinks.
+  options:
+  - Being dropped or getting new scratches.
+  - Being filled with ice-cold water on a hot day.
+  - Being forgotten and left behind at the gym.
+  - Sugary, sticky sports drinks.
+  answer: Sugary, sticky sports drinks.
+  image_id: sq_5_hates_sticky_drinks
+- id: 6
+  type: Short Term
+  question: Just look at this comparison on my counter [IMAGE]. Given my worries about
+    The Pacemaker cracking, what's the story with this new bottle? Did I buy it as
+    a replacement?
+  image_prompt: A still-life photo on a kitchen counter. On the left is the old, worn
+    'The Pacemaker'. On the right is a new, sleek, matte black metal water bottle.
+    The contrast is stark.
+  evaluation_criteria:
+    ideal_answer: No, you didn't buy it. That new, insulated metal bottle was a recent
+      birthday gift.
+    key_points:
+    - correctly state the new bottle was a birthday gift.
+  options:
+  - Yes, you bought it after finding the crack.
+  - No, you are still looking for a good replacement.
+  - No, it was a recent birthday gift.
+  - Yes, you won it as a prize in a race.
+  answer: No, it was a recent birthday gift.
+  image_id: sq_6_the_replacement
+- id: 7
+  type: Long Term
+  question: This photo from my last race is pretty intense [IMAGE]. It reminds me
+    of that weird nervous habit I have with The Pacemaker. Can you remind me what
+    it is?
+  image_prompt: A close-up action shot of the user's face during a race. They look
+    strained and focused, holding 'The Pacemaker' up near their mouth to drink. The
+    intensity of the moment is clear.
+  evaluation_criteria:
+    ideal_answer: You have a nervous habit where you bite the soft plastic nozzle
+      during the most intense moments of a race.
+    key_points:
+    - correctly identify the habit as biting the nozzle.
+  options:
+  - You squeeze it as hard as you can on hills.
+  - You nervously bite the nozzle.
+  - You always use it to pour water on your head.
+  - You talk to it for encouragement.
+  answer: You nervously bite the nozzle.
+  image_id: sq_7_race_habit
+- id: 8
+  type: Short Term
+  question: Just finished my workout and packing up [IMAGE]. I'm double-checking I
+    have everything. What happened at the gym last week that made me so paranoid about
+    forgetting stuff?
+  image_prompt: A photo from the user's point of view, looking into an open gym locker.
+    'The Pacemaker' is sitting on the shelf, and the user's hand is reaching for it,
+    as if to make sure it's not forgotten.
+  evaluation_criteria:
+    ideal_answer: Last week you had a moment of pure panic because you almost left
+      The Pacemaker at the gym and had to run back in from your car to get it.
+    key_points:
+    - correctly recall that the owner almost left it at the gym.
+  options:
+  - You almost left it in a hot car all day.
+  - You almost left it at the gym.
+  - You almost threw it in the trash by mistake.
+  - The crack near the lid got much worse.
+  answer: You almost left it at the gym.
+  image_id: sq_8_leaving_gym

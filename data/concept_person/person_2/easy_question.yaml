@@ -1,0 +1,159 @@
+- id: 1
+  type: Long Term
+  question: Hey, looking at this old photo of Madison on campus [IMAGE]. I remember
+    she's a college athlete, but what was her major again? Something to do with sports
+    science?
+  image_prompt: A photo of Madison Hayes, a young woman in her early 20s with long
+    red hair, standing on a green college campus quad. She's wearing athletic wear
+    and has a tennis racket bag slung over her shoulder, holding a kinesiology textbook
+    under her other arm with the title 'Introduction to Kinesiology' clearly visible.
+  evaluation_criteria:
+    ideal_answer: Yes, you're right it's related to sports science. She's majoring
+      in Kinesiology.
+    key_points:
+    - correctly mention she is a Kinesiology major.
+  options:
+  - Sports Medicine
+  - Kinesiology
+  - Nutrition Science
+  - Physical Education
+  answer: Kinesiology
+  image_id: sq_1_madison_kinesiology_major
+- id: 2
+  type: Short Term
+  question: I saw Maddy's ankle looking like this the other day [IMAGE]. Looked nasty.
+    What did she say happened to it?
+  image_prompt: A close-up photo of Madison Hayes's ankle propped up on a locker room
+    bench. A professional-grade ice pack is tightly strapped around the ankle with
+    velcro wraps.
+  evaluation_criteria:
+    ideal_answer: That was after a particularly grueling training session with Coach
+      Miller. She said her ankle was paying the price for it.
+    key_points:
+    - correctly mention it was from a grueling training session with Coach Miller.
+  options:
+  - She twisted it during the tournament tie-break
+  - She slipped while on an early morning run
+  - It was from a grueling training session with Coach Miller
+  - She injured it during an argument with Izzy
+  answer: It was from a grueling training session with Coach Miller
+  image_id: sq_2_iced_ankle
+- id: 3
+  type: Long Term
+  question: Check out this pic of Maddy getting in the zone for a run [IMAGE]. I forget,
+    what kind of music did she say she listens to when she's training?
+  image_prompt: A first-person perspective shot from Madison Hayes's point of view
+    while she is on a morning run along a park trail. We can see her athletic shoes
+    on the path and the wire from her earbuds leading up towards her ears.
+  evaluation_criteria:
+    ideal_answer: She listens to high-energy electronic music. She says it's the only
+      thing that gets her in the zone.
+    key_points:
+    - correctly mention high-energy electronic music.
+  options:
+  - High-energy electronic music
+  - Aggressive rock anthems
+  - Calm classical music
+  - Top 40 Pop hits
+  answer: High-energy electronic music
+  image_id: sq_3_training_music
+- id: 4
+  type: Short Term
+  question: Hey, remember you told me Maddy and Izzy were having a rough time? This
+    picture captures that tension perfectly [IMAGE]. What was the specific reason
+    they argued during practice that day?
+  image_prompt: A tense photo on a tennis court. Madison Hayes and Izzy Rossi are
+    on the same side of the net, but standing apart and turned away from each other
+    after a point. Izzy is gesturing angrily towards a line on the court, and Madison
+    has her hands on her hips, looking frustrated.
+  evaluation_criteria:
+    ideal_answer: They got into a heated argument over a bad line call during a doubles
+      practice match.
+    key_points:
+    - correctly mention the argument was over a bad line call.
+  options:
+  - About their strategy for the next tournament
+  - About who should be the number one singles player
+  - Over a bad line call in a practice match
+  - Because one of them missed a crucial shot
+  answer: Over a bad line call in a practice match
+  image_id: sq_4_izzy_argument
+- id: 5
+  type: Long Term
+  question: This is a great shot of Madison [IMAGE]. I always see her wearing that
+    leather bracelet. Remind me what she said about it? Where did it come from?
+  image_prompt: A close-up photo of Madison Hayes's wrist, showing a simple, worn
+    leather bracelet. Her hand is resting on the grip of her tennis racket. The focus
+    is entirely on the bracelet.
+  evaluation_criteria:
+    ideal_answer: Her father, David, gave her the worn leather bracelet for good luck,
+      and she never takes it off.
+    key_points:
+    - correctly mention it was a good luck gift from her father.
+  options:
+  - It's a gift from her teammate, Izzy
+  - Her father gave it to her for good luck
+  - It's a team-issued accessory
+  - She bought it as a tournament souvenir
+  answer: Her father gave it to her for good luck
+  image_id: sq_5_leather_bracelet
+- id: 6
+  type: Short Term
+  question: I found this picture from the team's celebration last week [IMAGE]. Madison
+    doesn't look like she's having much fun. What did she say happened at that pizza
+    party?
+  image_prompt: A photo taken from Madison Hayes's point-of-view at a loud pizza parlor.
+    The table is covered with greasy pizzas and glasses of beer. Directly in front
+    is just a single, plain glass of water. Teammates are visible in the background,
+    laughing and eating.
+  evaluation_criteria:
+    ideal_answer: The team went out for pizza and beer, but she felt uncomfortable
+      because she couldn't eat the greasy food, so she just sat there drinking water.
+    key_points:
+    - correctly mention she drank water because she couldn't eat the greasy pizza.
+  options:
+  - She was celebrating hard with everyone else
+  - She had a big argument with her coach at the party
+  - She only drank water because she hates greasy food like pizza
+  - She was feeling sick and couldn't eat anything
+  answer: She only drank water because she hates greasy food like pizza
+  image_id: sq_6_pizza_party
+- id: 7
+  type: Long Term
+  question: Look at the focus in this shot [IMAGE]. It really captures her on-court
+    vibe. How did she describe her own personality when it comes to tennis?
+  image_prompt: An intense action shot of Madison Hayes during a tennis match. Her
+    face is a mask of concentration, eyes locked on the ball, as she follows through
+    on a powerful forehand. Her red ponytail is flying.
+  evaluation_criteria:
+    ideal_answer: She described herself as extremely competitive, disciplined, and
+      goal-oriented.
+    key_points:
+    - correctly mention she is extremely competitive and disciplined.
+  options:
+  - Relaxed and easy-going
+  - Extremely competitive and disciplined
+  - Social and chatty with opponents
+  - Nervous and easily distracted
+  answer: Extremely competitive and disciplined
+  image_id: sq_7_on_court_personality
+- id: 8
+  type: Long Term
+  question: I was thinking of inviting Maddy to a movie night, but then I saw this
+    photo [IMAGE] and it reminded me she said something about it. What does she hate
+    doing in her free time?
+  image_prompt: A photo of a cozy living room setup for a movie night, with a big
+    screen showing the end credits of a slow-looking drama film. Popcorn bowls and
+    blankets are on the couch. The scene looks inviting, but empty.
+  evaluation_criteria:
+    ideal_answer: She hates being inactive and can't stand sitting still for long
+      periods, like watching a long, slow movie. She called it 'torture'.
+    key_points:
+    - correctly mention she hates being inactive/watching long movies.
+  options:
+  - Going for early morning runs
+  - Analyzing professional tennis matches
+  - Listening to high-energy music
+  - Watching long, slow movies
+  answer: Watching long, slow movies
+  image_id: sq_8_disliked_activity

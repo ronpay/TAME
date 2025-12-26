@@ -1,0 +1,152 @@
+- id: 1
+  type: Long Term
+  question: Just looking at The Shell here [IMAGE] and feeling a bit nostalgic. Remind
+    me, what was the special occasion when I first got it?
+  image_prompt: A photo of 'The Shell' backpack sitting on a home office desk, next
+    to a laptop and a cup of coffee. The morning light gives it a warm, sentimental
+    feel.
+  evaluation_criteria:
+    ideal_answer: You received it as a graduation gift from your parents right before
+      you started your first professional job.
+    key_points:
+    - correctly mention it was a graduation gift from your parents.
+  options:
+  - It was a graduation gift from your parents.
+  - You bought it for yourself for your first job.
+  - It was a gift from a colleague when you left your old role.
+  - You received it as a company welcome gift.
+  answer: It was a graduation gift from your parents.
+  image_id: sq_1_origin_story
+- id: 2
+  type: Long Term
+  question: I love the little custom touches on this bag. [IMAGE] What's the story
+    behind this red cord again? Why did I add it?
+  image_prompt: A close-up shot focusing on the main zipper of 'The Shell' backpack.
+    A bright red, neatly tied paracord loop serves as the zipper pull, contrasting
+    with the black nylon fabric. The user's finger is pointing to it.
+  evaluation_criteria:
+    ideal_answer: You tied that red paracord loop yourself to replace the original
+      metal zipper pull after it snapped off.
+    key_points:
+    - correctly mention it was used to replace the original zipper pull that broke.
+  options:
+  - You used it to replace the original zipper pull that broke.
+  - You added it to patch the fraying shoulder strap.
+  - It was a decorative accessory you added for a splash of color.
+  - It came with the backpack as a special edition feature.
+  answer: You used it to replace the original zipper pull that broke.
+  image_id: sq_2_paracord_story
+- id: 3
+  type: Long Term
+  question: Packing up for the day... [IMAGE] I know I took it hiking once, but what's
+    the main, day-to-day job I rely on The Shell for?
+  image_prompt: A photo of 'The Shell' backpack sitting open on the floor, with a
+    laptop, notebook, and chargers placed neatly beside it, ready to be packed.
+  evaluation_criteria:
+    ideal_answer: Its primary function is to be your daily carrier for work, serving
+      as your mobile office for your laptop and other essentials.
+    key_points:
+    - correctly identify its primary function as a daily carrier for work/mobile office.
+  options:
+  - It's your daily carrier for work, like a mobile office.
+  - You primarily use it for weekend hiking trips.
+  - It's mainly for storing old mementos like concert tickets.
+  - It's your dedicated carry-on for long international flights.
+  answer: It's your daily carrier for work, like a mobile office.
+  image_id: sq_3_primary_function
+- id: 4
+  type: Short Term
+  question: I've been meaning to look into fixing this. [IMAGE] Can you remind me
+    what the most recent issue I noticed with The Shell was?
+  image_prompt: A macro close-up shot of the left shoulder strap of 'The Shell' backpack
+    where it joins the main body. A few threads of the heavy-duty stitching are visibly
+    frayed and coming loose.
+  evaluation_criteria:
+    ideal_answer: You recently noticed that the stitching on the left shoulder strap
+      is starting to fray from carrying heavy loads over the years.
+    key_points:
+    - correctly mention the stitching on the left shoulder strap is fraying.
+  options:
+  - The red paracord zipper pull came undone.
+  - The ink stain inside the laptop sleeve got bigger.
+  - The stitching on the left shoulder strap is starting to fray.
+  - It got a new scuff mark on the bottom corner.
+  answer: The stitching on the left shoulder strap is starting to fray.
+  image_id: sq_4_recent_wear
+- id: 5
+  type: Long Term
+  question: Haha, almost made a mistake. [IMAGE] Based on our talks, what's the one
+    thing The Shell would 'hate' me for putting inside it like this?
+  image_prompt: A photo showing a hand holding a sharp, uncapped ink pen, poised to
+    drop it into the open main compartment of 'The Shell' backpack.
+  evaluation_criteria:
+    ideal_answer: Based on the traumatic pen explosion incident, it 'hates' sharp,
+      uncapped objects. It also dislikes being overstuffed.
+    key_points:
+    - correctly mention its 'hatred' for uncapped pens or being overstuffed.
+  options:
+  - Getting dusty from a hike.
+  - Being emptied out completely every Sunday.
+  - Getting caught in a rainstorm.
+  - Being overstuffed or having uncapped pens inside.
+  answer: Being overstuffed or having uncapped pens inside.
+  image_id: sq_5_backpack_hates
+- id: 6
+  type: Short Term
+  question: This ad just popped up again... [IMAGE] Didn't I mention something to
+    you about this a few days ago?
+  image_prompt: A screenshot of a modern e-commerce website product page. The main
+    image shows a new, sleek black backpack that looks like an upgraded version of
+    'The Shell'. The user's cursor is hovering over the 'Add to Cart' button.
+  evaluation_criteria:
+    ideal_answer: Yes, you recently told me that you saw an ad for the upgraded version
+      of The Shell and felt tempted to replace it for a moment.
+    key_points:
+    - correctly recall that the user was recently tempted by an ad for the upgraded
+      model.
+  options:
+  - Yes, you were tempted by an ad for the upgraded model.
+  - No, you've never considered replacing it.
+  - Yes, you decided you're replacing it because the strap is fraying.
+  - Yes, a colleague showed you this ad and recommended it.
+  answer: Yes, you were tempted by an ad for the upgraded model.
+  image_id: sq_6_temptation
+- id: 7
+  type: Long Term
+  question: Time for my weekly... what do I call this again? [IMAGE] Remind me what
+    this Sunday evening activity is.
+  image_prompt: A top-down 'knolling' style photograph. The black backpack 'The Shell'
+    is on one side, and its contents (a laptop, a notebook, chargers) are arranged
+    in neat, geometric patterns next to it on a wooden floor.
+  evaluation_criteria:
+    ideal_answer: This is your weekly ritual where you empty, sort, and repack The
+      Shell for the week ahead. You call it your 'reset button'.
+    key_points:
+    - correctly identify the weekly ritual of emptying and repacking it on Sundays.
+  options:
+  - You take it on a hike every weekend to air it out.
+  - You empty and repack it every Sunday as a 'reset' for the week.
+  - You thoroughly clean the permanent ink stain out of it.
+  - You inspect the shoulder straps for new damage.
+  answer: You empty and repack it every Sunday as a 'reset' for the week.
+  image_id: sq_7_weekly_ritual
+- id: 8
+  type: Short Term
+  question: It's pouring out there again! [IMAGE] That reminds me, how did The Shell
+    prove itself to be a 'protector' recently?
+  image_prompt: A photo taken from inside a room, looking out a window at a heavy
+    downpour on a city street. In the foreground, 'The Shell' backpack is sitting
+    safely on a dry chair.
+  evaluation_criteria:
+    ideal_answer: Just last week, it proved its worth when you were caught in a heavy
+      rainstorm and it kept all of its contents, including your electronics, perfectly
+      dry.
+    key_points:
+    - correctly recall that it kept everything dry during a recent downpour.
+  options:
+  - It kept everything inside perfectly dry when you got caught in a downpour.
+  - It protected your laptop from the exploding pen on a flight.
+  - It survived a dusty day-hike without getting any new scuffs.
+  - It shielded its contents when you scraped it against a pillar.
+  answer: It kept everything inside perfectly dry when you got caught in a downpour.
+  image_id: sq_8_rain_proof

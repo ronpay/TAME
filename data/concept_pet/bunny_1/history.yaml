@@ -1,0 +1,84 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Hey, let's get my pet's profile started. This is Oreo. He's a Dutch rabbit. Look at his classic black and white markings! [IMAGE]"
+  assistant_response: "Hello Oreo! He's a very handsome Dutch rabbit. I've saved his breed and distinctive black and white markings to his profile."
+  image_prompt: "A clear, high-quality photo of a plump male Dutch rabbit named Oreo. He has classic black and white markings, with a perfect white blaze down his face and a 'saddle' of white fur around his shoulders. He is sitting calmly on a neutral background, looking at the camera."
+  image_id: turn_1_profile_intro
+- turn: 2
+  log_type: knowledge
+  user_input: "When it comes to treats, there's nothing he loves more than a small piece of banana. It's his absolute favorite."
+  assistant_response: "Okay, I've noted that Oreo's favorite high-value treat is a small piece of banana."
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: "Here's a photo of his favorite toy. [IMAGE] His favorite toys are these woven willow balls that he can chew on and completely destroy."
+  assistant_response: "Got it. Oreo's favorite toys are chewable willow balls. I'll remember that!"
+  image_prompt: "A Dutch rabbit, Oreo, is actively chewing on a small, woven willow ball. Bits of the ball are frayed around him on the floor. He looks focused and content in an indoor setting."
+  image_id: turn_3_favorite_toy
+- turn: 4
+  log_type: knowledge
+  user_input: "Something to remember about him: he really hates loud noises. The vacuum cleaner is his number one enemy, it terrifies him."
+  assistant_response: "Understood. Oreo has a strong dislike for loud noises, particularly the vacuum cleaner. I've added this to his profile."
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: "You should know how he communicates. Whenever he gets annoyed, he thumps his back leg loudly on the floor like this. [IMAGE]"
+  assistant_response: "That's a useful piece of information! So, thumping his back leg is a sign of annoyance. I've recorded it."
+  image_prompt: "A Dutch rabbit, Oreo, is shown mid-thump. His body is tense, and his large hind leg is slightly blurred to indicate motion against a hardwood floor. His expression looks irritated or alert."
+  image_id: turn_5_annoyance_thump
+- turn: 6
+  log_type: knowledge
+  user_input: "Please make a note of this for his diet: Oreo should never eat kale. He hates it, and it also upsets his stomach."
+  assistant_response: "Got it, a very important note. No kale for Oreo, as he hates it and it's bad for his digestion. Saved."
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: "He's not a big fan of being held, but he absolutely loves getting gentle rubs on his forehead. He just melts when I do it. [IMAGE]"
+  assistant_response: "That's sweet! I've noted that Oreo loves getting his forehead rubbed. A great way to show him affection."
+  image_prompt: "A close-up shot focusing on the head of a Dutch rabbit, Oreo. A human hand is gently rubbing his forehead between his ears. The rabbit's eyes are half-closed in a state of bliss and relaxation."
+  image_id: turn_7_forehead_rub
+- turn: 8
+  log_type: knowledge
+  user_input: "Another important thing to know is that he dislikes car rides. I mean, he *intensely* dislikes them. It's very stressful for him."
+  assistant_response: "Okay, I've made a strong note of that. Oreo finds car rides intensely stressful."
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: "I have a very important update from the vet. He was just diagnosed with mild GI stasis. The vet put him on a strict diet for one week: only Timothy hay and water. Absolutely no treats of any kind are allowed. [IMAGE]"
+  assistant_response: "Oh, I'm sorry to hear that. This is a critical update. I've logged the diagnosis of mild GI stasis and the current one-week dietary restriction: only hay and water, no treats. I hope he feels better soon."
+  image_prompt: "A solemn-looking Dutch rabbit, Oreo, is sitting next to a large pile of Timothy hay and a full water bowl. There are no other food items or treats visible. The lighting is soft, suggesting a quiet recovery environment."
+  image_id: turn_9_vet_diet
+- turn: 10
+  log_type: event
+  user_input: "You won't believe this. I bought him this fancy new puzzle feeder, but he's completely ignored it. Instead, he's been playing with the simple cardboard box it came in all day! [IMAGE]"
+  assistant_response: "Haha, that's classic! I've recorded this new short-term interest: Oreo is currently ignoring a new puzzle feeder in favor of its cardboard box."
+  image_prompt: "A Dutch rabbit, Oreo, is happily chewing on the corner of a plain cardboard box. In the background, slightly out of focus, is a colorful, complex-looking plastic puzzle feeder toy, completely untouched."
+  image_id: turn_10_box_over_toy
+- turn: 11
+  log_type: event
+  user_input: "Look at this little troublemaker from yesterday! [IMAGE] He got into a potted plant and ended up with a smudge of dirt right on his normally perfect white facial blaze."
+  assistant_response: "Haha, caught in the act! I see the dirt smudge. I've noted this recent event: Oreo was digging in a potted plant yesterday."
+  image_prompt: "A close-up photo of Oreo, the Dutch rabbit. His distinctive white facial blaze has a noticeable, small smudge of dark brown dirt on it. He is looking at the camera with a curious or slightly guilty expression. A potted plant is visible in the background."
+  image_id: turn_11_dirt_smudge
+- turn: 12
+  log_type: event
+  user_input: "So, I have a bit of a dilemma. I'm planning a short road trip for next weekend, and I'm really worried about how to transport Oreo, given how much he hates it."
+  assistant_response: "I see. I've noted your upcoming road trip next weekend and your concern about transporting Oreo. This is a current planning challenge."
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: "He was thumping his foot like crazy this morning. I finally figured out why—his water bowl was completely empty. He was demanding a refill!"
+  assistant_response: "Ah, that explains the thumping. I've logged that this morning he thumped his foot because his water bowl was empty. He certainly knows how to communicate!"
+  image_prompt: "Oreo, the Dutch rabbit, is standing next to an empty metal water bowl. His posture is alert and demanding. The focus is on the empty bowl and the rabbit's expectant stance."
+  image_id: turn_13_empty_bowl
+- turn: 14
+  log_type: event
+  user_input: "Ugh, nail trimming was a disaster earlier. I tried to trim his nails, and he freaked out and then hid under the sofa for a whole hour. [IMAGE]"
+  assistant_response: "Oh no, poor guy. I've noted the recent event: a failed nail trim attempt resulted in Oreo hiding under the sofa for an hour."
+  image_prompt: "A low-angle shot showing just the dark eyes and ears of Oreo, a Dutch rabbit, peeking out from the dark space under a sofa. The mood is one of fear and hiding. A pair of rabbit nail clippers can be seen on the floor in the foreground, slightly out of focus."
+  image_id: turn_14_hiding_sofa

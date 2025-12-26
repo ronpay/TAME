@@ -1,0 +1,220 @@
+- id: 1
+  type: Causal Inference
+  question: You know I have that daily ritual of wiping down The Palette every morning.
+    So how do you explain this disaster from last week? [IMAGE] The 'S' key got super
+    sticky, and I had to perform surgery on it. Why would that happen if I clean it
+    so regularly?
+  image_prompt: A close-up, focused shot of 'The Palette' keyboard with the 'S' keycap
+    removed. A hand is carefully using a cotton swab to apply isopropyl alcohol to
+    the exposed mechanical switch.
+  evaluation_criteria:
+    ideal_answer: Your daily cleaning ritual is for surface dust, but the 'S' key
+      became sticky due to a different circumstance. You mentioned you were working
+      many late nights with lots of snacking while designing the wedding invitations
+      for your friend. It's likely that a crumb or sticky residue from the snacks
+      got deep into the switch mechanism, causing an issue that a simple daily wipe-down
+      couldn't prevent.
+    key_points:
+    - The owner has a long-term daily cleaning ritual for the keyboard's surface (long-term
+      information from Turn 8).
+    - The stickiness was caused by late-night snacking during a recent, intensive
+      project, which is an exceptional event that bypasses the routine cleaning (reasoned
+      inference from combining Turn 9 and Turn 10).
+  options:
+  - The 'S' key switch was probably just faulty or wearing out from heavy use, as
+    'Save' is a command you use constantly in your design work.
+  - It's possible that the near-miss coffee spill you mentioned before actually did
+    splash a tiny, unnoticed drop onto that specific key, causing a delayed issue.
+  - Your daily wipe-down handles surface dust, but the stickiness likely came from
+    late-night snacking during the recent wedding invitation project, letting debris
+    get deep inside.
+  - Even with daily cleaning, high humidity or ambient dust from a co-working space
+    can build up over time and cause a sensitive switch to start sticking.
+  answer: Your daily wipe-down handles surface dust, but the stickiness likely came
+    from late-night snacking during the recent wedding invitation project, letting
+    debris get deep inside.
+  image_id: cq_1_sticky_key_cause
+- id: 2
+  type: Counterfactual Reasoning
+  question: I'm finally going to replace the boring cable for The Palette. I'm looking
+    for a coiled one. [IMAGE] Based on its whole vibe and personality, what kind of
+    coiled cable do you think would be the perfect match?
+  image_prompt: A stylized photo of 'The Palette' keyboard on a desk. The plain black
+    USB cable connected to it is shown. A thought bubble floats above it, containing
+    an image of a stylish, mint-green and white coiled keyboard cable.
+  evaluation_criteria:
+    ideal_answer: That's a great upgrade! Given The Palette's 'playful but precise'
+      personality and its color scheme, a coiled cable is a perfect fit. To match
+      its vibrant accents, a cable in either mint green or yellow would really complement
+      its look and enhance its playful character. The coiled design also adds a touch
+      of professional tidiness that speaks to its 'precise' side.
+    key_points:
+    - The Palette has a 'Playful but Precise' personality and a distinct color scheme
+      with mint green and yellow accents (long-term information from Turn 4 and Turn
+      1).
+    - A coiled cable in a matching accent color (mint or yellow) would best fit the
+      established aesthetic and the owner's stated goal of finding a matching coiled
+      cable (reasoned recommendation based on Turn 11).
+  options:
+  - To match its vibrant accents and 'playful' personality, a coiled cable in mint
+    green or bright yellow would be a perfect complement to its existing look.
+  - A simple white coiled cable would be the best choice, as it would match the white
+    frame and maintain a clean, minimalist aesthetic for your desk.
+  - You should get a bold red coiled cable. It would match the Enter key's accent
+    color and make a very strong, confident statement on your desk.
+  - A high-quality, braided black coiled cable would best suit its 'precise' side,
+    emphasizing its role as a serious, professional design tool.
+  answer: To match its vibrant accents and 'playful' personality, a coiled cable in
+    mint green or bright yellow would be a perfect complement to its existing look.
+  image_id: cq_2_cable_recommendation
+- id: 3
+  type: Counterfactual Reasoning
+  question: Remember that heart-stopping moment I almost spilled coffee all over The
+    Palette? [IMAGE] It still gives me chills. If it had been ruined that day, what
+    would I have *really* lost, more than just a piece of hardware?
+  image_prompt: A dramatic, user's-eye-view photo. A full mug of coffee is tilted
+    precariously over 'The Palette' keyboard, caught in a moment of near-disaster.
+    The lighting is tense, highlighting the keyboard's vibrant colors under threat.
+  evaluation_criteria:
+    ideal_answer: If the coffee had ruined it, you would have lost much more than
+      just a tool. You would have lost 'The Palette,' the specific memento you bought
+      to celebrate finishing your design portfolio in college. Beyond that, you would
+      have lost the 'partner' that was with you when you pulled that all-nighter to
+      land your first major freelance client. It represents key milestones in your
+      design journey.
+    key_points:
+    - The Palette is a memento from finishing a college portfolio and was a partner
+      in landing the first big client (long-term information from Turn 1 and Turn
+      6).
+    - Losing it would mean losing the tangible connection to these crucial career
+      milestones, which is the true loss beyond the hardware itself (reasoned inference
+      from the counterfactual event in Turn 5).
+  options:
+  - You'd have lost the tangible reward you bought for yourself after finishing your
+    college portfolio and the partner that helped you land your first big freelance
+    client.
+  - You would have lost a key piece of your history, specifically the keyboard that
+    got that distinctive scratch on its frame when you moved into your first studio
+    apartment.
+  - The biggest loss would have been all the time and effort you invested in personalizing
+    it, from picking the keycaps to putting on your custom Shiba Inu sticker.
+  - You would have lost your most reliable work tool, the one with the 'Ctrl' key
+    perfectly worn down from countless hours of design work and creative commands.
+  answer: You'd have lost the tangible reward you bought for yourself after finishing
+    your college portfolio and the partner that helped you land your first big freelance
+    client.
+  image_id: cq_3_what_if_lost
+- id: 4
+  type: Causal Inference
+  question: Look at this tiny nick I made on the spacebar yesterday [IMAGE]. It's
+    so small, but it's driving me crazy. Based on what you know about me and this
+    keyboard, why do you think a tiny flaw like this is so frustrating to me?
+  image_prompt: An extreme macro photo of the vibrant yellow spacebar on 'The Palette'
+    keyboard. The focus is razor-sharp on a tiny, fresh, shiny nick in the plastic.
+    A metal wire keycap puller rests nearby, implying it was the cause.
+  evaluation_criteria:
+    ideal_answer: It's so frustrating because The Palette isn't just a tool for you;
+      it's a carefully curated object and a reflection of your professional identity
+      as a graphic designer. You chose it specifically for its style and potential
+      for personalization. For a designer with a keen eye for aesthetics, an accidental
+      flaw—even a tiny one—on your primary creative instrument can feel like a significant
+      imperfection that disrupts its perfect, intended appearance.
+    key_points:
+    - The keyboard is a primary professional tool for a graphic designer, chosen for
+      its aesthetic qualities and customization (long-term information from Turn 1
+      and Turn 3).
+    - The frustration comes from an aesthetic flaw, made on a cherished object that
+      symbolizes the owner's professional creativity and attention to detail (reasoned
+      inference from the short-term event in Turn 14).
+  options:
+  - It's frustrating because the keyboard reflects your professional identity as a
+    designer; an accidental aesthetic flaw on your main creative tool feels like a
+    significant imperfection.
+  - It's likely frustrating because unlike the old scratch from moving apartments,
+    which tells a story, this new nick just feels like a careless, meaningless mistake.
+  - You're probably upset because after your colleague admired its perfect look recently,
+    this new flaw feels especially disappointing and spoils the image you were proud
+    of.
+  - The frustration comes from the fact that it's accidental damage, which feels very
+    different from the controlled, predictable wear you see on the 'Ctrl' key from
+    regular use.
+  answer: It's frustrating because the keyboard reflects your professional identity
+    as a designer; an accidental aesthetic flaw on your main creative tool feels like
+    a significant imperfection.
+  image_id: cq_4_nick_frustration
+- id: 5
+  type: State Identification
+  question: Here's the photo I took of my desk with my new drawing tablet [IMAGE].
+    Seeing The Palette and the tablet together like this, what does this pairing suggest
+    about the keyboard's current role in my work life?
+  image_prompt: A clean, top-down shot of a designer's desk. 'The Palette' keyboard
+    is placed neatly beside a brand new, large drawing tablet (like a Wacom Cintiq).
+    The tablet screen displays a colorful illustration in progress, matching the keyboard's
+    aesthetic.
+  evaluation_criteria:
+    ideal_answer: This pairing suggests that The Palette is not being replaced, but
+      rather its status is being elevated. By calling it and the new tablet a 'power
+      duo,' you're cementing its position as an essential and co-equal part of your
+      evolving, professional-grade creative toolkit. It's not just your primary tool
+      anymore; it's a core component of a larger creative ecosystem alongside other
+      high-end gear.
+    key_points:
+    - The Palette has a long-term identity as a primary professional tool and a 'creative
+      partner' (long-term information from Turn 3 and Turn 4).
+    - The recent pairing with another high-end tool, described as a 'power duo,' signifies
+      its cemented, not diminished, role in a more advanced professional setup (short-term
+      state identification from Turn 13).
+  options:
+  - It suggests the keyboard's role is shifting; it will likely become a support tool
+    for typing while the new tablet takes over as the primary tool for creative design
+    work.
+  - The pairing shows your focus on creating a complete, aesthetically coordinated
+    setup where every professional tool matches a specific visual theme you've curated.
+  - This shows the keyboard isn't being replaced but elevated, cementing its role
+    as an essential partner in a more powerful, professional-grade creative toolkit.
+  - This suggests you're entering a transitional phase, testing a new workflow to
+    see how the keyboard's functions best integrate with the new high-end tablet.
+  answer: This shows the keyboard isn't being replaced but elevated, cementing its
+    role as an essential partner in a more powerful, professional-grade creative toolkit.
+  image_id: cq_5_power_duo_status
+- id: 6
+  type: Causal Inference
+  question: It's funny, a colleague I barely know complimented my keyboard yesterday
+    and it totally made my day. [IMAGE] Why do you think a simple comment like that
+    felt so significant to me?
+  image_prompt: A high-quality, top-down photo of 'The Palette', a compact 75% mechanical
+    keyboard with a white frame. It features a custom keycap set with white, light
+    grey, and vibrant accent keys (mint green Esc, yellow spacebar, red Enter), sitting
+    on a clean wooden desk.
+  evaluation_criteria:
+    ideal_answer: That comment likely felt so significant because your colleague wasn't
+      just admiring a keyboard; they were admiring your personal taste and creative
+      expression. You chose and customized The Palette to reflect your identity as
+      a designer, from the stylish look to the custom keycaps and even the personal
+      mascot sticker. Their compliment served as an external validation of your unique
+      design choices, which is especially meaningful for a creative professional.
+    key_points:
+    - The keyboard is a highly personalized object reflecting the owner's design choices,
+      including its style, keycaps, and custom sticker (long-term information from
+      Turn 1 and Turn 7).
+    - The colleague's compliment was significant because it validated the owner's
+      personal creative identity, not just the object itself, making the owner feel
+      seen and appreciated for their taste (reasoned inference from short-term event
+      in Turn 12).
+  options:
+  - It felt significant because the colleague wasn't just admiring a thing; they were
+    validating your personal taste and creative identity as a designer, which you've
+    expressed through it.
+  - It was meaningful because it validated the keyboard's 'quiet show-off' personality,
+    proving that its unique appearance successfully makes a statement without being
+    loud.
+  - The compliment was likely significant because it served as a sign of professional
+    respect from a peer, acknowledging the quality and style of the tools you use
+    for your craft.
+  - You were probably happy because they noticed the specific, thoughtful details
+    you put into it, like the custom keycaps and maybe even your Shiba Inu mascot
+    sticker.
+  answer: It felt significant because the colleague wasn't just admiring a thing;
+    they were validating your personal taste and creative identity as a designer,
+    which you've expressed through it.
+  image_id: cq_6_compliment_value

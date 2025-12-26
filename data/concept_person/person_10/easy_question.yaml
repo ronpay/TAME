@@ -1,0 +1,158 @@
+- id: 5
+  type: Long Term
+  question: Hey, I'm trying to explain to my mom what Maya does. I know she works
+    with kids. Look at this picture from her clinic [IMAGE]. What's her official job
+    title again?
+  image_prompt: A photo of Maya Rodriguez in a cheerful, brightly colored pediatric clinic room.
+    She is kneeling down to help a young child who has just recovered from a leg injury take a step.
+    She has a warm, encouraging expression.
+  evaluation_criteria:
+    ideal_answer: Based on what she's told you, Maya is a pediatric physical therapist.
+    key_points:
+    - correctly identify her as a pediatric physical therapist.
+  options:
+  - A Personal Trainer
+  - An Elementary School Teacher
+  - A Pediatric Physical Therapist
+  - A Video Game Designer
+  answer: A Pediatric Physical Therapist
+  image_id: sq_5_maya_at_work
+- id: 6
+  type: Short Term
+  question: Remember Maya telling us about her breakthrough with Leo? I just found
+    this picture she sent [IMAGE]. He looks so focused! How did she say she got him
+    to do his exercises again?
+  image_prompt: A photo taken in a pediatric therapy room. An 8-year-old boy, Leo,
+    who has a brace on his leg, is carefully stepping over a series of colorful foam
+    blocks on the floor, a look of determined concentration on his face. The scene
+    feels playful and positive.
+  evaluation_criteria:
+    ideal_answer: She motivated him by turning his exercises into a 'real-life video
+      game', where each task was a challenge to beat a 'boss'.
+    key_points:
+    - correctly mention she gamified his exercises / turned it into a video game.
+  options:
+  - She turned his exercises into a real-life video game.
+  - She promised him a fruit smoothie as a reward.
+  - She told him a story about an action hero.
+  - She let him play a game against her brother.
+  answer: She turned his exercises into a real-life video game.
+  image_id: sq_6_leo_gamified_therapy
+- id: 7
+  type: Long Term
+  question: Hey, planning a movie night with Maya. I saw this poster [IMAGE] and thought
+    of her. Is this her kind of thing? Remind me what kind of media she's into.
+  image_prompt: A dynamic and explosive movie poster for a fictional action film titled
+    'Kinetic Force'. It features a hero in a mid-air kick, with explosions in the
+    background. The tagline reads 'The fight is everything'.
+  evaluation_criteria:
+    ideal_answer: She loves high-energy media, specifically action movies with great
+      fight choreography and upbeat pop or dance music.
+    key_points:
+    - correctly mention high-energy action movies and/or upbeat music.
+  options:
+  - Slow-burn philosophical dramas and documentaries.
+  - High-energy action movies and upbeat pop music.
+  - Quiet, acoustic folk music and indie films.
+  - Competitive reality TV shows and classical music.
+  answer: High-energy action movies and upbeat pop music.
+  image_id: sq_7_action_movie_poster
+- id: 8
+  type: Short Term
+  question: Maya sent me this picture last night with a frowny face [IMAGE]. She was
+    out with Jenna. What did she say they were doing that she disliked so much?
+  image_prompt: A first-person perspective photo taken from a seat in a dimly lit,
+    ornate concert hall. The focus is on the lap of the person, showing a classical
+    music program brochure and a hand with a digital sports watch showing it's 9:30
+    PM.
+  evaluation_criteria:
+    ideal_answer: She went to a three-hour classical music concert with Jenna. She
+      found it boring and couldn't stop fidgeting because she hates sitting still
+      for long periods.
+    key_points:
+    - correctly mention she attended a long classical music concert.
+  options:
+  - They went to a strategic board game cafe.
+  - They attended a long classical music concert.
+  - They went to a multi-course formal dinner.
+  - They took a quiet painting class together.
+  answer: They attended a long classical music concert.
+  image_id: sq_8_concert_program
+- id: 9
+  type: Long Term
+  question: This is such a great photo of Maya and her brother [IMAGE]. They look
+    so in sync! What's the main thing they bond over?
+  image_prompt: A dynamic, candid photo of Maya and her older brother Carlos in a
+    living room, intensely focused on a video game. Maya is on her feet, leaning forward
+    with a controller, a look of concentration on her face. Carlos is laughing next
+    to her.
+  evaluation_criteria:
+    ideal_answer: They have a close bond centered around a shared lifelong passion
+      for competitive video games.
+    key_points:
+    - correctly mention competitive video games.
+  options:
+  - They bond over competitive video games.
+  - They are both avid hikers and trail runners.
+  - They love to cook elaborate meals together.
+  - They are workout buddies at the same gym.
+  answer: They bond over competitive video games.
+  image_id: sq_9_maya_and_carlos
+- id: 10
+  type: Short Term
+  question: Maya mentioned she was busy last Saturday. I saw her VR setup later that
+    day, look [IMAGE]. What did she say she was doing all morning?
+  image_prompt: A photo of a living room set up for VR gaming. A VR headset is on
+    a small table in front of a TV screen that displays the high-score leaderboard
+    of a fitness game. The name 'CARLOS' is at the top, and 'MAYA' is just below it.
+  evaluation_criteria:
+    ideal_answer: She spent her entire Saturday morning playing a new VR fitness game,
+      trying to beat her brother Carlos's high score.
+    key_points:
+    - correctly mention she was trying to beat her brother's high score in a VR game.
+  options:
+  - She was trying to beat her brother's high score in a VR fitness game.
+  - She was going for a long hike on a new trail.
+  - She was playing in a beach volleyball tournament.
+  - She was holding an extra therapy session for Leo.
+  answer: She was trying to beat her brother's high score in a VR fitness game.
+  image_id: sq_10_vr_leaderboard
+- id: 11
+  type: Long Term
+  question: I was looking at this photo of Maya from her run [IMAGE]. I noticed a
+    small mark on her right knee. Did she ever tell you what that is?
+  image_prompt: A close-up photo focusing on Maya's legs as she stretches after a
+    run. Her athletic build is evident. The lighting clearly shows a small, faded,
+    but distinct scar on her right kneecap.
+  evaluation_criteria:
+    ideal_answer: Yes, she mentioned that's a faint old scar on her right kneecap
+      from a childhood accident.
+    key_points:
+    - correctly identify it as a faint old scar.
+  options:
+  - It's a small, faded scar from her childhood.
+  - It's a small birthmark she's always had.
+  - It's a recent scrape from a fall while hiking.
+  - It's a tiny tattoo of a volleyball.
+  answer: It's a small, faded scar from her childhood.
+  image_id: sq_11_knee_scar_closeup
+- id: 12
+  type: Long Term
+  question: We're planning a surprise dinner for Maya, and Jenna suggested a fancy
+    restaurant. I took a look at their menu [IMAGE]. Based on what Maya's told you,
+    what kind of food experience does she dislike?
+  image_prompt: A picture of a very fancy, fussy-looking dish from a multi-course
+    meal. It's a small portion of food on a large white plate, elegantly decorated
+    with swirls of sauce and tiny herbs. The setting looks very formal.
+  evaluation_criteria:
+    ideal_answer: She dislikes fancy, multi-course dinners because they are long,
+      sedentary events that make her feel restless.
+    key_points:
+    - correctly mention she dislikes fancy, multi-course formal dinners.
+  options:
+  - Spicy food like street tacos.
+  - Fancy, multi-course formal dinners.
+  - Healthy options like protein smoothies.
+  - Quick, on-the-go meals like wraps.
+  answer: Fancy, multi-course formal dinners.
+  image_id: sq_12_fancy_dinner_plate

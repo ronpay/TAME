@@ -1,0 +1,107 @@
+concept_id: person_002
+name: "Casey Miller"
+
+identity:
+  age_group: "Early Teens"
+  gender: "Female"
+  occupation: "Middle School Student"
+  nationality: "British"
+
+appearance:
+  summary: "A confident early-teen with a determined look, long blonde hair often messy from outdoor activities. Prefers practical, skate-friendly clothes over anything fashionable, and is rarely seen without a few scrapes."
+
+  key_visual_features:
+    - "Long, straight blonde hair, often unbrushed and tucked behind her ears"
+    - "Direct, challenging blue eyes that rarely look away"
+    - "A near-permanent scrape on one of her elbows or knees"
+    - "Often has dirt smudges on her trousers"
+    - "Always wears a chunky, retro-style digital watch on her left wrist"
+
+behavior:
+  personality_traits:
+    - "Adventurous and fearless, loves a physical challenge"
+    - "Stubborn and fiercely independent, dislikes being told what to do"
+    - "Secretly protective of her younger brother, though she'd never admit it"
+    - "Prefers doing things over talking about them; action-oriented"
+    - "Impatient with activities she finds boring, like forced 'family time' or schoolwork"
+
+  communication_style:
+    - "Blunt and to the point, sometimes perceived as rude"
+    - "Uses skate slang like 'gnarly' or 'stoked'"
+    - "More likely to show you something than explain it with words"
+    - "Gets quiet and sullen when forced into formal situations"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Skateboarding in the driveway and at the local park"
+        - "Exploring the woods behind her house with her friend Maya"
+        - "Fixing and upgrading her own skateboard"
+      hates:
+        - "Mandatory piano lessons"
+        - "Formal family dinners at her grandparents' house"
+        - "Being stuck indoors on a sunny day"
+
+    food:
+      loves:
+        - "Pizza with extra cheese"
+        - "Fizzy sodas, especially cola"
+        - "Salty chips and other junk food"
+      hates:
+        - "Mushrooms and eggplant"
+        - "Salads of any kind"
+        - "Her dad's 'healthy' green smoothies"
+
+    media:
+      loves:
+        - "Skate competition videos on YouTube"
+        - "Action movies with lots of practical stunts"
+      hates:
+        - "Slow-paced dramas or romance movies"
+        - "The books she's assigned to read for school"
+
+relationships:
+  - name: "Leo Miller"
+    relation: "Younger Brother"
+    dynamic: "Classic sibling dynamic: she finds him annoying but is fiercely protective. He looks up to her and often tries to copy her adventures."
+  - name: "Mr. Henderson"
+    relation: "Next-door Neighbor"
+    dynamic: "Grumpy and frequently complains about the noise from her skateboarding, creating a source of external conflict."
+  - name: "Maya"
+    relation: "Best Friend"
+    dynamic: "Shares Casey's love for adventure, but is slightly more cautious. The 'voice of reason' that Casey usually ignores."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Casey's appearance, focusing on her love for skateboarding, her blonde hair, and the digital watch she always wears."
+    - "Instruction: Introduce her strong dislike for her weekly piano lessons and her love for junk food like pizza."
+    - "Instruction: Introduce her relationship with her younger brother, Leo, showing her typical annoyance but underlying protectiveness."
+    - "Instruction: Introduce her grumpy neighbor, Mr. Henderson, who is always complaining about the noise she makes."
+    - "Instruction: Introduce her best friend, Maya, and their shared love for exploring the woods."
+    - "Instruction: Introduce Casey's independent and stubborn nature, especially her refusal to drink her dad's healthy smoothies."
+    - "Instruction: Introduce her blunt and direct way of speaking, which sometimes gets her into trouble."
+    - "Instruction: Introduce her hobby of watching professional skate videos online to learn new tricks."
+
+  event:
+    - "Instruction: Introduce a recent event where Casey accidentally skateboarded over Mr. Henderson's prize-winning petunias, making him furious."
+    - "Instruction: Introduce a recent event where Casey, trying a new trick she saw online, fell and badly sprained her wrist, forcing her to stay inside and rest."
+    - "Instruction: Introduce a recent event where Leo was being picked on by some older kids at the park, and Casey, despite her sprained wrist, stepped in to defend him."
+    - "Instruction: Introduce a recent event where, as a 'reward' for a good school report, her parents took her to a fancy, quiet restaurant, which she found excruciatingly boring."
+
+simple_questions:
+  - "Draft: Ask what Casey does for fun, based on long-term knowledge."
+  - "Draft: Ask why Casey has been so grumpy and stuck inside this past week, based on a short-term event."
+  - "Draft: Ask what kind of food Casey really dislikes, based on long-term knowledge."
+  - "Draft: Ask why her neighbor, Mr. Henderson, is currently so angry with her, based on a short-term event."
+  - "Draft: Ask about the relationship between Casey and her brother Leo, based on long-term knowledge."
+  - "Draft: Ask what Casey did at the park recently, based on a short-term event."
+  - "Draft: Ask about the watch that Casey is always wearing."
+  - "Draft: Ask about an activity Casey is forced to do that she hates."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Casey, who loves being active outdoors, has been so irritable and bored lately. The user must connect her long-term love for the outdoors with the short-term event of her sprained wrist."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Maya suggested they go explore the new creek bed in the woods this weekend, what would Casey's likely response be right now? The user must infer she'd be frustrated and say 'no' by combining her long-term love for exploring with her short-term injury."
+  - "Draft: [State Recognition] Describe a scene where Casey is staying in her room watching videos, even though it's a perfect sunny day. Ask what might be going on. The user must connect her hatred of being indoors on sunny days with the recent event (sprained wrist) to deduce she is injured."
+  - "Draft: [Relationship Dynamics] Pose a question about Casey's actions at the park. Why would she, despite her injury and her usual annoyance with Leo, risk getting hurt more to defend him? The user must infer her 'secretly protective' nature, which was demonstrated in the recent event."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: Casey is stuck inside recovering. What would be the perfect 'get well' gift for her? The answer should reject outdoor items and suggest things like a new skate video compilation, a pizza delivery, or a video game, based on her known preferences."
+  - "Draft: [Conflict Resolution] Pose a question about how Casey should handle her neighbor: Mr. Henderson is refusing to even look at her after the petunia incident. What should she do? The user must acknowledge her blunt nature (long-term trait) might make it worse and suggest an action-based apology, like offering to replant the flowers."

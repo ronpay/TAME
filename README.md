@@ -41,7 +41,7 @@ LCMP is the first benchmark for evaluating **Long-Context MLLM Personalization**
 
 ## LCMP Content
 
-The LCMP benchmark will be released soon. We will release the complete LCMP benchmark in `data/concept`, which includes personalized pets, people, and objects, along with their associated dialogues, questions, and personalized images.
+We will release the complete LCMP benchmark in `data/concept`, which includes personalized pets, people, and objects, along with their associated dialogues, questions, and personalized images.
 
 ## Construct LCMP
 

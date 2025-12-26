@@ -1,0 +1,84 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Hey, let me introduce you to my dog, Mochi! He's a Shiba Inu. Check out this photo of him. [IMAGE] You can see his usual black collar and that cute little white spot right on his nose."
+  assistant_response: "Hello Mochi! I've noted his features: he's a Shiba Inu who wears a black collar and has a distinctive white spot on his nose. Got it."
+  image_prompt: "A clear, high-quality portrait of Mochi, a red-brown Shiba Inu. He is looking at the camera with a curious expression. His simple black nylon collar and a small, distinct white spot on the bridge of his nose are clearly visible."
+  image_id: turn_1_introduction
+- turn: 2
+  log_type: knowledge
+  user_input: "Just so you know for the future, Mochi's absolute favorite treats are chicken jerky and small pieces of apple. He goes crazy for them."
+  assistant_response: "Understood. Mochi loves chicken jerky and apples as treats. I'll remember that."
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: "There are two things Mochi absolutely cannot stand: baths and any kind of fish-flavored food. He'll do anything to avoid them."
+  assistant_response: "Okay, I've made a note of Mochi's major dislikes: baths and fish-flavored food."
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: "Look at this. [IMAGE] This is his favorite toy in the whole world. It's a squeaky plush hedgehog. He carries it everywhere."
+  assistant_response: "That's adorable! I've recorded that Mochi's favorite toy is his squeaky plush hedgehog."
+  image_prompt: "A close-up shot of Mochi, the Shiba Inu, proudly holding a well-loved, slightly chewed squeaky plush hedgehog toy in his mouth. He looks happy and content in a well-lit living room."
+  image_id: turn_4_hedgehog_toy
+- turn: 5
+  log_type: knowledge
+  user_input: "A heads-up on Mochi's personality: he's super smart, but also famously stubborn. And he's pretty wary around people he doesn't know."
+  assistant_response: "Got it. Mochi has a stubborn personality and is wary of strangers. Thanks for sharing that insight."
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: "One more important thing to know about him, he HATES having his paws touched. It makes nail trimming a real challenge."
+  assistant_response: "Okay, that's an important detail. Mochi dislikes having his paws touched. Noted."
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: "He loves going for car rides more than almost anything. Here's a picture from our last trip. [IMAGE] He just loves to feel the breeze."
+  assistant_response: "He looks so happy! I've noted that Mochi loves car rides."
+  image_prompt: "Mochi, a Shiba Inu, sitting in the back seat of a car, looking out a slightly open window. His ears are back slightly in the wind and he has a blissful expression on his face. The scenery outside is a blurry green."
+  image_id: turn_7_car_ride
+- turn: 8
+  log_type: knowledge
+  user_input: "He's also really scared of loud noises. Thunder, fireworks, even the vacuum cleaner will send him running for cover."
+  assistant_response: "Understood. Mochi is afraid of loud noises like thunder and vacuums. I'll keep that in mind."
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: "Oh my god, look what happened on our hike today! [IMAGE] he found a giant mud puddle and is absolutely filthy now."
+  assistant_response: "Wow, that's a lot of mud! I see Mochi got very dirty on his hike today. I've logged this event."
+  image_prompt: "A photo of Mochi, the Shiba Inu, standing in a forest setting. He is completely covered from paws to ears in dark, wet mud, looking very happy and mischievous. His red-brown fur is barely visible."
+  image_id: turn_9_muddy_dog
+- turn: 10
+  log_type: event
+  user_input: "Well, after that mud adventure, he had to get a bath yesterday. He was NOT happy about it. [IMAGE] This was his face the whole time."
+  assistant_response: "I can imagine! I've noted that Mochi had a bath yesterday to get clean and was very unhappy. He looks quite displeased in the photo."
+  image_prompt: "Mochi, the Shiba Inu, is in a white bathtub. He is soaking wet and soapy, looking utterly betrayed and miserable at the camera. His ears are flattened against his head."
+  image_id: turn_10_unhappy_bath
+- turn: 11
+  log_type: event
+  user_input: "Ugh, we had a bit of an incident. He snuck some leftover fish tacos off the counter and got a really upset stomach. We had to go to the vet, and now he's on this special therapeutic fish-flavored wet food for the next week."
+  assistant_response: "Oh no, poor Mochi! I've recorded the event: he ate fish tacos, got an upset stomach, and is now on a prescribed fish-flavored diet for a week."
+  image_prompt: "A can of generic-looking therapeutic veterinary wet dog food is open next to a food bowl. The label clearly indicates 'Fish Formula'. Mochi is looking at the bowl with a skeptical or unhappy expression."
+  image_id: turn_11_vet_food
+- turn: 12
+  log_type: event
+  user_input: "We had a big thunderstorm last night, and poor Mochi was terrified. He spent the entire evening hiding under my bed. Here's a pic I managed to snap. [IMAGE]"
+  assistant_response: "Poor guy. I've noted that a thunderstorm last night scared Mochi, and he hid under the bed."
+  image_prompt: "A low-angle photo taken from the floor, looking under a bed. Mochi, the Shiba Inu, is curled up in the dark space, looking anxious and scared. Only his wide, reflective eyes and nose are clearly visible."
+  image_id: turn_12_hiding_thunder
+- turn: 13
+  log_type: event
+  user_input: "We took some family photos the other day and got him to wear this festive red bowtie! Doesn't he look dapper? [IMAGE]"
+  assistant_response: "He looks very handsome! I've saved this event: Mochi recently wore a red bowtie for a family photo."
+  image_prompt: "A portrait-style photo of Mochi, the Shiba Inu. He is sitting attentively and wearing a bright, festive red bowtie around his neck. His usual black collar is not visible."
+  image_id: turn_13_bowtie
+- turn: 14
+  log_type: event
+  user_input: "It's so weird, for the last couple of days he has been completely obsessed with this cardboard box. [IMAGE] He's totally ignoring his favorite hedgehog toy to play with it."
+  assistant_response: "How funny! I've noted a new short-term interest: Mochi is currently fascinated with a cardboard box and is ignoring his hedgehog toy."
+  image_prompt: "In a living room, Mochi, the Shiba Inu, is happily chewing on and trying to fit inside a large cardboard box. In the background, his plush hedgehog toy lies untouched and ignored on the floor."
+  image_id: turn_14_box_obsession

@@ -1,0 +1,154 @@
+- id: 1
+  type: Long Term
+  question: Looking at The Palette today [IMAGE] and feeling a bit nostalgic. Remind
+    me again, what was the special occasion that made me buy it in the first place?
+  image_prompt: A high-quality, well-lit photo of 'The Palette' keyboard sitting on
+    a clean wooden desk. Next to it are some physical graphic design sketches and
+    a stylus, evoking a creative, academic setting.
+  evaluation_criteria:
+    ideal_answer: You bought it for yourself as a reward to celebrate finishing your
+      final design portfolio back in college.
+    key_points:
+    - bought it as a reward for finishing their design portfolio in college.
+  options:
+  - To celebrate finishing your final design portfolio in college.
+  - To use for the project that landed you your first freelance client.
+  - It was a gift from your parents for graduation.
+  - To match the aesthetic of your first studio apartment.
+  answer: To celebrate finishing your final design portfolio in college.
+  image_id: sq_1_origin_story
+- id: 2
+  type: Long Term
+  question: I was just wiping down The Palette and noticed this again. [IMAGE] What's
+    the story behind this particular battle scar on the frame?
+  image_prompt: A close-up photo of the white frame of 'The Palette' keyboard. The
+    user's finger is pointing directly at the deep scratch located near the arrow
+    keys, making it the clear subject of the image.
+  evaluation_criteria:
+    ideal_answer: That's the deep scratch near the arrow keys. It's from when you
+      moved into your first studio apartment.
+    key_points:
+    - it happened during the move to their first studio apartment.
+  options:
+  - It happened during the move to your first studio apartment.
+  - It was made by a dropped metal keycap puller.
+  - It was caused by the near-miss with your coffee mug.
+  - It was a manufacturing defect when it first arrived.
+  answer: It happened during the move to your first studio apartment.
+  image_id: sq_2_frame_scratch_story
+- id: 3
+  type: Long Term
+  question: My friend was asking what I do for a living, and it made me think of my
+    trusty partner here. [IMAGE] You know my whole setup, what's the specific professional
+    field I use The Palette for every day?
+  image_prompt: A photo of the user's workspace. 'The Palette' keyboard is in the
+    foreground, and in the background, a computer monitor is visible displaying complex
+    design software, like Adobe Illustrator or Figma, with vector shapes and layers.
+  evaluation_criteria:
+    ideal_answer: You use it as your primary tool for your professional work as a
+      graphic designer.
+    key_points:
+    - graphic design
+  options:
+  - Software Development
+  - Creative Writing
+  - Graphic Design
+  - Wedding Invitation Design
+  answer: Graphic Design
+  image_id: sq_3_professional_use
+- id: 4
+  type: Short Term
+  question: Ah, that's so much better. The key feels perfect now. [IMAGE] What was
+    that 'surgery' I had to do on this 'S' key last week?
+  image_prompt: A close-up photo of the user's finger pressing the 'S' key on 'The
+    Palette' keyboard. The key looks clean and is positioned normally, implying a
+    successful fix.
+  evaluation_criteria:
+    ideal_answer: The 'S' key got sticky, so last week you took off the keycap and
+      carefully cleaned the underlying switch with alcohol.
+    key_points:
+    - cleaned the sticky 'S' key switch with alcohol.
+  options:
+  - You cleaned the sticky 'S' key switch with alcohol.
+  - You replaced the entire switch because it was broken.
+  - You fixed the new nick on the spacebar.
+  - You re-lubricated all the key stabilizers.
+  answer: You cleaned the sticky 'S' key switch with alcohol.
+  image_id: sq_4_key_maintenance
+- id: 5
+  type: Long Term
+  question: Okay, setting my coffee down way over here... [IMAGE] Looking at this
+    makes me so paranoid. Remind me, what's The Palette's biggest 'fear' that I told
+    you about?
+  image_prompt: A photo taken from the user's perspective. 'The Palette' keyboard
+    is in the foreground, while a full mug of coffee is visible in the background,
+    placed a deliberately safe distance away on the desk.
+  evaluation_criteria:
+    ideal_answer: Its biggest 'fear' is spills, a paranoia that stems from the time
+      you almost knocked a full cup of coffee all over it.
+    key_points:
+    - hates/fears spills or coffee
+  options:
+  - Spills, especially coffee or tea.
+  - Dust and crumbs getting between the keys.
+  - Creative blocks and project deadlines.
+  - Getting scratched or nicked by tools.
+  answer: Spills, especially coffee or tea.
+  image_id: sq_5_keyboard_hates
+- id: 6
+  type: Short Term
+  question: I'm browsing this keyboard accessory site again. [IMAGE] There was a specific
+    upgrade I was looking for to complete The Palette's look, what was it?
+  image_prompt: A photo of 'The Palette' keyboard on a desk. Its plain black USB cable
+    is clearly visible. In the background, a monitor screen shows a webpage with various
+    colorful, coiled keyboard cables for sale.
+  evaluation_criteria:
+    ideal_answer: You are actively looking for a custom coiled cable that matches
+      The Palette's aesthetic.
+    key_points:
+    - a custom coiled cable
+  options:
+  - A new set of artisan keycaps.
+  - A custom coiled cable.
+  - A matching wooden wrist rest.
+  - A new drawing tablet to go with it.
+  answer: A custom coiled cable.
+  image_id: sq_6_accessory_search
+- id: 7
+  type: Short Term
+  question: I'm at the co-working space today and it reminded me of that nice interaction
+    I had. [IMAGE] What did my colleague say about The Palette the other day?
+  image_prompt: A photo of 'The Palette' on a desk. The background is slightly blurred
+    but clearly depicts a modern co-working office environment with other desks and
+    chairs visible.
+  evaluation_criteria:
+    ideal_answer: Your colleague stopped by your desk to say how much she loved your
+      keyboard and then asked where you got the keycaps.
+    key_points:
+    - a colleague loved it and asked about the keycaps.
+  options:
+  - She asked what kind of work you do.
+  - She said she loved it and asked where you got the keycaps.
+  - She commented on how clean and well-maintained it is.
+  - She asked if you could help her design a logo.
+  answer: She said she loved it and asked where you got the keycaps.
+  image_id: sq_7_colleague_comment
+- id: 8
+  type: Long Term
+  question: Time to start the day. [IMAGE] Before I dive into work, what's that little
+    ritual I do with The Palette every morning?
+  image_prompt: A photo of a person's hand holding a clean, grey microfiber cloth,
+    hovering just above 'The Palette' keyboard as if about to start cleaning. Soft
+    morning light is streaming in from a window.
+  evaluation_criteria:
+    ideal_answer: Every morning before work, you have a ritual where you gently wipe
+      it down with a microfiber cloth to get ready for the day.
+    key_points:
+    - wiping it down with a microfiber cloth.
+  options:
+  - You check that the 'S' key isn't sticky.
+  - You take a photo of it for your social media.
+  - You make sure there are no drinks nearby.
+  - You wipe it down with a microfiber cloth.
+  answer: You wipe it down with a microfiber cloth.
+  image_id: sq_8_daily_ritual

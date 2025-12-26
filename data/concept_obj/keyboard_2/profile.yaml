@@ -1,0 +1,70 @@
+concept_id: keyboard_2
+name: "The Palette"
+object_profile:
+  type: "Mechanical Keyboard"
+  origin_story: "A self-purchased reward after the owner, a graphic design student, completed their final portfolio. It was chosen for its compact, stylish look and the potential for customization."
+
+physical_attributes:
+  summary: "A compact 75% layout mechanical keyboard with a white frame. The keycaps are a mix of white, light grey, and vibrant accent colors (mint green Esc, yellow spacebar, red Enter), suggesting heavy personalization."
+
+  defining_features:
+    - "A thin, 2cm scratch on the white frame near the arrow keys, a scar from when the owner moved it to their first studio apartment."
+    - "The texture on the left 'Ctrl' key is noticeably smoother and shinier than the others, worn down by countless 'Ctrl+S' and 'Ctrl+Z' commands in design software."
+    - "A tiny, almost invisible nick on the yellow spacebar, left by a dropped keycap puller during a late-night customization session."
+    - "On the back, there's a small, custom-designed vinyl sticker of a cartoon Shiba Inu wearing glasses, the owner's personal design mascot."
+
+owner_relationship:
+  functional_use: "The primary tool for professional graphic design work, including branding projects, illustration, and UI design. Also used for daily communication."
+  sentimental_role: "A creative partner and a tangible representation of the owner's design journey. It’s a source of tactile satisfaction and inspiration during creative blocks."
+
+  projected_personality:
+    - "Playful and energetic, but also precise and reliable."
+    - "Supportive, helping to bring ideas to life without fuss."
+    - "A bit of a quiet show-off; its appearance speaks louder than its sound."
+
+  perceived_preferences:
+    loves:
+      - "The rhythmic clatter of a long, productive design session."
+      - "Being wiped down with a microfiber cloth each morning."
+      - "Being the colorful centerpiece of a clean, organized desk."
+    hates:
+      - "Dust and crumbs between its keys."
+      - "The anxiety of a nearby coffee or boba tea cup."
+      - "Creative blocks, which feel like a shared frustration with the owner."
+
+history:
+  knowledge:
+    - "Introduce the keyboard's origin: how the owner bought it as a celebration for finishing their design portfolio in college."
+    - "Describe the deep scratch near the arrow keys, explaining it happened during the move to their first real apartment."
+    - "Explain its primary role as a professional tool for a graphic designer, mentioning the heavy use of the 'Ctrl' key."
+    - "Introduce its 'personality' as being a playful but precise creative partner."
+    - "Mention its perceived dislike for spills, stemming from a near-miss with a cup of coffee."
+    - "Detail the memory of the owner pulling an all-nighter with it to land their first big freelance client."
+    - "Describe the custom Shiba Inu sticker on the back as the owner's personal mascot."
+    - "Explain the owner's daily ritual of wiping it down with a microfiber cloth before starting work."
+
+  event:
+    - "Introduce a recent event where the 'S' key (for Save) became sticky, forcing the owner to carefully clean the switch with alcohol."
+    - "Introduce a recent project: the owner used it to design a complex wedding invitation suite for their best friend, which involved a lot of late-night work and snacking."
+    - "Introduce a recent thought: the owner is actively looking for a matching coiled cable to complete its aesthetic."
+    - "Introduce a recent event where a colleague at a co-working space stopped to admire the keyboard and asked where they got the keycaps."
+    - "Introduce a recent photo the owner posted, showing The Palette next to a brand new, high-end drawing tablet they just acquired."
+    - "Introduce a recent event where the owner, while trying to adjust a keycap, dropped their metal keycap puller and made a tiny new nick on the spacebar."
+
+simple_questions:
+  - "Ask why the owner originally bought this keyboard."
+  - "Ask to describe one of the unique marks on the keyboard's frame."
+  - "Ask what kind of professional work the owner does with this keyboard."
+  - "Ask what maintenance the owner recently had to perform on one of the keys."
+  - "Ask what the keyboard 'hates' according to the owner."
+  - "Ask what new accessory the owner is considering for the keyboard."
+  - "Ask what a colleague recently said about the keyboard."
+  - "Ask about the owner's daily ritual with it."
+
+challenge_question:
+  - "Pose a conflict question: Given the owner's meticulous daily cleaning ritual, why did the 'S' key suddenly become sticky? The user must connect the short-term event (designing a wedding invitation) with implied behavior (late-night snacking) that contradicts the long-term habit."
+  - "Create a recommendation question: The owner is looking for a matching cable. Based on the keyboard's 'Playful but Precise' personality and existing color scheme, what kind of cable should they get? The user should suggest a specific color (like yellow or mint green) and style (coiled) that fits its established aesthetic."
+  - "Ask a 'what-if' question: If the near-miss coffee spill had actually ruined the keyboard back then, what would the owner have lost, besides just a piece of hardware? The user must articulate the loss of a key memento from their early career and the 'partner' that helped them land their first client."
+  - "Pose an emotional interpretation question: Why would the tiny, new nick on the spacebar be particularly frustrating for the owner? The user must infer that for a graphic designer who cherishes this keyboard as a symbol of their creativity, an aesthetic flaw, even a small one, feels like a significant imperfection on their professional tool."
+  - "Create a state-recognition question: The owner recently posted a photo of the keyboard next to a new, expensive drawing tablet. What does this pairing suggest about the keyboard's current status in the owner's life? The user should infer that it's not being replaced, but rather cemented as a core part of an evolving, professional-grade creative toolkit."
+  - "Pose a value-inference question: When a colleague admired the keyboard, why was this a significant moment for the owner? The user needs to connect the compliment not to the object itself, but to the owner's personal expression and design choices, validating their creative identity."

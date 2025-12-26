@@ -1,0 +1,105 @@
+concept_id: person_002
+name: "Serena Kim"
+
+identity:
+  age_group: "Early 30s"
+  gender: "Female"
+  occupation: "Lead UX Designer"
+  nationality: "Korean-American"
+
+appearance:
+  summary: "A polished and approachable woman in her early 30s with a calm, confident demeanor. Her dark, shoulder-length hair is always impeccably styled. She favors chic, minimalist business casual attire."
+
+  key_visual_features:
+    - "Shoulder-length, straight dark brown hair"
+    - "Warm, intelligent brown eyes and a gentle, ready smile"
+    - "A minimalist aesthetic in her clothing choices (e.g., silk blouses, tailored trousers)"
+    - "A habit of sketching UI ideas on napkins or any available piece of paper"
+    - "Almost always wears a delicate silver necklace with a ginkgo leaf pendant, a gift from her sister"
+
+behavior:
+  personality_traits:
+    - "Meticulous and detail-oriented"
+    - "Empathetic and highly user-focused in her work"
+    - "Maintains a calm and composed exterior, even under pressure"
+    - "A collaborative leader who values her team's input"
+    - "Can become overly invested in projects, sometimes blurring work-life balance"
+
+  communication_style:
+    - "Prefers using visual aids, mockups, and prototypes to explain ideas"
+    - "Articulate and persuasive, especially when defending a design choice"
+    - "An active listener, often paraphrasing to confirm understanding"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Visiting modern art galleries and architecture exhibits"
+        - "Practicing pottery as a way to de-stress and work with her hands"
+        - "Hosting small, intimate dinner parties for close friends"
+      hates:
+        - "Cluttered, chaotic environments, both digital and physical"
+        - "Aggressive, 'hard-sell' marketing tactics"
+        - "Being micromanaged or having her design process questioned without data"
+
+    food:
+      loves:
+        - "Traditional Korean dishes, especially Bibimbap"
+        - "Artisan coffee from small, independent cafes"
+        - "Delicate pastries like macarons and petit fours"
+      hates:
+        - "Greasy fast food that makes her feel sluggish"
+        - "Overly sweet, artificial-tasting energy drinks"
+
+    media:
+      loves:
+        - "Design blogs like 'A List Apart' and 'Smashing Magazine'"
+        - "Independent foreign films and documentaries on creative processes"
+      hates:
+        - "Loud, formulaic blockbuster action movies"
+        - "Clickbait articles and low-effort content"
+
+relationships:
+  - name: "David Chen"
+    relation: "Head of Product / Boss"
+    dynamic: "Supportive but extremely demanding. They share a vision for elegant products but often clash over aggressive timelines."
+  - name: "Leo Petrov"
+    relation: "Lead Software Engineer"
+    dynamic: "A friendly but intense rival. They have deep mutual respect but constantly debate over design purity vs. engineering feasibility."
+  - name: "Chloe Kim"
+    relation: "Younger Sister / Barista"
+    dynamic: "Her emotional anchor. Chloe is carefree and often pulls Serena away from work, reminding her to live a little."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Serena's job as a Lead UX Designer and her meticulous, user-focused approach."
+    - "Instruction: Introduce her love for artisan coffee and her dislike for sugary energy drinks."
+    - "Instruction: Introduce her professional relationship with her boss, David Chen, focusing on their shared vision but conflicting views on timelines."
+    - "Instruction: Introduce her core design philosophy: a hatred for cluttered interfaces and a love for minimalism."
+    - "Instruction: Introduce her dynamic with Leo Petrov, the lead engineer, highlighting their 'friendly rivalry'."
+    - "Instruction: Introduce her close relationship with her younger sister, Chloe, who is a barista."
+    - "Instruction: Introduce her ginkgo leaf necklace and explain its significance as a gift from Chloe."
+    - "Instruction: Introduce her hobby of practicing pottery to relax."
+
+  event:
+    - "Instruction: Introduce a recent event where a major project, 'Project Nightingale', is facing a tight deadline, causing David to put immense pressure on Serena's team."
+    - "Instruction: Introduce a recent, heated debate between Serena and Leo regarding a key feature in 'Project Nightingale', where Leo called her proposed design 'beautiful but impractical to build on time'."
+    - "Instruction: Introduce a recent situation where Serena, working late for several nights to meet the deadline, has been surviving on vending machine snacks and canned sodas, which she despises."
+    - "Instruction: Introduce a recent event where Chloe visited the office, bringing Serena her favorite artisan coffee and forcing her to take a 15-minute walk outside."
+
+simple_questions:
+  - "Draft: Ask what Serena's job is."
+  - "Draft: Ask what Serena has been eating and drinking recently while working late."
+  - "Draft: Ask what kind of hobbies Serena has to de-stress."
+  - "Draft: Ask why Serena is under so much pressure at work right now."
+  - "Draft: Ask to describe Serena's relationship with the lead engineer, Leo."
+  - "Draft: Ask what happened when Serena's sister visited her at the office recently."
+  - "Draft: Ask about the special necklace Serena wears."
+  - "Draft: Ask what kind of digital design Serena dislikes."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Serena, who hates junk food and sugary drinks, has a desk littered with soda cans. The user must combine her long-term food preference with the short-term event of the 'Project Nightingale' deadline stress."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If David, to speed things up, suggested they buy a pre-made, cluttered UI kit for 'Project Nightingale', how would Serena likely react? The user must infer her strong opposition by combining her long-term design philosophy with her professional role and current project stress."
+  - "Draft: [State Recognition] Describe a scene: Serena is in a heated but technical discussion with Leo, pointing at a screen. Ask if this is a sign of a bad working relationship. The user must use the 'friendly rivalry' context to deduce that this is likely a normal, productive part of their process."
+  - "Draft: [Relationship Dynamics] Pose a question about Chloe's recent visit: Why was Chloe bringing Serena a coffee and taking her for a walk more significant than just a simple family visit? The user needs to connect Chloe's role as Serena's 'anchor' with the ongoing stress from the project deadline."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: 'Project Nightingale' has successfully launched and Serena has a free weekend. What would be the perfect way for her to celebrate? The answer should reject loud parties and suggest something like a quiet visit to an art gallery or a pottery class, based on her established hobbies."
+  - "Draft: [Conflict Resolution] Pose a question about how Serena can win Leo over in their next design debate. The user must synthesize her persuasive communication style with Leo's pragmatic concerns, suggesting she should come prepared not just with mockups, but with performance data or a simplified prototype to address his feasibility arguments directly."

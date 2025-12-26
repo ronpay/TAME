@@ -1,0 +1,84 @@
+concept_id: dog_2
+name: "Ghost"
+species: "Canine"
+breed: "American Pit Bull Terrier Mix"
+
+appearance:
+  summary: "A male American Pit Bull Terrier mix with a predominantly white coat featuring faint grey speckles, an athletic build, and a gentle, expressive face. He looks like a happy, well-loved companion."
+
+  key_visual_features:
+    - "Short, smooth white fur with subtle grey/black speckles on his ears and back"
+    - "Expressive, almond-shaped brown eyes"
+    - "A strong, muscular and athletic body"
+    - "A pinkish nose that sometimes gets sunburned"
+    - "Consistently wears a durable, bright red nylon collar"
+
+behavior:
+  personality_traits:
+    - "Extremely high energy outdoors, loves to run"
+    - "A total couch potato indoors, loves napping in sunbeams"
+    - "Deeply loyal and affectionate with his family"
+    - "A 'power chewer' who can destroy most toys"
+
+  preferences:
+    toys:
+      loves:
+        - "His old white frisbee with the 'Beech-Nut' logo"
+        - "Indestructible rubber chew toys"
+      hates:
+        - "Plush toys with squeakers (he rips them apart to 'kill' the squeaker)"
+        - "Small tennis balls (too easy to destroy)"
+
+    food:
+      loves:
+        - "Peanut butter"
+        - "Small pieces of grilled chicken"
+      hates:
+        - "Any kind of citrus fruit (hates the smell)"
+        - "Hard, dry dog biscuits"
+
+    activities:
+      loves:
+        - "Playing frisbee in a big, grassy field"
+        - "Cuddling on the couch after a long day of playing"
+      hates:
+        - "Getting his nails clipped (it's a two-person job)"
+        - "Loud noises like thunderstorms and fireworks"
+        - "Being left alone for too long"
+
+history:
+  knowledge:
+    - "Introduce Ghost's appearance: a white pit bull mix with a bright red collar."
+    - "Introduce that Ghost's absolute favorite toy is his old white frisbee."
+    - "Introduce that Ghost hates plush toys because he destroys them instantly."
+    - "Introduce Ghost's favorite treat is peanut butter."
+    - "Introduce Ghost's hatred for the smell of citrus fruits like oranges."
+    - "Introduce that Ghost loves to run and play in the park but is very lazy indoors."
+    - "Introduce the fact that Ghost is terrified of having his nails clipped."
+    - "Introduce Ghost's fear of loud thunderstorms."
+
+  event:
+    - "Introduce a recent event where a relative, not knowing his preference, gave Ghost a big, squeaky plush duck for his birthday."
+    - "Introduce a recent photo showing Ghost covered head-to-toe in mud after playing in the park."
+    - "Introduce a recent event where the owner is trying a new, quieter nail grinder tool on Ghost."
+    - "Introduce that there was a big thunderstorm last night, and Ghost spent the whole night hiding in the bathroom."
+    - "Introduce a recent event where the owner bought a large bag of hard, bone-shaped biscuits because they were on sale."
+    - "Introduce a recent photo showing Ghost cautiously sniffing a slice of orange that fell on the kitchen floor."
+
+simple_questions:
+  - "Ask what Ghost's favorite treat is, based on long-term knowledge."
+  - "Ask what Ghost did during the thunderstorm last night, based on a short-term event."
+  - "Ask what kind of toys Ghost dislikes, based on his long-term knowledge."
+  - "Ask what new grooming tool the owner is trying on Ghost, based on a short-term event."
+  - "Ask about Ghost's personality when he is indoors, based on his long-term traits."
+  - "Ask what new food the owner recently bought for Ghost, based on a short-term event."
+  - "Ask what Ghost's birthday present was this year, based on a recent event."
+  - "Ask what activity Ghost hates the most when it comes to grooming, based on long-term knowledge."
+
+challenge_question:
+  - "Pose a preference conflict question: A relative just gave Ghost a new plush duck toy. Why hasn't he played with it? The user must combine the short-term event (getting the toy) with his long-term hatred for plush toys."
+  - "Create a state-recognition question. Show the photo of Ghost covered in mud and ask if he's likely happy or sad. The user must infer his happiness from his long-term love of playing in the park, overriding his currently messy state."
+  - "Pose a 'what-if' question: If the owner offers Ghost one of the new hard biscuits they just bought, is he likely to eat it? The user must recall his long-term dislike for hard biscuits to predict his reaction to this new short-term item."
+  - "Create a recommendation question. Given that Ghost is terrified of nail clipping (long-term) and the owner is trying a new grinder (short-term), ask for advice on what to do next to make the experience positive. The answer should acknowledge the conflict and suggest patient, positive reinforcement."
+  - "Pose an explanation question. Ask the user to explain why Ghost is sniffing the fallen orange slice so cautiously. The user needs to connect his long-term hatred of citrus smells with the immediate situation."
+  - "Create a complex inference question. Ask why the owner might be trying a new grooming tool like a nail grinder instead of the usual clippers. The user must infer the owner is looking for a solution to Ghost's long-standing, intense fear of nail clipping."

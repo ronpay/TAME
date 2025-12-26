@@ -1,0 +1,150 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to create a profile for my most trusted possession. This
+    is my backpack, 'The Shell'. [IMAGE] My parents gave it to me for my first day
+    of university, picked it because it was supposed to last forever.
+  assistant_response: What a meaningful gift. I've started a profile for 'The Shell',
+    your university backpack from your parents. I've saved this origin story.
+  image_prompt: A high-quality photo of a classic, navy blue JanSport backpack standing
+    upright against a clean, white wall. The backpack, named 'The Shell', looks well-loved
+    but sturdy, with slightly sun-faded fabric. The lighting is bright and even.
+  image_id: turn_1_the_shell_profile
+- turn: 2
+  log_type: knowledge
+  user_input: One of its main scars is this hand-stitched leather patch on the bottom-right
+    corner. [IMAGE] I had to put it there because I wore a hole right through the
+    fabric from dragging it on the concrete paths all over campus.
+  assistant_response: That's a mark of true history. I've noted the hand-stitched
+    leather patch, a repair from its university days. It adds a lot of character.
+  image_prompt: A close-up, detailed shot of the bottom-right corner of the navy blue
+    backpack 'The Shell'. A small, rectangular patch of brown leather is neatly hand-stitched
+    over a worn area. The texture of both the canvas and the leather is clearly visible.
+  image_id: turn_2_leather_patch
+- turn: 3
+  log_type: knowledge
+  user_input: And here's a secret memory inside—this faint ink stain. [IMAGE] A pen
+    exploded in the main pocket during a super stressful final exam. It's like a ghost
+    of that moment.
+  assistant_response: I can imagine the stress! A faint ink stain inside from an exploded
+    pen during a final exam. I've added this memory to its file.
+  image_prompt: An interior shot looking down into the main compartment of 'The Shell'
+    backpack. The lighting illuminates the lining, revealing a faint, silvery-blue
+    ink stain spread across the fabric.
+  image_id: turn_3_ink_stain
+- turn: 4
+  log_type: knowledge
+  user_input: See this mountain patch on the front? [IMAGE] I sewed it on myself,
+    a little crookedly, after my solo trip through the national parks right after
+    I graduated. It's my favorite souvenir.
+  assistant_response: A souvenir from a significant journey. I've recorded that the
+    crookedly-sewn mountain patch is from your post-graduation solo trip. It sounds
+    like a symbol of freedom.
+  image_prompt: A front-view close-up of the backpack's front pocket. A faded, circular
+    patch depicting a mountain range is sewn slightly crookedly onto the navy blue
+    fabric. The stitching is clearly done by hand.
+  image_id: turn_4_mountain_patch
+- turn: 5
+  log_type: knowledge
+  user_input: It's funny, if this bag had a personality, it would be a quiet, dependable
+    companion. It's not flashy, but it's always there for me.
+  assistant_response: 'That''s a lovely way to think about it. I''ve noted its projected
+    personality: a quiet and dependable companion. It''s clear you have a strong bond.'
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: I don't carry textbooks in it anymore. Now its role is more relaxed—it's
+    my go-to bag for weekend trips or for carrying my laptop to a coffee shop. [IMAGE]
+  assistant_response: 'Its role has evolved with you. I''ve updated its current use:
+    a bag for weekend trips and coffee shop work. Noted.'
+  image_prompt: A lifestyle photo of 'The Shell' backpack sitting on the floor next
+    to a small wooden table in a cozy coffee shop. A laptop is open on the table,
+    and a cup of coffee is nearby. The scene is warm and relaxed.
+  image_id: turn_6_coffee_shop
+- turn: 7
+  log_type: knowledge
+  user_input: I'm always so careful not to spill coffee on it. I feel like it 'hates'
+    spills because its main job now is to protect my laptop. It takes its job seriously.
+  assistant_response: 'That makes perfect sense. I''ve recorded its ''perceived preference'':
+    a strong aversion to spills, especially coffee, in order to protect your electronics.
+    A very responsible protector.'
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: I just remembered this story. The original fabric pull on the front
+    zipper broke during a camping trip years ago. I had to make a new one out of a
+    knotted loop of brown leather cord I had. [IMAGE]
+  assistant_response: A classic field repair! I've added the detail about the front
+    zipper pull being a makeshift replacement made from a leather cord during a camping
+    trip.
+  image_prompt: A close-up shot of the front pocket's zipper on 'The Shell' backpack.
+    The metal zipper is clearly visible, but instead of a standard pull, there is
+    a knotted loop of weathered, brown leather cord.
+  image_id: turn_8_leather_pull
+- turn: 9
+  log_type: event
+  user_input: Just spent part of my evening doing some maintenance. The stitching
+    on one of the shoulder straps was starting to come loose, so I had to carefully
+    re-stitch it by hand. [IMAGE]
+  assistant_response: 'It''s good you caught that. I''ve recorded a recent event:
+    you hand-repaired the stitching on a loose shoulder strap. It shows you''re committed
+    to keeping it in good shape.'
+  image_prompt: A close-up photo showing a person's hands carefully re-stitching the
+    thick shoulder strap of the navy blue backpack 'The Shell' with a needle and heavy-duty
+    thread. The focus is on the act of careful repair.
+  image_id: turn_9_strap_repair
+- turn: 10
+  log_type: event
+  user_input: I was browsing online for a new, sleek messenger bag for work... I even
+    put one in my cart. But I just couldn't go through with it. It didn't feel like
+    'me'. I'm sticking with it.
+  assistant_response: I understand. Sometimes the familiar and meaningful is better
+    than the new and shiny. I've noted that you recently considered a new messenger
+    bag but decided against replacing The Shell.
+  image_prompt: A screenshot of an e-commerce website displaying a modern, minimalist
+    black messenger bag. The 'Add to Cart' button is highlighted. In the corner of
+    the browser, a tab is open showing a photo of 'The Shell' backpack.
+  image_id: turn_10_new_bag_temptation
+- turn: 11
+  log_type: event
+  user_input: My younger sibling is heading off to university soon. I offered them
+    The Shell, but they said they wanted a new, trendy backpack, not my old one. Can't
+    say I'm surprised, but it felt a little weird.
+  assistant_response: That sounds like a bittersweet moment. I've recorded that your
+    younger sibling declined to use The Shell for their own university journey, preferring
+    a new one. It marks the end of an era for the backpack.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: Well, it finally happened. That makeshift leather zipper pull I made
+    while camping just snapped. It was bound to happen eventually.
+  assistant_response: Ah, the end of the line for the temporary fix. I've noted that
+    the makeshift leather cord zipper pull has recently broken. Thanks for the update.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: Okay, I've got a plan for the broken zipper pull. I bought this small,
+    sturdy metal carabiner. I'm going to clip it to the handle for now, and it'll
+    be the new pull. Here's a picture of it ready to go by the door. [IMAGE]
+  assistant_response: That looks like a durable and practical solution, very fitting
+    for The Shell. I've recorded that you intend to use a new metal carabiner as a
+    replacement for the broken zipper pull.
+  image_prompt: A photo of 'The Shell' backpack sitting by a doorway. A small, sturdy,
+    matte-black metal carabiner is clipped onto the top haul loop handle, ready for
+    its new purpose as a zipper pull.
+  image_id: turn_13_carabiner_fix
+- turn: 14
+  log_type: event
+  user_input: You won't believe what I just found. I was digging in the front pocket
+    for a pen and found this old concert ticket from years ago! [IMAGE] Totally forgot
+    it was in there.
+  assistant_response: What a great find! A little time capsule. I've recorded that
+    you recently found an old concert ticket in the front pocket of The Shell. It
+    really is a historian.
+  image_prompt: A slightly worn, faded concert ticket lying on a wooden surface next
+    to the front pocket of 'The Shell' backpack. The ticket is for an indie band and
+    is dated several years ago.
+  image_id: turn_14_found_ticket

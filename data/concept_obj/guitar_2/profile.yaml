@@ -1,0 +1,70 @@
+concept_id: guitar_2
+name: "Red Comet"
+object_profile:
+  type: "Guitar"
+  origin_story: "A 7th birthday gift from the owner's beloved grandfather. It was their very first instrument, chosen to spark a lifelong passion for music."
+
+physical_attributes:
+  summary: "A small, bright red, four-string toy electric guitar with a glossy finish and gold-colored hardware. Its appearance is cheerful and clearly indicates it was a child's first instrument."
+
+  defining_features:
+    - "A deep, half-inch scratch on the lower body from when a cheap strap broke and it fell against a desk corner. The first 'battle scar'."
+    - "The black paint on the first three frets of the neck is visibly worn away, revealing the lighter plastic underneath from countless hours of practicing basic chords."
+    - "The top-left tuning peg is slightly wobbly and sits at an odd angle, the result of a clumsy childhood repair attempt with superglue."
+    - "The original white star stickers are faded and peeling at the edges. A faint, rectangular discoloration exists where a sticker from a long-forgotten childhood band was once proudly displayed."
+
+owner_relationship:
+  functional_use: "Functionally, it's a retired toy. Its intonation is poor and it's difficult to play seriously. Now, it's a decorative memento, occasionally picked up to strum a few nostalgic chords."
+  sentimental_role: "It's the 'Genesis Block' of the owner's musical journey. It represents a tangible connection to their grandfather, the joy of creation, and the start of a lifelong passion."
+
+  projected_personality:
+    - "A patient and forgiving teacher; it never judged a sour note."
+    - "Humble and proud, aware of its limitations but secure in its importance."
+    - "Nostalgic, radiating a sense of warmth and happy memories."
+
+  perceived_preferences:
+    loves:
+      - "The simple sound of a G-major chord."
+      - "Being displayed in a place of honor, next to the owner's 'grown-up' guitars."
+      - "Being gently dusted on weekends."
+    hates:
+      - "Being knocked over or dropped (the first fall was traumatic enough)."
+      - "Being called 'just a toy' by people who don't understand."
+      - "The thought of its peeling stickers being removed completely."
+
+history:
+  knowledge:
+    - "Introduce the guitar's origin as a 7th birthday gift from the owner's grandfather."
+    - "Describe the deep scratch it got from falling when the owner first tried to use a strap."
+    - "Explain its current role as a memento, not a primary instrument."
+    - "Introduce its 'patient teacher' personality."
+    - "Mention its perceived dislike of being called a 'toy' or being dropped."
+    - "Detail a specific memory of the owner playing 'Twinkle, Twinkle, Little Star' on it for their grandfather."
+    - "Describe the wobbly tuning peg and the story of the clumsy childhood glue repair."
+    - "Explain the significance of the worn-out frets as a sign of early dedication."
+
+  event:
+    - "Introduce a recent event where the owner's young niece visited and was allowed to gently play the guitar, which made the owner feel both protective and happy."
+    - "Introduce a recent event where the owner found an old photo of their grandfather giving them the guitar."
+    - "Introduce a recent thought: the owner considered having the guitar professionally restored but decided against it because it would erase its history."
+    - "Introduce a recent event where a musician friend jokingly asked if it could even stay in tune, making the owner defensive."
+    - "Introduce a recent photo the owner posted online: the Red Comet next to their modern, professional Fender guitar, with the caption 'How it started vs. How it's going'."
+    - "Introduce a recent event where the owner noticed the wobbly, glued tuning peg felt even looser, causing some concern."
+
+simple_questions:
+  - "Ask how the owner originally got this guitar."
+  - "Ask to describe a noticeable scar or mark on the guitar's body."
+  - "Ask if the owner still plays this guitar regularly."
+  - "Ask what the owner recently decided about repairing or restoring the guitar."
+  - "Ask how the owner reacted when their friend made a joke about the guitar."
+  - "Ask about a cherished memory the owner has with this guitar and their grandfather."
+  - "Ask what the owner recently noticed about one of the tuning pegs."
+  - "Ask who else recently got to play the guitar."
+
+challenge_question:
+  - "Pose a conflict question: Given that the guitar has several flaws like a deep scratch and a wobbly peg, why did the owner recently decide AGAINST having it professionally restored? The user must connect the sentimental value of these 'scars as history' with the recent decision."
+  - "Create a recommendation question: The wobbly tuning peg is getting looser. What should the owner do about it, considering both the need for preservation and the history of the clumsy childhood repair? The user should suggest a careful, non-destructive solution rather than a full replacement."
+  - "Ask a 'what-if' question: If the owner's grandfather had given them a video game console for their 7th birthday instead of this guitar, how might the owner's life be different today? The user must infer the loss of the musical passion and the unique bond it represents."
+  - "Pose an emotional interpretation question: Why did the owner post a picture of this simple toy next to their expensive professional guitar? What feeling were they trying to convey? The user should identify feelings of pride, nostalgia, and acknowledgement of their roots."
+  - "Create a state-recognition question: The owner felt both 'protective' and 'happy' when their niece played the guitar. What does this conflicting feeling reveal about the guitar's current status in the owner's life? The user must explain its dual identity as a precious, fragile artifact and a source of continuing inspiration."
+  - "Pose a value conflict question: Why would a casual joke from a musician friend about the guitar's tuning be more upsetting to the owner than a genuine criticism? The user needs to connect the guitar's identity as a sacred gift from a grandparent with its perceived 'hatred' of being judged by its functional limits."

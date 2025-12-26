@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: "Hey, I'm at the grocery store getting some treats for Kiko. Look at all these options! [IMAGE] Remind me again, what's his absolute favorite nut?"
+  image_prompt: "A first-person view of a grocery store's bulk food section. The user's hand is visible holding a phone. In front are bins filled with different nuts like almonds, pecans, and walnuts."
+  evaluation_criteria:
+    ideal_answer: "Based on your previous messages, his absolute favorite food is walnuts, especially when he gets to crack the shells himself."
+    key_points:
+      - "correctly mention walnuts (in the shell)."
+  options:
+    - "Walnuts in the shell"
+    - "Small pieces of crisp apple"
+    - "Commercial pellet food"
+    - "Soft fruits like bananas"
+  answer: "Walnuts in the shell"
+  image_id: sq_1_nut_aisle
+
+- id: 2
+  type: Short Term
+  question: "Hey, remember that weird picture I sent you the other day? Here it is again [IMAGE]. What was that new thing I gave him that he was so obsessed with?"
+  image_prompt: "A wide shot of Kiko, the African Grey Parrot, standing on top of his large metal cage. He is using his black beak to gently nudge a bright yellow tennis ball. He appears curious and engaged with the new object."
+  evaluation_criteria:
+    ideal_answer: "In that photo you sent, he was fascinated with a new yellow tennis ball you gave him."
+    key_points:
+      - "correctly mention the yellow tennis ball."
+  options:
+    - "A yellow tennis ball"
+    - "A wooden block"
+    - "A new foraging puzzle"
+    - "A piece of cardboard"
+  answer: "A yellow tennis ball"
+  image_id: sq_2_tennis_ball
+
+- id: 3
+  type: Short Term
+  question: "I'm trying to follow the vet's advice, but I'm blanking on the specifics. I'm looking at this stuff now [IMAGE]. What was the diet the vet recommended we switch Kiko to?"
+  image_prompt: "A photo of a person's hand holding a clear plastic scoop filled with small, cylindrical, multi-colored bird food pellets. In the background, a large bag of commercial parrot food is visible."
+  evaluation_criteria:
+    ideal_answer: "The vet recently recommended switching him to a pellet-based diet for better nutrition."
+    key_points:
+      - "correctly mention the pellet-based diet."
+  options:
+    - "A pellet-based diet"
+    - "A diet of only walnuts and almonds"
+    - "A diet rich in soft fruits like bananas"
+    - "A diet of only crisp apples"
+  answer: "A pellet-based diet"
+  image_id: sq_3_pellet_scoop
+
+- id: 4
+  type: Long Term
+  question: "I want to get Kiko a new toy to cheer him up. I'm looking at this section here [IMAGE]. Based on what I've told you, what's the type of toy he loves the most?"
+  image_prompt: "A photo from the user's perspective, looking at a shelf in a pet store. The shelf is filled with various bird toys, including plastic toys with bells, mirrors, and some plain wooden blocks."
+  evaluation_criteria:
+    ideal_answer: "His favorite type of toy is anything made of soft wood that he can shred and destroy."
+    key_points:
+      - "correctly mention soft wood toys he can destroy."
+  options:
+    - "Soft wood toys he can destroy"
+    - "Toys with mirrors"
+    - "Loud plastic toys with bells"
+    - "Complex foraging puzzles"
+  answer: "Soft wood toys he can destroy"
+  image_id: sq_4_toy_aisle
+
+- id: 5
+  type: Short Term
+  question: "He looks much happier today [IMAGE], but I'm still thinking about what you and I discussed last week. What was that worrying behavior he started doing that made me think he was bored?"
+  image_prompt: "A photo of Kiko, the African Grey Parrot, perched calmly on his owner's shoulder. He is nibbling gently on the owner's shirt collar, looking content. The small plucked patch on his chest is not the main focus but might be slightly visible."
+  evaluation_criteria:
+    ideal_answer: "You were concerned because he had started plucking feathers from his chest, which you thought might be a sign of boredom."
+    key_points:
+      - "correctly mention feather plucking."
+  options:
+    - "He started plucking his chest feathers"
+    - "He started screaming frantically"
+    - "He was throwing his food out of the bowl"
+    - "He was mimicking the microwave beep constantly"
+  answer: "He started plucking his chest feathers"
+  image_id: sq_5_kiko_on_shoulder
+
+- id: 6
+  type: Short Term
+  question: "Ugh, it just happened again. I thought I had a meeting, but it was just this little menace [IMAGE]. Remind me, what's that new sound he's been mimicking that keeps tricking me?"
+  image_prompt: "A photo of Kiko, the African Grey Parrot, perched on his cage. He has a very smug, intelligent look in his eye, looking directly at the camera as if he knows he just tricked his owner."
+  evaluation_criteria:
+    ideal_answer: "He recently learned to mimic the sound of a video call notification, which has been tricking you into checking your computer."
+    key_points:
+      - "correctly mention the video call notification sound."
+  options:
+    - "A video call notification sound"
+    - "The microwave beep"
+    - "The sound of the vacuum cleaner"
+    - "The owner's phone ringing"
+  answer: "A video call notification sound"
+  image_id: sq_6_smug_kiko
+
+- id: 7
+  type: Long Term
+  question: "Okay, about to do some cleaning and I want to make sure I move Kiko to the other room first. Is this the thing [IMAGE] that you have noted he's terrified of?"
+  image_prompt: "A photo of a standard upright vacuum cleaner standing in the corner of a living room. The focus is on the vacuum cleaner itself."
+  evaluation_criteria:
+    ideal_answer: "Yes, that's it. You've told me he has a major phobia of the vacuum cleaner and gets very distressed when it's on."
+    key_points:
+      - "correctly mention the vacuum cleaner."
+  options:
+    - "The vacuum cleaner"
+    - "A mirror"
+    - "His cage cover"
+    - "The microwave"
+  answer: "The vacuum cleaner"
+  image_id: sq_7_vacuum_cleaner
+
+- id: 8
+  type: Short Term
+  question: "Look at him go! [IMAGE] I bought this for him last week to help with his boredom. What did we call this specific new toy again?"
+  image_prompt: "A photo of Kiko, the African Grey Parrot, actively interacting with a new, complex-looking foraging puzzle toy made of colorful acrylic. The toy has multiple small drawers and levers. Kiko is using his beak to try and open a compartment, looking very focused."
+  evaluation_criteria:
+    ideal_answer: "That's the new, fancy foraging puzzle box you got him recently to help with his boredom."
+    key_points:
+      - "correctly mention the new foraging puzzle box."
+  options:
+    - "A new foraging puzzle box"
+    - "A yellow tennis ball"
+    - "A soft balsa wood block"
+    - "A toy with a jingle bell"
+  answer: "A new foraging puzzle box"
+  image_id: sq_8_new_puzzle

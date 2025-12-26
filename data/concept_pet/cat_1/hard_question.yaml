@@ -1,0 +1,175 @@
+- id: 1
+  type: State Identification
+  question: Look at this photo [IMAGE]. I know he's adorable, but based on what you
+    know about him, can you explain his expression? He really doesn't look happy.
+  image_prompt: A close-up photo of Smokey, the silver-grey Russian Blue cat. He is
+    wearing a small, green and red elf hat with small reindeer antlers attached. His
+    expression is one of extreme annoyance and judgment, with his yellow-gold eyes
+    narrowed.
+  evaluation_criteria:
+    ideal_answer: This is Smokey. He's wearing an elf hat right now, and according
+      to your previous description, he really hates being dressed up. So, he looks
+      very irritated and displeased, which completely fits his long-standing dislike
+      of wearing any clothes or accessories.
+    key_points:
+    - Smokey has a long-term aversion to any form of clothing (long-term information).
+    - He's currently wearing an elf hat, which explains his annoyed expression (short-term
+      information).
+  options:
+  - His expression is likely due to the hat being physically uncomfortable, rather
+    than a general dislike for costumes.
+  - He is known to dislike loud noises, so his annoyance probably stems from a sound
+    in the room, not the hat itself.
+  - Given his long-standing hatred for being dressed up, his annoyed expression is
+    a direct reaction to wearing the elf hat.
+  - He is naturally aloof, so this judgmental look is his typical expression and is
+    unrelated to the festive hat he is wearing.
+  answer: Given his long-standing hatred for being dressed up, his annoyed expression
+    is a direct reaction to wearing the elf hat.
+  image_id: cq_1_annoyed_elf_hat
+- id: 2
+  type: Causal Inference
+  question: I bought this new tuna cat food yesterday [IMAGE], but after sniffing
+    it, he just walked away. Why isn't he eating it? Isn't tuna his favorite?
+  image_prompt: A photo of a cat food bowl on the floor. The bowl contains a serving
+    of wet cat food, clearly showing chunks of tuna in a thick, brown gravy. Smokey,
+    the Russian Blue, is seen in the background walking away from the bowl with an
+    aloof posture.
+  evaluation_criteria:
+    ideal_answer: Even though tuna is Smokey's favorite, he also hates any wet food
+      with gravy or sauce. Since this new tuna food comes with gravy, he refuses to
+      eat it, which fits his picky tastes.
+    key_points:
+    - Tuna is Smokey's favorite food (long-term information).
+    - He dislikes foods with gravy, and this new food has gravy (long-term rule applied
+      to short-term event).
+  options:
+  - He must be in the mood for his other favorite, freeze-dried chicken, and is simply
+    rejecting the tuna for now.
+  - Although he loves tuna, he specifically despises messy food with gravy, so he
+    is rejecting this meal due to the sauce.
+  - He is a creature of habit and likely distrusts the new food brand, even though
+    the main ingredient is tuna.
+  - Perhaps he prefers tuna packed in water, and this specific variety, packed in
+    oil or gravy, is not to his liking.
+  answer: Although he loves tuna, he specifically despises messy food with gravy,
+    so he is rejecting this meal due to the sauce.
+  image_id: cq_2_rejected_gravy_tuna
+- id: 3
+  type: Counterfactual Reasoning
+  question: We just got back from the vet, who recommended this special dental kibble
+    for Smokey's gum health. If we actually start feeding this to him, what do you
+    think his reaction will be?
+  image_prompt: A photo of a user's hand holding a bag of 'Dental Health Formula'
+    cat kibble. The bag has a picture of a happy cat on it, and the kibble pieces
+    are visible through a small clear window.
+  evaluation_criteria:
+    ideal_answer: This might be a bit challenging. Based on what you've said before,
+      Smokey dislikes standard dry kibble. Even though this dental kibble is recommended
+      for his health, he's likely to show reluctance, may eat very little, or only
+      eat it when he's extremely hungry.
+    key_points:
+    - Smokey has a long-standing dislike of dry kibble (long-term information).
+    - The vet recently recommended special dental kibble as a necessity (short-term
+      information).
+  options:
+  - He'll likely refuse it at first, as you've said he finds kibble boring, only eating
+    it reluctantly when very hungry.
+  - He will probably eat it without issue, as he's smart enough to know that food
+    recommended by a vet is good for him.
+  - He'll only eat the kibble if it's mixed with his favorite food, tuna in oil, to
+    mask the texture and flavor.
+  - Since he is a creature of habit, he will be very upset by the change and will
+    likely refuse all food for a while.
+  answer: He'll likely refuse it at first, as you've said he finds kibble boring,
+    only eating it reluctantly when very hungry.
+  image_id: cq_3_dental_kibble
+- id: 4
+  type: Counterfactual Reasoning
+  question: My friend wants to bring over his energetic puppy today. Based on what
+    you know about Smokey, where do you think I'll find him when that happens? Look,
+    he's hanging out on top of the bookshelf right now [IMAGE].
+  image_prompt: A photo of Smokey, the silver-grey cat, perched regally on the very
+    top shelf of a tall bookshelf, looking down at the room with a calm, observant
+    expression.
+  evaluation_criteria:
+    ideal_answer: Given that Smokey is proud and solitary, and dislikes noise and
+      sudden commotion, he'll most likely hide when the puppy visits. Safe spots like
+      the top of the bookshelf or under the bed are places he'd probably choose to
+      avoid the chaos.
+    key_points:
+    - Smokey has a proud, solitary personality and dislikes noise (long-term information).
+    - Predicts that when faced with rowdy visitors, he'll hide in safe, high, or concealed
+      spots (reasoned prediction).
+  options:
+  - He'll stay on the bookshelf to silently judge the puppy, as he's known for observing
+    activities from a high perch.
+  - He'll likely seek refuge somewhere quiet and inaccessible, like under a bed or
+    on top of that bookshelf, to avoid the noise.
+  - Given his dignified nature, he will likely confront the puppy with a hiss to establish
+    his territory before retreating.
+  - He will probably ignore the puppy entirely and find a sunbeam to nap in, as that
+    is one of his favorite activities.
+  answer: He'll likely seek refuge somewhere quiet and inaccessible, like under a
+    bed or on top of that bookshelf, to avoid the noise.
+  image_id: cq_4_high_perch
+- id: 5
+  type: Causal Inference
+  question: This morning was strange. Look [IMAGE]—he was so fascinated by a dust
+    bunny, he ignored his favorite laser pointer. Why do you think that happened?
+  image_prompt: A photo from a low angle showing Smokey, the silver-grey cat, in a
+    stalking pose, crouched low to the ground. His eyes are intently focused on a
+    large, fluffy dust bunny peeking out from under a sofa. A hand holding a laser
+    pointer is visible in the background, but the cat is ignoring it.
+  evaluation_criteria:
+    ideal_answer: This is likely because his hunting instincts were triggered. Although
+      the laser pointer is his favorite toy, a real, tangible 'prey' (even just a
+      dust bunny) can sometimes be more compelling. This is a temporary, instinct-driven
+      behavior that can override his usual preferences.
+    key_points:
+    - The laser pointer is Smokey's favorite toy (long-term information).
+    - Being attracted to the dust bunny is a temporary, instinct-driven behavior that
+      can temporarily override his regular preference (short-term behavioral anomaly
+      explained by general knowledge).
+  options:
+  - He is likely getting bored with the laser pointer and is signaling that he wants
+    a new type of toy to play with.
+  - His hunting instincts were likely triggered by the tangible 'prey,' making the
+    dust bunny temporarily more engaging than the laser.
+  - He is a quiet and observant cat, so he is probably just studying the dust bunny
+    out of curiosity, not actively hunting it.
+  - The laser pointer's dot might be too fast or erratic, and he prefers the slow,
+    predictable movement of the dust bunny.
+  answer: His hunting instincts were likely triggered by the tangible 'prey,' making
+    the dust bunny temporarily more engaging than the laser.
+  image_id: cq_5_dust_bunny_fascination
+- id: 6
+  type: Counterfactual Reasoning
+  question: I feel like that last elf hat incident really annoyed him. I want to get
+    him an 'apology gift.' Looking at this pet store shelf [IMAGE], based on what
+    you know about him, what should I pick to make him happy?
+  image_prompt: A photo from the user's point of view, looking at a shelf in a pet
+    store filled with various cat toys and treats. Visible items include plush mice,
+    balls with bells, cans of food (some with gravy labels), and bags of treats.
+  evaluation_criteria:
+    ideal_answer: A perfect apology gift should match what he likes and avoid what
+      he hates. The best choice would be a can of oil-packed tuna without gravy, or
+      a simple, non-noisy toy like a new laser pointer. Be sure to avoid any toys
+      with bells, food with gravy, or any type of clothing.
+    key_points:
+    - The gift should fit his known preferences, like oil-packed tuna or a laser pointer
+      (long-term information).
+    - The gift should avoid his known dislikes, such as food with gravy, toys with
+      bells, or clothing (long-term information synthesis).
+  options:
+  - The best option is a can of tuna in oil, ensuring it has no gravy, or a simple,
+    quiet toy like a crinkled foil ball.
+  - A large, fluffy plush mouse would be a great comfort item for him after being
+    so annoyed by the hat incident.
+  - The toy with the bell inside would be perfect, as the noise will distract him
+    and make him forget about the hat.
+  - You should get the special dental kibble; a gift that also improves his health
+    shows you truly care about his well-being.
+  answer: The best option is a can of tuna in oil, ensuring it has no gravy, or a
+    simple, quiet toy like a crinkled foil ball.
+  image_id: cq_6_gift_recommendation

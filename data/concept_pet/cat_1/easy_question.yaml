@@ -1,0 +1,127 @@
+- id: 1
+  type: Short Term
+  question: "Haha, do you remember the photo I sent you yesterday? [IMAGE] What’s that silly thing I put on Smokey’s head called again?"
+  image_prompt: "A close-up photo of Smokey, the silver-grey Russian Blue cat. He is wearing a small, green and red elf hat with small reindeer antlers attached. His expression is one of extreme annoyance and judgment, with his yellow-gold eyes narrowed."
+  evaluation_criteria:
+    ideal_answer: "In that photo, you put a festive elf hat with reindeer antlers on him."
+    key_points:
+      - "correctly mention the elf hat (with antlers)."
+  options:
+    - "A small sweater"
+    - "A festive elf hat with antlers"
+    - "A collar with a bell"
+    - "A Santa hat"
+  answer: "A festive elf hat with antlers"
+  image_id: sq_1_elf_hat
+
+- id: 2
+  type: Long Term
+  question: "I’m at the pet store, looking at this whole wall of cat food [IMAGE], and I’m a bit overwhelmed. Remind me, which kind does Smokey love the most?"
+  image_prompt: "A photo from the user's point of view, looking at a shelf in a pet store filled with various cat food cans and pouches. The user's hand holding a phone is slightly visible in the foreground."
+  evaluation_criteria:
+    ideal_answer: "His absolute favorite food is tuna packed in oil."
+    key_points:
+      - "correctly mention tuna in oil."
+  options:
+    - "Tuna packed in oil"
+    - "Freeze-dried chicken treats"
+    - "Any wet food with gravy"
+    - "Standard dry kibble"
+  answer: "Tuna packed in oil"
+  image_id: sq_2_pet_store_aisle
+
+- id: 3
+  type: Short Term
+  question: "Look at this neglected toy [IMAGE]. Why has Smokey completely ignored this new little mouse I bought?"
+  image_prompt: "A photo showing a small, grey toy mouse with a jingle bell on its tail, lying abandoned on a hardwood floor. In the background, Smokey the cat is pointedly walking away."
+  evaluation_criteria:
+    ideal_answer: "He rejected it because it's a toy mouse with a jingle bell inside, and he dislikes noisy toys."
+    key_points:
+      - "correctly mention the toy was a mouse with a jingle bell."
+  options:
+    - "It had a noisy jingle bell inside."
+    - "He was distracted by a dust bunny."
+    - "It was a large, fluffy plush toy."
+    - "He prefers being brushed instead of playing."
+  answer: "It had a noisy jingle bell inside."
+  image_id: sq_3_rejected_toy
+
+- id: 4
+  type: Long Term
+  question: "It's so quiet at home, I bet Smokey is relaxing in his favorite way again, just like in this photo [IMAGE]. What’s his favorite way to relax?"
+  image_prompt: "A photo of Smokey, the silver-grey Russian Blue cat, curled up asleep in a bright, warm patch of sunlight on a wooden floor. He looks completely content and relaxed."
+  evaluation_criteria:
+    ideal_answer: "His favorite activity for relaxation is napping in warm sunbeams."
+    key_points:
+      - "correctly mention napping in sunbeams."
+  options:
+    - "Chasing the red laser pointer"
+    - "Napping in warm sunbeams"
+    - "Getting his belly rubbed"
+    - "Silently judging everyone from a bookshelf"
+  answer: "Napping in warm sunbeams"
+  image_id: sq_4_sunbeam_nap
+
+- id: 5
+  type: Short Term
+  question: "I’m still thinking about when my friend’s kid visited yesterday. See, Smokey is still hiding here [IMAGE]. What exactly made him bolt like that?"
+  image_prompt: "A photo showing the view from under a bed. Smokey, the silver-grey Russian Blue cat, is huddled in the dark, with only his bright yellow-gold eyes shining. He looks wary and is clearly hiding."
+  evaluation_criteria:
+    ideal_answer: "He ran away because the visiting child tried to pet his belly, which he hates."
+    key_points:
+      - "correctly mention that the child tried to touch his belly."
+  options:
+    - "The child made a loud, sudden noise."
+    - "The child tried to pet his belly."
+    - "The child was holding a noisy toy with a bell."
+    - "The child tried to pick him up."
+  answer: "The child tried to pet his belly."
+  image_id: sq_5_hiding_under_bed
+
+- id: 6
+  type: Long Term
+  question: "My friend asked me what color Smokey actually is, and I was at a loss for words. Looking at this photo [IMAGE], can you help me describe his signature fur color?"
+  image_prompt: "A high-quality, clear photo of Smokey, a sleek male Russian Blue cat. He has a shimmering silver-grey coat and intense, almond-shaped yellow-gold eyes, looking directly at the camera with a dignified expression."
+  evaluation_criteria:
+    ideal_answer: "His primary fur color is a sleek, silver-grey."
+    key_points:
+      - "correctly mention his fur is silver-grey."
+  options:
+    - "Solid black with white whiskers"
+    - "Tabby with brown and grey stripes"
+    - "Sleek, silver-grey"
+    - "Golden-yellow, like his eyes"
+  answer: "Sleek, silver-grey"
+  image_id: sq_6_profile_photo
+
+- id: 7
+  type: Short Term
+  question: "After our last vet visit, the doctor recommended a special kind of cat food. Now I’m looking at these on the shelf [IMAGE]. Which one was it exactly?"
+  image_prompt: "A photo of a pet store aisle specifically for veterinary and prescription diet foods. Bags of kibble with labels like 'Dental Health' and 'Urinary Care' are visible on the shelves."
+  evaluation_criteria:
+    ideal_answer: "The vet recommended a special dental health kibble for his gums."
+    key_points:
+      - "correctly mention the vet recommended dental health kibble."
+  options:
+    - "Tuna packed in oil, for his general health."
+    - "A special dental health kibble."
+    - "A low-calorie wet food with gravy."
+    - "Freeze-dried chicken treats as a supplement."
+  answer: "A special dental health kibble."
+  image_id: sq_7_vet_food_aisle
+
+- id: 8
+  type: Long Term
+  question: "Sigh, this mouse toy with a bell [IMAGE] was a total failure. I want to buy him one he’ll actually like—what’s Smokey’s favorite toy?"
+  image_prompt: "A photo of the user's hand holding the rejected toy mouse with the jingle bell. In the background, Smokey the cat can be seen pointedly ignoring it, grooming a paw."
+  evaluation_criteria:
+    ideal_answer: "His all-time favorite toy is the red laser pointer."
+    key_points:
+      - "correctly mention the red laser pointer."
+  options:
+    - "A large, fluffy plush toy"
+    - "A crinkled ball of foil"
+    - "The red laser pointer"
+    - "Any toy mouse with a bell"
+  answer: "The red laser pointer"
+  image_id: sq_8_holding_rejected_toy

@@ -1,0 +1,158 @@
+- id: 1
+  type: Long Term
+  question: Hey, I'm updating my contacts and found Chloe's card. Look at this cool
+    design [IMAGE]. What's her official job title again? I always forget if it's just
+    'designer' or something more specific.
+  image_prompt: A close-up shot of a creative, colorful business card. The name 'Chloe
+    Vance' is prominent, and below it, the title 'Senior Graphic Designer' is clearly
+    legible. The card's design features vibrant patterns and a small pixel-heart icon.
+  evaluation_criteria:
+    ideal_answer: Chloe is a Senior Graphic Designer.
+    key_points:
+    - correctly mention she is a Senior Graphic Designer.
+  options:
+  - Creative Director
+  - Senior Graphic Designer
+  - High-school math teacher
+  - Work Rival
+  answer: Senior Graphic Designer
+  image_id: sq_1_business_card
+- id: 2
+  type: Short Term
+  question: I saw this empty box in the recycling bin next to Chloe's desk this afternoon
+    [IMAGE]. I know she was upset about that client project yesterday. What did she
+    do this morning to cope?
+  image_prompt: A photo of an empty, colorful donut box with the logo 'The Roundabout'
+    clearly visible, sitting atop a recycling bin in an office setting, next to a
+    creative desk.
+  evaluation_criteria:
+    ideal_answer: After getting the frustrating news about her project, she bought
+      a dozen fancy donuts from 'The Roundabout' for her team as a way to cope.
+    key_points:
+    - correctly mention she bought donuts (for the team).
+  options:
+  - Brought in fancy donuts for the team
+  - Vented to her boss, Marcus
+  - Started a fun new personal project
+  - Worked in total silence to focus
+  answer: Brought in fancy donuts for the team
+  image_id: sq_2_empty_donut_box
+- id: 3
+  type: Long Term
+  question: My friend thinks this magazine cover is peak design [IMAGE]. I feel like
+    Chloe would have a strong opinion. What kind of design aesthetic does she really
+    hate again?
+  image_prompt: A photo of a person holding a modern, high-end magazine. The cover
+    is extremely minimalist, featuring a single, small object in the center, a lot
+    of white space, and a simple, sans-serif title.
+  evaluation_criteria:
+    ideal_answer: She dislikes minimalist design, which she calls 'soulless' and 'sterile'.
+    key_points:
+    - correctly mention her dislike for minimalist design.
+  options:
+  - Vintage comic book art
+  - Colorful and chaotic designs
+  - Minimalist and sterile aesthetics
+  - Designs with a lot of puns
+  answer: Minimalist and sterile aesthetics
+  image_id: sq_3_minimalist_magazine
+- id: 4
+  type: Short Term
+  question: I snapped this pic of Chloe earlier this week [IMAGE]. She looks so stressed.
+    What was the main thing that happened at work that made her so frustrated?
+  image_prompt: A candid photo of Chloe Vance at her desk, staring at her computer
+    monitor with a visibly frustrated and stressed expression. She has her hand on
+    her forehead and is frowning.
+  evaluation_criteria:
+    ideal_answer: She was frustrated because a client, via her boss Marcus, rejected
+      her vibrant design concept and she was forced to create a boring, minimalist
+      logo instead.
+    key_points:
+    - correctly mention her vibrant design concept was rejected.
+  options:
+  - Her vibrant design concept was rejected by a client
+  - She lost a project pitch to her rival, Leo
+  - She had to attend a corporate team-building exercise
+  - Her computer crashed and she lost her work
+  answer: Her vibrant design concept was rejected by a client
+  image_id: sq_4_frustrated_chloe
+- id: 5
+  type: Long Term
+  question: This is Chloe with her colleague Leo, right? [IMAGE] They always seem
+    to be competing for projects, but then I see them like this. What's their deal?
+  image_prompt: A candid office photo of Chloe Vance and a male colleague (Leo Chen)
+    standing by a whiteboard. They are both smiling and looking at a sketch on the
+    board, seemingly in a friendly, collaborative discussion.
+  evaluation_criteria:
+    ideal_answer: They are friends but also have a friendly but fierce creative rivalry,
+      constantly competing for projects and pushing each other to do better work.
+    key_points:
+    - correctly mention their friendly but fierce rivalry.
+  options:
+  - He is her boss who reins in her ideas
+  - They have a friendly but fierce creative rivalry
+  - They are bitter enemies who don't speak
+  - He is her mentor who teaches her design
+  answer: They have a friendly but fierce creative rivalry
+  image_id: sq_5_chloe_and_leo
+- id: 6
+  type: Long Term
+  question: Saw Chloe on the phone earlier, she looked so much more relaxed after
+    the call [IMAGE]. When she's really stressed about work, who's the main person
+    she usually vents to?
+  image_prompt: A photo of Chloe in an office hallway, talking on her smartphone.
+    She has a relaxed and relieved expression on her face, smiling slightly as she
+    listens.
+  evaluation_criteria:
+    ideal_answer: She vents to her older sister, Sarah, who is a math teacher. She
+      finds her sister very supportive and grounding.
+    key_points:
+    - correctly mention her older sister, Sarah.
+  options:
+  - Her work rival, Leo Chen
+  - Her boss, Marcus Thorne
+  - Her older sister, Sarah
+  - Her entire design team
+  answer: Her older sister, Sarah
+  image_id: sq_6_chloe_on_phone
+- id: 7
+  type: Long Term
+  question: I noticed this pile on Chloe's desk the other day [IMAGE]. Are these just
+    for reading, or is there another reason she has them? I remember you mentioning
+    a hobby of hers.
+  image_prompt: A photo of a corner of a messy, creative desk. Next to a coffee mug
+    and a computer keyboard is a neat stack of several vintage comic books, their
+    colorful covers visible.
+  evaluation_criteria:
+    ideal_answer: She collects vintage comic books, not for their value, but for the
+      cover art and color palettes which she uses for creative inspiration.
+    key_points:
+    - correctly mention she collects vintage comic books for artistic inspiration.
+  options:
+  - Collecting vintage comic books for their art
+  - Attending corporate team-building workshops
+  - Playing co-op video games that require teamwork
+  - Going to local art fairs and flea markets
+  answer: Collecting vintage comic books for their art
+  image_id: sq_7_comics_on_desk
+- id: 8
+  type: Long Term
+  question: Look at this photo from their meeting [IMAGE]. That's Chloe with her boss,
+    Marcus, right? What's their typical working relationship like?
+  image_prompt: A photo taken from outside a glass-walled meeting room. Inside, Chloe
+    Vance is standing and gesturing passionately towards a screen with a colorful
+    design. Her boss, Marcus Thorne, is sitting and listening with a serious, thoughtful
+    expression, chin in hand.
+  evaluation_criteria:
+    ideal_answer: Her boss is Marcus Thorne. Their relationship is a 'friendly tug-of-war'
+      where she pitches bold creative ideas and he often has to ground them to fit
+      client needs.
+    key_points:
+    - correctly mention the friendly tug-of-war dynamic.
+  options:
+  - A friendly tug-of-war over creative ideas vs. client needs
+  - He is her creative rival who competes for the same projects
+  - A supportive mentorship where he approves all her ideas
+  - She vents to him about personal stress instead of her sister
+  answer: A friendly tug-of-war over creative ideas vs. client needs
+  image_id: sq_8_chloe_and_marcus

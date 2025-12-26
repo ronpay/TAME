@@ -1,0 +1,101 @@
+- id: 1
+  type: State Identification
+  question: "Hey, I saw Julian at the office today and he seemed even more on edge than usual. Just pacing around, super impatient with everyone. I snapped this quick photo [IMAGE]. What do you think is going on? This feels like more than just his typical high energy."
+  image_prompt: "A candid photo of Julian Vance in his office, seen from a distance. He is standing, not sitting, at his desk, staring intently at his screen. His left wrist has a black medical brace on it. His posture is tense and he looks highly agitated."
+  evaluation_criteria:
+    ideal_answer: "This is likely due to a combination of two recent events. First, he's feeling frustrated after a major argument with his business partner, Isabelle, over a high-risk investment. Second, he recently sprained his wrist doing parkour and has been forced to be sedentary, which goes against his active nature and is making him very irritable. The combination of professional frustration and physical confinement is likely causing this heightened agitation."
+    key_points:
+    - "Julian has a restless, high-energy nature and becomes irritable when forced to be sedentary."
+    - "He recently had a major argument with Isabelle and then sprained his wrist doing parkour, leaving him physically confined and professionally frustrated."
+  options:
+  - "He's probably just frustrated about the argument he had with his partner, Isabelle."
+  - "It's the combination of his argument with Isabelle and the frustration of being inactive due to his sprained wrist."
+  - "He must be upset that his parkour injury is preventing him from working effectively."
+  - "That's just how he is; he has a restless and energetic personality."
+  answer: "It's the combination of his argument with Isabelle and the frustration of being inactive due to his sprained wrist."
+  image_id: cq_1_agitated_office
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "My friend is a founder and wants to pitch to Julian. Her business idea is solid but very low-risk, focused on slow, steady growth. Here's a slide from her deck [IMAGE]. Based on what you know, how should she frame this to have any chance of getting his attention?"
+  image_prompt: "A close-up of a PowerPoint slide on a laptop screen. The slide has a large title: '5-Year Growth Strategy'. A simple, steady upward-trending graph is shown, labeled 'Low-Risk, 15% Annual Growth'. The overall feel is corporate and safe."
+  evaluation_criteria:
+    ideal_answer: "That's a tough sell for Julian. Given his stated hatred for 'playing it safe' and his focus on high-risk, disruptive ideas, he would likely dismiss this immediately. To get his attention, she should completely re-frame the pitch. Instead of focusing on safety and steady growth, she needs to find and highlight a hidden angle that could be considered 'disruptive' or has the potential for unexpected, massive scaling, even if it's a long shot. She should downplay the stability and emphasize any potential to upend an industry."
+    key_points:
+    - "Julian prefers high-risk, disruptive ideas and has a strong dislike for 'safe' slow-growth concepts."
+    - "The current pitch slide frames the startup as low-risk with slow, steady growth (a '5-Year Growth Strategy' at 15% annual growth)."
+  options:
+  - "She should emphasize the low-risk and steady growth, as it shows a well-thought-out plan."
+  - "She should hide the 'safe' aspects and invent a disruptive angle, focusing only on a potential for massive, explosive growth."
+  - "She shouldn't bother; Julian would never invest in a business like this."
+  - "She could try pitching it to his partner, Isabelle, who might be more receptive to the lower risk."
+  answer: "She should hide the 'safe' aspects and invent a disruptive angle, focusing only on a potential for massive, explosive growth."
+  image_id: cq_2_low_risk_pitch_deck
+
+- id: 3
+  type: Causal Inference / Preference Conflict
+  question: "Check out this photo Julian posted last night [IMAGE]. I'm a bit confused. I know for a fact he can't stand slow, stuffy, formal events. So why on earth would he be at a hospital charity gala?"
+  image_prompt: "A slightly blurry, candid photo of Julian Vance at a formal charity gala. He's in a tuxedo but looks utterly bored and impatient, checking his high-end smartwatch while seated at a fully set, fancy dinner table. Other guests are mingling happily in the background."
+  evaluation_criteria:
+    ideal_answer: "That's a great observation, and you're right, it goes completely against his personality. He hates slow, formal events. The only reason he would attend is because of his older sister, Dr. Elena Vance. He mentioned that she's an ER doctor who constantly worries about him, and that he attended the gala because she guilted him into it. So, he went to appease his sister, despite his personal feelings."
+    key_points:
+    - "Identifies Julian's long-term dislike for slow, formal events."
+    - "Recalls the short-term event of him attending the gala."
+  options:
+  - "He probably went for networking opportunities with wealthy donors for his VC firm."
+  - "He went because his sister, Dr. Elena Vance, is an ER doctor and she guilted him into attending."
+  - "Maybe he has changed his mind and is starting to enjoy more formal social events."
+  - "He was likely forced to go by his business partner, Isabelle, for the firm's public image."
+  answer: "He went because his sister, Dr. Elena Vance, is an ER doctor and she guilted him into attending."
+  image_id: cq_3_bored_gala_repost
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Hypothetically, what do you think would happen to Momentum Ventures' investment strategy if Isabelle went on a month-long, completely disconnected vacation? Here's a pic of her desk, all cleared out [IMAGE]."
+  image_prompt: "A photo of a very neat and organized office desk next to Julian's more chaotic one. This desk has a computer that is turned off, a single, neatly stacked pile of papers, and an empty chair. It clearly looks like the person is away."
+  evaluation_criteria:
+    ideal_answer: "Based on their dynamic, this would likely lead to a significant shift in the firm's short-term strategy. Julian himself described Isabelle as the 'brakes' to his 'gas pedal,' responsible for due diligence and caution. Without her there to temper his high-risk instincts, it's highly probable that Julian would make several aggressive, bold investments in ventures that Isabelle might have otherwise blocked or delayed for more research, like that unproven AI startup they recently argued about."
+    key_points:
+    - "Recalls the 'gas pedal' (Julian) vs. 'brakes' (Isabelle) dynamic."
+    - "Uses the recent argument over the AI company as a concrete example of this dynamic."
+  options:
+  - "The firm would likely make several aggressive, high-risk investments without Isabelle there as the 'brakes'."
+  - "The firm would probably pause all major investment decisions until she returned."
+  - "Julian would likely handle both his and Isabelle's roles, becoming more cautious in her absence."
+  - "Business would continue as usual, as Julian respects her process even when she's not there."
+  answer: "The firm would likely make several aggressive, high-risk investments without Isabelle there as the 'brakes'."
+  image_id: cq_4_empty_isabelle_desk
+
+- id: 5
+  type: Causal Inference / Preference Conflict
+  question: "I know Julian and Isabelle argued about that new AI company. Looking at this photo of them from last week [IMAGE], can you break down the fundamental conflict here? What's at the core of their disagreement?"
+  image_prompt: "Candid shot of Julian Vance and Isabelle Chen in a heated but professional discussion in their office. Julian is on his feet, gesturing, looking energetic. Isabelle, a sharp woman of East Asian descent, is seated, holding a tablet, with a calm but firm expression, listening intently."
+  evaluation_criteria:
+    ideal_answer: "The conflict stems directly from their core professional philosophies, which are designed to be in opposition. Julian, as the 'gas pedal,' is driven to invest in high-risk, disruptive ideas that have a huge potential payoff, and he sees the AI company as exactly that. Isabelle, as the 'brakes,' prioritizes due diligence and risk management, and from her perspective, an 'unproven' company lacks the data to justify a major investment. The argument isn't just about this one company; it's a clash between his appetite for risk and her need for proof."
+    key_points:
+    - "Julian and Isabelle have opposing investment philosophies: he pushes high-risk, disruptive bets, while she prioritizes due diligence and risk management."
+    - "They are currently arguing about whether to invest in a new AI company."
+  options:
+  - "They are just having a personality clash because he is energetic and she is calm."
+  - "The core conflict is Julian's love for high-risk ventures versus Isabelle's need for data and due diligence."
+  - "Julian doesn't trust Isabelle's judgment on technology-focused companies."
+  - "Isabelle is too conservative and is holding the firm back from making profitable deals."
+  answer: "The core conflict is Julian's love for high-risk ventures versus Isabelle's need for data and due diligence."
+  image_id: cq_5_julian_isabelle_debate
+
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: "Julian's sister, Elena, is really worried after his parkour injury and wants to have a serious talk with him about his lifestyle. Imagine them sitting down like this [IMAGE]. Based on his personality, what would be the absolute worst way for her to approach this, and what might be a better strategy?"
+  image_prompt: "A simple, neutral photo of two people sitting across from each other at a small cafe table. They both have cups of coffee. Their expressions are serious, suggesting an important conversation is about to happen."
+  evaluation_criteria:
+    ideal_answer: "The worst approach would be a slow, emotional appeal that focuses on how much she worries, or a lecture about him being 'reckless'. Julian hates slow-pacing and anything that feels like 'playing it safe' or being told what to do. He would see it as unproductive and tune it out. A much better strategy would be to frame it in his language. She could approach it as a strategic problem: 'Your current approach to physical risk management has a flaw that leads to downtime, affecting your performance. How can we optimize this?' This turns it from a lecture into a problem-solving challenge, which appeals to his mindset of efficiency and calculated risk."
+    key_points:
+    - "Julian dislikes slow, emotional lectures and responds best to fast, direct, problem-solving language."
+    - "His sister Elena wants to have a serious talk with him after his recent parkour injury."
+  options:
+  - "Worst: A slow, emotional lecture. Best: Framing it as a strategic 'risk management' problem to be solved."
+  - "Worst: Being too direct and blunt. Best: A gentle, supportive conversation about her feelings."
+  - "Worst: Bringing it up at all, he won't listen. Best: Asking his partner Isabelle to talk to him instead."
+  - "Worst: Trying to talk in a public place. Best: Writing him a long, detailed letter so he can read it on his own."
+  answer: "Worst: A slow, emotional lecture. Best: Framing it as a strategic 'risk management' problem to be solved."
+  image_id: cq_6_serious_conversation

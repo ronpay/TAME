@@ -1,0 +1,71 @@
+concept_id: backpack_2
+name: "The Shell"
+object_profile:
+  type: "Backpack"
+  origin_story: "A gift from the owner's parents for their first day of university. It was chosen for its classic look and famous durability, intended to last all four years and beyond."
+
+physical_attributes:
+  summary: "A classic navy blue JanSport backpack. The fabric is slightly faded from the sun, and it bears several distinct marks from years of travel, daily use, and careful repairs."
+
+  defining_features:
+    - "A small, hand-stitched leather patch covering a worn-through hole on the bottom-right corner, a memento from constantly dragging it across the concrete paths of a university campus."
+    - "A faint, silvery-blue ink stain deep inside the main compartment's lining, the ghost of a pen that exploded during a particularly stressful final exam."
+    - "The original fabric pull on the front pocket's zipper has been replaced with a knotted loop of brown leather cord, a makeshift fix from a camping trip."
+    - "A faded, circular patch depicting a mountain range is sewn slightly crookedly onto the front pocket, a souvenir from a post-graduation solo trip through the national parks."
+
+owner_relationship:
+  functional_use: "Carried textbooks, a laptop, and endless snacks through four years of university. Now, it serves as the go-to bag for weekend trips, grocery runs, and carrying a laptop to coffee shops."
+  sentimental_role: "A constant, reliable companion through the owner's transition to adulthood. It's a 'shell' of memories, representing independence, hard work, and the first real taste of freedom."
+
+  projected_personality:
+    - "Dependable and understated. It's not flashy, but it's incredibly resilient."
+    - "Humble and uncomplaining, no matter how overstuffed it gets."
+    - "A bit of a quiet historian, holding onto memories (and forgotten ticket stubs) in its pockets."
+    - "Secretly adventurous, always ready for the next journey."
+
+  perceived_preferences:
+    loves:
+      - "The feeling of being packed for a new trip."
+      - "The weight of a good book or a laptop full of potential."
+      - "The smell of rain on its fabric."
+    hates:
+      - "Being left behind in a closet for too long."
+      - "Sharp, uncapped pens (the ink incident was traumatic)."
+      - "Spilled coffee inside (it knows it's protecting expensive electronics)."
+
+history:
+  knowledge:
+    - "Introduce the backpack's origin as a university gift from the owner's parents."
+    - "Describe the hand-stitched leather patch on the corner and how it got there from being dragged on campus."
+    - "Explain the story behind the ink stain from an exploded pen during a final exam."
+    - "Detail the mountain patch and connect it to a post-graduation solo trip."
+    - "Mention its personality as a quiet, dependable companion."
+    - "Describe its current, more relaxed role for weekend trips and coffee shop work."
+    - "Explain its perceived hatred of spills, especially coffee, because it protects the owner's laptop."
+    - "Describe how the front zipper pull was replaced with a leather cord during a camping trip."
+
+  event:
+    - "Introduce a recent event where the stitching on a shoulder strap started to come loose, and the owner carefully re-stitched it by hand."
+    - "Introduce a recent thought: the owner browsed online for a sleek, professional messenger bag but felt it wasn't 'them'."
+    - "Introduce a recent event where the owner's younger sibling, heading to college, asked for a new, trendy backpack, not this old one."
+    - "Introduce a recent event where the makeshift leather zipper pull finally snapped."
+    - "Introduce a recent photo showing the backpack by the door, with a small, sturdy metal carabiner clipped to the top handle, intended as the new zipper pull."
+    - "Introduce a recent event where the owner found an old concert ticket in the front pocket while looking for a pen."
+
+simple_questions:
+  - "Ask how the owner got the backpack."
+  - "Ask to describe the patch on its corner."
+  - "Ask what the mountain patch on the front signifies."
+  - "Ask what part of the backpack the owner recently repaired by hand."
+  - "Ask what happened to the front zipper pull."
+  - "Ask what the owner uses the backpack for these days."
+  - "Ask what the owner's sibling thinks of the backpack."
+  - "Ask what small, surprising item the owner recently found inside it."
+
+challenge_question:
+  - "Pose a conflict question: Given that a shoulder strap recently came loose and the zipper pull broke, why is the owner intent on repairing this old backpack instead of buying the new, professional messenger bag they were looking at? The user must connect the backpack's sentimental role (university companion, symbol of independence) with the recent acts of repair to show commitment."
+  - "Create a recommendation question: The owner needs a permanent replacement for the broken zipper pull. Based on the backpack's history of travel and practical fixes, what would be a suitable new pull, and why is the carabiner they bought a good or bad choice? The user should analyze the carabiner as a choice that reflects both durability and a spirit of adventure."
+  - "Ask a 'what-if' question: If the pen explosion during the final exam had leaked through the backpack and ruined the owner's final paper, how might the owner's feelings toward 'The Shell' be different today? The user must reason about how a single failure at a critical moment could have turned a trusted companion into a source of a bad memory."
+  - "Pose an emotional interpretation question: When the owner's younger sibling rejected the idea of using the old backpack for their own college journey, what was the owner's likely mix of feelings? The user should infer not just understanding, but also a sense of nostalgia and the realization that the backpack's chapter as a 'student' is officially closed."
+  - "Create a state-recognition question: The owner recently repaired the strap and is about to replace the zipper pull. What do these back-to-back acts of maintenance signal about the backpack's current status in the owner's life? The user must infer that this isn't a sign of failure, but of a transition to a 'cherished vintage' item that merits active preservation."
+  - "Pose a preference conflict question: The owner considered a new, expensive messenger bag but ultimately decided against it. How might the backpack's 'hatred' of coffee spills have ironically made the owner feel safer sticking with the old backpack? The user needs to infer that spilling coffee on an old, beloved fabric bag is upsetting, but spilling it on a new, expensive professional bag would be a financial and emotional disaster, making the old bag feel more 'forgiving'."

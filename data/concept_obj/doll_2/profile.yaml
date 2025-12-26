@@ -1,0 +1,69 @@
+concept_id: doll_2
+name: "Captain Finn"
+object_profile:
+  type: "Stuffed Doll"
+  origin_story: "A 'remote hug' package from a dear friend. At the time, the friend had just moved to another city for college, and the owner was going through a difficult period of adjustment. This gift became a vessel for emotional support."
+
+physical_attributes:
+  summary: "A large blue plush shark, slightly flattened from years of being used as a pillow and cushion, with some areas of fur smoothed down from frequent caressing."
+
+  defining_features:
+    - "A clumsy hand-sewn patch on the left tail fin, fabric taken from a beloved old band T-shirt of the owner, with uneven stitches."
+    - "A faint scratch on the right plastic eye, caused by accidentally scraping against the metal bed frame during a move, making it look like it's winking slyly."
+    - "A barely noticeable, faint tea stain on the white belly, a mark left when the owner spilled chamomile tea during an all-night study session for finals."
+    - "The stuffing in the midsection is clearly more compact and flat compared to the head and tail, the result of countless nights of being hugged tightly."
+
+owner_relationship:
+  functional_use: "Mainly serves as a sleeping pillow at night, and as reliable back support for reading or using a laptop on the bed during the day."
+  sentimental_role: "A silent yet steadfast guardian, a physical embodiment of the friendship with a distant dear friend. Represents unconditional safety and comfort."
+
+  projected_personality:
+    - "Calm and wise, a patient listener who never judges."
+    - "Quiet but courageous, especially on stormy nights."
+    - "Carries a touch of world-weariness, but is endlessly loyal."
+
+  perceived_preferences:
+    loves:
+      - "Sunlight streaming through the window in the early morning."
+      - "Being hugged tightly when the owner feels anxious or watches horror movies."
+    hates:
+      - "The washing machine (a terrifying, dizzying experience that almost led to losing oneself)."
+      - "Being forgotten on the cold floor."
+      - "Sad movie endings."
+
+history:
+  knowledge:
+    - "Introducing the object's origin: how it came to the owner as a gift from a faraway friend."
+    - "Describing its physical marks, especially the T-shirt patch on the tail fin and the scratch on the eye."
+    - "Explaining its dual role: both as a pillow and as an emotional guardian."
+    - "Introducing its personality: a calm, loyal listener."
+    - "Mentioning its 'psychological trauma' with washing machines."
+    - "Detailing a specific memory: how it accompanied the owner through every sleepless night during a tough finals week."
+    - "Stating that every morning before leaving home, the owner habitually places it neatly in the center of the pillow."
+    - "Explaining the origin of the patch: fabric from an old band T-shirt with special meaning to the owner."
+
+  event:
+    - "Introducing a recent event: the owner, feeling it had become too flat, performed a 'weight gain surgery,' carefully adding new stuffing."
+    - "Introducing a recent event: the friend who gifted it announced they would visit the owner next month."
+    - "Introducing a recent thought: the owner saw brand new sharks of the same kind in a shop but just smiled, with no thought of replacement."
+    - "Introducing a recent event: the owner's young nephew visited and drew a 'pirate flag' on its back fin with washable markers."
+    - "Introducing a recent photo: in the photo, it's placed on the desk next to a laptop screen in a video call with the friend who gave the gift."
+    - "Introducing a recent event: after setting off for a weekend trip, the owner turned back after ten minutes just to pick it up from the bed to bring along."
+
+simple_questions:
+  - "Ask how the owner got this shark."
+  - "Request a description of a unique handmade mark on it."
+  - "Ask what practical uses it has for the owner."
+  - "Ask what kind of 'surgery' it recently underwent."
+  - "Ask what the shark 'fears' according to the owner."
+  - "Ask if the owner has considered buying a new one to replace it."
+  - "Ask if there's any recent news about the friend who gave the shark."
+  - "Ask why the owner turned back during a recent trip."
+
+challenge_question:
+  - "Pose a conflict question: Since the nephew left doodles on the shark, why would the owner hesitate to use the washing machine for cleaning? The user must connect its long-term 'fear' of the washing machine and the recent doodle event to explain the owner's dilemma and possible gentle cleaning solutions."
+  - "Create a decision reasoning question: When the owner saw brand new sharks of the same kind in a shop, why did they choose to stuff the old one by hand instead of simply buying a new one? The user needs to combine the object's origin story, emotional role, and the recent 'weight gain surgery' to explain the deep emotional value behind this choice."
+  - "Pose a counterfactual question: If the owner hadn't turned back to get the shark on that weekend trip, how might the trip have been different for the owner? The user must infer the potential psychological impact of losing a core 'security' object."
+  - "Pose an emotional interpretation question: When the owner places it nearby during a video call with the friend who gave it, what are the owner's possible inner feelings? The user must infer the complex emotions entwined with longing, gratitude, and a witness to friendship."
+  - "Create a status recognition question: With the friend who gave the gift about to visit, how might the shark's 'role' in the owner's heart subtly shift recently? The user needs to analyze how it might temporarily change from a private source of comfort to a vibrant symbol of shared friendship."
+  - "Pose a symbolic meaning interpretation question: The owner chose to mend the shark's wound with a meaningful old T-shirt instead of ordinary fabric. What does this reveal about the owner's values? The user must infer that the owner tends to cover and heal old scars with new memories, enriching the object's history."

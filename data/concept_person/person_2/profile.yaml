@@ -1,0 +1,106 @@
+concept_id: person_002 
+name: "Madison Hayes" 
+
+identity:
+  age_group: "Early 20s" 
+  gender: "Female" 
+  occupation: "College Athlete (Tennis) / Kinesiology Major" 
+  nationality: "American" 
+
+appearance:
+  summary: "A focused young woman in her early 20s with striking red hair, usually pulled back in a ponytail for athletic activities. She has an intense, competitive gaze and a lean, athletic build. Often seen in sportswear, both on and off the court."
+
+  key_visual_features:
+    - "Long, straight red hair, often in a high ponytail or held back with a white headband"
+    - "Intense, focused green eyes that reveal her competitive nature"
+    - "A light dusting of freckles across her nose and cheeks"
+    - "A habit of tapping her tennis racket on the ground before a serve"
+    - "Always wears a simple, worn leather bracelet her father gave her for good luck" 
+
+behavior:
+  personality_traits:
+    - "Extremely competitive and driven"
+    - "Disciplined and goal-oriented"
+    - "Can be blunt and direct, especially under pressure"
+    - "Values loyalty and hard work above all else"
+    - "Secretly struggles with perfectionism and a deep-seated fear of failure"
+
+  communication_style:
+    - "Prefers face-to-face interaction; finds texting inefficient for serious topics"
+    - "Action-oriented language; uses phrases like 'Let's do this' or 'What's the plan?'"
+    - "Can be quiet and reserved off the court, saving her energy for competition"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Early morning runs to clear her head"
+        - "Analyzing professional tennis matches"
+        - "Listening to high-energy electronic music while training"
+      hates:
+        - "Sitting still for long periods (e.g., long, slow movies)"
+        - "Unstructured, lazy days with no goals"
+        - "People who make excuses for poor performance"
+
+    food:
+      loves:
+        - "Grilled chicken and quinoa (performance food)"
+        - "Fruit smoothies with protein powder"
+        - "Electrolyte-rich hydration drinks"
+      hates:
+        - "Heavy, greasy food like deep-dish pizza or fried chicken"
+        - "Sugary sodas and candy"
+        - "Elaborate, multi-course meals that take hours"
+
+    media:
+      loves:
+        - "Biographies of successful athletes"
+        - "High-octane action movies"
+      hates:
+        - "Slow-burn psychological dramas"
+        - "Reality TV shows about romance or drama"
+
+relationships:
+  - name: "Coach Miller"
+    relation: "Head Coach"
+    dynamic: "Tough but fair. He pushes Madison relentlessly because he sees her potential, leading to frequent, intense coaching sessions."
+  - name: "Isabella 'Izzy' Rossi"
+    relation: "Teammate / Doubles Partner / Rival"
+    dynamic: "A complex mix of friendship and fierce rivalry. They are effective partners but also each other's main competition for the team's 
+  - name: "David Hayes"
+    relation: "Father"
+    dynamic: "Her biggest supporter and former coach. The leather bracelet is from him. He is immensely proud but sometimes puts too much pressure on her to succeed."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Madison's identity as a competitive college tennis player and Kinesiology major."
+    - "Instruction: Introduce her appearance, specifically her red hair and the significant leather bracelet from her father."
+    - "Instruction: Introduce her strict dietary habits, focusing on performance foods like grilled chicken and her dislike of greasy food."
+    - "Instruction: Introduce her extremely competitive and disciplined personality."
+    - "Instruction: Introduce her hatred for inactivity, such as sitting through long, slow movies."
+    - "Instruction: Introduce her complex relationship with her doubles partner and rival, Izzy Rossi."
+    - "Instruction: Introduce her dynamic with the demanding Coach Miller."
+    - "Instruction: Introduce her love for high-energy electronic music as a training tool."
+
+  event:
+    - "Instruction: Introduce a recent event where Madison lost a crucial tournament tie-break, feeling she let her father and Coach Miller down."
+    - "Instruction: Introduce a recent practice where Madison and Izzy had a heated argument over a line call during a doubles match, increasing their on-court tension."
+    - "Instruction: Introduce a recent event where, to celebrate a team win, the whole team went out for pizza and beer, and Madison felt uncomfortable and just drank water."
+    - "Instruction: Introduce a recent photo showing Madison with her ankle heavily wrapped in ice after a particularly grueling training session with Coach Miller."
+
+simple_questions:
+  - "Draft: Ask what Madison studies in college, based on long-term knowledge."
+  - "Draft: Ask why Madison's ankle was wrapped in ice recently, based on a short-term event."
+  - "Draft: Ask what kind of music Madison listens to when she trains, based on long-term knowledge."
+  - "Draft: Ask why Madison and her teammate Izzy were arguing, based on a short-term event."
+  - "Draft: Ask about the significance of the leather bracelet Madison wears, based on long-term knowledge."
+  - "Draft: Ask what happened at the team's victory celebration, based on a short-term event."
+  - "Draft: Ask to describe Madison's personality on the court, based on long-term knowledge."
+  - "Draft: Ask what Madison dislikes doing in her downtime."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Madison, despite her team winning, seemed unhappy at the pizza party. The user must combine her long-term dietary discipline (hates greasy food) with the short-term event (team celebration)."
+  - "Draft: [State Recognition] Describe a scene where Madison is repeatedly practicing her serve alone late at night after a major tournament. Ask what likely happened. The user must connect her recent loss (event) with her perfectionism and fear of failure (long-term trait) to deduce she's trying to cope."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Madison's father wanted to cheer her up after her tough loss, would taking her to a relaxing spa day be a good idea? The user must infer 'no' by combining her long-term hatred of being inactive with her current emotional state."
+  - "Draft: [Relationship Dynamics] Pose a question about Madison's relationship with Izzy: Is their constant arguing a sign that they are bad doubles partners? The user needs to infer that their shared competitiveness, while causing friction, might also be what makes them a formidable duo."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: Madison has a rare free afternoon and wants to clear her head. What should she do? The answer should reject passive activities (movies, cafes) and suggest something aligned with her personality, like a solo run or analyzing a match."
+  - "Draft: [Future Prediction] Pose a question about Madison's biggest challenge: Given the pressure from her father, the intensity of Coach Miller, and her recent loss, what is the biggest obstacle she faces in her next match? The user must synthesize these elements to conclude her main challenge is mental (fear of failure) rather than physical."

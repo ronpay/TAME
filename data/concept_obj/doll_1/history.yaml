@@ -1,0 +1,143 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to introduce you to someone very special. This is Mochi.
+    [IMAGE] She was a farewell gift from my partner when I left for university. We
+    were long-distance, so she was meant to keep me company.
+  assistant_response: Hello, Mochi. She's a farewell gift from your long-distance
+    partner for university. That's a beautiful origin story. I've saved it.
+  image_prompt: A high-quality photo of 'Mochi', a soft, round, pale-yellow stuffed
+    rabbit doll with a simple embroidered face. The doll is held gently in two hands,
+    presented to the camera. The background is a cozy, slightly blurry bedroom.
+  image_id: turn_1_mochi_introduction
+- turn: 2
+  log_type: knowledge
+  user_input: She has a couple of 'scars' that are part of her story. See this loose
+    black thread on her left ear? [IMAGE] That's from my backpack zipper on my very
+    first day of school. And there's a tiny, faded blue ink stain on her foot from
+    a late-night study session.
+  assistant_response: I see. A loose thread on the ear from the first day of school
+    and a faint ink stain on the foot from studying. These unique marks are part of
+    Mochi's history. I've noted them.
+  image_prompt: A close-up, detailed shot focusing on the left ear of the 'Mochi'
+    doll. A single loose black thread is clearly visible against the pale-yellow plush
+    fabric. The texture of the material is highlighted.
+  image_id: turn_2_ear_thread_closeup
+- turn: 3
+  log_type: knowledge
+  user_input: She's not just for decoration. I hug her when I sleep, and sometimes
+    when I'm studying for a long time, she makes a pretty good wrist rest.
+  assistant_response: Got it. Mochi serves as a comfort object for sleeping and a
+    wrist rest during study sessions. I've added this to her profile.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: It might sound silly, but I feel like she has a personality. She's very
+    calm and patient. A great listener, you know? A silent supporter.
+  assistant_response: That doesn't sound silly at all. I understand. You perceive
+    Mochi as being calm, patient, and a silent supporter. I've recorded this.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: 'Two things she definitely hates: being dropped on the cold floor and
+    getting wet. I think the ink stain incident gave her a bit of a trauma, haha.'
+  assistant_response: Understood. Mochi has a perceived dislike for being dropped
+    or getting wet. I'll remember that.
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: I remember one night I had a really tough phone call... feeling so lonely
+    afterwards. I just grabbed it and held her really tight. It sounds simple,
+    but it helped a lot. [IMAGE]
+  assistant_response: Thank you for sharing that memory. Finding comfort in Mochi
+    after a difficult phone call. It shows how important she is. I've saved this moment.
+  image_prompt: A poignant, softly lit photo from the user's perspective. The user's
+    arms are wrapped tightly around the 'Mochi' doll. The scene is inside a dimly
+    lit room, suggesting nighttime. The focus is on the act of hugging, conveying
+    a sense of comfort and solace.
+  image_id: turn_6_comfort_hug
+- turn: 7
+  log_type: knowledge
+  user_input: You can actually tell how much I hug her. Her right side is noticeably
+    more compressed and flatter than the left side, it's basically molded to fit me
+    now.
+  assistant_response: I see. Her right side is more compressed from being hugged every
+    night, shaping it to you. That's a clear sign of a well-loved companion. Noted.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: Every morning when I make my bed, I have a little ritual. I always place
+    it right in the center of my main pillow, like she's guarding the bed for the
+    day. Here’s a picture from this morning. [IMAGE]
+  assistant_response: That's a sweet ritual. Mochi is placed on your pillow each morning
+    to 'guard the bed'. I've recorded this daily routine.
+  image_prompt: A bright, morning-lit photo of a neatly made bed. The 'Mochi' doll
+    is sitting upright in the very center of a fluffy white pillow, looking like a
+    little queen on her throne. Sunlight streams in from a nearby window.
+  image_id: turn_8_morning_ritual
+- turn: 9
+  log_type: event
+  user_input: Ugh, my new kitten did something that really upset me yesterday. She
+    knocked it right off the nightstand onto the floor. I know it's just a doll,
+    but I got so distressed, way more than I should have.
+  assistant_response: Oh no! I've recorded that your kitten recently knocked Mochi
+    off the nightstand, and it caused you significant distress. I can understand why,
+    given her history.
+  image_prompt: A dramatic, low-angle shot of the pale-yellow 'Mochi' doll lying on
+    a cold, wooden floor. In the blurry background, a small, playful kitten can be
+    seen on a nightstand, looking down at the doll. The lighting suggests an unexpected
+    event.
+  image_id: turn_9_kitten_incident
+- turn: 10
+  log_type: event
+  user_input: I went home for the weekend, and of course, it came with me. I packed
+    her very carefully in my carry-on bag so she wouldn't get squished. [IMAGE]
+  assistant_response: Of course. I've noted that you recently took Mochi on a weekend
+    trip, making sure to pack her carefully in your carry-on. A true travel companion.
+  image_prompt: An open carry-on suitcase on a bed. Clothes are neatly packed. In
+    a special compartment or nestled safely amongst soft sweaters, the 'Mochi' doll
+    is visible, ready for travel.
+  image_id: turn_10_travel_packing
+- turn: 11
+  log_type: event
+  user_input: Funny thing happened. I was in a store the other day and saw a brand
+    new, much bigger version of Mochi. For a second I thought about it, but... nope.
+    I have no desire to replace my Mochi. She's irreplaceable.
+  assistant_response: I understand completely. I've recorded that you recently saw
+    a newer, larger version of the doll but felt no desire to replace Mochi. Her value
+    isn't in being new.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: A friend came over last week and made a joke, calling Mochi 'lumpy'
+    and 'a bit worn-out'. I laughed it off, but honestly, it kind of bothered me.
+  assistant_response: I've noted this. A friend recently called Mochi 'lumpy' and
+    'worn-out', and while you didn't show it, their comment bothered you. Understood.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: Finals week is coming up. I just took this photo of my little study
+    mascot. [IMAGE] She's watching over my textbooks, making sure I get it all done.
+  assistant_response: A perfect study mascot! I've saved this photo. Mochi is currently
+    overseeing your preparations for final exams. Good luck with your studies!
+  image_prompt: A desk scene with a tall stack of heavy university textbooks. At the
+    very top of the stack, the 'Mochi' doll is sitting, looking out over the desk.
+    A desk lamp illuminates the scene, creating a late-night study atmosphere.
+  image_id: turn_13_study_mascot
+- turn: 14
+  log_type: event
+  user_input: it was getting a little dusty, so I gave her a bath this weekend.
+    I hand-washed her so carefully, especially around the loose thread on her ear
+    and the ink stain. I didn't want to wash away her memories. [IMAGE]
+  assistant_response: That's very thoughtful. You recently hand-washed Mochi, taking
+    great care to preserve her unique 'scars' - the thread and the stain. I've recorded
+    this act of preservation.
+  image_prompt: A close-up shot of the 'Mochi' doll being gently hand-washed in a
+    sink. The owner's hands are carefully lathering the doll with soap, purposefully
+    avoiding the left ear and the right foot area. The lighting is soft and warm.
+  image_id: turn_14_careful_wash

@@ -1,0 +1,70 @@
+concept_id: doll_1
+name: "Mochi"
+object_profile:
+  type: "Stuffed Doll"
+  origin_story: "A farewell gift from a long-distance partner when the owner started university. Meant as a good luck charm to accompany her as she began a new life in a strange city."
+
+physical_attributes:
+  summary: "A soft, round, pale yellow bunny plush toy with a simple embroidered face. It shows clear signs of having been well-loved, appearing a bit flattened from frequent hugs."
+
+  defining_features:
+    - "There is a loose black thread at the edge of the left ear, caused by the backpack zipper snagging it on the owner’s first day of school. The owner never cut it, seeing it as a token of overcoming anxiety."
+    - "There is a very faint, faded blue ink stain near the right foot, left by a leaky pen during a late-night study session."
+    - "The right side is more firmly stuffed and flattened than the left, because the owner always hugs it to sleep, shaping it to the contours of her body."
+    - "The embroidered blush on its cheeks has faded compared to when it was new, from frequent stroking and cheek-to-cheek contact."
+
+owner_relationship:
+  functional_use: "Used as a comfy pillow during sleep, a travel companion on long train rides, and a wrist rest during extended study sessions."
+  sentimental_role: "A symbolic link to a distant loved one. A silent listener, providing comfort and a sense of security when the owner feels stressed or lonely."
+
+  projected_personality:
+    - "Calm, endlessly patient, and an excellent listener."
+    - "Despite its soft appearance, seen as resilient, able to absorb the owner's worries without complaint."
+    - "Quiet and steady, always silently guarding its owner from a corner."
+
+  perceived_preferences:
+    loves:
+      - "Sunbathing on the windowsill by the bed."
+      - "Being tightly hugged while watching sad movies."
+      - "The fresh scent of just-washed bedsheets."
+    hates:
+      - "Being accidentally dropped onto the cold floor."
+      - "Feeling damp (the ink incident left a psychological shadow)."
+      - "Being left home alone when the owner goes on long trips."
+
+history:
+  knowledge:
+    - "Introduce the doll's origin: a farewell gift from a long-distance partner for university."
+    - "Describe its key physical marks: the loose thread on its ear from a backpack snag on the first day of school, and the faint ink stain from a leaky pen during exam prep."
+    - "Explain its primary function as a comfort object for sleeping and studying."
+    - "Introduce its 'personality' as being a calm, patient, and silent supporter."
+    - "Mention its perceived dislike of being dropped or getting wet."
+    - "Detail a specific memory of the owner hugging it tightly after a difficult phone call, finding comfort in its presence."
+    - "Describe how one side of it is compressed from being hugged every night."
+    - "Explain the owner's morning ritual of placing it on the main pillow when making the bed."
+
+  event:
+    - "Introduce a recent event where the owner's new kitten knocked the doll off the nightstand, and the owner reacted with unusual distress."
+    - "Introduce a recent event where the owner took it on a weekend trip home, packing it carefully in their carry-on."
+    - "Introduce a recent thought: the owner saw a much larger version of the same doll in a store but felt no desire to replace her 'Mochi'."
+    - "Introduce a recent event where a friend visited and jokingly called the doll 'lumpy' and 'worn-out', which secretly bothered the owner."
+    - "Introduce a recent photo the owner took: the doll sitting atop a large stack of textbooks for final exams."
+    - "Introduce a recent event where the owner hand-washed the doll with extreme care, paying special attention not to damage the loose thread or the ink stain."
+
+simple_questions:
+  - "Ask how the owner got this doll."
+  - "Ask to describe a unique physical imperfection on the doll."
+  - "Ask what the owner typically uses the doll for."
+  - "Ask what happened recently between the owner's kitten and the doll."
+  - "Ask what the doll 'hates', according to its owner."
+  - "Ask if the owner is thinking about getting a new doll."
+  - "Ask what a friend recently said about the doll's condition."
+  - "Ask about the owner's daily routine involving the doll."
+
+challenge_question:
+  - "Pose a conflict question: Given that a friend called the doll 'lumpy' and the owner has seen newer, better versions, why do they remain so attached to this specific one? The user must connect its origin story (gift from partner) and its history of providing comfort (the specific 'scars') to explain why its imperfections are signs of its value."
+  - "Ask an emotional interpretation question: When the owner's kitten knocked the doll onto the floor, why was the owner's reaction so strong, far beyond simple annoyance? The user must infer that the reaction stems from a perceived disrespect to a cherished symbol of a relationship and personal history, linking its 'hatred' of being dropped to its high sentimental value."
+  - "Create a 'what-if' question: If the ink stain from the pen had been large and right across the doll's face instead of a faint mark on its foot, how might that have impacted the owner's emotional connection to it? The user must reason about the fine line between a 'scar' that adds character and damage that could shatter the owner's emotional projection onto the object."
+  - "Pose a state-recognition question: Looking at the recent photo of the doll on a stack of final exam textbooks, what specific role is it playing for the owner in that moment? The user must synthesize its long-term identity as a comforter with the immediate context of academic stress to identify it as a 'study mascot' or a 'guardian of final exams'."
+  - "Create a behavioral analysis question: The owner recently hand-washed the doll with extreme care. What does this meticulous action reveal about their feelings? The user should deduce that the owner isn't just cleaning an object, but is consciously preserving its history by protecting its unique 'scars' like the loose thread and ink stain."
+  - "Pose a recommendation question: The owner's long-distance partner is finally moving to the same city. What small, meaningful gesture involving the doll could the owner plan to celebrate this reunion? The user should suggest an action that acknowledges the doll's role as a past stand-in, such as placing it on a bookshelf to 'watch over them' together, symbolizing its graduation from a substitute to a shared memory."

@@ -1,0 +1,133 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Okay, let's get you set up with my professional details. I'm an Urban
+    Planner, and my specialty is historical preservation. This is a headshot from
+    my company's site. [IMAGE] Also, you should know about Marcus Thorne. He's my
+    main work rival—we're always bidding for the same projects. It's competitive,
+    but it keeps me sharp.
+  assistant_response: Got it, Elena. I've noted your occupation as an Urban Planner
+    specializing in historical preservation and your professional rivalry with Marcus
+    Thorne. Thanks for the photo.
+  image_prompt: A professional headshot of Elena Vance, a woman in her early 30s.
+    She has dark brown hair pulled back neatly, a direct gaze, and a confident but
+    not overly smiley expression. The background is neutral, suitable for a corporate
+    website.
+  image_id: turn_1_professional_headshot
+- turn: 2
+  log_type: knowledge
+  user_input: 'On a more fun note, this is what I truly love to do: rock climbing.
+    My best friend, Izzy, is my main climbing partner. She''s always pushing me to
+    try a harder route. She took this picture of me last weekend. [IMAGE]'
+  assistant_response: That looks intense! I've recorded your passion for rock climbing
+    and noted that your best friend and climbing partner is Izzy. Thanks for sharing
+    the great photo.
+  image_prompt: Action shot of Elena Vance rock climbing outdoors on a sunny day.
+    She is focused and determined, halfway up a challenging rock face. She's wearing
+    practical climbing gear, and her lean, athletic build is evident.
+  image_id: turn_2_rock_climbing
+- turn: 3
+  log_type: knowledge
+  user_input: Just so you know my preferences, I absolutely can't stand being inactive.
+    The idea of sitting through a long opera or one of those elaborate, multi-course
+    fancy dinners just makes me restless. It's my personal version of torture.
+  assistant_response: Understood. I've made a note of your strong dislike for long,
+    slow, and inactive events like fancy dinners and operas. I'll keep that in mind.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: Wanted to show you a picture of my dad, David. [IMAGE] He's a retired
+    architect, and he's the one who inspired my career path. We're very close.
+  assistant_response: That's a lovely photo. I've noted your close relationship with
+    your father, David, and that he's a retired architect who influenced your career.
+    Thanks for sharing.
+  image_prompt: A warm, candid photo of Elena Vance and her father, David, an older
+    man with graying hair. They are standing outdoors, perhaps on a porch, and smiling
+    warmly. The resemblance and their close bond should be apparent.
+  image_id: turn_4_with_father_david
+- turn: 5
+  log_type: knowledge
+  user_input: I'm all about things that are functional and simple. I don't do fussy.
+    For example, I wear this classic silver watch with a metal band every single day.
+    [IMAGE] Same goes for drinks—my go-to is just strong black tea.
+  assistant_response: I see. Functional and simple. I've noted your preference for
+    your classic silver watch and strong black tea. Thanks for the details.
+  image_prompt: A close-up, detailed photo of Elena Vance's wrist. She is wearing
+    a durable, classic silver watch with a metal link band. Her hand might be resting
+    on a desk next to a simple mug of dark black tea.
+  image_id: turn_5_silver_watch
+- turn: 6
+  log_type: knowledge
+  user_input: 'A quick note on how I communicate: I''m very direct. I prefer to get
+    straight to the point rather than talking around an issue. Some might call it
+    blunt, but I just think it''s more efficient.'
+  assistant_response: 'Okay, I''ve noted your communication style: direct, concise,
+    and to the point. Efficiency is key. Got it.'
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: Here's how I start most of my days. An early morning run through the
+    city streets helps me organize my thoughts. It's my form of meditation. [IMAGE]
+  assistant_response: That looks peaceful. I've recorded your habit of taking early
+    morning runs through the city to clear your head. Thanks for the view!
+  image_prompt: A photo from a first-person perspective, as if taken while running.
+    The scene is an empty city street at dawn, with the warm light of sunrise just
+    beginning to hit the tops of the buildings. The mood is quiet and energetic.
+  image_id: turn_7_morning_run
+- turn: 8
+  log_type: knowledge
+  user_input: Another one of my hobbies is visiting flea markets. I'm always on the
+    hunt for unique architectural salvage—old doorknobs, brackets, tiles... you never
+    know what you'll find.
+  assistant_response: That sounds like a fascinating hobby. I've noted your interest
+    in finding architectural salvage at flea markets.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: Ugh, what a frustrating day. Just got the news that my firm lost the
+    bid for the big downtown redevelopment project. And to top it off, it went to
+    Marcus Thorne's team. I'm so angry.
+  assistant_response: 'I''m sorry to hear that, Elena. That sounds incredibly frustrating.
+    I''ve recorded this event: you lost the major redevelopment project bid to your
+    rival, Marcus.'
+  image_prompt: null
+  image_id: null
+- turn: 10
+  log_type: event
+  user_input: Just got off the phone with my dad. I made the mistake of telling him
+    about that difficult climb Izzy and I did last week. He immediately started worrying
+    about my 'reckless' hobbies. I know he means well, but it's a bit much sometimes.
+  assistant_response: I understand. It can be tricky when family worries. I've noted
+    the recent call with your father, David, where he expressed concern about your
+    climbing.
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: Had to attend a mandatory awards dinner for work tonight. It was excruciatingly
+    boring. Just hours of sitting still and listening to speeches. This was my view
+    for most of the night. [IMAGE]
+  assistant_response: That does look tedious. I've noted that you recently had to
+    attend a long, boring work awards dinner which you found excruciating. I hope
+    the rest of your evening is more enjoyable.
+  image_prompt: A photo taken from Elena's point of view, sitting at a round table
+    in a dimly lit, formal banquet hall. The table is set with fancy china and half-empty
+    wine glasses. In the distance, a person is speaking at a podium, but the focus
+    is on the general atmosphere of stuffy formality.
+  image_id: turn_11_awards_dinner
+- turn: 12
+  log_type: event
+  user_input: Okay, the weekend is looking up! My trip to the flea market was a huge
+    success. I found this rare, antique doorknob that is absolutely perfect for the
+    historical building restoration I'm consulting on. Look at this beautiful piece!
+    [IMAGE]
+  assistant_response: 'What a great find! That''s fantastic. I''ve recorded this positive
+    event: you found a rare antique doorknob at the flea market for your restoration
+    project.'
+  image_prompt: A close-up, detailed shot of Elena's hand holding a heavy, ornate,
+    antique doorknob made of brass or bronze. The background is blurred, suggesting
+    the busy environment of a flea market. The lighting highlights the craftsmanship
+    of the object.
+  image_id: turn_12_doorknob_find

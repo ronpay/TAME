@@ -1,0 +1,106 @@
+concept_id: person_002
+name: "Elena Vance"
+
+identity:
+  age_group: "Early 30s"
+  gender: "Female"
+  occupation: "Urban Planner, specializing in historical preservation"
+  nationality: "American"
+
+appearance:
+  summary: "A woman in her early 30s with a lean, athletic build. Her dark hair is usually pulled back practically. She has a direct, engaging gaze and often a hint of a playful smile. Her style is functional and understated."
+
+  key_visual_features:
+    - "Dark brown hair, often in a ponytail or a quick bun"
+    - "Expressive, dark eyes that convey both focus and humor"
+    - "Lean and toned physique, suggesting a regular fitness routine"
+    - "Almost always wears a durable, classic silver watch with a metal band"
+    - "A small collection of polished river stones on her bathroom counter"
+
+behavior:
+  personality_traits:
+    - "Disciplined and detail-oriented in her work"
+    - "Pragmatic and no-nonsense"
+    - "Surprisingly spontaneous and adventurous in her personal life"
+    - "Values routine and structure, but gets restless without new experiences"
+    - "Energetic and prefers to be active rather than passive"
+
+  communication_style:
+    - "Clear and concise, gets straight to the point"
+    - "Values honesty, sometimes to the point of being blunt"
+    - "Uses architectural or city-planning metaphors to explain concepts"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Early morning runs through the city"
+        - "Rock climbing (indoor and outdoor)"
+        - "Visiting flea markets for unique architectural salvage"
+      hates:
+        - "Sitting still for long periods (e.g., long movies or operas)"
+        - "Vague, philosophical debates with no clear outcome"
+        - "Cluttered, disorganized spaces"
+
+    food:
+      loves:
+        - "Hearty, protein-rich meals like steak or lentil stew"
+        - "Strong black tea"
+        - "Salty snacks like pretzels"
+      hates:
+        - "Elaborate, multi-course fancy dinners (too slow and fussy)"
+        - "Sugary cocktails"
+        - "Overly processed fast food"
+
+    media:
+      loves:
+        - "Documentaries on urban design and engineering"
+        - "Fast-paced action movies"
+      hates:
+        - "Slow-burn, character-driven dramas"
+        - "Reality TV shows about celebrity lifestyles"
+
+relationships:
+  - name: "Marcus Thorne"
+    relation: "Colleague / Work Rival"
+    dynamic: "A competitive but respectful relationship. They often bid for the same projects and push each other to be better."
+  - name: "Isabel 'Izzy' Chen"
+    relation: "Best Friend / Climbing Partner"
+    dynamic: "The adventurous enabler. Izzy is always proposing new challenges, and Elena usually agrees."
+  - name: "David Vance"
+    relation: "Father"
+    dynamic: "A retired architect who inspired her career. They have a close bond, but he worries about her 'reckless' hobbies."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Elena's job as an Urban Planner and her professional rivalry with her colleague, Marcus Thorne."
+    - "Instruction: Introduce her passion for rock climbing, which she often does with her best friend, Izzy."
+    - "Instruction: Introduce her dislike for being inactive and her hatred of long, slow events like fancy dinners or operas."
+    - "Instruction: Introduce her close relationship with her father, David, and mention that he is a retired architect."
+    - "Instruction: Introduce her preference for functional, simple things, like her classic silver watch and her love for strong black tea."
+    - "Instruction: Introduce her direct and sometimes blunt way of communicating."
+    - "Instruction: Introduce her habit of going for very early morning runs to organize her thoughts."
+    - "Instruction: Introduce her interest in finding unique architectural pieces at flea markets."
+
+  event:
+    - "Instruction: Introduce a recent event where Elena lost a major city redevelopment project bid to her rival, Marcus, leaving her feeling very frustrated."
+    - "Instruction: Introduce a recent phone call where Elena's father, David, expressed strong worry after she told him about a difficult climb she and Izzy completed."
+    - "Instruction: Introduce a recent situation where Elena was forced to attend a long, mandatory, and very boring awards dinner for work, which she found excruciating."
+    - "Instruction: Introduce a recent positive event where Elena found a rare, antique doorknob at a flea market for a historical building restoration she's consulting on."
+
+simple_questions:
+  - "Draft: Ask what Elena's job is, based on long-term knowledge."
+  - "Draft: Ask why Elena was feeling frustrated at work recently, based on a short-term event."
+  - "Draft: Ask what Elena's favorite hobby is and who she does it with, based on long-term knowledge."
+  - "Draft: Ask what she was doing at the flea market last weekend, based on a short-term event."
+  - "Draft: Ask about the relationship between Elena and her father, David, based on long-term knowledge."
+  - "Draft: Ask what kind of work event Elena recently had to endure, based on a short-term event."
+  - "Draft: Ask about the watch that Elena usually wears."
+  - "Draft: Ask what kind of social events Elena strongly dislikes."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Elena, who is a successful professional, looked so miserable at the recent awards dinner. The user must combine her long-term hatred of being still and slow events with the short-term fact that she was forced to attend."
+  - "Draft: [Recommendation Decision] Ask for a recommendation: After losing the big project to Marcus, what would be the best way for her friend Izzy to cheer her up? The answer should reject passive activities and suggest something active like a challenging climbing session or an early morning run."
+  - "Draft: [State Recognition] Describe a scene where Elena comes home, drops her bag, and immediately changes into running shoes, heading out the door despite it being evening. Ask what might have happened. The user must connect her coping mechanism (running) with the recent professional setback (losing the bid to Marcus)."
+  - "Draft: [Relationship Dynamics] Pose a question about Elena's relationship with her father. Why might his recent worried phone call be both a source of annoyance and a sign of their deep bond? The user must combine his general concern and her 'reckless' hobbies with the specific recent phone call to explain the dynamic."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Marcus, after winning the project, invited Elena to a slow, multi-course celebratory dinner at a fancy restaurant as a 'peace offering', how would she likely react? The user must infer her negative reaction by combining her rivalry, the recent loss, and her hatred for slow, fussy dinners."
+  - "Draft: [Character Judgment] Pose a question about Elena's blunt communication style. How might this trait have impacted her bid for the redevelopment project she just lost? The user must reason that while efficient, it might have alienated some committee members, combining her known communication style with the context of a competitive professional pitch."

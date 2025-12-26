@@ -1,0 +1,96 @@
+- id: 1
+  type: Causal Inference
+  question: My aunt got Ghost this plush duck for his birthday [IMAGE], but he won't even look at it. Based on what we've talked about, can you explain why he's ignoring his new toy?
+  image_prompt: A photo showing Ghost, a white Pit Bull mix, lying on the floor. A few feet away from him is a brand new, brightly colored, squeaky plush duck toy. Ghost is pointedly looking away from the toy with an indifferent expression.
+  evaluation_criteria:
+    ideal_answer: Based on our conversation, you mentioned that Ghost absolutely hates plush toys because he just destroys them immediately to get the squeaker out. So, even though this squeaky duck was a gift, he's ignoring it because it's exactly the type of toy he dislikes.
+    key_points:
+    - Ghost has a long-standing hatred for plush toys and destroys them (long-term knowledge from Turn 3).
+    - Ghost recently received a new squeaky plush duck as a gift (short-term event from Turn 9).
+  options:
+  - He is likely wary of the squeaker inside, as you've mentioned he has a strong fear of loud noises like thunderstorms.
+  - He probably prefers his old white frisbee, since you've said that is his absolute favorite toy over any new plush item.
+  - He's ignoring the duck because you've mentioned he dislikes plush toys, as his 'power chewer' instinct is to destroy them.
+  - He might be feeling lazy since he's indoors; you mentioned he's a couch potato inside and only energetic when outside.
+  answer: He's ignoring the duck because you've mentioned he dislikes plush toys, as his 'power chewer' instinct is to destroy them.
+  image_id: cq_1_ignored_duck
+- id: 2
+  type: State Identification
+  question: Look at this mess! [IMAGE] He's absolutely filthy. But considering what you know about him, do you think he's happy or unhappy in this moment?
+  image_prompt: A photo of Ghost, a normally white Pit Bull mix, standing in a kitchen. He is covered head-to-toe in dark, wet mud, with only his brown eyes and part of his red collar visible. He has a happy but mischievous look on his face.
+  evaluation_criteria:
+    ideal_answer: Even though he's completely covered in mud, this happened right after playing in the park. Since you've said he has extremely high energy and loves to run and play outdoors, he's most likely very happy and content after having a great time.
+    key_points:
+    - Ghost loves being outdoors and is full of energy when he is (long-term knowledge from Turn 6).
+    - Ghost is currently covered in mud after playing in the park (short-term event from Turn 10).
+  options:
+  - Despite being muddy, he is very happy because it happened after playing, and you said he loves running with high energy outdoors.
+  - He is likely unhappy because he knows that being this dirty will probably lead to a bath, which most dogs tend to dislike.
+  - He seems uncomfortable; you mentioned he's a total couch potato, so this level of outdoor mess is likely overwhelming for him.
+  - He appears sad because his bright red collar is dirty, and he is usually kept in a much cleaner, more comfortable state.
+  answer: Despite being muddy, he is very happy because it happened after playing, and you said he loves running with high energy outdoors.
+  image_id: cq_2_happy_mud_dog
+- id: 3
+  type: Counterfactual Reasoning
+  question: I got this giant bag of biscuits because they were on sale [IMAGE]. If I offer one to Ghost right now, how do you think he'll react based on his preferences?
+  image_prompt: A clear photo of a large, transparent plastic bag filled with generic, bone-shaped, hard brown dog biscuits. The bag is sitting on a kitchen counter.
+  evaluation_criteria:
+    ideal_answer: Based on what you've told me, this might not go over well. You mentioned that he really dislikes hard, dry dog biscuits. So, even though you just bought these, he'll probably just sniff it and walk away, or refuse to eat it.
+    key_points:
+    - Ghost has a long-standing dislike for hard, dry biscuits (long-term knowledge, implied from profile and necessary for the question).
+    - The owner recently bought a large bag of hard, bone-shaped biscuits (short-term event from Turn 13).
+  options:
+  - He will likely refuse the biscuit, as you've mentioned before that he has a strong dislike for hard, dry dog treats.
+  - He will probably enjoy the challenge, since you have described him as a 'power chewer' who likes to destroy tough things.
+  - He will probably eat one out of simple curiosity, since it is a new food item that he has not encountered before.
+  - He might eat one, but only if you top it with peanut butter, since you've stated that is his absolute favorite food.
+  answer: He will likely refuse the biscuit, as you've mentioned before that he has a strong dislike for hard, dry dog treats.
+  image_id: cq_3_unwanted_biscuits
+- id: 4
+  type: Counterfactual Reasoning
+  question: Okay, we're about to try this new nail grinder [IMAGE]. Given how scared he is of regular nail clipping, what's the best way I can approach this to make sure he doesn't get freaked out?
+  image_prompt: A photo from the owner's perspective. An electric nail grinder tool is held in one hand. In the foreground, Ghost's paw is visible as he sits cautiously, looking at the new tool with suspicion. The setting is a well-lit living room.
+  evaluation_criteria:
+    ideal_answer: Since he's terrified of nail clipping in general, it's best to go very slowly. You could let him sniff the grinder while it's off, then turn it on for a second nearby without touching him, and give him his favorite treat, peanut butter, to create a positive association. The key is patience and rewarding him for being calm around the new tool.
+    key_points:
+    - Ghost has a deep-seated fear of nail clipping (long-term knowledge from Turn 7).
+    - The owner is introducing a new tool, a nail grinder, to address this (short-term event from Turn 11).
+  options:
+  - The best way is to distract him with his favorite white frisbee; his intense focus on the toy should make the process quick.
+  - Capitalize on his 'couch potato' indoor nature; approach him when he's very sleepy so he will be too relaxed to put up a fight.
+  - Acknowledge his fear by introducing the grinder slowly, using his favorite treat like peanut butter for positive association.
+  - Since he is a strong pit bull mix, you should be firm and get the job done quickly to establish that you are in charge.
+  answer: Acknowledge his fear by introducing the grinder slowly, using his favorite treat like peanut butter for positive association.
+  image_id: cq_4_nail_grinder_tactic
+- id: 5
+  type: Causal Inference
+  question: Look at this reaction [IMAGE]. I just dropped a slice of orange and he's approaching it like it's an alien spaceship. Why do you think he's being so cautious?
+  image_prompt: A close-up, low-angle shot of Ghost, a white Pit Bull mix, on a kitchen floor. He is cautiously leaning forward, nose outstretched, sniffing a bright orange slice that lies on the tile. His body language is hesitant and curious.
+  evaluation_criteria:
+    ideal_answer: This makes sense based on what you told me before. You mentioned that Ghost cannot stand the smell of citrus fruits like oranges. So, he's likely being so cautious because he's encountering a smell he finds very unpleasant and is trying to figure out what it is.
+    key_points:
+    - Ghost has a long-standing and strong dislike for the smell of citrus (long-term knowledge from Turn 5).
+    - Ghost is currently and cautiously sniffing a slice of orange on the floor (short-term event from Turn 14).
+  options:
+  - His caution likely stems from his known hatred of citrus smells; he is investigating an odor he finds very unpleasant.
+  - He is likely trying to determine if it's a treat, perhaps hoping it's a piece of grilled chicken which you said he loves.
+  - He might be mistaking its shape for a small ball, but is hesitant because you've said he dislikes small tennis balls.
+  - He is being careful because an object fell unexpectedly; his caution is a reaction to the surprise, not the orange itself.
+  answer: His caution likely stems from his known hatred of citrus smells; he is investigating an odor he finds very unpleasant.
+  image_id: cq_5_cautious_orange_sniff
+- id: 6
+  type: Causal Inference
+  question: Remind me, why did I end up buying this nail grinder in the first place? [IMAGE] What was the problem we were trying to solve?
+  image_prompt: A photo from the owner's perspective, where an electric nail grinder tool is held in one hand. In the foreground, Ghost's paw is visible as he sits cautiously, looking at the new tool with suspicion.
+  evaluation_criteria:
+    ideal_answer: 'You decided to try the nail grinder because of the significant issue you mentioned earlier: Ghost is absolutely terrified of the traditional nail clipping process. You bought the grinder as a new, hopefully less stressful, alternative to solve that problem.'
+    key_points:
+    - This action was motivated by Ghost's long-standing, intense fear of nail clipping (long-term knowledge from Turn 7).
+    - The owner recently bought a new nail grinder to try (short-term event from Turn 11).
+  options:
+  - You bought the grinder to solve the long-standing problem of Ghost's intense fear of the traditional nail clipping process.
+  - You likely bought it for general health reasons, as short nails are important for a pit bull's joint and paw health.
+  - You probably got the grinder to save money on groomers, since you mentioned doing his nails has become a two-person job.
+  - You purchased it because he's a 'power chewer' and the grinder is a better tool for maintaining the strong nails he needs.
+  answer: You bought the grinder to solve the long-standing problem of Ghost's intense fear of the traditional nail clipping process.
+  image_id: cq_6_grinder_reasoning

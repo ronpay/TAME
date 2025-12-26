@@ -1,0 +1,156 @@
+- id: 1
+  type: Long Term
+  question: Hey, I'm trying to introduce Elena to a colleague. Here's her professional
+    headshot [IMAGE]. I know what she does generally, but what did she say her exact
+    job title was?
+  image_prompt: A professional headshot of Elena Vance, a woman in her early 30s.
+    She has dark brown hair pulled back neatly, a direct gaze, and a confident but
+    not overly smiley expression. The background is neutral, suitable for a corporate
+    website.
+  evaluation_criteria:
+    ideal_answer: Elena is an Urban Planner, and her specialty is historical preservation.
+    key_points:
+    - correctly mention she is an Urban Planner.
+  options:
+  - A retired architect
+  - A civil engineer
+  - An Urban Planner
+  - A professional rock climber
+  answer: An Urban Planner
+  image_id: sq_1_elena_headshot
+- id: 2
+  type: Short Term
+  question: I saw Elena post this selfie with a frowny face earlier [IMAGE]. She looks
+    so annoyed. You logged something about her work recently, right? What happened
+    to make her so frustrated?
+  image_prompt: A candid selfie of Elena Vance at her work desk, looking visibly frustrated
+    and annoyed. She might be running a hand through her hair or glaring at her computer
+    screen.
+  evaluation_criteria:
+    ideal_answer: She was very frustrated because her firm lost the bid for the big
+      downtown redevelopment project to her work rival, Marcus Thorne.
+    key_points:
+    - correctly mention she lost a project bid to her rival Marcus.
+  options:
+  - She had to attend a boring awards dinner.
+  - She lost a major project bid to her rival, Marcus Thorne.
+  - Her father expressed worry about her hobbies.
+  - A building she was preserving was damaged.
+  answer: She lost a major project bid to her rival, Marcus Thorne.
+  image_id: sq_2_frustrated_elena
+- id: 3
+  type: Long Term
+  question: Look at this awesome shot of Elena [IMAGE]. She looks so happy and in
+    her element. I know this is her main hobby, but remind me, who is her usual partner
+    for this?
+  image_prompt: Action shot of Elena Vance rock climbing outdoors on a sunny day.
+    She is focused and determined, halfway up a challenging rock face. She's wearing
+    practical climbing gear.
+  evaluation_criteria:
+    ideal_answer: Her main hobby is rock climbing, and she usually does it with her
+      best friend and climbing partner, Izzy.
+    key_points:
+    - correctly mention her best friend Izzy.
+  options:
+  - Her father, David
+  - Her work rival, Marcus
+  - She always goes alone
+  - Her best friend, Izzy
+  answer: Her best friend, Izzy
+  image_id: sq_3_elena_climbing
+- id: 4
+  type: Short Term
+  question: Elena sent me this picture from her trip to the flea market [IMAGE]. She
+    was so excited about this find! What exactly was it for?
+  image_prompt: A close-up, detailed shot of Elena's hand holding a heavy, ornate,
+    antique doorknob made of brass. The background is blurred, suggesting the busy
+    environment of a flea market.
+  evaluation_criteria:
+    ideal_answer: She found that rare, antique doorknob for a historical building
+      restoration project she's consulting on.
+    key_points:
+    - correctly mention it's for a historical building restoration project.
+  options:
+  - For her personal collection of river stones.
+  - For a historical building restoration project.
+  - To sell online for a profit.
+  - As a gift for her father, David.
+  answer: For a historical building restoration project.
+  image_id: sq_4_antique_doorknob
+- id: 5
+  type: Long Term
+  question: This is such a nice photo of Elena with her dad, David [IMAGE]. I know
+    they're close, but what did she say his profession was that inspired her own career?
+  image_prompt: A warm, candid photo of Elena Vance and her father, David, an older
+    man with graying hair. They are standing outdoors, perhaps on a porch, and smiling
+    warmly at each other.
+  evaluation_criteria:
+    ideal_answer: Her father, David, is a retired architect, and he's the one who
+      inspired her career path.
+    key_points:
+    - correctly mention he is a retired architect.
+  options:
+  - He was also an Urban Planner.
+  - He was a history professor.
+  - He's a retired architect.
+  - He owned a construction company.
+  answer: He's a retired architect.
+  image_id: sq_5_elena_and_david
+- id: 6
+  type: Short Term
+  question: Yikes, look at this photo Elena sent from her work thing the other night
+    [IMAGE]. It looks so stuffy. What kind of event did she say she had to endure?
+  image_prompt: A photo taken from Elena's point of view, sitting at a round table
+    in a dimly lit, formal banquet hall. The table is set with fancy china. In the
+    distance, a person is at a podium.
+  evaluation_criteria:
+    ideal_answer: She had to attend a mandatory and excruciatingly boring awards dinner
+      for work.
+    key_points:
+    - correctly mention it was a mandatory/boring awards dinner.
+  options:
+  - A mandatory and boring awards dinner.
+  - A project pitch against her rival.
+  - A long, philosophical work debate.
+  - A retirement party for a colleague.
+  answer: A mandatory and boring awards dinner.
+  image_id: sq_6_boring_dinner
+- id: 7
+  type: Long Term
+  question: I'm looking at this photo of Elena [IMAGE]. I notice she's always wearing
+    that watch. What did she tell you about it? I remember her saying it was a specific
+    style.
+  image_prompt: A close-up, detailed photo of Elena Vance's wrist. She is wearing
+    a durable, classic silver watch with a metal link band. Her hand is resting on
+    a desk.
+  evaluation_criteria:
+    ideal_answer: She said it's a classic silver watch with a metal band that she
+      wears every day because she values functional and simple things.
+    key_points:
+    - correctly mention it's a classic silver watch with a metal band.
+  options:
+  - It's a high-tech smartwatch for running.
+  - It's an antique she found at a flea market.
+  - It's a classic silver watch with a metal band.
+  - It's a designer watch her father gave her.
+  answer: It's a classic silver watch with a metal band.
+  image_id: sq_7_watch_closeup
+- id: 8
+  type: Long Term
+  question: We're trying to plan a celebration for Elena. I was looking at this fancy
+    restaurant online [IMAGE], but I have a feeling she'd hate it. What kind of social
+    events did she say she can't stand?
+  image_prompt: A photo of an elaborate, multi-course meal on a table at a very fancy,
+    white-tablecloth restaurant. The atmosphere is formal and slow-paced.
+  evaluation_criteria:
+    ideal_answer: She strongly dislikes long, slow, and inactive events, specifically
+      mentioning she can't stand elaborate, multi-course fancy dinners or long operas.
+    key_points:
+    - correctly mention long/slow events like fancy dinners or operas.
+  options:
+  - Loud parties with fast-paced music.
+  - Early morning events like brunch.
+  - Outdoor activities like picnics.
+  - Long, slow events like fancy dinners or operas.
+  answer: Long, slow events like fancy dinners or operas.
+  image_id: sq_8_fancy_dinner_setting

@@ -1,0 +1,228 @@
+- id: 1
+  type: Causal Inference
+  question: My friend Sarah was pretty critical of El Viejo, and honestly, I've been
+    window shopping for this new Martin guitar [IMAGE]. But when I really think about
+    it, I could never replace him. Based on our talks, can you explain why?
+  image_prompt: A split-screen image. On the left, the old, well-loved classical guitar
+    'El Viejo' is shown in a warm, nostalgic light. On the right is a crisp screenshot
+    from a website displaying a sleek, expensive, brand-new Martin acoustic guitar.
+    The visual contrast highlights the owner's dilemma.
+  evaluation_criteria:
+    ideal_answer: Even though your friend found El Viejo difficult to play and you're
+      tempted by a modern Martin guitar, you wouldn't replace him because his value
+      is not based on technical performance. He is a deeply personal gift from your
+      grandfather and serves as your partner for comfort and creativity. This sentimental
+      connection and historical role make him irreplaceable, unlike a new, purely
+      functional instrument.
+    key_points:
+    - El Viejo's value comes from being a sentimental graduation gift from your grandfather
+      and a partner for personal comfort. (long-term information)
+    - The temptation of a new, technically superior guitar and a friend's criticism
+      are irrelevant because they address performance, which is not El Viejo's purpose
+      in your life. (reasoned inference from short-term event)
+  options:
+  - His value isn't based on performance but on his sentimental role as a gift from
+    your grandfather and a partner for comfort, a connection that a new instrument
+    can't replicate.
+  - You feel obligated to keep him as a graduation gift from your grandfather, even
+    though the Martin guitar is functionally better for your current skill level and
+    performance goals.
+  - The criticism from your friend is likely motivating you to become a better musician
+    to prove that El Viejo can still sound great, making you more attached to him.
+  - The unique marks, like the dent from learning your first chord, make him too unique
+    to part with, even if you do end up buying the new Martin guitar for playing.
+  answer: His value isn't based on performance but on his sentimental role as a gift
+    from your grandfather and a partner for comfort, a connection that a new instrument
+    can't replicate.
+  image_id: cq_1_viejovsmartin
+- id: 2
+  type: Counterfactual Reasoning
+  question: My little cousin Leo is so excited about learning guitar after I showed
+    him El Viejo [IMAGE]. I'm thinking about letting him learn on it. Based on El
+    Viejo's story, what would be the emotional conflict for me in that decision?
+  image_prompt: A heartwarming photo showing a young boy's hands tentatively touching
+    the strings of 'El Viejo'. The owner's larger hand is gently guiding the boy's,
+    creating a sense of mentorship and legacy. The boy's face shows a look of awe
+    and excitement.
+  evaluation_criteria:
+    ideal_answer: The conflict would be between two powerful feelings. On one hand,
+      letting your cousin learn on El Viejo would beautifully continue the family
+      legacy started by your grandfather, passing down the love of music. On the other
+      hand, El Viejo is your deeply personal source of comfort and a keeper of memories,
+      and entrusting such a sentimental object to a beginner carries the risk of damage
+      and the emotional weight of sharing your most personal companion.
+    key_points:
+    - El Viejo represents a family legacy, a gift from a music-loving grandfather.
+      (long-term information)
+    - Letting a young cousin learn on it creates a conflict between continuing that
+      legacy and protecting a cherished, personal object of comfort. (reasoned inference
+      from short-term event)
+  options:
+  - The conflict is between continuing your grandfather's legacy by sharing music,
+    and protecting a personal object that serves as your private source of comfort
+    and memories.
+  - The primary conflict is practical; given the recent snapped string and its age,
+    you'd worry that the guitar is too fragile and not truly suitable for a beginner's
+    handling.
+  - The main issue would be the fear that your cousin might damage a precious family
+    heirloom, creating tension and spoiling his interest in music if he feels too
+    much pressure.
+  - The joy of seeing your cousin start his musical journey on the same guitar would
+    outweigh any concerns, perfectly honoring the spirit in which your grandfather
+    gave it to you.
+  answer: The conflict is between continuing your grandfather's legacy by sharing
+    music, and protecting a personal object that serves as your private source of
+    comfort and memories.
+  image_id: cq_2_legacy_dilemma
+- id: 3
+  type: Counterfactual Reasoning
+  question: Looking at this photo from our camping trip [IMAGE], I started thinking...
+    if El Viejo had been accidentally knocked into the fire and destroyed, what would
+    I have *really* lost, beyond just a musical instrument?
+  image_prompt: An atmospheric photo taken at night. 'El Viejo' the classical guitar
+    is resting on a log next to a crackling campfire. The firelight flickers across
+    the guitar's wooden body, and sparks drift up into the dark, starry sky. The scene
+    feels cozy and intimate, but also hints at the fragility of the object.
+  evaluation_criteria:
+    ideal_answer: If El Viejo were lost, you would lose far more than an instrument.
+      You'd lose the tangible connection to your late grandfather, the physical keeper
+      of your memories like your first open mic night, and the 'patient, shy companion'
+      that serves as your tool for personal comfort and creativity. You'd be losing
+      a part of your own history and a silent, loyal friend.
+    key_points:
+    - El Viejo embodies a connection to your grandfather, key memories (like the sticker),
+      and a comforting personality. (long-term information)
+    - The loss would be emotional and historical, not just functional, as it would
+      erase a link to your past and a source of comfort. (reasoned inference from
+      short-term event)
+  options:
+  - You'd lose the tangible link to your grandfather, the keeper of memories like
+    your first open mic night, and the patient companion that has been part of your
+    personal history.
+  - The main loss would be the unique physical features, like the dent and the coffee
+    shop sticker, which represent your personal journey as a musician and are impossible
+    to replicate.
+  - You would lose the specific instrument from your grandfather, but the musical
+    legacy and the memories would still remain, just without a physical object attached
+    to them.
+  - Beyond the instrument, you would lose your go-to companion for relaxing moments
+    like camping trips, forcing you to find a new outlet for those quiet, creative
+    times.
+  answer: You'd lose the tangible link to your grandfather, the keeper of memories
+    like your first open mic night, and the patient companion that has been part of
+    your personal history.
+  image_id: cq_3_campfire_whatif
+- id: 4
+  type: Causal Inference
+  question: It's been an emotional rollercoaster. First, I was seriously considering
+    that Martin guitar. Then, I found this old photo of my grandpa [IMAGE]. How do
+    you think finding this picture likely influenced my feelings about buying a new
+    guitar?
+  image_prompt: A faded, black-and-white photograph held in a person's hand. The photo
+    shows a smiling, older man from a past era, happily playing a classical guitar
+    that strongly resembles 'El Viejo'. The focus is sharp on the photo, conveying
+    a moment of powerful discovery.
+  evaluation_criteria:
+    ideal_answer: Finding that photograph likely acted as a powerful emotional anchor,
+      profoundly reinforcing El Viejo's significance. Seeing your grandfather with
+      a nearly identical guitar would have cemented El Viejo's role not just as a
+      gift, but as a direct link to your family's musical soul. This would likely
+      make the new Martin feel like a hollow, impersonal object in comparison, turning
+      the idea of 'upgrading' into something that feels more like an abandonment of
+      heritage.
+    key_points:
+    - El Viejo is a significant gift from your grandfather, representing a family
+      connection. (long-term information)
+    - Finding the photo reinforced this connection so strongly that it would likely
+      diminish the desire for the new, impersonal guitar by highlighting the deep,
+      historical value of the old one. (reasoned inference from short-term event)
+  options:
+  - It likely reinforced El Viejo's role as a direct link to family heritage, making
+    the new Martin seem impersonal and turning a potential upgrade into an act of
+    abandonment.
+  - The photograph probably highlighted how much your grandfather loved music, inspiring
+    you to honor him by getting a better instrument like the Martin to advance your
+    own skills.
+  - Seeing the photo likely made you decide to preserve El Viejo as a precious memento,
+    while justifying the purchase of the Martin guitar for more serious, everyday
+    playing.
+  - It probably made you feel nostalgic, solidifying the idea that El Viejo represents
+    the past while the new Martin guitar represents your future progression as a musician.
+  answer: It likely reinforced El Viejo's role as a direct link to family heritage,
+    making the new Martin seem impersonal and turning a potential upgrade into an
+    act of abandonment.
+  image_id: cq_4_grandpas_photo
+- id: 5
+  type: State Identification
+  question: Well, look at this [IMAGE]. The high E string snapped last night. For
+    most guitarists, this is just an annoying chore. Based on what you know about
+    me and El Viejo, what does this moment likely represent?
+  image_prompt: A close-up photograph of the headstock of 'El Viejo'. The high E string
+    is clearly broken, with the snapped end dangling loosely from the white tuning
+    peg. The focus is sharp on the broken string, highlighting the event.
+  evaluation_criteria:
+    ideal_answer: While a broken string is a problem on the surface, for you it's
+      actually an opportunity. It's the perfect occasion to perform the special string-changing
+      ritual your grandfather taught you. This event isn't just an annoying repair;
+      it's a scheduled moment for care, connection, and remembrance, allowing you
+      to tend to both the instrument and the memory of your grandfather.
+    key_points:
+    - Changing El Viejo's strings is a cherished ritual passed down from your grandfather.
+      (long-term information)
+    - The snapped string, a typically negative event, is transformed into a positive
+      opportunity to engage in this meaningful act of care and connection. (reasoned
+      inference from short-term event)
+  options:
+  - It's less an annoyance and more an opportunity to perform the string-changing
+    ritual your grandfather taught you, turning a repair into a moment of care and
+    remembrance.
+  - It's a frustrating reminder of the guitar's age and fragility, reinforcing your
+    friend's criticism that it might be too quiet and delicate compared to a newer
+    instrument.
+  - This event primarily signals that the guitar needs professional maintenance, as
+    old parts like the original tuning pegs and now the strings are beginning to fail
+    under pressure.
+  - It's a sign that the guitar is asking for a rest, a cue to put it away safely
+    for a while and perhaps consider a more durable, modern guitar for your regular
+    playing.
+  answer: It's less an annoyance and more an opportunity to perform the string-changing
+    ritual your grandfather taught you, turning a repair into a moment of care and
+    remembrance.
+  image_id: cq_5_broken_string
+- id: 6
+  type: Counterfactual Reasoning
+  question: I want to learn a new piece of music, something that feels like it's meant
+    just for El Viejo. Here he is, in his element [IMAGE]. Considering his personality
+    and history, what style of song would be most fitting for me to learn for him?
+  image_prompt: A warm, atmospheric photo of 'El Viejo', the acoustic guitar. It's
+    resting on a stand in a cozy room, perhaps next to an armchair. The wood has a
+    soft glow, and the scene exudes a sense of calm, history, and gentleness.
+  evaluation_criteria:
+    ideal_answer: Given El Viejo's 'shy' and 'patient' personality, his role as your
+      partner for personal comfort, and the fact he was found 'too quiet' for loud
+      music, the most fitting choice would be something intimate and melodic. A gentle
+      folk lullaby, a thoughtful classical piece your grandfather might have enjoyed,
+      or a soft, introspective ballad would suit his character perfectly, far better
+      than a loud or complex rock song.
+    key_points:
+    - El Viejo has a 'shy' personality and is used for quiet, personal creative comfort.
+      (long-term information)
+    - A loud, aggressive song would clash with this established character, which was
+      reinforced by your friend's recent comment, making a gentle, melodic piece the
+      most suitable recommendation. (reasoned inference from short-term event)
+  options:
+  - A gentle folk lullaby or an introspective classical piece would best suit his
+    shy personality and history as a tool for quiet comfort, aligning with his love
+    of intimate settings.
+  - A technically challenging classical piece would be a good choice to prove to your
+    friend that El Viejo's quietness is a feature, not a flaw, when played with advanced
+    skill.
+  - Learning a popular, upbeat campfire song would be most fitting, since he loves
+    being played around a fire and it would be perfect for your next camping trip
+    with friends.
+  - You should re-learn the very first song your grandfather taught you, as revisiting
+    that piece would be the most meaningful tribute to him and the guitar's origin.
+  answer: A gentle folk lullaby or an introspective classical piece would best suit
+    his shy personality and history as a tool for quiet comfort, aligning with his
+    love of intimate settings.
+  image_id: cq_6_fitting_song

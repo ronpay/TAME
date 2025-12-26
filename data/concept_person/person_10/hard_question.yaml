@@ -1,0 +1,101 @@
+- id: 1
+  type: Causal Inference / Preference Conflict
+  question: "Hey, I saw Maya's post about the concert Jenna took her to [IMAGE]. She doesn't seem too happy. I thought she and Jenna are best friends, so why would she be so bored?"
+  image_prompt: "A first-person perspective photo taken from a seat in a dimly lit, ornate concert hall. The focus is on the lap of the person, showing a classical music program brochure and a hand with a digital sports watch. The stage with the orchestra is visible but out of focus in the background. The overall mood is one of boredom and restlessness."
+  evaluation_criteria:
+    ideal_answer: "That's a great observation. While she went with her best friend Jenna, the activity itself goes directly against her personality. Maya has a strong, long-term dislike for activities that require sitting still for long periods, like concerts. So even though she was with a friend she loves, the three-hour concert would have been very difficult and boring for her, causing her to feel fidgety and restless."
+    key_points:
+    - "Maya has a long-term dislike for long, sedentary activities (long-term information from Turn 4)."
+    - "She recently attended a three-hour classical concert with Jenna and was bored and fidgety (short-term information from Turn 10)."
+  options:
+  - "She probably had an argument with Jenna before the concert started."
+  - "She's not a fan of classical music; she prefers upbeat pop music."
+  - "She dislikes long, sedentary activities like concerts, so she was likely bored and restless despite being with Jenna."
+  - "Maybe she was just tired from a long week at work."
+  answer: "She dislikes long, sedentary activities like concerts, so she was likely bored and restless despite being with Jenna."
+  image_id: cq_1_concert_boredom
+
+- id: 2
+  type: Counterfactual / Recommendation Reasoning
+  question: "Thinking about Maya's birthday... her brother Carlos mentioned wanting to surprise her. What if he booked a table at a super fancy, multi-course restaurant like this one [IMAGE]? Based on what you know about her, is that a good idea?"
+  image_prompt: "A photo of an elegant, quiet dining room in a Michelin-starred restaurant. The tables are covered with white tablecloths, multiple forks and knives, and fancy wine glasses. The atmosphere is formal and subdued."
+  evaluation_criteria:
+    ideal_answer: "That's a thoughtful question, but it would likely be a bad idea for Maya. She has explicitly mentioned that she hates fussy, multi-course formal dinners and activities that involve sitting still for a long time. Even as a special occasion, this kind of quiet, formal environment is the opposite of what she enjoys. She'd probably feel restless and unable to enjoy herself."
+    key_points:
+    - "Maya has a long-term dislike for formal, sedentary events and multi-course dinners (long-term information from Turn 4)."
+    - "A fancy restaurant represents this exact type of activity."
+  options:
+  - "Yes, for a special occasion like a birthday, she would definitely appreciate the fancy experience."
+  - "It depends on if her brother Carlos likes that kind of restaurant."
+  - "Probably not. She strongly dislikes formal, sedentary events and multi-course dinners, so she'd likely feel restless."
+  - "Only if they serve tacos. Otherwise, she wouldn't like the food."
+  answer: "Probably not. She strongly dislikes formal, sedentary events and multi-course dinners, so she'd likely feel restless."
+  image_id: cq_2_fancy_restaurant
+
+- id: 3
+  type: Causal Inference / Preference Conflict
+  question: "I was thinking about that old photo Maya found of herself as a kid [IMAGE]. It's cute, but it also got me thinking... do you see any connection between that and how she managed to get that breakthrough with her patient, Leo?"
+  image_prompt: "A slightly faded, nostalgic photograph from the early 2000s. A young girl, about 10 years old (younger Maya), is standing in the middle of a classic suburban living room, intensely focused on a TV screen that is out of frame. She is holding a motion-game controller and is mid-motion, looking energetic and completely absorbed in the game."
+  evaluation_criteria:
+    ideal_answer: "That's a very sharp insight. There's a strong connection. The photo shows her lifelong passion for active gaming. This passion directly influences her work as a pediatric physical therapist, as she often uses game-like analogies. The breakthrough with Leo was a perfect example of this: she turned his boring exercises into a 'real-life video game,' which tapped into her own expertise and successfully motivated him."
+    key_points:
+    - "Maya has a lifelong passion for active gaming, which influences how she thinks and communicates in her work."
+    - "She recently got a breakthrough with her patient Leo by turning his therapy into a game-like experience."
+  options:
+  - "The connection is that she has always been very active and energetic."
+  - "Yes, her lifelong love for gaming, seen in the photo, directly inspired her to gamify Leo's therapy, leading to the breakthrough."
+  - "There's no real connection; one is a hobby and the other is her job."
+  - "It shows she understands kids because she was a kid once too."
+  answer: "Yes, her lifelong love for gaming, seen in the photo, directly inspired her to gamify Leo's therapy, leading to the breakthrough."
+  image_id: cq_3_kid_gaming
+
+- id: 4
+  type: Causal Inference / Preference Conflict
+  question: "So Jenna dragged Maya to that classical concert she hated. Looking at this picture from their gym session [IMAGE], they seem so in sync. Are they actually a good match as friends if their ideas of fun are so different?"
+  image_prompt: "A selfie of two women in their mid-20s, Maya and Jenna, in a gym locker room. They are both in workout clothes, slightly sweaty but smiling. Maya is holding up a large smoothie cup. They look happy and energized."
+  evaluation_criteria:
+    ideal_answer: "That's a great question. While they have different ideas for 'relaxing' activities, as the concert incident shows, their friendship is built on a strong, shared foundation. They are workout buddies who push each other and share a core interest in fitness. Jenna trying to get Maya to relax, even if it fails, shows she cares. Their bond is strong enough to handle these differences because their shared gym time is the core of their friendship."
+    key_points:
+    - "Maya and Jenna are best friends and workout buddies who bond over fitness (long-term information from Turn 8)."
+    - "They have conflicting ideas about relaxing activities, evidenced by the recent concert (short-term event from Turn 10)."
+  options:
+  - "Probably not. The concert shows that Jenna doesn't really understand what Maya likes."
+  - "Yes, despite different relaxation preferences, their core bond is being workout buddies who motivate each other."
+  - "They are only friends because Maya is willing to go along with Jenna's ideas."
+  - "Yes, they look happy in the photo, so they must be good friends."
+  answer: "Yes, despite different relaxation preferences, their core bond is being workout buddies who motivate each other."
+  image_id: cq_4_gym_buddies
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Maya has a totally free weekend coming up, and I want to suggest something fun for her. I was thinking maybe something like this [IMAGE]. Based on everything you know about her, what would be a perfect plan?"
+  image_prompt: "A photo of a person sitting quietly on a couch, engrossed in reading a thick novel, with a cup of tea on the side table. The atmosphere is calm, quiet, and solitary."
+  evaluation_criteria:
+    ideal_answer: "Based on her profile, that quiet plan is probably not what she'd enjoy most. A perfect 'Maya-style' weekend would be something active and high-energy. For example, she'd love hiking a new trail, joining a casual beach volleyball game, or having another competitive VR gaming session with her brother Carlos. Anything that keeps her moving and engaged would be a great suggestion."
+    key_points:
+    - "Maya strongly prefers active, high-energy plans and dislikes quiet, sedentary activities."
+    - "The suggested weekend plan in the photo is a calm, solitary activity (quietly reading on a couch), which is what she is being asked to do on her free weekend."
+  options:
+  - "Reading a book quietly is a good way for her to relax after a busy week."
+  - "She should go to a food truck festival to find the best tacos."
+  - "She should do something fun with her best friend, Jenna."
+  - "She would prefer something active, like hiking, playing sports, or challenging her brother to a VR game."
+  answer: "She would prefer something active, like hiking, playing sports, or challenging her brother to a VR game."
+  image_id: cq_5_quiet_reading
+
+- id: 6
+  type: Counterfactual / Recommendation Reasoning
+  question: "Hypothetically, what if the 'game' Maya set up for her patient, Leo, is getting old, and he's starting to get stubborn again? Here's a picture of him looking bored during therapy [IMAGE]. How would Maya likely handle this?"
+  image_prompt: "A photo from a pediatric therapy room. The 8-year-old patient, Leo, is sitting on a therapy mat with his arms crossed, looking away from the colorful foam blocks with a pouty, bored expression. Maya is in the background, looking thoughtful."
+  evaluation_criteria:
+    ideal_answer: "Given Maya's personality, she would likely approach this as a design challenge. She wouldn't give up on the game concept, but would use her creativity and understanding of games to evolve it. She'd probably invent a 'sequel' or a 'Level 2' with new challenges, maybe a new 'story' or 'bosses' to defeat. She would tap into her game-loving spirit to keep him motivated."
+    key_points:
+    - "Maya uses gaming analogies and gamification as a core part of her professional method (long-term information from Turn 7)."
+    - "She has already successfully used this method with Leo (short-term event from Turn 9)."
+  options:
+  - "She would likely invent a 'sequel' or a 'new level' for the game to keep him engaged, using her creativity."
+  - "She would probably switch to a more traditional, stricter physical therapy method since the game failed."
+  - "She would ask his parents to talk to him about the importance of the exercises."
+  - "She would probably feel discouraged and try a completely different, non-game approach."
+  answer: "She would likely invent a 'sequel' or a 'new level' for the game to keep him engaged, using her creativity."
+  image_id: cq_6_leo_bored

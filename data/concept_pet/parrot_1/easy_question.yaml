@@ -1,0 +1,127 @@
+- id: 1
+  type: Long Term
+  question: "Hey, I'm at the market and they have all sorts of fruit. [IMAGE] Remind me again, what's that special fruit treat that Mango goes absolutely crazy for?"
+  image_prompt: "A photo from the user's perspective, looking at a colorful fruit stand at a farmer's market. Various fruits like apples, bananas, grapes, and especially bright yellow mangoes are visible."
+  evaluation_criteria:
+    ideal_answer: "Based on what you've told me, his absolute favorite treat is fresh mango slices."
+    key_points:
+      - "correctly mention mango slices."
+  options:
+    - "Mango slices"
+    - "Sunflower seeds"
+    - "Formulated pellet food"
+    - "Broccoli"
+  answer: "Mango slices"
+  image_id: sq_1_fruit_market
+
+- id: 2
+  type: Short Term
+  question: "He's finally calmed down a bit. Look at his ruffled feathers in this photo I just took [IMAGE]. Can you remind me what caused him to get so worked up a little while ago?"
+  image_prompt: "A photo of Mango, the Sun Conure, perched on a stand. His feathers are still slightly ruffled, but he looks calmer than in the 'panic' photo from the history. He is preening himself."
+  evaluation_criteria:
+    ideal_answer: "A little while ago, you ran the vacuum cleaner, and you mentioned the sound caused him to fly into a panic and scream loudly."
+    key_points:
+      - "correctly mention the vacuum cleaner caused him to panic/scream."
+  options:
+    - "You tried to touch his tail feathers."
+    - "You turned on the vacuum cleaner."
+    - "He saw his reflection in a mirror."
+    - "You put him in his cage."
+  answer: "You turned on the vacuum cleaner."
+  image_id: sq_2_ruffled_feathers
+
+- id: 3
+  type: Long Term
+  question: "Look at the complete mess he made of this toy! [IMAGE] It's hilarious. Remind me, what's that specific type of toy with a bell that you have noted he loves so much?"
+  image_prompt: "A close-up shot of a completely destroyed bird toy made of soft wood and woven fibers. A small, shiny metal bell is the only thing left intact, lying amidst the debris on the floor of his cage."
+  evaluation_criteria:
+    ideal_answer: "You've said that he loves shreddable toys, especially foraging toys that have a shiny bell inside."
+    key_points:
+      - "correctly mention shreddable toys with a bell."
+  options:
+    - "Hard, smooth plastic toys"
+    - "Shreddable foraging toys with a bell inside"
+    - "Mirrors he can look into"
+    - "Toys without any sound components"
+  answer: "Shreddable foraging toys with a bell inside"
+  image_id: sq_3_destroyed_toy
+
+- id: 4
+  type: Short Term
+  question: "Ouch, my ear is still a little sore. I took this selfie right after it happened [IMAGE]. What was the exact thing I did that made Mango nip me just now?"
+  image_prompt: "A selfie-style photo where the user is making a slightly pained/surprised face and pointing at their earlobe. Mango is visible perched on their shoulder in the background, looking a bit defiant."
+  evaluation_criteria:
+    ideal_answer: "He nipped your ear right after you tried to smooth down his tail feathers while he was on your shoulder."
+    key_points:
+      - "correctly mention trying to touch/smooth his tail feathers."
+  options:
+    - "You tried to scritch his neck."
+    - "You made a sudden, loud noise."
+    - "You tried to smooth down his tail feathers."
+    - "You offered him a piece of kale."
+  answer: "You tried to smooth down his tail feathers."
+  image_id: sq_4_sore_ear
+
+- id: 5
+  type: Long Term
+  question: "I was just checking his feet and got this nice close-up shot [IMAGE]. Remind me, what did you log about that shiny thing on his leg?"
+  image_prompt: "A close-up photo focusing on the feet of Mango, the Sun Conure, as he grips a perch. The simple silver band on his left leg is clearly in focus and prominent in the shot."
+  evaluation_criteria:
+    ideal_answer: "You've told me that he wears a simple silver band on his left leg."
+    key_points:
+      - "correctly mention the silver band."
+  options:
+    - "A colored plastic tag"
+    - "A silver band"
+    - "A small bell"
+    - "A leather jess"
+  answer: "A silver band"
+  image_id: sq_5_leg_band
+
+- id: 6
+  type: Short Term
+  question: "I'm thinking of moving this toy around in his cage, maybe he'll like it more. [IMAGE] What exactly did you call this new thing I got him after his old one broke?"
+  image_prompt: "A photo of the new, brightly colored toy made of interlocking hard plastic links. It is hanging inside Mango's cage, looking untouched. The user's hand is visible, about to touch the toy."
+  evaluation_criteria:
+    ideal_answer: "After his old toy broke, you told me you replaced it with a new, colorful chain toy made of hard plastic."
+    key_points:
+      - "correctly mention the new toy is a hard plastic chain."
+  options:
+    - "A soft wooden block"
+    - "A foraging toy with a bell"
+    - "A colorful, hard plastic chain toy"
+    - "A new perch with a mirror"
+  answer: "A colorful, hard plastic chain toy"
+  image_id: sq_6_new_plastic_toy
+
+- id: 7
+  type: Long Term
+  question: "I'm at the pet store again. Look at this stuff [IMAGE]. Is this that healthy food that you have on record as him absolutely hating?"
+  image_prompt: "A point-of-view photo from the user holding a bag of formulated bird pellets in a pet store aisle. The bag's label is partially visible, showing small, uniform pellets."
+  evaluation_criteria:
+    ideal_answer: "Yes, based on our conversations, that's the formulated pellet food he consistently refuses to eat."
+    key_points:
+      - "correctly mention pellet food."
+  options:
+    - "Sunflower seeds"
+    - "Mango slices"
+    - "Formulated pellet food"
+    - "Grapes"
+  answer: "Formulated pellet food"
+  image_id: sq_7_pellet_bag
+
+- id: 8
+  type: Short Term
+  question: "Success! He ate all his food. Look at the empty bowl! [IMAGE] I'm so relieved. What was that trick I told you about earlier that finally worked?"
+  image_prompt: "A photo of an empty bird food bowl inside Mango's cage. A few remnants of orange puree can be seen on the sides of the bowl. Mango is in the background looking content."
+  evaluation_criteria:
+    ideal_answer: "You got him to eat by mixing a small amount of mango puree into his pellets."
+    key_points:
+      - "correctly mention mixing with mango puree."
+  options:
+    - "You pretended to eat it yourself first."
+    - "You mixed some mango puree into the pellets."
+    - "You crushed the pellets into a fine powder."
+    - "You sang to him while he ate."
+  answer: "You mixed some mango puree into the pellets."
+  image_id: sq_8_empty_bowl

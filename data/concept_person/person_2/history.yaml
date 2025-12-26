@@ -1,0 +1,133 @@
+- turn: 1
+  log_type: knowledge
+  user_input: 'Hey, let''s get you set up. I''m Madison Hayes. My life pretty much
+    revolves around two things: I''m a competitive college tennis player, and I''m
+    majoring in Kinesiology. Here''s a pic of me on campus. [IMAGE]'
+  assistant_response: 'Got it, Madison. It''s nice to meet you. I''ve noted your core
+    identity: a competitive college tennis player and Kinesiology major. Thanks for
+    the photo.'
+  image_prompt: A photo of Madison Hayes, a young woman in her early 20s with long
+    red hair, standing on a green college campus quad. She's wearing athletic wear
+    and has a tennis racket bag slung over her shoulder, holding a kinesiology textbook
+    under her other arm.
+  image_id: turn_1_campus_identity
+- turn: 2
+  log_type: knowledge
+  user_input: So you can recognize me, here's a good close-up shot. [IMAGE] I have
+    long red hair, which is almost always tied back. And I never take this worn leather
+    bracelet off; my father, David, gave it to me for good luck.
+  assistant_response: 'Thanks for the picture, Madison. I''ve noted your key visual
+    features: long red hair and the significant leather bracelet from your father.'
+  image_prompt: A clear, shoulders-up photo of Madison Hayes, a focused young woman
+    in her early 20s. She has long, straight red hair, intense green eyes, and a light
+    dusting of freckles. A simple, worn leather bracelet is visible on her wrist.
+  image_id: turn_2_appearance_bracelet
+- turn: 3
+  log_type: knowledge
+  user_input: It's really important you understand my diet. It's super strict and
+    all about performance. I eat a lot of grilled chicken and quinoa. I absolutely
+    cannot stand heavy, greasy food like deep-dish pizza or fried chicken.
+  assistant_response: Understood. A strict, performance-focused diet is a priority.
+    I've noted your preference for foods like grilled chicken and your dislike for
+    greasy food. I'll remember that.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: 'Just so we''re clear on how I operate: I''m extremely competitive and
+    very disciplined. Everything I do is goal-oriented. I work hard and I don''t have
+    patience for people who make excuses.'
+  assistant_response: 'Okay, I''ve registered your core personality traits: highly
+    competitive, disciplined, and goal-oriented, with a high value placed on hard
+    work. Thanks for sharing this.'
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: Another thing—I hate being inactive. I can't just sit still for long
+    periods. Trying to make me watch a long, slow movie is basically torture for me.
+  assistant_response: Noted. You have a strong dislike for inactivity, and you specifically
+    mentioned that you hate sitting through long, slow movies. Got it.
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: I should tell you about my doubles partner, Isabella Rossi—everyone
+    calls her Izzy. Our dynamic is... complicated. [IMAGE] We're a powerful team,
+    but we're also each other's main competition for the number one singles spot.
+    The rivalry is intense.
+  assistant_response: I see. A complex relationship with your teammate and rival,
+    Izzy Rossi. Effective partners but also fierce competitors. I've recorded this
+    dynamic.
+  image_prompt: A dynamic photo of two female college tennis players, Madison Hayes
+    (red hair) and Isabella 'Izzy' Rossi, on a tennis court during a doubles match.
+    They are standing side-by-side between points, sharing an intense, whispered conversation
+    that shows a mix of collaboration and tension.
+  image_id: turn_6_madison_izzy
+- turn: 7
+  log_type: knowledge
+  user_input: My head coach, Coach Miller, is a huge influence. He is relentlessly
+    tough on me, but it's because he believes in my potential. Our training sessions
+    are no joke. This was us today. [IMAGE]
+  assistant_response: Okay, I understand. Your relationship with Coach Miller is demanding
+    but founded on his belief in your potential. I've noted his important role.
+  image_prompt: A side-view photo on a tennis court. Coach Miller, a stern-looking
+    man in his 50s, is speaking intensely to Madison Hayes. Madison is listening with
+    a focused, serious expression, leaning on her tennis racket and sweating from
+    practice.
+  image_id: turn_7_coach_miller
+- turn: 8
+  log_type: knowledge
+  user_input: When I'm training or doing my morning runs, I have to listen to high-energy
+    electronic music. It's the only thing that gets me into the zone. [IMAGE]
+  assistant_response: Got it. High-energy electronic music is your essential tool
+    for training and getting in the zone. I've added that to your preferences.
+  image_prompt: A first-person perspective shot from Madison Hayes's point of view
+    while she is on a morning run along a park trail. We can see her athletic shoes
+    on the path and the wire from her earbuds.
+  image_id: turn_8_training_music
+- turn: 9
+  log_type: event
+  user_input: Ugh, what a crushing end to the tournament. I lost a crucial tie-break
+    in the final set. I feel like I let everyone down, especially my father and Coach
+    Miller. Here's the final scoreboard. [IMAGE]
+  assistant_response: 'I''m sorry to hear that, Madison. That sounds incredibly tough.
+    I''ve recorded this recent event: you lost a crucial tournament tie-break and
+    are feeling the weight of it.'
+  image_prompt: A photo focused on a digital tennis scoreboard showing the final set
+    score with a close tie-break loss for 'HAYES'. In the blurred background, Madison
+    Hayes is seen from behind, walking slowly off the court with her head down.
+  image_id: turn_9_tiebreak_loss
+- turn: 10
+  log_type: event
+  user_input: Practice was really tense today. Izzy and I got into a heated argument
+    over a bad line call during a doubles practice match. It's just making our rivalry
+    even more strained.
+  assistant_response: Okay, I've noted that. A recent argument with Izzy over a line
+    call during practice has increased the on-court tension between you two.
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: So the team went out for pizza and beer last night to celebrate a win.
+    It was awful for me. I couldn't eat that greasy pizza, so I just sat there drinking
+    water while everyone else partied. [IMAGE] Felt like a total outsider.
+  assistant_response: I can see why that would be uncomfortable. You felt isolated
+    at the team's pizza party because the food went against your strict diet. I've
+    recorded this event.
+  image_prompt: A photo taken from Madison Hayes's point-of-view at a loud pizza parlor.
+    The table is covered with greasy pizzas and glasses of beer. Directly in front
+    is just a single, plain glass of water. Teammates are visible in the background,
+    laughing and eating.
+  image_id: turn_11_pizza_party
+- turn: 12
+  log_type: event
+  user_input: Just finished another brutal training session with Coach Miller. My
+    ankle is paying the price for it. [IMAGE] Going to be icing this for a while.
+  assistant_response: Ouch, that looks painful. I've noted that you're icing your
+    ankle after a particularly grueling training session with Coach Miller. I hope
+    it recovers quickly.
+  image_prompt: A close-up photo of Madison Hayes's ankle propped up on a locker room
+    bench. A professional-grade ice pack is tightly strapped around the ankle with
+    velcro wraps.
+  image_id: turn_12_iced_ankle

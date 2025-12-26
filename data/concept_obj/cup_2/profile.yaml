@@ -1,0 +1,70 @@
+concept_id: cup_2
+name: "The Pacemaker"
+object_profile:
+  type: "Coffee Mug/Thermos"
+  origin_story: "Purchased for the owner's first-ever half-marathon. It was a cheap, last-minute buy, the only piece of 'specialized' gear the owner felt they needed, marking the start of their running journey."
+
+physical_attributes:
+  summary: "A simple, semi-translucent white plastic sports bottle with a black, push-pull nozzle lid. The body has a minimalist design with ML/OZ-FL measurement markings."
+
+  defining_features:
+    - "A long, deep scratch running down one side, a 'battle scar' from a fall during a tough trail run where the bottle took the impact against a rock."
+    - "The printed measurement markings are significantly faded, especially around the middle, from thousands of grips and washes over the years."
+    - "The soft plastic nozzle on the lid has faint but distinct teeth marks, a result of the owner's nervous habit of biting it during intense moments of a race."
+    - "The inside base has a very faint, permanent yellow-ish stain from a forgotten electrolyte tablet left overnight years ago."
+
+owner_relationship:
+  functional_use: "A primary hydration vessel for all of the owner's physical activities: running, hiking, and gym workouts. The volume markings are used to precisely mix electrolyte drinks."
+  sentimental_role: "A silent training partner and a trophy of endurance. It's a physical reminder of the owner's entire fitness journey, from a nervous first race to confident long-distance runs."
+
+  projected_personality:
+    - "Resilient and tough; has survived countless drops and scrapes but never leaks."
+    - "No-nonsense and reliable; it does its one job perfectly without any frills."
+    - "Quietly encouraging; its presence is a steady, familiar comfort during a difficult workout."
+
+  perceived_preferences:
+    loves:
+      - "Being filled with ice-cold water on a scorching hot day."
+      - "The pre-run ritual of getting a fresh electrolyte tab."
+      - "The firm squeeze at the finish line of a long race."
+    hates:
+      - "Being left in a hot car to let the water go lukewarm."
+      - "Sugary, sticky sports drinks that are hard to clean."
+      - "Being forgotten and left behind."
+
+history:
+  knowledge:
+    - "Introduce the object's origin: bought for the owner's first half-marathon."
+    - "Describe its most prominent 'battle scar': a deep scratch from a fall during a trail run."
+    - "Explain its role as a 'silent partner' for the owner's fitness journey."
+    - "Describe its personality as resilient and no-nonsense."
+    - "Mention its perceived hatred of being left in a hot car or filled with sticky drinks."
+    - "Detail the owner's nervous habit of biting the nozzle during intense moments."
+    - "Describe the faded measurement markings as a sign of its long service."
+    - "Recount the memory of crossing the first race's finish line with it."
+
+  event:
+    - "Introduce a recent event: the owner noticed a small crack forming near the screw-on lid, causing worry about future leaks."
+    - "Introduce a recent event: the owner received a new, fancy, insulated metal water bottle as a birthday gift."
+    - "Introduce a recent thought: the owner is feeling conflicted about whether to retire the old bottle for the new, more modern one."
+    - "Introduce a recent event: the owner almost left it at the gym last week and had a moment of pure panic before running back to retrieve it."
+    - "Introduce a recent photo: the old, scratched plastic bottle is sitting on the kitchen counter right next to the sleek, new (and unused) metal bottle."
+    - "Introduce a recent event: During a tough hill sprint session, the owner squeezed it very hard and wondered if that made the crack worse."
+
+simple_questions:
+  - "Ask how the owner first got this bottle."
+  - "Ask to describe one of its major physical marks."
+  - "Ask what the owner primarily uses this bottle for."
+  - "Ask what recent damage the owner is worried about."
+  - "Ask what the bottle 'hates', according to the owner."
+  - "Ask if the owner has a potential replacement for the bottle."
+  - "Ask about the owner's specific habit when using the bottle during a race."
+  - "Ask about the time the owner almost lost the bottle recently."
+
+challenge_question:
+  - "Pose a conflict question: Given that the old bottle is starting to crack and the owner just received a new, objectively better one, why do they hesitate to switch? The user must combine the bottle's sentimental role (first race, partner) with the current dilemma (damage vs. new gift) to explain the owner's loyalty."
+  - "Create a state-recognition question: Based on the recent photo showing the old bottle next to the new one, what is the core conflict the owner is experiencing? The user must analyze the tension between loyalty to a historic 'partner' and the practical appeal of a new, undamaged object."
+  - "Ask a 'what-if' question: If the owner hadn't run back into the gym and had permanently lost the bottle, what would they have lost beyond a simple plastic container? The user must articulate the loss of a symbol of their entire running history and a personal 'trophy'."
+  - "Pose an emotional interpretation question: Why did the owner feel 'pure panic' when they thought they lost this cheap, easily replaceable bottle? The user needs to connect the object's low monetary value with its high sentimental value (shared history, battle scars) to explain the intense emotional reaction."
+  - "Create a behavioral analysis question: The owner is considering trying to repair the small crack on the old bottle. What does this impulse reveal about their relationship with it, especially when a perfect replacement is available? The user should infer that the goal is not to save money but to preserve a meaningful bond with a cherished companion."
+  - "Pose a future prediction question: How will the owner likely use both bottles in the future? The user should reason that the owner might use the new bottle for daily/casual use but will likely save 'The Pacemaker' for important races or particularly tough training sessions, valuing its history over its flaws."

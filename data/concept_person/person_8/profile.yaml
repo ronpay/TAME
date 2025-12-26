@@ -1,0 +1,106 @@
+concept_id: person_002
+name: "Ravi Kapoor"
+
+identity:
+  age_group: "Early 40s"
+  gender: "Male"
+  occupation: "Architect, Partner at a mid-sized firm"
+  nationality: "British"
+
+appearance:
+  summary: "A man in his early 40s with a warm but competitive demeanor. He has a clean-shaven head and expressive features. He favors a smart-casual style, often layering sweaters over collared shirts."
+
+  key_visual_features:
+    - "Completely bald head, well-maintained"
+    - "Engaged, focused brown eyes that crinkle when he smiles"
+    - "Often wears a brown or navy V-neck sweater over a crisp, white collared shirt"
+    - "A distinctive, oversized chronograph watch on his left wrist that he never takes off"
+    - "A tendency to gesture enthusiastically when excited or making a point"
+
+behavior:
+  personality_traits:
+    - "Gregarious and loves hosting"
+    - "Intensely competitive in a friendly, playful way"
+    - "Meticulous and detail-oriented in his professional life"
+    - "Values tradition, family, and well-made things"
+    - "A bit stubborn; believes there is a 'right' way to do most things"
+
+  communication_style:
+    - "Warm, engaging, and often uses analogies from building or design"
+    - "Direct and clear, but with a layer of charm"
+    - "Becomes louder and more animated when excited, especially during games"
+
+  preferences:
+    hobbies:
+      loves:
+        - "Hosting game nights (board games, video games like the Wii)"
+        - "DIY home improvement projects"
+        - "Watching cricket with his father-in-law"
+      hates:
+        - "Unstructured, 'go with the flow' activities with no clear goal"
+        - "Passive entertainment like endlessly scrolling social media"
+        - "Modern art that he feels is 'formless and lazy'"
+
+    food:
+      loves:
+        - "His own 'perfectly engineered' home-cooked biryani"
+        - "Aged single malt scotch"
+        - "A classic, well-made shepherd's pie"
+      hates:
+        - "Trendy, deconstructed food that prioritizes style over substance"
+        - "Cheap, overly sugary cocktails"
+        - "Microwave meals"
+
+    media:
+      loves:
+        - "Biographies of famous architects and engineers"
+        - "Classic rock music (e.g., Queen, Led Zeppelin)"
+      hates:
+        - "Reality TV, especially dating shows"
+        - "Overly cynical or nihilistic films"
+
+relationships:
+  - name: "Priya Kapoor"
+    relation: "Wife"
+    dynamic: "Loving and supportive, but she is more spontaneous and often gently teases Ravi for his need to plan everything."
+  - name: "Maya Kapoor"
+    relation: "Daughter (10 years old)"
+    dynamic: "He adores her and is trying to pass on his love for building and precision, often involving her in his DIY projects."
+  - name: "Tom Jennings"
+    relation: "Junior Architect / Protégé"
+    dynamic: "Ravi sees great potential in Tom but is constantly frustrated by his messy, disorganized workflow."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Ravi's profession as an architect and his meticulous, detail-oriented nature at work."
+    - "Instruction: Introduce Ravi's love for hosting game nights, especially his competitive streak when playing video games."
+    - "Instruction: Introduce his signature dish, a traditional biryani that he has perfected over the years."
+    - "Instruction: Introduce his strong dislike for trendy, 'deconstructed' food."
+    - "Instruction: Introduce his relationship with his wife Priya, highlighting her more spontaneous nature."
+    - "Instruction: Introduce his close bond with his daughter, Maya, and their shared DIY projects."
+    - "Instruction: Introduce the chunky chronograph watch that he always wears on his left wrist."
+    - "Instruction: Introduce his mentorship of a junior architect, Tom, and his frustration with Tom's lack of organization."
+
+  event:
+    - "Instruction: Introduce a recent event where Ravi tried to host a dinner party, but his new high-tech oven malfunctioned and burned his signature biryani, leaving him incredibly frustrated."
+    - "Instruction: Introduce a recent event where, for their anniversary, Priya surprised Ravi with a booking at a highly-acclaimed experimental restaurant known for its deconstructed dishes."
+    - "Instruction: Introduce a recent event where Ravi got a major project deadline moved up, forcing him to work late and eat a sad microwave meal at his desk, which he hated."
+    - "Instruction: Introduce a recent photo showing Ravi and Maya proudly holding up a slightly crooked but functional birdhouse they built together."
+
+simple_questions:
+  - "Draft: Ask what Ravi does for a living."
+  - "Draft: Ask what happened when Ravi tried to cook for his recent dinner party."
+  - "Draft: Ask what kind of accessory Ravi is always seen wearing."
+  - "Draft: Ask what Ravi and his daughter Maya were doing last weekend."
+  - "Draft: Ask about Ravi's opinion on disorganized colleagues, like Tom."
+  - "Draft: Ask what Ravi was forced to eat for dinner when working late recently."
+  - "Draft: Ask about the dynamic between Ravi and his wife, Priya."
+  - "Draft: Ask what Ravi enjoys doing with his friends at home."
+
+challenge_question:
+  - "Draft: [Preference Conflict] Pose a question explaining why Ravi might have had mixed feelings about his anniversary dinner with Priya, even though it was a thoughtful gift. The user must combine his long-term hatred of deconstructed food with the short-term event of the surprise booking."
+  - "Draft: [Counterfactual Reasoning] Ask a 'what-if' question: If Ravi's daughter Maya suggested they spend an afternoon 'just messing around with paint with no plan,' how would Ravi likely react? The user must infer he would struggle, combining his love for Maya with his long-term dislike for unstructured activities."
+  - "Draft: [State Recognition] Describe a scene where Ravi is staring angrily at his new oven and the kitchen smells burnt. Ask what is probably upsetting him so much. The user must connect the recent event (oven malfunction) with his long-term pride in his 'perfect' biryani to understand his deep frustration."
+  - "Draft: [Recommendation Decision] Ask for a gift recommendation for Ravi: His birthday is coming up. Would a gift certificate to a cutting-edge modern art gallery or a high-quality, classic leather-bound notebook be a better choice? The user must use his long-term preferences (hates formless art, is a meticulous architect) to make the right choice."
+  - "Draft: [Conflict Resolution] Pose a question on how Ravi could effectively mentor Tom without just getting frustrated. The user must acknowledge Ravi's meticulous nature and Tom's disorganization and suggest a structured solution, like creating shared checklists or project templates."
+  - "Draft: [Preference Conflict] Explain the irony of Ravi, an architect who embraces new technology in his work, getting so upset with his new high-tech oven. The user must combine the recent event (burnt biryani) with his long-term value for tradition (in cooking) to explain the apparent contradiction."

@@ -1,0 +1,142 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, let's get you set up. I'm Kenji. I'm a Senior Software Architect.
+    My job is like designing the steel frame for a skyscraper—it has to be perfect,
+    or everything built on top of it will collapse. That's why I have to be extremely
+    meticulous and detail-oriented. Here is a photo for your records. [IMAGE]
+  assistant_response: Hello Kenji. I've noted your role as a Senior Software Architect
+    and your meticulous, detail-oriented nature. The skyscraper frame analogy is a
+    great way to put it. Thank you for the introduction.
+  image_prompt: A headshot-style photo of Kenji Tanaka, a Japanese-American man in
+    his early 40s. He is in a modern office, sitting at a clean desk. He wears a business-casual
+    polo shirt and has short, neat black hair. He has a kind but slightly tired expression,
+    with a small, faded scar visible above his right eyebrow. He's wearing a high-end,
+    understated smartwatch.
+  image_id: turn_1_work_profile
+- turn: 2
+  log_type: knowledge
+  user_input: Just so you know my food preferences... I can't stand that pretentious
+    'health' food. Kale smoothies, 'power' bars that taste like dust... no thanks.
+    Give me a classic American hot dog or a greasy spoon diner breakfast any day.
+  assistant_response: Got it. Strong preference for simple, classic foods like hot
+    dogs and diner breakfasts, and a strong dislike for trendy health foods like kale
+    smoothies. I've made a note.
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: When work gets too stressful, this is how I unwind. [IMAGE] I build
+    these intricate model kits, usually ships or Gundams. The focus it requires helps
+    quiet my mind.
+  assistant_response: That's a fascinating hobby. I understand that building complex
+    model kits is your primary way of de-stressing. I've saved this information.
+  image_prompt: A close-up shot of Kenji Tanaka's hands carefully using tweezers to
+    place a tiny piece onto a highly detailed model ship. The table is neatly organized
+    with hobby tools, small plastic parts, and instructions. In the background, a
+    finished Gundam model is visible on a shelf.
+  image_id: turn_3_model_hobby
+- turn: 4
+  log_type: knowledge
+  user_input: This is my daughter, Emily. [IMAGE] She's in college now. I love her
+    to bits, but I feel like we're living in different worlds. Her life is all social
+    media and trends I don't get. I worry she thinks I'm just a boring dad.
+  assistant_response: Thank you for sharing this about your daughter, Emily. I've
+    noted your close relationship and also your feeling of being a bit disconnected
+    from her world. I've saved her photo.
+  image_prompt: A candid photo of Kenji Tanaka and his college-aged daughter, Emily.
+    They are sitting on a couch. Kenji looks at her with adoration, while Emily is
+    laughing at something on her phone, which she is showing him.
+  image_id: turn_4_daughter_emily
+- turn: 5
+  log_type: knowledge
+  user_input: I wanted to log some info about my team. My lead project manager is
+    Maria Flores. We respect each other professionally, but things can get tense.
+    She's always pushing for speed, and I have to push back to ensure quality and
+    stability. It's a constant friction point.
+  assistant_response: 'Understood. I''ve created a profile for Maria Flores, noting
+    her role as Lead Project Manager and the dynamic of your relationship: a professional
+    but often tense balance between speed and quality.'
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: For my media preferences, I love old black-and-white samurai films.
+    Kurosawa is a genius. [IMAGE] I can't stand modern blockbuster action movies with
+    thin plots and constant explosions. I also enjoy reading technical journals.
+  assistant_response: Preferences noted. You enjoy classic samurai films and technical
+    journals, but dislike modern blockbuster movies. Thanks for the details.
+  image_prompt: A photo of a cozy living room. A vinyl record player is playing, with
+    a classical jazz album cover visible nearby. On a large TV screen, a still frame
+    from a classic black-and-white Kurosawa samurai film is paused.
+  image_id: turn_6_media_preference
+- turn: 7
+  log_type: knowledge
+  user_input: There's a junior developer on my team, David Chen. I'm mentoring him.
+    He's sharp, reminds me of myself when I was younger. I'm patient with him, but
+    I also push him to be thorough. Here we are going over a system diagram. [IMAGE]
+  assistant_response: Okay, I've added David Chen to your key relationships. He's
+    a junior developer you are mentoring, and you see potential in him.
+  image_prompt: An over-the-shoulder photo in an office setting. Kenji Tanaka is pointing
+    at a line of code on a monitor, explaining it to a younger developer, David Chen,
+    who is listening intently and nodding.
+  image_id: turn_7_mentoring_david
+- turn: 8
+  log_type: knowledge
+  user_input: 'One more thing for the record: I really dislike loud, chaotic social
+    events. Those mandatory company mixers with no agenda are the worst for me. I
+    just can''t do the unstructured small talk.'
+  assistant_response: I've made a strong note of your dislike for loud, unstructured
+    social gatherings like company mixers. This is very helpful, thank you.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: Ugh, this week has been a nightmare. We found a major, unexpected bug
+    just before a critical deployment. It's put the whole project at risk. Maria Flores
+    and I have been arguing non-stop about the best way to fix it without delaying
+    everything. [IMAGE]
+  assistant_response: 'That sounds incredibly stressful. I''ve logged this event:
+    a critical bug is threatening a project deployment, leading to tense disagreements
+    with Maria. I hope you find a solution soon.'
+  image_prompt: A photo of a whiteboard in a conference room, covered in complex software
+    architecture diagrams, arrows, and frustrated scribbles. The words 'CRITICAL BUG!'
+    are circled in red marker. Two figures, representing Kenji and Maria, can be seen
+    in a blurred, tense discussion in the background.
+  image_id: turn_9_critical_bug
+- turn: 10
+  log_type: event
+  user_input: Finally got a break from the work chaos this Saturday. This was pure
+    bliss. [IMAGE] A simple hot dog with all the fixings at the park. Sometimes the
+    simple things are the best.
+  assistant_response: 'It''s good to see you getting a moment of relaxation. I''ve
+    saved this happy memory: enjoying a hot dog at the park on Saturday. It looks
+    delicious.'
+  image_prompt: A candid, sunlit photo of Kenji Tanaka sitting on a park bench. He
+    has a look of pure, relaxed happiness on his face as he takes a bite of a classic
+    American hot dog loaded with mustard, relish, and onions. His usual work stress
+    is completely gone.
+  image_id: turn_10_happy_hotdog
+- turn: 11
+  log_type: event
+  user_input: Just had a phone call with Emily. It was... awkward. I was trying to
+    explain the stress with the project bug, and she was trying to tell me about some
+    TikTok dance trend. We were talking past each other. I feel that disconnect again.
+  assistant_response: 'I''m sorry to hear the call was awkward. I''ve recorded the
+    event: a recent phone call with Emily where you both struggled to connect over
+    very different topics—your work stress and her social media interests.'
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: Had to go to a mandatory company mixer last night. It was exactly as
+    bad as I expected. So much noise and pointless small talk. I couldn't take it.
+    Here's a picture of the chaos just before I escaped. [IMAGE] I lasted about 20
+    minutes before I had to leave.
+  assistant_response: That sounds very uncomfortable, especially given your dislike
+    for such events. I've noted that you attended a mandatory company mixer recently
+    but left after 20 minutes because you found it unbearable.
+  image_prompt: A photo taken from Kenji's perspective, looking out over a crowded,
+    noisy room during a corporate social mixer. People are standing in tight groups,
+    talking loudly. The lighting is dim and colored. The overall feeling is one of
+    chaotic, overwhelming social activity.
+  image_id: turn_12_mixer_chaos

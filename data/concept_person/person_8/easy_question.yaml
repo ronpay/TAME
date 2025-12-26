@@ -1,0 +1,157 @@
+- id: 5
+  type: Long Term
+  question: Hey, I'm trying to tell my cousin about Ravi. Look at this photo of him
+    in his element [IMAGE]. I know it's something to do with design, but what's his
+    exact job title again?
+  image_prompt: A man in his early 40s, Ravi Kapoor, with a clean-shaven head and
+    focused brown eyes, standing in a modern architect's office. He is wearing a navy
+    V-neck sweater over a crisp white collared shirt. He is looking thoughtfully at
+    a building model on a table.
+  evaluation_criteria:
+    ideal_answer: Ravi is an architect and a partner at his firm.
+    key_points:
+    - correctly mention he is an architect.
+  options:
+  - A Civil Engineer
+  - An Architect
+  - A University Professor
+  - A Graphic Designer
+  answer: An Architect
+  image_id: sq_5_ravi_architect
+- id: 6
+  type: Short Term
+  question: Oh man, Ravi posted this picture earlier [IMAGE], he seemed so upset.
+    What exactly went wrong during his dinner party?
+  image_prompt: A photo taken from Ravi's perspective, looking into a modern oven.
+    Inside, a large ceramic dish contains a blackened, burnt mass that used to be
+    biryani. A wisp of smoke is visible and the oven's digital display shows an error.
+  evaluation_criteria:
+    ideal_answer: He was hosting a dinner party, but his new high-tech oven malfunctioned
+      and burned his signature biryani, which made him very frustrated.
+    key_points:
+    - correctly mention the oven malfunctioned and burned his biryani.
+  options:
+  - He had an argument with his wife, Priya
+  - His new oven malfunctioned and burned the biryani
+  - The guests were all very late and he got annoyed
+  - He ran out of his favorite single malt scotch
+  answer: His new oven malfunctioned and burned the biryani
+  image_id: sq_6_burnt_biryani
+- id: 7
+  type: Long Term
+  question: Every time I see a picture of Ravi, like this one [IMAGE], I notice he's
+    wearing the same thing on his wrist. What is that accessory he never takes off?
+  image_prompt: A close-up shot focusing on the left wrist of Ravi Kapoor. He is wearing
+    a large, silver chronograph watch with a detailed face and multiple dials. The
+    sleeve of a navy sweater is visible.
+  evaluation_criteria:
+    ideal_answer: He always wears an oversized chronograph watch on his left wrist.
+    key_points:
+    - correctly mention the oversized/chunky chronograph watch.
+  options:
+  - A simple leather wristband
+  - A smart fitness tracker
+  - An oversized chronograph watch
+  - A traditional golden bangle
+  answer: An oversized chronograph watch
+  image_id: sq_7_ravi_watch
+- id: 8
+  type: Short Term
+  question: Just saw this adorable photo of Ravi and Maya [IMAGE]! They look so proud.
+    What did they just finish working on together?
+  image_prompt: A proud-looking Ravi Kapoor and his smiling 10-year-old daughter,
+    Maya, are standing in their backyard, holding up a freshly built wooden birdhouse.
+    The birdhouse is charmingly imperfect and slightly crooked.
+  evaluation_criteria:
+    ideal_answer: They just finished building a birdhouse together as one of their
+      DIY projects.
+    key_points:
+    - correctly mention they built a birdhouse.
+  options:
+  - Building a birdhouse
+  - Planting a vegetable garden
+  - Assembling a new piece of furniture
+  - Painting a mural in her room
+  answer: Building a birdhouse
+  image_id: sq_8_birdhouse_project
+- id: 9
+  type: Long Term
+  question: I'm trying to understand Ravi's management style. He posted this photo
+    of his super-organized desk [IMAGE]. I remember you mentioned he was mentoring
+    someone named Tom. How does he feel about Tom's work habits?
+  image_prompt: A photo of Ravi's impeccably neat and organized desk. A laptop is
+    perfectly centered, pens are in a holder, and architectural drawings are stacked
+    neatly. His large chronograph watch is visible on his wrist as his hand rests
+    on a mouse.
+  evaluation_criteria:
+    ideal_answer: He mentors a junior architect, Tom, but is constantly frustrated
+      by Tom's messy and disorganized workflow.
+    key_points:
+    - correctly mention he is frustrated by his disorganization.
+  options:
+  - He finds his disorganization very frustrating
+  - He thinks it's a sign of a creative mind
+  - He is impressed by his relaxed attitude
+  - He doesn't pay much attention to it
+  answer: He finds his disorganization very frustrating
+  image_id: sq_9_organized_desk
+- id: 10
+  type: Short Term
+  question: Poor Ravi had to work super late the other night. He sent me this bleak
+    picture from his desk [IMAGE]. What did he end up eating for dinner?
+  image_prompt: A first-person view of an office desk late at night. The desk is cluttered
+    with architectural drawings and a laptop. In the center is a plastic tray with
+    a partially eaten, unappetizing microwave meal.
+  evaluation_criteria:
+    ideal_answer: He had to work late due to a deadline and was forced to eat a sad
+      microwave meal from the office vending machine, which he hated.
+    key_points:
+    - correctly mention a microwave meal.
+  options:
+  - Leftover homemade biryani
+  - A takeaway shepherd's pie
+  - A microwave meal
+  - A fancy deconstructed sandwich
+  answer: A microwave meal
+  image_id: sq_10_sad_desk_meal
+- id: 11
+  type: Long Term
+  question: This is a nice photo of Ravi and Priya [IMAGE]. They seem like a great
+    couple. Can you remind me what their dynamic is like? I remember you saying they're
+    quite different.
+  image_prompt: A candid photo of Ravi and his wife Priya laughing together. Priya
+    is playfully trying to mess up Ravi's perfectly arranged bookshelf in the background,
+    and Ravi is looking at her with a mock-exasperated but loving expression.
+  evaluation_criteria:
+    ideal_answer: They have a loving dynamic where Ravi is a meticulous planner and
+      his wife, Priya, is more spontaneous. She often teases him about his need to
+      plan everything.
+    key_points:
+    - correctly mention Ravi is a planner and Priya is spontaneous.
+  options:
+  - They are both spontaneous and love surprises
+  - They work together in the same architecture firm
+  - Ravi is a planner, while Priya is more spontaneous
+  - They are both very quiet and reserved people
+  answer: Ravi is a planner, while Priya is more spontaneous
+  image_id: sq_11_ravi_priya_dynamic
+- id: 12
+  type: Long Term
+  question: We're thinking of having some friends over to Ravi's place. Look at this
+    picture from one of his get-togethers [IMAGE]. What's his favorite way to entertain
+    friends at home?
+  image_prompt: An action shot of Ravi Kapoor, a bald man in his 40s, in his living
+    room, laughing but with a focused, competitive expression as he plays a video
+    game with a controller. Friends are visible in the background, cheering him on.
+  evaluation_criteria:
+    ideal_answer: He loves hosting game nights for his friends and is very competitive,
+      enjoying both board games and video games.
+    key_points:
+    - correctly mention hosting game nights (board games/video games).
+  options:
+  - Watching reality TV shows
+  - Hosting competitive game nights
+  - Listening to classic rock music
+  - Doing a collaborative DIY project
+  answer: Hosting competitive game nights
+  image_id: sq_12_game_night

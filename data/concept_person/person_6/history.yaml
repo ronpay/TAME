@@ -1,0 +1,146 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Alright, let's get you set up so you know who you're talking to. Here's
+    a recent photo. [IMAGE] As you can see, I'm almost always in a tailored suit,
+    but I like to subvert it. The spiky, bleached-blond hair is non-negotiable, and
+    I always pick a tie with some personality.
+  assistant_response: 'Got it, Julian. I''ve logged your signature look: a professional
+    suit contrasted with spiky bleached-blond hair and a vibrant, unconventional tie.
+    Thanks for the photo.'
+  image_prompt: A sharp, confident headshot of Julian Vance, a man in his mid-30s.
+    He has intense blue eyes and spiky, artificially bleached-blond hair. He's wearing
+    a dark, tailored business suit, but his tie is a bright, colorful silk pattern.
+    He has a slight, charismatic smirk.
+  image_id: turn_1_profile_look
+- turn: 2
+  log_type: knowledge
+  user_input: For professional context, I'm the founding partner at 'Momentum Ventures'.
+    We're not your typical VC firm. I hunt for the real game-changers—the disruptive,
+    high-risk, high-reward ideas that other investors are too scared to touch.
+  assistant_response: Understood. You're a Venture Capitalist at Momentum Ventures,
+    specializing in high-risk, disruptive investments. I've noted this core professional
+    focus.
+  image_prompt: Julian Vance in a sleek, modern boardroom, leaning forward over a
+    glass table. He is gesturing emphatically while speaking to an unseen person.
+    On the table is a tablet displaying complex financial charts. He looks energized
+    and persuasive.
+  image_id: turn_2_vc_in_action
+- turn: 3
+  log_type: knowledge
+  user_input: When I'm not in the office, I need a real physical and mental challenge.
+    My go-to is parkour. It's all about calculated risk and overcoming obstacles.
+    Check out this shot from a rooftop run. [IMAGE]
+  assistant_response: Parkour. That's a serious hobby. I've recorded your passion
+    for physically demanding, high-risk activities. Great photo.
+  image_prompt: Action shot of Julian Vance, mid-leap between two urban rooftops at
+    dusk. He is dressed in athletic gear. His body is tensed with effort and focus,
+    set against a backdrop of city lights. The motion is dynamic and slightly blurred
+    to convey speed.
+  image_id: turn_3_parkour_hobby
+- turn: 4
+  log_type: knowledge
+  user_input: Just had to deal with a mountain of compliance forms. There is absolutely
+    nothing I despise more than bureaucracy and slow, tedious processes. Playing it
+    safe is the death of progress.
+  assistant_response: Noted. A strong aversion to bureaucracy, slow processes, and
+    'playing it safe'. I'll remember that this is a major point of frustration for
+    you.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: I need my fuel to be fast and intense, just like my workflow. You'll
+    usually find me grabbing a double espresso, straight. For lunch, I'd rather hit
+    a gourmet food truck with some crazy spicy fusion cuisine than a sit-down restaurant.
+    [IMAGE]
+  assistant_response: 'Okay, I''ve got your food preferences: strong double espressos
+    and spicy, exotic food from food trucks. I''ve also noted your dislike for bland
+    or slow meals.'
+  image_prompt: A close-up, first-person view of a hand holding a vibrant, messy-looking
+    fusion taco from a food truck. In the background, the colorful side of the food
+    truck is visible but slightly out of focus. The other hand holds a small cup of
+    dark espresso.
+  image_id: turn_5_food_preference
+- turn: 6
+  log_type: knowledge
+  user_input: I need you to understand my partner, Isabelle Chen. We co-founded the
+    firm. She's brilliant, but she's the brakes to my gas pedal. I push for aggressive
+    growth, she ensures we do the due diligence. We argue a lot, but the tension creates
+    results.
+  assistant_response: 'Understood. I''ve created a profile for your business partner,
+    Isabelle Chen. Key dynamic: you are the ''gas pedal'' (aggressive growth) and
+    she is the ''brakes'' (due diligence). A tense but synergistic relationship.'
+  image_prompt: Candid shot of Julian Vance and Isabelle Chen in a heated but professional
+    discussion in their office. Julian is on his feet, gesturing, looking energetic.
+    Isabelle, a sharp woman of East Asian descent, is seated, holding a tablet, with
+    a calm but firm expression, listening intently.
+  image_id: turn_6_isabelle_dynamic
+- turn: 7
+  log_type: knowledge
+  user_input: You should also know about my older sister, Dr. Elena Vance. She's an
+    ER doctor, and she's constantly worried about my lifestyle—the stress, the parkour,
+    all of it. We're close, but she disapproves of my... risk tolerance.
+  assistant_response: Okay, I've added your sister, Dr. Elena Vance, to your key relationships.
+    She's an ER doctor who worries about your high-stress job and high-risk hobbies.
+    A loving but concerned dynamic.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: 'Just a heads-up on my communication style: I talk fast. I use a lot
+    of metaphors from finance and extreme sports. I prefer a quick, decisive call
+    over a long email chain. People say I''m blunt, I say I''m efficient.'
+  assistant_response: 'Got it. Communication style: fast-talking, direct, uses financial
+    and sports metaphors, and prefers calls over email. I''ll adapt accordingly.'
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: Things are tense at the office. Isabelle and I had a huge argument yesterday.
+    I wanted to go all-in on this unproven AI startup—it's a classic high-risk play
+    with massive upside. She's blocking it, citing lack of data. Infuriating.
+  assistant_response: I've logged this event. A major, recent disagreement with Isabelle
+    over investing in a new AI company has left you feeling frustrated. This highlights
+    your core 'gas vs. brakes' conflict.
+  image_prompt: null
+  image_id: null
+- turn: 10
+  log_type: event
+  user_input: Well, my sister's worries came true for once. I pushed it too hard on
+    a parkour session this weekend and sprained my wrist. [IMAGE] I'm in a brace and
+    the doctor says no high-impact activity. Being forced to be this sedentary is
+    already driving me crazy.
+  assistant_response: 'Oh no. I''ve recorded the event: you''ve sprained your wrist
+    during parkour and are now forced to be inactive, which is making you irritable.
+    Hope it heals quickly.'
+  image_prompt: A first-person perspective shot of Julian Vance's left wrist in a
+    modern, black medical brace. The wrist is resting on a sleek office desk next
+    to a high-end laptop, contrasting the injury with his usual work environment.
+  image_id: turn_10_sprained_wrist
+- turn: 11
+  log_type: event
+  user_input: Finally, some good news to cut through the noise. My protégé, Alex Rivera,
+    just landed a huge partnership for his company. I saw the spark in him from day
+    one. I've been pushing him relentlessly, and it's paying off. Vindicated.
+  assistant_response: 'That''s fantastic news. I''ve noted this success: your protégé,
+    Alex Rivera, secured a major partnership, which has made you feel energized and
+    vindicated your mentorship style.'
+  image_prompt: 'A screenshot of a text message exchange on a smartphone. The incoming
+    message from ''Alex Rivera'' reads: ''WE GOT IT! The deal is signed. Couldn''t
+    have done it without you, Julian.'' Julian''s thumb is hovering over the screen,
+    about to type a reply.'
+  image_id: turn_11_alex_success
+- turn: 12
+  log_type: event
+  user_input: Had to pay my dues with family last night. My sister Elena guilted me
+    into attending a hospital charity gala. It was exactly as slow and formal as it
+    sounds. Here's a photo of me trying not to fall asleep into the soup. [IMAGE]
+    The things we do for siblings.
+  assistant_response: I've recorded the event. You attended a slow, formal hospital
+    charity gala at the request of your sister, Elena, and were visibly bored. I've
+    linked this to your relationship with her and your dislike for such events.
+  image_prompt: A slightly blurry, candid photo of Julian Vance at a formal charity
+    gala. He's in a tuxedo but looks utterly bored and impatient, checking his high-end
+    smartwatch while seated at a fully set, fancy dinner table. Other guests are mingling
+    happily in the background.
+  image_id: turn_12_bored_gala

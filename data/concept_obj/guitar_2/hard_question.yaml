@@ -1,0 +1,197 @@
+- id: 1
+  type: Causal Inference
+  question: I was looking at Red Comet the other day, with all its dings and that
+    wobbly peg [IMAGE]. I actually thought about getting it professionally restored,
+    but in the end, I decided not to. Why do you think I made that choice?
+  image_prompt: A thoughtful photo of the 'Red Comet' guitar, angled to show both
+    the prominent scratch on the body and the wobbly tuning peg on the headstock.
+    It's resting on a wooden table, bathed in soft, contemplative light.
+  evaluation_criteria:
+    ideal_answer: You decided against restoring it because its flaws, like the scratch
+      from the fall and the wobbly peg from your childhood repair attempt, are not
+      just damage. They are physical records of its history with you. Restoring it
+      would erase those unique stories, which are more valuable to you than having
+      a 'perfect' object.
+    key_points:
+    - The guitar's flaws, like the scratch and wobbly peg, are documented parts of
+      its history and identity (long-term information).
+    - The recent decision to not restore the guitar was a conscious choice to preserve
+      this history, not because of cost or other factors (reasoned inference from
+      short-term event).
+  options:
+  - You likely felt that a professional restoration might cause more damage, especially
+    to fragile parts like the wobbly, superglued tuning peg.
+  - You decided against restoration because its flaws are physical records of its
+    history, and erasing them would be like erasing precious memories.
+  - You probably concluded that your grandfather would have preferred to see the guitar
+    showing all the signs of a long, well-loved life of play.
+  - You realized that the cost of restoration would be impractical for an instrument
+    that is now more of a decorative piece than a functional one.
+  answer: You decided against restoration because its flaws are physical records of
+    its history, and erasing them would be like erasing precious memories.
+  image_id: cq_1_contemplating_restoration
+- id: 2
+  type: Counterfactual Reasoning
+  question: I'm a bit worried about Red Comet. That wobbly tuning peg I told you about
+    feels even looser now [IMAGE]. What do you think I should do? I don't want to
+    ruin its character, especially the story of my childhood 'repair'.
+  image_prompt: A person's finger is gently wiggling the wobbly tuning peg on the
+    'Red Comet' guitar. The shot is a close-up, conveying a sense of careful inspection
+    and concern. The lighting is focused on the peg.
+  evaluation_criteria:
+    ideal_answer: Given that the wobbly peg is a memento of your childhood repair
+      attempt, replacing it would erase that story. Since your main concern is that
+      it might fall off, and the guitar is a decorative piece, the best approach would
+      be a minimal, non-invasive fix. You could use a tiny amount of archival-safe
+      glue to stabilize the peg just enough to keep it secure, preserving its crooked
+      look and the history behind it without aiming for a full functional repair.
+    key_points:
+    - The wobbly peg is a historical artifact from a specific childhood memory (long-term
+      information).
+    - The owner is concerned about it falling off, so a recommendation must balance
+      preservation of the piece with preservation of its story, leading to a non-destructive
+      stabilization solution (reasoned suggestion based on short-term event).
+  options:
+  - Since it's a display piece, you should stabilize the peg with a minimal amount
+    of archival glue to prevent it from falling off while preserving its history.
+  - You should take it to a professional luthier to have the peg properly reset, honoring
+    its importance by giving it the best possible care.
+  - You should leave it as is. Since it's only a memento now, the risk of the peg
+    falling off is low and interfering might ruin its authenticity.
+  - You could try to carefully re-apply superglue yourself, recreating the original
+    childhood repair and strengthening the story behind it.
+  answer: Since it's a display piece, you should stabilize the peg with a minimal
+    amount of archival glue to prevent it from falling off while preserving its history.
+  image_id: cq_2_wobbly_peg_concern
+- id: 3
+  type: Counterfactual Reasoning
+  question: Here's a photo from my desk today [IMAGE]. It got me thinking... what
+    if my grandpa had given me a video game console for my 7th birthday instead of
+    the Red Comet? Based on everything you know, how do you think my life might be
+    different?
+  image_prompt: A picture showing the 'Red Comet' guitar hanging on the wall above
+    a desk. On the desk, the owner's professional Fender guitar is visible on a stand
+    nearby. The scene suggests a life deeply intertwined with music.
+  evaluation_criteria:
+    ideal_answer: If you had received a video game console instead, your life could
+      be very different. The Red Comet was the specific gift from your grandfather
+      that sparked your lifelong passion for music, which led to you playing a professional
+      guitar today. Without that initial spark, you might never have started on this
+      musical journey, and you'd be missing this tangible connection to that cherished
+      memory of playing 'Twinkle, Twinkle, Little Star' for him.
+    key_points:
+    - The Red Comet was the specific catalyst for the owner's lifelong musical passion,
+      a gift from their grandfather (long-term information).
+    - The absence of this specific object would likely mean the absence of the entire
+      musical journey and the unique bond it represents (counterfactual inference).
+  options:
+  - Without the Red Comet as a catalyst, you likely wouldn't have embarked on your
+    musical journey, missing out on that specific passion and connection.
+  - Your bond with your grandfather was about more than the gift, so he would have
+    likely found another way to encourage your musical talent later.
+  - You would have found a different creative outlet that matched your dedicated personality,
+    perhaps something like digital art or creative writing.
+  - You would have still shared a strong bond with your grandfather, but it might
+    have been centered on video games instead of musical performance.
+  answer: Without the Red Comet as a catalyst, you likely wouldn't have embarked on
+    your musical journey, missing out on that specific passion and connection.
+  image_id: cq_3_what_if_no_guitar
+- id: 4
+  type: Causal Inference
+  question: I posted this online earlier [IMAGE]. Why do you think I put my little
+    Red Comet right next to my Fender and shared it? What was I trying to say with
+    this picture?
+  image_prompt: A side-by-side photo. On the left, the small, bright red 'Red Comet'
+    toy guitar. On the right, a full-sized, professional-looking Fender Stratocaster
+    guitar. Both are leaning against a clean, neutral wall. The caption 'How it started
+    vs. How it's going' is overlaid at the bottom.
+  evaluation_criteria:
+    ideal_answer: You posted that picture to show the full arc of your musical journey.
+      Placing the humble 'Red Comet,' your first instrument, next to your professional
+      Fender is an act of pride and nostalgia. You're not just comparing tools; you're
+      honoring your origins and acknowledging that your current achievements are built
+      on the foundation of a simple, cherished first gift.
+    key_points:
+    - The Red Comet is the owner's first instrument and represents the beginning of
+      their musical journey (long-term information).
+    - The recent photo is an expression of pride and reverence for one's roots, connecting
+      the past to the present, not a simple comparison of quality (reasoned inference
+      from short-term event).
+  options:
+  - You were making a point to your musician friend who joked about it, showing that
+    you are proud of the Red Comet regardless of its tuning issues.
+  - You were creating an artistic statement about the aesthetic contrast between a
+    simple, nostalgic design and a modern, professional instrument.
+  - You were feeling nostalgic about your beginnings, perhaps wishing for a time when
+    music was a simple joy rather than a more serious pursuit.
+  - You were showing the full arc of your musical journey, honoring the humble origins
+    of your passion and how that foundation led to your current skill.
+  answer: You were showing the full arc of your musical journey, honoring the humble
+    origins of your passion and how that foundation led to your current skill.
+  image_id: cq_4_how_it_started
+- id: 5
+  type: State Identification
+  question: Remember when I told you my niece played Red Comet? [IMAGE] I said I felt
+    both protective and happy at the same time. Why such a conflicting feeling? What
+    does that say about what this guitar means to me now?
+  image_prompt: A heartwarming photo of a small child's hands gently strumming the
+    strings of the 'Red Comet' toy guitar. The shot is from the owner's perspective,
+    looking down. The lighting is soft and domestic.
+  evaluation_criteria:
+    ideal_answer: That conflicting feeling perfectly illustrates the guitar's dual
+      status in your life. The 'protective' feeling comes from its role as a precious,
+      irreplaceable memento that you fear could be damaged. The 'happy' feeling comes
+      from seeing it continue its original mission—to be a 'patient teacher' and spark
+      musical joy in a new generation, just as it did for you. It's both a fragile
+      museum piece and a living inspiration.
+    key_points:
+    - The guitar is a precious, fragile memento and also a symbol of sparking musical
+      joy (long-term information).
+    - The owner's recent conflicting emotions of 'protective' and 'happy' reveal the
+      object's dual identity as both a historical artifact to be preserved and a source
+      of continuing inspiration (inference from short-term event).
+  options:
+  - You felt 'protective' of it as a fragile memento, but 'happy' to see it still
+    fulfilling its purpose of sparking musical joy in a new generation.
+  - You were 'protective' because you remember how it got its first scratch, but 'happy'
+    that your niece was showing an interest in your passion.
+  - You felt 'happy' because you knew your grandfather would love to see it being
+    played, but 'protective' because it was his irreplaceable gift.
+  - You were likely 'protective' of your niece, worried the wobbly peg might come
+    loose, but 'happy' that she was enjoying the experience so much.
+  answer: You felt 'protective' of it as a fragile memento, but 'happy' to see it
+    still fulfilling its purpose of sparking musical joy in a new generation.
+  image_id: cq_5_niece_plays
+- id: 6
+  type: Causal Inference
+  question: Thinking about my friend's joke the other day—'Does that thing even stay
+    in tune?' [IMAGE]. It's weird, because I know it doesn't play well, but his joke
+    still bothered me. Why do you think I got so defensive over a casual comment?
+  image_prompt: A photo of the 'Red Comet' guitar displayed proudly on a wall stand
+    in a living room. The context should make it look like a piece of art or a trophy,
+    not a functional instrument to be played.
+  evaluation_criteria:
+    ideal_answer: You got defensive because the joke, while casual, challenged the
+      guitar's core identity. You know it's not a functional instrument, but you're
+      protective of its sentimental role as a sacred gift from your grandfather. The
+      comment reduces it to 'just a toy' that fails at its job—something you've said
+      it 'hates'—ignoring its true value as the cherished start of your musical journey.
+      Your reaction was about defending its honor, not its tuning.
+    key_points:
+    - The guitar's true value is sentimental, not functional, and you are protective
+      of it being judged as 'just a toy' (long-term information).
+    - The friend's joke was upsetting because it ignored this sentimental value and
+      judged the guitar purely on its functional limits, triggering your protective
+      instinct (reasoned inference from short-term event).
+  options:
+  - Since the comment came from a musician, it felt less like a joke and more like
+    a professional critique of a deeply personal object.
+  - You got defensive because the joke reduced the guitar to a functional object,
+    ignoring its true role as a sacred memento from your grandfather.
+  - You likely felt the joke was indirectly disrespectful to your grandfather's memory,
+    as he was the one who chose that specific gift for you.
+  - You were probably annoyed because the comment implied you were neglecting your
+    instruments, when you actually take great pride in preserving it.
+  answer: You got defensive because the joke reduced the guitar to a functional object,
+    ignoring its true role as a sacred memento from your grandfather.
+  image_id: cq_6_defensive_about_joke

@@ -1,0 +1,155 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to introduce you to something really important to me. This
+    is 'The Pacemaker'. [IMAGE] I bought it for my first-ever half-marathon. It was
+    a cheap, last-minute buy, but it marked the start of my whole running journey.
+  assistant_response: Thank you for sharing. 'The Pacemaker' is a sports bottle you
+    bought for your first half-marathon, a very significant starting point. I've saved
+    this special memory.
+  image_prompt: A high-quality photo of 'The Pacemaker', a simple, semi-translucent
+    white plastic sports bottle with a black push-pull nozzle. It's sitting on a wooden
+    table, with running shoes blurred in the background. The lighting is bright and
+    optimistic.
+  image_id: turn_1_pacemaker_intro
+- turn: 2
+  log_type: knowledge
+  user_input: Take a look at this. [IMAGE] It has this long, deep scratch down the
+    side. I call it a battle scar. I got it when I fell during a tough trail run;
+    the bottle hit a rock and basically saved my hip.
+  assistant_response: Got it. I see the 'battle scar'—a deep scratch from a fall during
+    a trail run. It sounds like it's more than just a scratch. I've noted this important
+    detail.
+  image_prompt: A close-up, detailed shot of the side of 'The Pacemaker', a white
+    plastic sports bottle. The focus is on a long, deep, and slightly jagged scratch.
+    The texture of the worn plastic is visible.
+  image_id: turn_2_battle_scar
+- turn: 3
+  log_type: knowledge
+  user_input: You know, I've come to think of The Pacemaker as my silent partner on
+    every run. It doesn't do much, but it's always there, a constant presence through
+    my entire fitness journey.
+  assistant_response: I understand. You see The Pacemaker as a 'silent partner' for
+    your fitness journey, a symbol of constancy and support. That's a lovely way to
+    think about it. I've recorded this role.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: It's funny, if this bottle had a personality, it would be resilient
+    and no-nonsense. It's been dropped and scraped countless times but never leaks.
+    It just does its job perfectly.
+  assistant_response: That's a great observation. I've noted that you perceive its
+    personality as resilient and no-nonsense—reliable and tough. It makes sense given
+    its history.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: I have these weird rules for it. I feel like it hates being left in
+    a hot car with lukewarm water, and it definitely hates sugary, sticky sports drinks
+    that are a pain to clean out.
+  assistant_response: 'Heh, I see. So, The Pacemaker has its preferences: it ''hates''
+    being left in a hot car and dislikes sticky drinks. I''ve saved these perceived
+    preferences.'
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: Here's a weird habit of mine. During the really intense parts of a race,
+    I have a nervous habit of biting the nozzle. You can even see the faint teeth
+    marks on it if you look closely. [IMAGE]
+  assistant_response: Understood. You have a nervous habit of biting the nozzle during
+    intense moments, leaving faint teeth marks. I've recorded this unique characteristic.
+  image_prompt: A macro photo focusing on the soft plastic push-pull nozzle of 'The
+    Pacemaker'. The image clearly shows faint, but distinct, teeth indentations on
+    the surface of the black plastic nozzle.
+  image_id: turn_6_nozzle_bite_marks
+- turn: 7
+  log_type: knowledge
+  user_input: Look at the measurement markings on the side. [IMAGE] They're so faded
+    now, especially in the middle, from thousands of grips and washes over the years.
+    It's a real sign of its long service.
+  assistant_response: I see that. The measurement markings are significantly faded
+    from years of use, a clear sign of its history and reliability. I've noted this
+    detail.
+  image_prompt: A side-view photo of 'The Pacemaker' bottle. The focus is on the printed
+    ML/OZ-FL measurement markings, which are visibly worn and faded in the central
+    area, contrasting with the clearer markings at the top and bottom.
+  image_id: turn_7_faded_markings
+- turn: 8
+  log_type: knowledge
+  user_input: I'll never forget crossing the finish line of my first half-marathon,
+    completely exhausted, and taking a huge drink from this bottle. It felt like such
+    a victory. [IMAGE]
+  assistant_response: What a powerful memory. Crossing your first half-marathon finish
+    line and drinking from The Pacemaker. I've saved this as a key moment in your
+    journey together.
+  image_prompt: A first-person point-of-view shot. The user's hand is gripping 'The
+    Pacemaker' tightly. In the background, a race finish line banner is visible but
+    slightly out of focus. The scene conveys a sense of exhaustion and triumph.
+  image_id: turn_8_finish_line
+- turn: 9
+  log_type: event
+  user_input: Oh man, I was cleaning it today and noticed this. [IMAGE]
+    There's a tiny crack forming near the screw-on lid. I'm really worried it's going
+    to start leaking soon.
+  assistant_response: Oh, I see. You recently discovered a small crack near the lid
+    and are worried about potential leaks. I've recorded this new concern.
+  image_prompt: A close-up, high-detail photo of the threaded neck of 'The Pacemaker'
+    plastic bottle. A small, hairline crack is clearly visible in the white plastic,
+    just below the threads where the lid would screw on.
+  image_id: turn_9_crack_discovered
+- turn: 10
+  log_type: event
+  user_input: For my birthday, I got this new water bottle. It's one of those fancy,
+    insulated metal ones. It's really nice, objectively. [IMAGE]
+  assistant_response: Understood. You recently received a new, insulated metal water
+    bottle as a birthday gift. I've made a note of this new item.
+  image_prompt: A photo of a brand new, sleek, matte black insulated metal water bottle
+    with a modern logo, sitting on a clean countertop. It looks pristine and high-tech.
+  image_id: turn_10_new_bottle_gift
+- turn: 11
+  log_type: event
+  user_input: I'm feeling really conflicted now. I have this great new bottle, but
+    I'm not sure if I'm ready to retire The Pacemaker. It feels wrong to just replace
+    it.
+  assistant_response: I can understand the conflict. You're feeling torn between the
+    practical appeal of the new bottle and your loyalty to The Pacemaker. I've noted
+    this feeling of hesitation.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: I had a moment of pure panic last week. I almost left The Pacemaker
+    at the gym. I was already in my car when I realized and had to sprint back inside
+    to get it. My heart was pounding.
+  assistant_response: That sounds stressful! I've recorded that you recently had a
+    moment of panic when you almost lost The Pacemaker at the gym and had to rush
+    back for it.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: Just look at this sight on my kitchen counter this morning. [IMAGE]
+    The old, scratched-up it right next to the shiny, new, and completely unused
+    metal bottle. It's quite a contrast.
+  assistant_response: That photo really captures the dilemma. I've saved this image
+    showing the old, worn Pacemaker next to the new, unused bottle. The contrast is
+    very clear.
+  image_prompt: A still-life photo on a kitchen counter. On the left is 'The Pacemaker',
+    a visibly worn white plastic bottle with scratches. On the right is the new, sleek,
+    matte black metal bottle. The two are side-by-side, creating a stark visual contrast
+    between old and new.
+  image_id: turn_13_the_contrast
+- turn: 14
+  log_type: event
+  user_input: I was doing some really tough hill sprints today, and I squeezed The
+    Pacemaker super hard at the top of a climb. Now I can't stop wondering if I made
+    that little crack near the lid even worse.
+  assistant_response: I understand your concern. You're worried that squeezing the
+    bottle hard during a recent workout might have worsened the crack. I've noted
+    this event.
+  image_prompt: An action shot, slightly motion-blurred, of a person in running gear
+    on a steep hill. Their hand is squeezing 'The Pacemaker' bottle very hard, with
+    knuckles white. The focus is on the hand and bottle, conveying effort and strain.
+  image_id: turn_14_hill_sprint

@@ -1,0 +1,84 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Hey, I'd like to create a profile for my parrot, Kiko. Here's a photo of him. [IMAGE] As you can see, he's an African Grey with a very prominent red tail. Also, notice the plain metal band on his left leg; he's had it forever."
+  assistant_response: "Got it. Kiko is an African Grey Parrot with a vibrant red tail and a metal band on his left leg. I've saved this as his primary appearance."
+  image_prompt: "A high-quality, full-body photo of Kiko, a male African Grey Parrot, perched on a wooden stand. His scalloped grey feathers are clearly visible, with a striking, short, bright red tail. The plain metal band on his left leg is in clear view. He is looking intelligently at the camera."
+  image_id: turn_1_profile_photo
+- turn: 2
+  log_type: knowledge
+  user_input: "Just so you know, his absolute favorite food in the world is walnuts. He especially loves cracking the shells open himself."
+  assistant_response: "Okay, I've noted that Kiko's favorite food is walnuts, particularly in the shell. Sounds like a fun challenge for him!"
+  image_prompt: null
+  image_id: null
+- turn: 3
+  log_type: knowledge
+  user_input: "This is really important: he absolutely despises commercial pellet food. If I put it in his bowl, he will methodically throw it all out, piece by piece."
+  assistant_response: "Understood. Kiko has a strong dislike for pellet-based bird food and will throw it out of his bowl. I've added this to his core preferences."
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: "When it comes to toys, his favorite kind is anything made of soft wood that he can just shred and destroy. Look at the mess he made with this block! [IMAGE]"
+  assistant_response: "That's quite the masterpiece of destruction! I've recorded that Kiko's favorite toys are soft wooden items that he can splinter and destroy."
+  image_prompt: "A close-up shot of Kiko, the African Grey Parrot, actively chewing on a small block of soft balsa wood. Splinters and wood shavings are scattered around him on his perch. He looks focused and content."
+  image_id: turn_4_destroying_wood
+- turn: 5
+  log_type: knowledge
+  user_input: "He has a major phobia. He is absolutely terrified of the vacuum cleaner. The moment I turn it on, he starts screaming and flapping frantically in his cage."
+  assistant_response: "Okay, that's a critical piece of information. I've made a strong note of Kiko's phobia of the vacuum cleaner. I'll remember that's a major stressor for him."
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: "It's hilarious, he's learned to perfectly mimic the sound of the microwave beeping. He only does it when he's hungry and wants a snack."
+  assistant_response: "Haha, that's a clever way to get your attention! I've noted that Kiko mimics the microwave beep to ask for food."
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: "I tried giving him a piece of banana today, and he wouldn't even touch it. He really doesn't like soft fruits. Here's a pic of him giving it the cold shoulder. [IMAGE]"
+  assistant_response: "Interesting. So he prefers crisp textures over soft ones. I've noted his dislike for soft fruits like bananas."
+  image_prompt: "A photo of Kiko, the African Grey Parrot, inside his cage. A small slice of banana sits untouched in his food bowl, while Kiko is pointedly looking away from it with an expression of disdain."
+  image_id: turn_7_ignoring_banana
+- turn: 8
+  log_type: knowledge
+  user_input: "He's so smart. One of his favorite activities is solving foraging puzzles. He'll work for ages to get a treat out. [IMAGE]"
+  assistant_response: "That's a fantastic way to keep him engaged! I've added 'solving foraging puzzles' to his list of loved activities."
+  image_prompt: "Kiko, the African Grey Parrot, is intensely focused on a complex foraging puzzle toy made of wood and acrylic. He is using his beak to manipulate a small lever on the puzzle. A walnut can be seen inside one of the visible compartments."
+  image_id: turn_8_foraging_puzzle
+- turn: 9
+  log_type: event
+  user_input: "Check this out! [IMAGE] I gave him a yellow tennis ball today just to see what he'd do, and he's been fascinated with it. He's just rolling it around on top of his cage. So unusual for him!"
+  assistant_response: "Wow, that's a new one! I see he's very interested in the yellow tennis ball. I've logged this recent fascination."
+  image_prompt: "A wide shot of Kiko, the African Grey Parrot, standing on top of his large metal cage. He is using his black beak to gently nudge a bright yellow tennis ball. He appears curious and engaged with the new object."
+  image_id: turn_9_tennis_ball
+- turn: 10
+  log_type: event
+  user_input: "Ugh, we just got back from the vet. For his health, the vet strongly advised that I switch him over to a pellet-based diet for better nutrition. This is going to be a battle."
+  assistant_response: "Oh, that sounds challenging, given how much he dislikes them. I've recorded the vet's recent recommendation to switch to a pellet diet for nutritional reasons."
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: "I'm a bit worried. I've had to be away from home more often lately, and I think he's getting bored. I noticed he's started plucking some of his chest feathers. Look at this spot. [IMAGE]"
+  assistant_response: "I'm sorry to see that. I can see the small patch on his chest. I've noted this new behavior of feather plucking, possibly linked to boredom from being alone more often."
+  image_prompt: "A close-up, sensitive photo focusing on the chest of Kiko, the African Grey Parrot. A small, noticeable patch of feathers is missing or looks ragged, indicating recent plucking. The surrounding grey feathers are otherwise smooth. The mood is one of concern."
+  image_id: turn_11_feather_plucking
+- turn: 12
+  log_type: event
+  user_input: "You won't believe this new development. I've been on so many work video calls, Kiko has now learned to perfectly mimic the notification sound. It's driving me crazy because I keep checking my computer for no reason!"
+  assistant_response: "That's both impressive and disruptive! I've noted a new mimicry skill: the sound of a video call notification."
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: "So, following the vet's advice, I tried to be clever and hide the hated pellets inside a piece of crisp apple. He was cleverer. He just meticulously ate all the apple around the pellets and left them. [IMAGE]"
+  assistant_response: "He's too smart for that trick! I've recorded the unsuccessful attempt to hide pellets in an apple. He ate the apple and rejected the pellets."
+  image_prompt: "A shot of a bird food bowl containing a piece of crisp apple that has been clearly eaten around. Several small, cylindrical bird food pellets are left untouched, either still embedded in the remaining apple or scattered beside it."
+  image_id: turn_13_pellet_rejection
+- turn: 14
+  log_type: event
+  user_input: "To try and help with his boredom and the feather plucking, I got him this fancy new foraging puzzle box. He's been working on it diligently all morning. [IMAGE]"
+  assistant_response: "That looks like a great enrichment tool! I see he's very engaged with the new foraging puzzle. I've logged this as a recent activity."
+  image_prompt: "A photo of Kiko, the African Grey Parrot, actively interacting with a new, complex-looking foraging puzzle toy made of colorful acrylic. The toy has multiple small drawers and levers. Kiko is using his beak to try and open a compartment. He looks very focused and stimulated."
+  image_id: turn_14_new_puzzle

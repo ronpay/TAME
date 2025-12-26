@@ -1,0 +1,149 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to show you something that's really important to me. This
+    is my mug, 'The Lavender Lifeline'. [IMAGE] My younger sibling gave it to me as
+    a going-away-to-college gift. Purple is their favorite color, and it's become
+    my daily reminder of them.
+  assistant_response: What a wonderful origin story. 'The Lavender Lifeline' is a
+    gift from your sibling for college. I've saved this special connection for you.
+  image_prompt: A high-quality photo of a well-loved, lavender-colored ceramic mug
+    with a simple, modern shape and a white interior. It sits on a cozy wooden desk
+    next to a book, bathed in soft morning light.
+  image_id: turn_1_lifeline_profile
+- turn: 2
+  log_type: knowledge
+  user_input: One of its little imperfections is this tiny chip on the rim right here.
+    I got it from nervously tapping the mug against my teeth while I was cramming
+    for my final exams one year.
+  assistant_response: Got it. A small chip on the rim, a memento from a stressful
+    exam period. I've noted this unique detail and its story.
+  image_prompt: A macro, close-up shot of the rim of a purple ceramic mug. The focus
+    is on a small, smooth chip in the glaze, showing the white ceramic underneath.
+    The lighting is sharp to highlight the texture of the chip.
+  image_id: turn_2_rim_chip
+- turn: 3
+  log_type: knowledge
+  user_input: And here's its biggest battle scar. [IMAGE] The handle broke off clean
+    one morning when I dropped it. I was so frantic because it was right before my
+    first big job interview. I glued it back on myself, and you can still see the
+    seam if you look closely.
+  assistant_response: That sounds like a very stressful morning! I've recorded that
+    the handle was broken and you carefully glued it back on before a job interview.
+    It's a symbol of resilience.
+  image_prompt: A detailed close-up of a purple mug's handle, showing a fine, visible
+    seam where it has been glued back onto the body of the mug. The shot is angled
+    to catch the light along the faint line of the repair.
+  image_id: turn_3_glued_handle
+- turn: 4
+  log_type: knowledge
+  user_input: It's funny, it's really just my morning coffee companion. But having
+    it on my desk feels like having a little piece of home with me. It's a quiet symbol
+    of my family.
+  assistant_response: I understand. Its primary use is for your morning coffee, but
+    its sentimental role as a symbol of home and family is just as important. I've
+    recorded this.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: If this mug had a personality, I feel like it would be quietly supportive.
+    You know, just there for me, not judging. A steadfast friend.
+  assistant_response: 'That''s a lovely way to think about it. I''ve noted its projected
+    personality: quietly supportive and non-judgmental. A steadfast companion.'
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: 'By the way, I have a strict rule for this mug: hand-wash only. I''m
+    terrified the dishwasher would be too rough for the glued handle. It''s too precious
+    to risk.'
+  assistant_response: A very wise precaution. I've recorded your strict 'hand-wash
+    only' rule for The Lavender Lifeline to protect its fragile handle.
+  image_prompt: A photo of the owner's hands carefully washing the purple mug in a
+    kitchen sink filled with soap bubbles. The focus is on the gentle way the mug
+    is being handled.
+  image_id: turn_6_hand_wash
+- turn: 7
+  log_type: knowledge
+  user_input: No matter how much I scrub it, there's a permanent, faint coffee ring
+    at the bottom of the white interior. [IMAGE] I guess it's just a mark of its long
+    and dedicated service, after thousands of mornings together.
+  assistant_response: A mark of a long and cherished history. I've noted the permanent
+    coffee stain at the bottom as a testament to its many years of service.
+  image_prompt: An overhead, interior shot looking down into the white inside of the
+    purple mug. A faint, brownish coffee ring is clearly visible at the bottom.
+  image_id: turn_7_coffee_stain
+- turn: 8
+  log_type: knowledge
+  user_input: I just realized something. I'm right-handed, and I always hold it so
+    the handle faces right, which means the side opposite the handle is what I see.
+    That side of the purple glaze looks a little faded from my hand all these years.
+  assistant_response: That's a fascinating detail. The glaze on the side opposite
+    the handle is slightly faded from being held in your right hand over the years.
+    I've saved this observation.
+  image_prompt: A photo showing the purple mug being held in a person's right hand.
+    The side of the mug facing the camera shows a subtle fading in the purple glaze
+    compared to the area near the handle.
+  image_id: turn_8_faded_glaze
+- turn: 9
+  log_type: event
+  user_input: Just got some great news! My sibling—the one who gave me this mug—is
+    scheduled to come visit me next month. I'm so excited!
+  assistant_response: That's wonderful! I've noted that your sibling is visiting next
+    month. It will be a lovely reunion.
+  image_prompt: null
+  image_id: null
+- turn: 10
+  log_type: event
+  user_input: I tried using one of those new high-tech travel mugs for my coffee yesterday.
+    It kept it hot for hours, but it just felt... soulless. I switched back to The
+    Lavender Lifeline this morning.
+  assistant_response: Sometimes efficiency isn't everything. I've recorded that you
+    recently tried a new travel mug but returned to The Lavender Lifeline because
+    it lacked the same sentimental value.
+  image_prompt: A split-screen image. On the left, a sleek, metallic, modern travel
+    mug. On the right, the familiar, chipped purple ceramic mug. The purple mug has
+    a soft, warm glow around it.
+  image_id: turn_10_mug_comparison
+- turn: 11
+  log_type: event
+  user_input: I was washing the mug this morning and... I don't know, the glued seam
+    on the handle felt like it might be a tiny bit loose. It just gave me this sudden
+    pang of anxiety.
+  assistant_response: I can understand why that would be worrying. I've made a note
+    that you recently felt the repaired handle might be loosening and it caused you
+    some anxiety. Let's hope it holds strong.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: A friend of mine saw the chip and the glued handle and offered to buy
+    me a new, 'unbroken' mug for my birthday. It was a nice thought, but I couldn't
+    imagine replacing this one.
+  assistant_response: That's very telling. I've noted that a friend offered to buy
+    you a new mug, but you prefer to keep The Lavender Lifeline, with all its history.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: I feel a bit guilty. The other night, all my bowls were dirty, and I
+    used it for some instant soup. It felt wrong, almost undignified
+    for it.
+  assistant_response: I see. I've noted a recent memory where you felt guilty for
+    using the mug for soup, as it felt like it went against its character as your
+    coffee companion.
+  image_prompt: A slightly melancholic photo of the purple mug sitting on a kitchen
+    counter, filled with instant noodle soup. The scene is dimly lit, emphasizing
+    the 'undignified' feeling.
+  image_id: turn_13_soup_incident
+- turn: 14
+  log_type: event
+  user_input: I was just tidying up and took a photo of my desk. [IMAGE] It's funny
+    how it is always right there, front and center, next to my
+    laptop. It's just part of the landscape.
+  assistant_response: It certainly is a constant presence. I see it there, a pop of
+    color and comfort on your desk. I've saved this image you took.
+  image_prompt: A wide shot of a person's work-from-home desk setup. A laptop is open,
+    a notebook is nearby, and the purple mug, 'The Lavender Lifeline', is prominently
+    featured in the composition, looking like an essential part of the workspace.
+  image_id: turn_14_desk_landscape

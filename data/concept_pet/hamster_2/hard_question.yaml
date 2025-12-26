@@ -1,0 +1,175 @@
+- id: 1
+  type: Causal Inference
+  question: I feel a bit mean, but look at him [IMAGE]. He keeps looking for his favorite
+    treat. Can you remind me why I decided to stop giving him sunflower seeds for
+    a while?
+  image_prompt: A photo of Pip, the chubby Syrian hamster, standing on his hind legs
+    and looking expectantly up at the camera, as if begging for a treat. His cheek
+    pouches are empty but he looks noticeably rounder than in his first picture.
+  evaluation_criteria:
+    ideal_answer: You decided to temporarily stop giving Pip sunflower seeds because,
+      even though they are his absolute favorite treat, he ate too many recently and
+      got a bit chubby. You are cutting them out for a while to help him get back
+      to a healthier weight.
+    key_points:
+    - Sunflower seeds are Pip's favorite treat (long-term information from Turn 2).
+    - The owner has temporarily stopped giving them to him because he recently gained
+      weight (short-term information from Turn 9).
+  options:
+  - You're encouraging him to eat his standard food pellets instead of only high-value
+    treats.
+  - He was hoarding too many in his pouches, which could have led to other health
+    issues.
+  - He ate too many and gained weight, so you've temporarily stopped them for his
+    health.
+  - After his water bottle leaked, you decided to adjust his diet to prevent future
+    problems.
+  answer: He ate too many and gained weight, so you've temporarily stopped them for
+    his health.
+  image_id: cq_1_begging_for_seeds
+- id: 2
+  type: State Identification
+  question: He seems so sluggish at night lately. Look, he's just sitting there instead
+    of running [IMAGE]. Based on recent events, why do you think his energy is so
+    low?
+  image_prompt: A photo of Pip's cage at night. He is sitting beside a smaller, brightly
+    colored plastic hamster wheel, looking at it but not getting in. He looks unenthusiastic
+    and lethargic.
+  evaluation_criteria:
+    ideal_answer: Pip's recent lack of activity at night is likely because his favorite
+      large, silent wheel broke. The temporary replacement is smaller and squeaky,
+      which probably annoys him or is less comfortable, so he's not running on it
+      like he used to.
+    key_points:
+    - Pip loves to run on his large, silent-spinner wheel at night (long-term information
+      from Turn 4).
+    - His favorite wheel recently broke and was replaced with a smaller, squeaky one
+      he doesn't seem to like (short-term information from Turn 10).
+  options:
+  - His large, silent wheel broke and the smaller, squeaky replacement is likely uncomfortable.
+  - The recent diet change cutting out sunflower seeds has probably lowered his overall
+    energy levels.
+  - He is likely bored since his favorite cardboard tube was destroyed and not yet
+    replaced.
+  - He is probably still recovering from the stress of the unexpected daytime cage
+    cleaning.
+  answer: His large, silent wheel broke and the smaller, squeaky replacement is likely
+    uncomfortable.
+  image_id: cq_2_unhappy_with_wheel
+- id: 3
+  type: Counterfactual Reasoning
+  question: I'm thinking of doing a full cage clean tomorrow around lunchtime. Here's
+    all the new bedding I got for him [IMAGE]. Based on his personality, how do you
+    predict he'll handle this?
+  image_prompt: A photo showing several bags of fresh paper bedding, a small bottle
+    of cage cleaner, and a clean plastic hamster cage base on a table, ready for a
+    full cage cleaning session.
+  evaluation_criteria:
+    ideal_answer: Based on what you've told me, cleaning his cage at 1 PM would likely
+      be very stressful for Pip. He is primarily nocturnal and trying to sleep during
+      the day, and you've specifically mentioned that he hates being disturbed for
+      cage cleanings at that time. He would probably be grumpy, scared, and disoriented.
+    key_points:
+    - Pip hates having his cage cleaned, especially during the day (long-term information
+      from Turn 5).
+    - Cleaning the cage during the day would interrupt his natural sleep cycle, causing
+      stress (reasoned prediction).
+  options:
+  - He will likely be stressed and grumpy, as it will interrupt his daytime sleep
+    cycle.
+  - He may be anxious about his food hoard being moved, but fine with the time of
+    day.
+  - He might be less stressed, as the recent emergency clean accustomed him to daytime
+    activity.
+  - He will probably be curious about the new bedding and eager to start burrowing
+    right away.
+  answer: He will likely be stressed and grumpy, as it will interrupt his daytime
+    sleep cycle.
+  image_id: cq_3_cleaning_supplies
+- id: 4
+  type: Causal Inference
+  question: I tried giving him a healthy snack today [IMAGE], but he wasn't interested
+    at all. Why do you think he rejected this piece of orange?
+  image_prompt: A close-up shot of a small slice of orange on the bedding of a hamster
+    cage. Pip, the hamster, is seen in the frame but is turned away from the orange,
+    heading in the opposite direction.
+  evaluation_criteria:
+    ideal_answer: Pip's rejection of the orange is perfectly in line with his known
+      preferences. You've mentioned before that he strongly dislikes all citrus fruits,
+      and this recent event where he sniffed the orange and walked away just confirms
+      it.
+    key_points:
+    - Pip has a long-term dislike for citrus fruits (long-term information from Turn
+      3).
+    - The specific fruit offered recently was an orange, which he rejected (short-term
+      information from Turn 13).
+  options:
+  - He prefers dried fruits like apple and generally ignores fresh fruits that are
+    too moist.
+  - He is likely saving his appetite in the hope that you will offer him a sunflower
+    seed instead.
+  - He rejected it because of his established, long-term dislike for any kind of citrus
+    fruit.
+  - As a skittish animal, the strong and unfamiliar smell of the orange likely startled
+    him.
+  answer: He rejected it because of his established, long-term dislike for any kind
+    of citrus fruit.
+  image_id: cq_4_orange_rejection
+- id: 5
+  type: Counterfactual Reasoning
+  question: Well, he finally destroyed his favorite toy [IMAGE]. He seems a bit bored
+    now. Based on what he likes, what do you think would be a good, safe, and cheap
+    replacement to get for him?
+  image_prompt: A photo showing a pile of shredded brown cardboard bits in the corner
+    of Pip's cage. There is no longer a recognizable tube shape. Pip is sniffing around
+    the area looking a bit lost.
+  evaluation_criteria:
+    ideal_answer: Since his favorite toy was a cardboard tube and he just destroyed
+      it, the best and easiest replacement would be another cardboard tube from a
+      toilet paper or paper towel roll. It's his proven favorite, it's safe for him
+      to chew, and it costs nothing.
+    key_points:
+    - Pip's favorite toy is a simple cardboard tube (long-term information from Turn
+      7).
+    - His previous tube was just destroyed, creating a need for a new one (short-term
+      information from Turn 14).
+  options:
+  - A large wooden chew block would be a good, durable item that satisfies his need
+    to chew.
+  - The new enrichment box filled with hay he recently enjoyed would be a good permanent
+    item.
+  - A new, larger silent-spinner wheel would be a great choice to keep him active
+    and entertained.
+  - The best replacement is another simple cardboard tube, as it is his proven favorite
+    toy.
+  answer: The best replacement is another simple cardboard tube, as it is his proven
+    favorite toy.
+  image_id: cq_5_destroyed_tube
+- id: 6
+  type: Causal Inference
+  question: He seemed really upset after I had to clean his cage the other day [IMAGE].
+    Why was that specific cleaning so much more stressful for him than usual?
+  image_prompt: A photo of Pip huddled in a temporary holding container, which is
+    a small cardboard box with some bedding. He looks anxious and his fur is slightly
+    ruffled. In the background, his main cage is visibly being cleaned.
+  evaluation_criteria:
+    ideal_answer: 'That recent cleaning was particularly stressful for Pip because
+      it combined two things he dislikes: it was a cage cleaning, which he already
+      hates, and it happened unexpectedly during the afternoon while he was sleeping.
+      This daytime disturbance is something you''ve noted he finds very stressful.'
+    key_points:
+    - Pip has a long-standing hatred for daytime cage cleanings (long-term information
+      from Turn 5).
+    - The recent cleaning was an emergency that happened during the afternoon because
+      of a leak, interrupting his sleep (short-term information from Turn 12).
+  options:
+  - The stress was mainly caused by the water bottle leak itself, which ruined his
+    burrows.
+  - It was especially stressful because the emergency forced the cleaning to happen
+    during the day.
+  - He was likely most upset that his meticulously hoarded food supply was suddenly
+    removed.
+  - As a skittish hamster, any sudden change or activity near his cage is highly stressful.
+  answer: It was especially stressful because the emergency forced the cleaning to
+    happen during the day.
+  image_id: cq_6_stressful_cleaning

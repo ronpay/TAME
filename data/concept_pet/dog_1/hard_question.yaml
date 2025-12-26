@@ -1,0 +1,169 @@
+- id: 1
+  type: Causal Inference
+  question: I'm a bit confused. Look at this food the vet gave us [IMAGE]. Mochi has
+    to eat it for a week, but I thought you remembered he absolutely hates anything
+    fish-flavored. Can you explain why he's on this diet?
+  image_prompt: A can of therapeutic veterinary wet dog food is open next to a food
+    bowl. The label clearly indicates 'Fish Formula'. Mochi, the Shiba Inu, is looking
+    at the bowl with a skeptical expression.
+  evaluation_criteria:
+    ideal_answer: You are right, Mochi typically hates fish-flavored food. However,
+      the reason he's eating this specific food now is because the vet prescribed
+      it. This happened after he got an upset stomach from sneaking some fish tacos,
+      so it's a temporary medical necessity.
+    key_points:
+    - Mochi has a long-standing hatred for fish-flavored food (long-term information).
+    - He is on a vet-prescribed fish-flavored diet because he recently got sick from
+      eating fish tacos (short-term event).
+  options:
+  - The vet likely mixed it with chicken jerky flavoring, his favorite treat, to convince
+    him to eat the fish-based food.
+  - He's on this vet-prescribed diet because he got an upset stomach from sneaking
+    fish tacos, overriding his usual dislike for fish.
+  - His tastes are changing; dogs' preferences can shift, and he might be starting
+    to develop a liking for fish flavors now.
+  - He's likely refusing to eat it due to his stubbornness, even if it's for his health,
+    as he strongly dislikes fish.
+  answer: He's on this vet-prescribed diet because he got an upset stomach from sneaking
+    fish tacos, overriding his usual dislike for fish.
+  image_id: cq_1_fish_food_paradox
+- id: 2
+  type: Causal Inference
+  question: Ever since our hike where he got like this [IMAGE], Mochi has been acting
+    really weird and avoiding me. Any idea why he's hiding?
+  image_prompt: A photo of Mochi, the Shiba Inu, standing in a forest. He is completely
+    covered from paws to ears in dark, wet mud, looking very happy and mischievous.
+  evaluation_criteria:
+    ideal_answer: Given that Mochi is covered in mud, he is likely anticipating a
+      bath. Since you've mentioned he absolutely hates baths, he is probably avoiding
+      you because he knows a bath is coming.
+    key_points:
+    - Mochi has a strong, long-term hatred of baths (long-term information).
+    - He recently got covered in mud, which is a trigger for a bath, so he is hiding
+      in anticipation (inference from short-term event).
+  options:
+  - He is likely anticipating a bath due to the mud, and since he despises baths,
+    he's probably hiding from you to avoid it.
+  - He's probably just exhausted after such an energetic hike in the woods and is
+    seeking a quiet place to rest by himself.
+  - He might have been scared by a loud noise during the hike, like thunder, and is
+    still feeling anxious and wary of people.
+  - Given his intelligent nature, he might feel guilty about getting so dirty and
+    is avoiding you because he is ashamed.
+  answer: He is likely anticipating a bath due to the mud, and since he despises baths,
+    he's probably hiding from you to avoid it.
+  image_id: cq_2_muddy_avoidance
+- id: 3
+  type: State Identification
+  question: Look at this [IMAGE]. For the past few days, Mochi has been obsessed with
+    this cardboard box and won't even look at his favorite hedgehog toy. Based on
+    what you know, what's going on with this weird behavior?
+  image_prompt: In a living room, Mochi, the Shiba Inu, is happily chewing on the
+    edge of a large cardboard box. In the background, his plush hedgehog toy lies
+    untouched and ignored on the floor.
+  evaluation_criteria:
+    ideal_answer: While his squeaky hedgehog is his long-term favorite toy, it's common
+      for dogs to become temporarily fascinated with a new object. His obsession with
+      the cardboard box is likely a short-term interest in its novelty, and he'll
+      probably go back to his hedgehog toy eventually.
+    key_points:
+    - The squeaky hedgehog is Mochi's long-term favorite toy (long-term information).
+    - His current obsession with the box is a new, short-term behavior, likely due
+      to novelty (explanation of short-term event).
+  options:
+  - He is being stubborn and wants to show you he'd rather go for a car ride than
+    play with his old, boring toys.
+  - The hedgehog toy probably has a scent he dislikes now, perhaps from being near
+    his fish-flavored food which he hates.
+  - This is likely a temporary fascination with the novelty of the box; his long-term
+    preference for the hedgehog hasn't changed.
+  - He has probably broken the squeaker in his hedgehog, and since he dislikes hard
+    plastic toys, the box is his only option.
+  answer: This is likely a temporary fascination with the novelty of the box; his
+    long-term preference for the hedgehog hasn't changed.
+  image_id: cq_3_box_obsession
+- id: 4
+  type: Counterfactual Reasoning
+  question: Mochi is still sulking after his bath yesterday. I was thinking of giving
+    him a piece of apple [IMAGE] to cheer him up. Given everything that's happened
+    recently, is that a good idea?
+  image_prompt: A close-up photo of a human hand holding a crisp, freshly cut slice
+    of a red apple, ready to be offered as a treat.
+  evaluation_criteria:
+    ideal_answer: That's a thoughtful idea, since you've said apples are one of his
+      favorite treats. However, remember he also just had an upset stomach from eating
+      fish tacos. It might be best to hold off on any treats, even his favorites,
+      until his stomach has fully settled.
+    key_points:
+    - Mochi loves apples (long-term information).
+    - He recently had an upset stomach, so it's advisable to avoid treats for now
+      (short-term context).
+  options:
+  - Yes, offering his favorite fruit is a great way to make amends after the bath,
+    which you know he absolutely hates.
+  - While he loves apples, it's best to avoid treats right now since his stomach is
+    still recovering from the fish taco incident.
+  - No, he's probably too upset about the bath. As he's very stubborn, he will likely
+    refuse the apple just to make a point.
+  - You should offer his squeaky hedgehog toy instead of food, as playing is a better
+    distraction for him than eating right now.
+  answer: While he loves apples, it's best to avoid treats right now since his stomach
+    is still recovering from the fish taco incident.
+  image_id: cq_4_apple_dilemma
+- id: 5
+  type: Counterfactual Reasoning
+  question: Mochi's nails are getting way too long, see? [IMAGE] I need to trim them,
+    but you know how much he hates having his paws touched. What's the best way to
+    handle this without it turning into a huge drama?
+  image_prompt: A close-up, macro shot of a Shiba Inu's paw resting on a wooden floor.
+    The nails are visibly long and clearly in need of trimming.
+  evaluation_criteria:
+    ideal_answer: This is tricky because you've noted he hates having his paws touched
+      and can be stubborn. Forcing him is unlikely to work well. A good approach might
+      be to use a high-value distraction, like giving him some chicken jerky to lick
+      while you quickly and carefully trim one nail at a time. Alternatively, given
+      his strong aversion, taking him to a professional groomer or vet who is experienced
+      with difficult dogs might be the least stressful option for both of you.
+    key_points:
+    - Mochi has a strong, long-term dislike of his paws being touched (long-term information).
+    - The best strategy involves working around his dislike with distractions or professional
+      help, rather than confrontation (reasoned advice).
+  options:
+  - Wait until he's exhausted after a long hike; he might be too sleepy to protest
+    having his paws handled for the trimming.
+  - The best way is to be firm and quick. His stubborn personality means he will resist,
+    but you have to show him who is in control.
+  - Given his stubbornness and dislike of paw-touching, using a high-value distraction
+    like chicken jerky or hiring a professional is best.
+  - Try it right after his bath. Since he'll already be subdued and unhappy, you can
+    get both disliked activities done at once.
+  answer: Given his stubbornness and dislike of paw-touching, using a high-value distraction
+    like chicken jerky or hiring a professional is best.
+  image_id: cq_5_nail_trimming_advice
+- id: 6
+  type: State Identification
+  question: Take a look at Mochi in this family photo we just took [IMAGE]. Is there
+    anything different about what he's wearing around his neck compared to his usual,
+    everyday look?
+  image_prompt: A portrait-style photo of Mochi, the Shiba Inu. He is sitting attentively
+    and wearing a bright, festive red bowtie around his neck. His usual black collar
+    is not visible.
+  evaluation_criteria:
+    ideal_answer: Yes, there is a difference. You've previously shown me that he usually
+      wears a simple black collar every day. In this recent family photo, he is wearing
+      a festive red bowtie instead.
+    key_points:
+    - Mochi normally wears a black collar (long-term information).
+    - In this specific photo, he is wearing a red bowtie (short-term event).
+  options:
+  - Yes, in this photo he's wearing a festive red bowtie, which is different from
+    his usual simple, black nylon collar.
+  - He's wearing a new red collar, likely a replacement because his old black one
+    was getting worn out from his frequent hikes.
+  - No, that's just his usual black collar with a large, decorative red tag on it
+    for the special occasion family picture.
+  - It looks like he is wearing his normal black collar, but a red leash is attached
+    that looks like a bowtie from this angle.
+  answer: Yes, in this photo he's wearing a festive red bowtie, which is different
+    from his usual simple, black nylon collar.
+  image_id: cq_6_bowtie_comparison

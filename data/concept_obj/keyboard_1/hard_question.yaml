@@ -1,0 +1,202 @@
+- id: 1
+  type: Causal Inference
+  question: I'm about to pack 'The Controller' for a trip, and here I go with my careful
+    packing ritual again [IMAGE]. Seriously, why am I so obsessive about this one
+    particular thing?
+  image_prompt: A top-down view of 'The Controller' keyboard being carefully placed
+    into a padded, form-fitting travel case. The owner's hands are visible, neatly
+    wrapping the yellow-and-black cable and placing it in a separate compartment.
+  evaluation_criteria:
+    ideal_answer: You're so careful when packing 'The Controller' because of what
+      happened before your first design competition. It got a permanent scratch when
+      you packed it in a hurry, and ever since then, you've developed a specific ritual
+      to make sure no more careless damage happens to it.
+    key_points:
+    - The keyboard has a scratch from being hastily packed for a design competition
+      (long-term information).
+    - The current careful packing behavior is a direct result of that past negative
+      event (causal inference from short-term behavior).
+  options:
+  - The care comes from a fear of damaging the custom 3D-printed Enter key; a standard
+    part would ruin its unique character, so you're meticulous to avoid another repair.
+  - This ritual is a direct response to the memory of your first design competition,
+    where packing in a hurry resulted in a permanent scratch near the USB-C port.
+  - You're obsessive because the 'TAKE CONTROL' tag is the core of its identity, and
+    you're worried that careless packing could snag or detach the very thing that
+    gives it its meaning.
+  - The behavior stems from its stoic personality; you feel that such a precise, demanding
+    tool deserves a deliberate and respectful packing process to honor its character.
+  answer: This ritual is a direct response to the memory of your first design competition,
+    where packing in a hurry resulted in a permanent scratch near the USB-C port.
+  image_id: cq_1_packing_ritual
+- id: 2
+  type: Counterfactual Reasoning
+  question: Remember I told you my friend is starting her own business and asked for
+    advice? I sent her this picture of 'The Controller' [IMAGE] as my answer. Based
+    on my history with it, what's the core advice I was trying to give her?
+  image_prompt: A motivational, well-lit photo of 'The Controller' keyboard on a desk.
+    The 'TAKE CONTROL' tag is in sharp focus. In the background, some design sketches
+    are visible, suggesting creative work.
+  evaluation_criteria:
+    ideal_answer: The advice wasn't about a specific brand. Based on your experience,
+      you were telling her to find a 'tool for success' that's more than just functional.
+      It should be a personal, symbolic item that provides motivation and represents
+      her new venture, just as 'The Controller' and its tag do for you.
+    key_points:
+    - '''The Controller'' is a personal symbol of independence and motivation for
+      the owner (long-term information).'
+    - The advice for a new business owner is to find a tool with personal meaning,
+      not just the most expensive or popular one (inference from short-term conversation).
+  options:
+  - The advice is to find a personal, symbolic tool that provides daily motivation,
+    not just a functional one. The object should represent her new venture's identity.
+  - The advice is to invest in durable, high-quality tools from the start, as this
+    keyboard has been a reliable workhorse since you began your own freelance career.
+  - The advice is about self-reliance; by showing a tool you fixed yourself, you're
+    telling her that the ability to solve her own problems is crucial for a new entrepreneur.
+  - The advice is about maintaining flexibility; the keyboard's compact size highlights
+    the importance of having portable tools for client meetings and a lean business
+    setup.
+  answer: The advice is to find a personal, symbolic tool that provides daily motivation,
+    not just a functional one. The object should represent her new venture's identity.
+  image_id: cq_2_advice_photo
+- id: 3
+  type: Counterfactual Reasoning
+  question: Here's a close-up of my custom Enter key [IMAGE]. Thinking back, what
+    if I hadn't been able to 3D-print this myself and just had to buy a standard replacement
+    part? How might my feelings about 'The Controller' be different today?
+  image_prompt: A macro photo focusing on the custom 3D-printed 'Enter' key on 'The
+    Controller'. The key is visibly taller than the adjacent keys, and its texture
+    is slightly different, highlighting its unique, self-made nature.
+  evaluation_criteria:
+    ideal_answer: If you had used a standard replacement, your connection to 'The
+      Controller' might be slightly less profound. Learning to 3D print and fixing
+      it yourself was a powerful act that perfectly reinforced the keyboard's core
+      theme of 'taking control' and self-reliance. Using a generic part would have
+      missed that opportunity to deepen its personal story.
+    key_points:
+    - The keyboard's core identity is about 'taking control' and self-reliance (long-term
+      information).
+    - Fixing the key personally reinforced this identity; using a generic part would
+      have been a missed opportunity to add to its story (counterfactual inference
+      from a past event).
+  options:
+  - Your connection might be less profound; fixing it yourself reinforced its 'take
+    control' identity, while a generic part would have been a missed chance to deepen
+    its story.
+  - You would likely view it as a less reliable tool, as needing an outside part would
+    be a constant reminder that its integrity depends on more than just your own resourcefulness.
+  - A standard key would likely be a source of quiet frustration, a visible symbol
+    of a moment where you failed to 'take control,' slightly undermining its core
+    message.
+  - You might have already replaced the entire keyboard, as a generic key would have
+    'broken' its unique narrative, making it feel less like a personal symbol of your
+    journey.
+  answer: Your connection might be less profound; fixing it yourself reinforced its
+    'take control' identity, while a generic part would have been a missed chance
+    to deepen its story.
+  image_id: cq_3_custom_enter_key
+- id: 4
+  type: Causal Inference
+  question: Here's the new cable I just installed [IMAGE]. I could have upgraded to
+    a different color or a fancier style, but I chose one that's exactly the same
+    as the old one. Why do you think I did that?
+  image_prompt: A photo of 'The Controller' on a desk. A new, vibrant yellow-and-black
+    braided USB cable is plugged into it. Lying next to it is the old, slightly frayed
+    cable it replaced, showing they are identical in style and color.
+  evaluation_criteria:
+    ideal_answer: You chose an identical cable to preserve the original, iconic identity
+      of 'The Controller'. You've previously decided against a wireless keyboard because
+      the complete look of the keyboard, its tag, and its specific cable is important
+      to you. This was an act of maintaining its symbolic integrity, not seeking novelty.
+    key_points:
+    - The owner values the specific, iconic aesthetic of the keyboard, tag, and cable
+      as a single unit (long-term information).
+    - The choice to buy an identical cable was a deliberate act to preserve this established
+      identity, not to upgrade or change it (inference from short-term event).
+  options:
+  - You did it to preserve its symbolic identity. After deciding against a wireless
+    setup to keep the iconic look, this choice reinforces that you value its original
+    form over novelty.
+  - You chose it to honor the keyboard's 'stoic' and 'reliable' personality; changing
+    to a flashy new style would betray its character as a dependable workhorse, not
+    a show pony.
+  - It's a choice rooted in the memory of the scratch; you avoid any change to its
+    original form, as alterations might feel like another form of damage to its history.
+  - The decision was likely practical, to maintain the strong visual link between
+    the cable and the yellow 'TAKE CONTROL' tag, ensuring the keyboard's primary message
+    is not diluted.
+  answer: You did it to preserve its symbolic identity. After deciding against a wireless
+    setup to keep the iconic look, this choice reinforces that you value its original
+    form over novelty.
+  image_id: cq_4_identical_cable
+- id: 5
+  type: State Identification
+  question: Look at my desk now with this new setup [IMAGE]. Seeing 'The Controller'
+    next to my brand-new graphics tablet feels significant. Based on its whole story,
+    what does this combination of old and new say about my career journey?
+  image_prompt: A wide shot of a designer's desk. On the left, 'The Controller', the
+    familiar black mechanical keyboard with its yellow tag. On the right, a large,
+    sleek, brand-new graphics tablet with a stylus on it. The setup looks professional
+    and successful.
+  evaluation_criteria:
+    ideal_answer: This pairing is a powerful symbol of your professional growth. 'The
+      Controller' represents the beginning of your freelance journey, your foundational
+      tool from when you decided to 'take control'. The new, high-end tablet signifies
+      your current success. Having them side-by-side shows that while your career
+      has advanced, you still value the original tool that started it all.
+    key_points:
+    - '''The Controller'' is the foundational symbol of the start of the owner''s
+      freelance career (long-term information).'
+    - The new tablet is a sign of success, and pairing it with the original keyboard
+      represents a journey of professional growth (synthesis of short-term event and
+      long-term knowledge).
+  options:
+  - It symbolizes your professional growth; the keyboard is the foundational tool
+    from your start, while the tablet signifies current success, showing you value
+    your roots.
+  - It suggests a shift in your work; the keyboard is becoming a sentimental object
+    while the high-end tablet is now your primary, more specialized professional tool.
+  - It represents a financial milestone; you can now afford advanced tools like the
+    tablet, unlike when you started and the keyboard was a major, singular investment.
+  - It signifies a tension between your past and present; the stoic keyboard represents
+    your original scrappy values, while the new tablet reflects modern client demands.
+  answer: It symbolizes your professional growth; the keyboard is the foundational
+    tool from your start, while the tablet signifies current success, showing you
+    value your roots.
+  image_id: cq_5_old_and_new_tools
+- id: 6
+  type: Causal Inference
+  question: I know the wrist rest is cracking [IMAGE], but I still haven't bought
+    a new one. It seems like a simple fix. Why do you think I'm hesitating so much?
+  image_prompt: A close-up photo focusing on the black wrist rest. A fine crack is
+    clearly visible near the smooth groove worn by a watch clasp. The keyboard is
+    visible in the background, looking otherwise well-maintained.
+  evaluation_criteria:
+    ideal_answer: You're likely hesitating because you're not looking for just any
+      functional wrist rest; you're looking for one that 'fits' the established, stoic
+      character of 'The Controller'. Given your history of creating a custom 'Enter'
+      key, you value parts that align with the keyboard's story. You're taking your
+      time to find a replacement that feels as considered and appropriate as the keyboard
+      itself.
+    key_points:
+    - The keyboard has a stoic, considered personality, and the owner has a history
+      of custom, meaningful repairs (long-term information).
+    - The hesitation to replace the cracked wrist rest stems from the need to find
+      a replacement that matches this established character, not just any functional
+      one (inference from short-term event).
+  options:
+  - You're hesitating because you're not seeking a merely functional fix, but a replacement
+    that fits the keyboard's stoic character, much like your custom Enter key.
+  - You're delaying because replacing it means erasing the groove from your watch,
+    a unique mark of wear that tells a significant part of the keyboard's personal
+    history.
+  - The hesitation likely stems from a desire to create another custom part yourself,
+    similar to the Enter key, but you're still considering the time and effort required.
+  - You are likely concerned that a new wrist rest, even an identical one, won't have
+    the same worn-in feel, potentially disrupting the comfort and precision of your
+    workflow.
+  answer: You're hesitating because you're not seeking a merely functional fix, but
+    a replacement that fits the keyboard's stoic character, much like your custom
+    Enter key.
+  image_id: cq_6_cracked_wrist_rest

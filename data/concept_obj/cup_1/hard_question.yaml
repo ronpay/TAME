@@ -1,0 +1,236 @@
+- id: 1
+  type: Causal Inference
+  question: My friend offered to buy me a brand new mug since this one [IMAGE] is
+    chipped and has a glued handle. I said no, of course. Based on what you know,
+    can you explain why I'd refuse such a nice offer?
+  image_prompt: A photo showing the owner's hands protectively cradling 'The Lavender
+    Lifeline' mug. The lighting is warm and intimate, highlighting the visible seam
+    on the glued handle and the small chip on the rim, treating them as features,
+    not flaws.
+  image_id: cq_1_refusing_new
+  evaluation_criteria:
+    ideal_answer: You would refuse the offer because this mug's value comes from its
+      history, not its perfection. The chip from studying for exams and the handle
+      you glued back on before your first job interview are irreplaceable memories.
+      A new, 'unbroken' mug would be functionally perfect but sentimentally empty,
+      as it wouldn't carry the story of your life or the connection to your sibling
+      who gave it to you.
+    key_points:
+    - The mug's 'flaws' like the chip and repaired handle are tied to significant
+      personal memories (long-term knowledge from Turns 2 & 3).
+    - The refusal of a new mug demonstrates that its sentimental value, built from
+      this history, is more important than physical perfection (inference from the
+      short-term event in Turn 12).
+  options:
+  - You'd refuse because its value comes from its history, not perfection. The flaws,
+    like the chip from exams and the glued handle from a job interview, are irreplaceable
+    memories. A new mug would lack the personal story and connection to your sibling
+    that this specific one holds.
+  - You would refuse because accepting a new mug would feel like admitting your sibling's
+    original gift wasn't good enough, which would be disrespectful to them and their
+    thoughtful present.
+  - You'd decline because you've grown accustomed to its specific flaws, like the
+    faded patch where your right hand rests, and a new, pristine mug would feel unfamiliar
+    and 'soulless' in your hands.
+  - You would say no because you believe the glued handle is a symbol of resilience,
+    and you are too proud of that repair to simply replace the mug for a more convenient,
+    unbroken one.
+  answer: You'd refuse because its value comes from its history, not perfection. The
+    flaws, like the chip from exams and the glued handle from a job interview, are
+    irreplaceable memories. A new mug would lack the personal story and connection
+    to your sibling that this specific one holds.
+- id: 2
+  type: Counterfactual Reasoning
+  question: You know I was worried the handle felt loose the other day. It got me
+    thinking... if the handle on 'The Lavender Lifeline' [IMAGE] broke off again and
+    I couldn't fix it this time, what would I really be losing?
+  image_prompt: A dramatic, moody photo of 'The Lavender Lifeline' mug. The focus
+    is sharply on the glued handle, with the rest of the mug slightly out of focus.
+    A shadow is cast over the mug in a way that makes the repair seam look like a
+    fragile crack about to break.
+  image_id: cq_2_losing_handle
+  evaluation_criteria:
+    ideal_answer: If the handle broke off and was lost, you'd be losing much more
+      than a way to hold your coffee. That handle is a 'battle scar' from the morning
+      of your first job interview; losing it would feel like losing a tangible symbol
+      of your resilience during a pivotal life moment. It would damage the very object
+      that serves as your daily link to home and your sibling, making the loss deeply
+      personal and symbolic.
+    key_points:
+    - The handle is a specific symbol of resilience from the first job interview memory
+      (long-term knowledge from Turn 3).
+    - Losing it would be a symbolic loss of a piece of personal history and a connection
+      to family, not just a functional part (counterfactual inference prompted by
+      the worry in Turn 11).
+  options:
+  - You'd lose more than a handle; you'd lose the 'battle scar' from your first job
+    interview. It's a tangible symbol of your resilience during a pivotal moment,
+    and its loss would damage the object that serves as your daily link to home and
+    your sibling.
+  - You would be losing the most important part of the original gift from your sibling.
+    Without the handle, the mug would feel incomplete and the primary, tangible connection
+    to its origin story would be gone forever.
+  - You would lose the one part of the mug that causes you the most anxiety. Its loss
+    would confirm your recent fears about its fragility and force you to finally switch
+    to that 'soulless' high-tech travel mug.
+  - Losing the handle would be more significant than the existing chip on the rim,
+    as the handle represents a moment of crisis and repair, while the chip is just
+    a minor sign of a past nervous habit.
+  answer: You'd lose more than a handle; you'd lose the 'battle scar' from your first
+    job interview. It's a tangible symbol of your resilience during a pivotal moment,
+    and its loss would damage the object that serves as your daily link to home and
+    your sibling.
+- id: 3
+  type: Counterfactual Reasoning
+  question: My sibling—the one who gave me this mug [IMAGE]—is visiting next month.
+    I want to do something small but meaningful with it to acknowledge our shared
+    history and its journey. Any ideas?
+  image_prompt: A bright, welcoming photo of 'The Lavender Lifeline' sitting on a
+    clean kitchen counter. Next to it are two cookies on a small plate, creating a
+    sense of warm anticipation and hospitality.
+  image_id: cq_3_sibling_visit
+  evaluation_criteria:
+    ideal_answer: Since your sibling gave you the mug as a going-away-to-college gift,
+      a beautiful full-circle gesture would be to use it to welcome them. When they
+      arrive, you could serve them their favorite drink in 'The Lavender Lifeline'.
+      It would be a quiet, powerful way of showing them how much their gift has meant
+      to you and that it's been a constant companion ever since you left home.
+    key_points:
+    - The mug was originally a going-away gift from this specific sibling (long-term
+      knowledge from Turn 1).
+    - Using the mug to serve the sibling upon their arrival would be a meaningful,
+      'full-circle' gesture that acknowledges its origin (recommendation based on
+      the short-term event in Turn 9).
+  options:
+  - A perfect full-circle gesture would be to serve your sibling their favorite drink
+    in that very mug upon their arrival. It's a quiet way to show them their going-away
+    gift has been a constant companion and is now welcoming them home.
+  - A meaningful gesture would be to carefully hand-wash the mug in front of them
+    right after they arrive. This would be a physical demonstration of how meticulously
+    and lovingly you've cared for their special gift over all these years.
+  - You could point out the slightly loose handle and ask your sibling to help you
+    re-glue it together. This would be a symbolic act of reinforcing both the mug's
+    structure and your shared bond through a small, collaborative project.
+  - You should make their favorite drink, pour it into the mug, and then take a prominent
+    photo of them holding it. This would create a new memory that explicitly honors
+    the mug's long journey with you since college.
+  answer: A perfect full-circle gesture would be to serve your sibling their favorite
+    drink in that very mug upon their arrival. It's a quiet way to show them their
+    going-away gift has been a constant companion and is now welcoming them home.
+- id: 4
+  type: Causal Inference
+  question: When I felt the handle might be loose on my mug [IMAGE], I felt a real
+    pang of anxiety, not just annoyance like if any other dish broke. Why do you think
+    my reaction was so strong?
+  image_prompt: A close-up, slightly blurry, and dramatic shot of the owner's finger
+    tracing the glued seam on the handle. The lighting is low and focused, conveying
+    a sense of worry and intense focus on the potential flaw.
+  image_id: cq_4_anxiety_over_handle
+  evaluation_criteria:
+    ideal_answer: You felt anxiety instead of annoyance because 'The Lavender Lifeline'
+      isn't just a dish; it's a vessel for your memories. The potentially loose handle
+      represents a threat to a key part of your story—the 'battle scar' from your
+      first job interview. The strong reaction comes from the fear of losing an irreplaceable,
+      symbolic link to your past and personal growth, not from the simple inconvenience
+      of a broken object.
+    key_points:
+    - The mug and its repaired handle are an irreplaceable link to the past, specifically
+      the memory of a first job interview (long-term knowledge from Turn 3).
+    - The feeling of anxiety, rather than annoyance, stems from the fear of losing
+      this symbolic connection, not a functional item (inference from the short-term
+      event in Turn 11).
+  options:
+  - You felt anxiety because the mug is a vessel for memories, not just a dish. The
+    loose handle threatens a key 'battle scar' from your first job interview, so your
+    fear was about losing an irreplaceable link to your personal growth.
+  - The anxiety likely stems from your sibling's upcoming visit. You subconsciously
+    feared the mug, their original gift to you, might break right before they arrive,
+    which would feel like a terribly timed and sad event.
+  - Your anxiety comes from the mug's 'fragile but resilient' personality you've projected
+    onto it. Feeling it loosen is like sensing a friend's vulnerability, triggering
+    empathy and worry rather than just simple annoyance with an object.
+  - The feeling was so strong because the mug is the anchor of your entire morning
+    routine. The thought of it breaking for good introduces a threat of chaos and
+    uncertainty into the most dependable part of your day.
+  answer: You felt anxiety because the mug is a vessel for memories, not just a dish.
+    The loose handle threatens a key 'battle scar' from your first job interview,
+    so your fear was about losing an irreplaceable link to your personal growth.
+- id: 5
+  type: State Identification
+  question: This image [IMAGE] represents my coffee dilemma from yesterday. I tried
+    a new, high-tech travel mug but immediately went back to my old Lavender Lifeline.
+    What does this choice really reveal about this old mug's true value to me?
+  image_prompt: A split-screen style photo. On the left, a sleek, metallic, modern
+    travel mug sits under harsh, cool lighting. On the right, the familiar, chipped
+    purple ceramic mug, 'The Lavender Lifeline', is bathed in warm, soft light, looking
+    inviting.
+  image_id: cq_5_mug_choice
+  evaluation_criteria:
+    ideal_answer: This choice reveals that The Lavender Lifeline's true value is entirely
+      sentimental, not functional. You rejected a technologically superior mug that
+      was better at its job because it felt 'soulless'. This proves that you don't
+      use the Lavender Lifeline for its performance, but for the comfort, history,
+      and connection to your family that this specific, flawed object provides. You
+      chose emotional connection over practical efficiency.
+    key_points:
+    - The Lavender Lifeline's long-term identity is as a flawed but beloved object
+      providing comfort and a connection to home (long-term knowledge from Turns 1,
+      2, 3, 4).
+    - The recent choice to abandon a functionally superior mug proves its sentimental
+      value outweighs any practical considerations (identification of state based
+      on the short-term event in Turn 10).
+  options:
+  - This choice reveals the mug's true value is sentimental, not functional. You rejected
+    a superior mug because it felt 'soulless,' proving you prioritize the history
+    and connection this flawed object provides over mere practical efficiency.
+  - This choice shows that physical comfort is your main priority. The old mug's familiar
+    weight and the faded patch where your hand rests are more important to you than
+    a new mug's superior temperature retention.
+  - It reveals that you primarily value the mug's 'quietly supportive' personality.
+    The high-tech mug likely felt intrusive, while your old mug offers a familiar,
+    non-judgmental comfort to start your day.
+  - The decision proves you are more comfortable with familiar imperfections than
+    with sterile perfection. The mug's chip and repaired handle are part of an identity
+    you prefer over a flawless but impersonal object.
+  answer: This choice reveals the mug's true value is sentimental, not functional.
+    You rejected a superior mug because it felt 'soulless,' proving you prioritize
+    the history and connection this flawed object provides over mere practical efficiency.
+- id: 6
+  type: Causal Inference
+  question: I still feel a bit weird about this moment from last week [IMAGE]. Why
+    would I feel 'guilty' for using my mug for soup? It seems a bit silly, but the
+    feeling was real.
+  image_prompt: A slightly melancholic photo of 'The Lavender Lifeline' mug sitting
+    on a kitchen counter, filled with instant noodle soup. The scene is dimly lit,
+    emphasizing the 'undignified' feeling of the mug being used for something other
+    than coffee.
+  image_id: cq_6_soup_guilt
+  evaluation_criteria:
+    ideal_answer: You felt guilty because you've given the mug a specific, dignified
+      personality as your 'quietly supportive' morning coffee companion. In your mind,
+      its role is noble and steadfast. Using it for something as mundane as instant
+      soup felt like a violation of its character, like you were forcing a trusted
+      friend to do something 'undignified'. The guilt stems from breaking the unspoken
+      rules of your personal relationship with the mug.
+    key_points:
+    - The mug has a long-term, projected personality as a dignified, steadfast coffee
+      companion (long-term knowledge from Turns 4 & 5).
+    - The guilt arises because using it for soup violated this projected identity,
+      making you feel like you betrayed its character (inference from the short-term
+      event in Turn 13).
+  options:
+  - You felt guilty because you've assigned it a dignified personality as a coffee
+    companion. Using it for soup felt like a violation of its noble character, as
+    if forcing a trusted friend to do something 'undignified' and beneath it.
+  - You likely felt guilty because it was a special gift from your sibling. Using
+    it for something as common as instant soup, instead of its primary purpose for
+    coffee, may have felt disrespectful to the original, thoughtful gesture.
+  - The guilt probably comes from your strict 'hand-wash only' rule. You know soup
+    leaves a different residue than coffee, and you felt you were putting the mug's
+    fragile, permanently stained interior at risk of further damage.
+  - You felt guilty because you know the mug is fragile, with its glued handle and
+    chipped rim. Exposing it to the different temperature and consistency of soup
+    may have felt like taking an unnecessary risk with a cherished object.
+  answer: You felt guilty because you've assigned it a dignified personality as a
+    coffee companion. Using it for soup felt like a violation of its noble character,
+    as if forcing a trusted friend to do something 'undignified' and beneath it.

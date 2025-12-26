@@ -1,0 +1,149 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to tell you about my most important backpack. I call it
+    'The Shell'. [IMAGE] My parents gave it to me as a graduation gift right before
+    I started my first real job. It was meant to be my companion for the professional
+    world.
+  assistant_response: That's a very meaningful origin story. 'The Shell' is a graduation
+    gift from your parents for your first job. I've saved this important memory.
+  image_prompt: A high-quality photo of 'The Shell', a sleek, minimalist black backpack
+    made of ballistic nylon, standing upright against a clean, modern office wall.
+    The lighting is professional and soft.
+  image_id: turn_1_shell_profile
+- turn: 2
+  log_type: knowledge
+  user_input: One of its first 'battle scars' was when the original metal zipper pull
+    on the main compartment snapped off. I replaced it with this loop of bright red
+    paracord that I tied myself. [IMAGE] I think it gives it some character.
+  assistant_response: I see. You replaced a broken zipper pull with a hand-tied red
+    paracord loop. A unique and personal repair. I've added this detail.
+  image_prompt: A close-up shot focusing on the main zipper of 'The Shell' backpack.
+    A bright red, neatly tied paracord loop serves as the zipper pull, contrasting
+    with the black nylon fabric.
+  image_id: turn_2_paracord_pull
+- turn: 3
+  log_type: knowledge
+  user_input: Speaking of scars, there's a permanent reminder inside the laptop sleeve.
+    A pen exploded during a really turbulent flight, leaving this faint blue ink stain.
+    It was a close call for my laptop!
+  assistant_response: Got it. There's a faint blue ink stain inside the laptop sleeve
+    from an exploded pen during a turbulent flight. I've noted this incident.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: Here's another mark with a story. [IMAGE] This long scuff on the bottom
+    corner happened when I was sprinting to catch a train and scraped it against a
+    concrete pillar. A reminder of the daily hustle.
+  assistant_response: Understood. A long scuff mark on the bottom corner is from scraping
+    it against a pillar while rushing for a train. I've recorded this memory.
+  image_prompt: A detailed, angled shot of the bottom-right corner of the black backpack
+    'The Shell'. A long, faded white scuff mark is clearly visible on the ballistic
+    nylon, showing wear and tear.
+  image_id: turn_4_corner_scuff
+- turn: 5
+  log_type: knowledge
+  user_input: You know, if The Shell had a personality, I'd say it's stoic and understated.
+    But most of all, it's protective. Its whole job is to shield my stuff from the
+    world.
+  assistant_response: That's a wonderful way to think about it. I've noted that you
+    see The Shell as a 'stoic' and 'protective' companion.
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: Building on that, it's more than just a bag to me. It feels like a piece
+    of personal armor for navigating the 'urban jungle'. It's a constant symbol of
+    my independence and being prepared for anything.
+  assistant_response: I understand. Its sentimental role for you is that of 'urban
+    armor' and a symbol of independence and preparedness. I've saved this important
+    insight.
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: I also have this funny idea of what it 'hates'. After the pen incident,
+    I feel like it despises sharp, uncapped objects. And it definitely hates being
+    overstuffed to the point where the zippers are straining.
+  assistant_response: 'That makes perfect sense, given its history and purpose. I''ve
+    recorded its perceived dislikes: uncapped pens and being overstuffed.'
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: We have a little ritual. Every Sunday evening, I empty it out completely,
+    sort through everything, and then repack it neatly for the week ahead. It’s like
+    a reset button. Here’s a shot of the process. [IMAGE]
+  assistant_response: A weekly ritual. Every Sunday, you empty and repack The Shell
+    for the week. I've noted this routine. It sounds like a great way to stay organized.
+  image_prompt: A top-down 'knolling' style photograph. The black backpack 'The Shell'
+    is on one side, and its contents (a laptop, a notebook, chargers, a water bottle)
+    are arranged in neat, geometric patterns next to it on a wooden floor.
+  image_id: turn_8_weekly_repack
+- turn: 9
+  log_type: event
+  user_input: I'm a bit worried, though. I noticed recently that the stitching on
+    the left shoulder strap is starting to fray a little. [IMAGE] It's a sign of all
+    the heavy loads it has carried over the years.
+  assistant_response: 'I see. I''ve logged a recent concern: the stitching on the
+    left shoulder strap is beginning to fray. Thanks for keeping me updated on its
+    condition.'
+  image_prompt: A macro close-up shot of the left shoulder strap of 'The Shell' backpack
+    where it joins the main body. A few threads of the heavy-duty stitching are visibly
+    frayed and coming loose.
+  image_id: turn_9_fraying_strap
+- turn: 10
+  log_type: event
+  user_input: It proved its worth again last week! I got caught in a massive downpour
+    running for the bus. I was soaked, but when I got to the office, I checked inside
+    and everything was perfectly dry. My little protector in action!
+  assistant_response: 'That''s fantastic! I''ve recorded a recent event: you were
+    caught in a heavy rainstorm, and The Shell kept all its contents completely dry.
+    A true testament to its reliability.'
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: It's funny, I actually saw an online ad for the new, upgraded version
+    of The Shell the other day. It has some cool features. For a second, I was really
+    tempted... [IMAGE]
+  assistant_response: Temptation is understandable. I've noted that you recently saw
+    an ad for an upgraded version of your backpack and briefly considered replacing
+    it.
+  image_prompt: A screenshot of a modern e-commerce website product page. The main
+    image shows a new, sleek black backpack, with bullet points listing features like
+    'USB charging port' and 'enhanced padding'. The user's cursor is hovering over
+    the 'Buy Now' button.
+  image_id: turn_11_new_temptation
+- turn: 12
+  log_type: event
+  user_input: Even with the new ones out, my old Shell still gets noticed. A colleague
+    at work just complimented its minimalist design yesterday. They had no idea how
+    old it is or the stories it holds.
+  assistant_response: That's a nice moment. I've recorded that a colleague recently
+    complimented The Shell on its sleek design. Timeless style.
+  image_prompt: null
+  image_id: null
+- turn: 13
+  log_type: event
+  user_input: During my weekly clean-out last Sunday, I found this tucked away in
+    a side pocket! [IMAGE] It's a ticket stub from a concert I went to years ago.
+    I completely forgot it was in there. Such a great wave of nostalgia.
+  assistant_response: What a wonderful find! I've noted that you recently found an
+    old, nostalgic concert ticket inside The Shell while cleaning it. A keeper of
+    memories.
+  image_prompt: A person's hand holding a faded concert ticket stub. In the background,
+    the open side pocket of 'The Shell' backpack is visible, sitting on a wooden floor.
+  image_id: turn_13_ticket_find
+- turn: 14
+  log_type: event
+  user_input: We went on a bit of an adventure last weekend. I took it on a
+    day-hike. It's not its usual urban environment, and it got a little dusty, but
+    it held up great. [IMAGE]
+  assistant_response: That sounds like a fun change of pace. I've recorded that you
+    recently took The Shell on a day-hike, which is an unusual activity for it. I'm
+    glad it performed well outside the city.
+  image_prompt: The black backpack 'The Shell' is sitting on a rock next to a hiking
+    trail. There are trees and foliage in the background, and a light layer of dust
+    is visible on the backpack's surface. The lighting is natural, dappled sunlight.
+  image_id: turn_14_hike_adventure

@@ -1,0 +1,148 @@
+- id: 1
+  type: Long Term
+  question: I'm at the pet supply store and want to get Captain Comet a special snack.
+    Looking at all these options [IMAGE], can you remind me which treat is his absolute
+    favorite?
+  image_prompt: A first-person view photo looking at a store shelf filled with various
+    types of fish food. There are jars of flakes, pellets, and freeze-dried treats
+    like bloodworms and brine shrimp.
+  evaluation_criteria:
+    ideal_answer: You've mentioned that his absolute favorite special treat is bloodworms.
+    key_points:
+    - correctly mention bloodworms.
+  options:
+  - High-quality gel food
+  - Shelled peas
+  - Bloodworms
+  - Cheap, dry flakes
+  answer: Bloodworms
+  image_id: sq_1_fish_food_aisle
+- id: 2
+  type: Short Term
+  question: I'm looking at the tank since I rearranged it. [IMAGE] What was that new
+    cheerful-looking thing I put in there again?
+  image_prompt: A photo of the aquarium focusing on the new, brightly colored plastic
+    castle decoration. The castle has multiple pointy towers and is sitting on the
+    clean gravel. Captain Comet is nowhere near it.
+  evaluation_criteria:
+    ideal_answer: You recently added a colorful plastic castle with pointy towers
+      as a new decoration.
+    key_points:
+    - correctly mention the plastic castle.
+  options:
+  - A smooth, moss-covered rock
+  - A colorful plastic castle
+  - A new air stone for bubbles
+  - A 'No Fishing' sign
+  answer: A colorful plastic castle
+  image_id: sq_2_new_castle
+- id: 3
+  type: Short Term
+  question: I feel a bit bad looking at this empty spot in the tank. [IMAGE] What
+    did I tell you I did with his favorite mossy rock?
+  image_prompt: A photo of the aquarium gravel, showing a slightly depressed, empty
+    area where a decoration used to be. The new plastic castle can be seen in the
+    background.
+  evaluation_criteria:
+    ideal_answer: You mentioned that you swapped out his old mossy rock for a new
+      decoration during the recent tank cleaning because it was getting messy.
+    key_points:
+    - correctly mention it was swapped out/replaced.
+  options:
+  - It was moved to the other side of the tank
+  - It was swapped out during the recent cleaning
+  - It was accidentally broken
+  - It's just hidden behind the new castle
+  answer: It was swapped out during the recent cleaning
+  image_id: sq_3_empty_spot
+- id: 4
+  type: Long Term
+  question: I was about to offer him one of these [IMAGE] but then I had a sudden
+    thought... Is this the food you have on file that he absolutely will not eat?
+  image_prompt: A close-up photo of the user's hand holding a couple of bright green,
+    shelled peas.
+  evaluation_criteria:
+    ideal_answer: Yes, you've told me that he absolutely hates shelled peas.
+    key_points:
+    - correctly mention shelled peas.
+  options:
+  - Bloodworms
+  - High-quality gel food
+  - Shelled peas
+  - Live plants
+  answer: Shelled peas
+  image_id: sq_4_shelled_peas
+- id: 5
+  type: Short Term
+  question: He's swimming so much better today! [IMAGE] Quick refresher, what was
+    the health issue he had yesterday that made him float all lopsided?
+  image_prompt: A photo of Captain Comet swimming upright and looking healthy in his
+    clean tank. He appears active and alert.
+  evaluation_criteria:
+    ideal_answer: He was floating lopsided because you suspected he had a mild swim
+      bladder issue.
+    key_points:
+    - correctly mention the swim bladder issue.
+  options:
+  - He was just tired from the water change
+  - A mild swim bladder issue
+  - He had snagged one of his fins
+  - He had eaten too many bloodworms
+  answer: A mild swim bladder issue
+  image_id: sq_5_swimming_normally
+- id: 6
+  type: Short Term
+  question: Okay, I'm about to feed him for his treatment. [IMAGE] To be sure I'm
+    following the plan, what's the only food he's supposed to be eating right now?
+  image_prompt: A point-of-view shot. The user's hand is holding a small dish containing
+    a few shelled peas, ready to drop them into the aquarium which is visible in the
+    background.
+  evaluation_criteria:
+    ideal_answer: According to the treatment plan you mentioned, he is currently on
+      a diet of only shelled peas.
+    key_points:
+    - correctly mention (only) shelled peas.
+  options:
+  - His high-quality gel food
+  - A mix of gel food and bloodworms
+  - Nothing, he is fasting
+  - Only shelled peas
+  answer: Only shelled peas
+  image_id: sq_6_feeding_peas
+- id: 7
+  type: Long Term
+  question: Looking at the whole tank setup here [IMAGE], what's that one little item
+    I told you was a permanent decoration?
+  image_prompt: A wide-angle photo of the entire aquarium. The 'No Fishing' sign is
+    visible on the gravel, but is just one of several items in the tank, including
+    the filter and the new castle.
+  evaluation_criteria:
+    ideal_answer: The permanent decoration you pointed out is the small 'No Fishing'
+      sign.
+    key_points:
+    - correctly mention the 'No Fishing' sign.
+  options:
+  - The moss-covered rock
+  - The colorful plastic castle
+  - The small 'No Fishing' sign
+  - The black filter intake tube
+  answer: The small 'No Fishing' sign
+  image_id: sq_7_full_tank_view
+- id: 8
+  type: Long Term
+  question: Ugh, time to do this again. [IMAGE] This whole process is the one thing
+    that really freaks him out, right? Remind me what you noted down.
+  image_prompt: A photo showing a bucket, a fish net, and a gravel siphon sitting
+    on the floor next to Captain Comet's aquarium, in preparation for a water change.
+  evaluation_criteria:
+    ideal_answer: Yes, you've mentioned that the process of water changes with the
+      net and bucket is the activity that stresses him out the most.
+    key_points:
+    - correctly mention water changes.
+  options:
+  - The magnetic glass cleaner
+  - Water changes
+  - Being tapped on the glass
+  - Rearranging the decorations
+  answer: Water changes
+  image_id: sq_8_water_change_tools

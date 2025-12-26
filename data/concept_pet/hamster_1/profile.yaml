@@ -1,0 +1,101 @@
+concept_id: hamster_1
+name: Pip
+species: Rodent
+breed: Syrian Hamster
+appearance:
+  summary: A male Syrian Hamster with fluffy golden-brown and cream fur, large black
+    eyes, and a perpetually curious but easily startled demeanor.
+  key_visual_features:
+  - Fluffy coat with a classic golden-brown top and a creamy white belly
+  - Large, dark, beady eyes that are very expressive
+  - Distinctive dark brown fur 'cheek flashes' extending from his whiskers
+  - Tiny, delicate pink paws
+  - Always has his favorite purple-roofed ceramic house in his cage
+behavior:
+  personality_traits:
+  - Primarily nocturnal, most active at night
+  - An obsessive hoarder, stuffs his cheek pouches with anything he can find
+  - Generally good-natured but can be very grumpy if startled or woken during the
+    day
+  - Curious and an avid explorer, loves burrowing
+  preferences:
+    toys:
+      loves:
+      - Cardboard tubes from toilet paper rolls
+      - A silent-spin running wheel
+      hates:
+      - Loud plastic balls with bells inside
+      - Complex multi-level climbing structures (he prefers burrowing)
+    food:
+      loves:
+      - Pumpkin seeds
+      - Small pieces of apple
+      hates:
+      - Citrus fruits of any kind
+      - The brightly colored, sugary 'yogurt drops' from pet stores
+    activities:
+      loves:
+      - Burrowing deep into his bedding
+      - Running on his wheel for hours at night
+      hates:
+      - Being held for more than a few minutes
+      - Loud noises like the vacuum cleaner
+      - Having his main food hoard disturbed during cage cleaning
+history:
+  knowledge:
+  - Introduce Pip's appearance, highlighting his golden/cream fur and dark cheek flashes.
+  - Introduce that Pip's most prized possession in his cage is his purple-roofed ceramic
+    house.
+  - Introduce that Pip's absolute favorite treat is a pumpkin seed.
+  - Introduce Pip's intense dislike for the sugary yogurt drops sold in pet stores.
+  - Introduce his nightly routine of running for a very long time on his silent wheel.
+  - Introduce his specific hatred for loud noises, singling out the vacuum cleaner.
+  - Introduce his personality trait of getting very grumpy if his main food stash
+    is moved.
+  - Introduce his preference for simple cardboard tubes over fancy, noisy plastic
+    toys.
+  event:
+  - Introduce a recent event where the owner, trying to be nice, bought Pip some colorful
+    yogurt drops, but Pip just sniffed them and walked away.
+  - Introduce a recent event where Pip's beloved silent wheel broke, making him very
+    agitated and restless for two nights.
+  - Introduce a recent event where the owner's young cousin visited and tried to hold
+    Pip for too long, a photo shows Pip looking very stressed.
+  - Introduce a recent event where the owner had to deep clean the cage and move Pip's
+    main food hoard, causing Pip to spend the whole night frantically re-hoarding
+    everything in a new corner.
+  - Introduce a recent event where Pip's ceramic house got a crack, so the owner temporarily
+    replaced it with a plastic igloo hideout.
+  - Introduce a recent incident where the owner was using the vacuum cleaner near
+    the cage, and Pip hid and wouldn't come out for an hour, even for an apple slice.
+simple_questions:
+- Ask what Pip's favorite food is, based on his long-term knowledge.
+- Ask why Pip was so restless a couple of nights ago, based on a short-term event.
+- Ask what kind of house Pip normally has in his cage, based on long-term knowledge.
+- Ask what treat Pip recently refused to eat, based on a short-term event.
+- Ask what specific noise Pip hates, based on his long-term preferences.
+- Ask why Pip was re-hoarding his food all night recently, based on a short-term event.
+- Ask who was holding Pip in the recent stressful photo, based on a short-term event.
+- Ask what kind of toys Pip prefers, based on his long-term knowledge.
+challenge_question:
+- Pose a question that requires explaining Pip's recent agitated behavior. The user
+  must connect his long-term love for running on his wheel with the short-term event
+  that the wheel broke.
+- Create a state-recognition question. The owner mentions Pip is hiding and won't
+  even come out for an apple slice. Ask for the most likely reason. The user must
+  combine the long-term knowledge of his hatred for loud noises (vacuum) with the
+  short-term event where he refused a treat he normally likes.
+- Pose a preference conflict question. Ask why Pip is ignoring the new plastic igloo
+  in his cage. The user must synthesize his long-term attachment to the ceramic house
+  with the short-term event of it being temporarily replaced due to a crack.
+- 'Ask for advice: The owner''s cousin wants to buy Pip a gift and suggests a fun-looking
+  plastic ball with a bell inside. Is this a good gift for Pip? The user must use
+  long-term knowledge (hates loud plastic toys) to explain why it''s a bad idea.'
+- 'Create a ''what-if'' question: If the owner had cleaned the cage but left Pip''s
+  main food hoard untouched, how would his behavior have been different that night?
+  The user must infer that he would have been calm, contrasting the short-term frantic
+  re-hoarding event with his normal behavior based on his long-term preferences.'
+- Pose a question that requires explaining a contradiction. Why did Pip, who loves
+  food, refuse the yogurt drops? The user must combine the general knowledge that
+  hamsters love to eat with the specific long-term preference that he hates sugary
+  yogurt drops, confirmed by the short-term event.

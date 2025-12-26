@@ -1,0 +1,150 @@
+- id: 1
+  type: Long Term
+  question: Getting 'The Shell' ready for another trip! [IMAGE] Looking at it now,
+    it feels like I've had it forever. Remind me again, what was the original story
+    of how I got it?
+  image_prompt: A photo of 'The Shell' backpack lying open on a bed, with clothes
+    and travel items neatly folded next to it, ready to be packed. The scene suggests
+    preparation for a journey.
+  evaluation_criteria:
+    ideal_answer: Your parents gave it to you as a gift for your first day of university.
+    key_points:
+    - correctly mention it was a gift from their parents for university.
+  options:
+  - Your parents gave it to you for your first day of university.
+  - You bought it for a post-graduation solo trip.
+  - You received it as a hand-me-down from an older sibling.
+  - You bought it for a camping trip.
+  answer: Your parents gave it to you for your first day of university.
+  image_id: sq_1_origin_story
+- id: 2
+  type: Long Term
+  question: I was just wiping down The Shell and took a closer look at this patch.
+    [IMAGE] I know I put it there for a reason, what was the story behind this specific
+    repair again?
+  image_prompt: A close-up shot of the user's hand gently wiping the hand-stitched
+    brown leather patch on the corner of the navy blue backpack with a damp cloth.
+  evaluation_criteria:
+    ideal_answer: That's the leather patch you hand-stitched over a hole you wore
+      in it from dragging it on the concrete paths at your university.
+    key_points:
+    - correctly mention it covers a hole from being dragged on university campus paths.
+  options:
+  - It covers a hole from dragging it on campus concrete.
+  - It's a souvenir patch from a national park trip.
+  - It's covering an ink stain from an exploded pen.
+  - It was a repair for a tear that happened during a camping trip.
+  answer: It covers a hole from dragging it on campus concrete.
+  image_id: sq_2_corner_patch
+- id: 3
+  type: Long Term
+  question: Looking at this patch always makes me want to travel. [IMAGE] What trip
+    was this a souvenir from again? It's my favorite one.
+  image_prompt: A front-view photo of 'The Shell' backpack, with the user's finger
+    pointing directly at the crookedly-sewn mountain range patch on the front pocket.
+  evaluation_criteria:
+    ideal_answer: That patch is a souvenir from the solo trip you took through the
+      national parks right after you graduated.
+    key_points:
+    - correctly mention it was from a solo trip through national parks after graduation.
+  options:
+  - Your post-graduation solo trip through the national parks.
+  - The camping trip where your zipper pull broke.
+  - Your first trip to university with your parents.
+  - A recent weekend getaway to the mountains.
+  answer: Your post-graduation solo trip through the national parks.
+  image_id: sq_3_mountain_patch
+- id: 4
+  type: Short Term
+  question: Putting on The Shell and this strap feels super solid now. [IMAGE] I know
+    I did some maintenance on it recently, what was it I fixed again?
+  image_prompt: A photo from the user's perspective, looking down at the shoulder
+    strap of 'The Shell' backpack as they are holding it. The new, clean hand-stitching
+    is clearly visible.
+  evaluation_criteria:
+    ideal_answer: You recently re-stitched the shoulder strap by hand because it was
+      coming loose.
+    key_points:
+    - correctly mention the recently repaired part was the shoulder strap.
+  options:
+  - The stitching on the shoulder strap.
+  - The front zipper pull.
+  - The leather patch on the corner.
+  - The lining inside the main pocket.
+  answer: The stitching on the shoulder strap.
+  image_id: sq_4_recent_repair
+- id: 5
+  type: Short Term
+  question: Huh, I went to open the front pocket of The Shell and... [IMAGE] I can't
+    remember, what happened to that old leather cord I was using as a zipper pull?
+  image_prompt: A close-up photo of the front pocket zipper of 'The Shell'. The metal
+    part of the zipper is there, but the pull tab is missing, showing just the small
+    hole where it would attach.
+  evaluation_criteria:
+    ideal_answer: That makeshift leather zipper pull you made during a camping trip
+      finally snapped recently.
+    key_points:
+    - correctly mention the leather zipper pull snapped/broke.
+  options:
+  - It snapped recently.
+  - You replaced it with a metal carabiner.
+  - It fell off during your university days.
+  - You took it off because it was getting worn out.
+  answer: It snapped recently.
+  image_id: sq_5_broken_pull
+- id: 6
+  type: Long Term
+  question: My friend just asked why I still use this old thing. [IMAGE] Can you give
+    me the short version, what's The Shell's main job these days?
+  image_prompt: A photo of 'The Shell' backpack sitting on a chair in a casual living
+    room setting. It looks like a daily-use item, not packed for a major expedition.
+  evaluation_criteria:
+    ideal_answer: Its role has evolved. You now use it as your go-to bag for weekend
+      trips and for carrying your laptop to coffee shops.
+    key_points:
+    - correctly mention it's used for weekend trips and carrying a laptop to coffee
+      shops.
+  options:
+  - For weekend trips and carrying a laptop to coffee shops.
+  - For carrying textbooks and snacks through university.
+  - For long-distance solo hiking trips in national parks.
+  - It's mainly for storing old mementos in the closet.
+  answer: For weekend trips and carrying a laptop to coffee shops.
+  image_id: sq_6_current_use
+- id: 7
+  type: Short Term
+  question: My sibling is starting university soon, which reminds me... I offered
+    them The Shell, right? [IMAGE] What was their reaction again?
+  image_prompt: A photo of 'The Shell' backpack. On a screen in the background (a
+    phone or laptop), a website showing trendy, modern backpacks is visible. This
+    visually represents the sibling's choice.
+  evaluation_criteria:
+    ideal_answer: Yes, you did. They declined the offer, saying they wanted a new,
+      trendy backpack for university instead of your old one.
+    key_points:
+    - correctly mention the sibling declined, wanting a new/trendy backpack instead.
+  options:
+  - They declined, saying they wanted a new, trendy backpack.
+  - They were excited and gratefully accepted it.
+  - They thought it was cool but too big for them.
+  - They said they would think about it and let you know.
+  answer: They declined, saying they wanted a new, trendy backpack.
+  image_id: sq_7_sibling_reaction
+- id: 8
+  type: Short Term
+  question: Look what I found again! [IMAGE] I was cleaning out the front pocket of
+    The Shell the other day and found this. Can you remind me what it was?
+  image_prompt: A close-up photo of the user's hand holding a faded concert ticket.
+    The corner of 'The Shell' backpack is visible in the background.
+  evaluation_criteria:
+    ideal_answer: You recently found that old concert ticket in the front pocket while
+      you were looking for a pen.
+    key_points:
+    - correctly identify the found item as an old concert ticket.
+  options:
+  - An old concert ticket.
+  - An exploded pen.
+  - A ticket stub from a national park.
+  - A small metal carabiner.
+  answer: An old concert ticket.
+  image_id: sq_8_found_item

@@ -1,0 +1,135 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, getting you up to speed on my professional life. I'm a Junior Marketing
+    Analyst. My main goal right now is to really impress my manager, Jessica Chen.
+    I want to show her I've got what it takes. Here's a shot of me at my desk, trying
+    to look the part. [IMAGE]
+  assistant_response: Got it, Leo. You're a Junior Marketing Analyst focused on earning
+    the approval of your manager, Jessica Chen. I've noted this. Thanks for the picture.
+  image_prompt: A medium shot of Leo Vance, a male in his early 20s with neat brown
+    hair and blue eyes, sitting at a pristine, organized office desk. He's wearing
+    a crisp button-down shirt and tie, looking at the camera with a polite, slightly
+    eager smile. A computer monitor with marketing analytics charts is visible in
+    the background.
+  image_id: turn_1_leo_at_desk
+- turn: 2
+  log_type: knowledge
+  user_input: 'Just so you have my food preferences down, I''m really big on structured,
+    neat meals. I do meal prep every Sunday. Check out this week''s lunch setup: chicken,
+    broccoli, and rice, perfectly portioned. [IMAGE] It''s how I stay efficient.'
+  assistant_response: Okay, I've logged your preference for meticulously prepared
+    and portioned meal-prep lunches, like chicken, broccoli, and rice. It looks very
+    organized.
+  image_prompt: A top-down photo of five identical, clear food containers arranged
+    in a neat row. Each container holds perfectly separated portions of grilled chicken
+    breast, steamed broccoli, and white rice. The photo is clean and minimalist.
+  image_id: turn_2_meal_prep
+- turn: 3
+  log_type: knowledge
+  user_input: Ugh, one thing I absolutely cannot stand is the cheap, bitter coffee
+    they have in the office kitchen. It's just sludge from a pot that's been sitting
+    there for hours. [IMAGE] I'd rather have nothing.
+  assistant_response: Noted. A strong dislike for cheap, bitter office coffee. I'll
+    remember that.
+  image_prompt: A close-up photo of a stained glass coffee pot on a warmer in a generic
+    office breakroom. The coffee inside is dark and murky. A stack of styrofoam cups
+    sits next to it. The lighting is sterile and uninviting.
+  image_id: turn_3_bad_coffee
+- turn: 4
+  log_type: knowledge
+  user_input: On a social note, I'm not a fan of unstructured gatherings. Parties
+    or get-togethers with no clear purpose just make me feel awkward and unproductive.
+    I never know what to do.
+  assistant_response: Understood. I've made a note that you dislike unstructured social
+    events and feel awkward in those situations. Thanks for sharing.
+  image_prompt: null
+  image_id: null
+- turn: 5
+  log_type: knowledge
+  user_input: I wanted to tell you about my work friend, Samira Joshi. We just call
+    her Sam. She's the one I talk to when I'm stressed about work. She's my reality
+    check. This is us grabbing coffee this morning. [IMAGE]
+  assistant_response: Thanks, Leo. I've recorded that Samira 'Sam' Joshi is your close
+    confidante and 'reality check' at the office.
+  image_prompt: A candid photo of Leo Vance and a female colleague, Samira Joshi,
+    standing in a modern office pantry. Leo looks earnest and is talking, while Sam
+    has a slightly cynical, friendly smirk as she listens, holding a coffee mug. They
+    seem like comfortable friends.
+  image_id: turn_5_leo_and_sam
+- turn: 6
+  log_type: knowledge
+  user_input: For fun, I'm really into things with clear rules and objectives. Strategy-based
+    video games are my go-to, and I absolutely love doing escape rooms with friends.
+    It's all about solving the puzzle.
+  assistant_response: Okay, I've noted your hobbies include strategy video games and
+    escape rooms. It sounds like you enjoy a good challenge with clear goals.
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: I should probably warn you, I'm a bit of a perfectionist. I get really
+    stressed out when things don't go according to plan or when unexpected problems
+    pop up. It throws my whole system off.
+  assistant_response: Got it. You identify as a perfectionist and feel stressed by
+    unplanned events or problems. I'll keep that in mind.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: Oh, and this is important. I always wear this smartwatch. [IMAGE] My
+    parents gave it to me for my college graduation, so it means a lot. It's part
+    of my daily uniform.
+  assistant_response: I see. You always wear a sleek smartwatch that was a graduation
+    gift from your parents. I've added this to your key appearance details.
+  image_prompt: A close-up shot of Leo Vance's wrist. He is wearing a crisp, white
+    shirt cuff and a sleek, modest smartwatch with a dark band. The watch face shows
+    a simple, professional layout.
+  image_id: turn_8_smartwatch
+- turn: 9
+  log_type: event
+  user_input: This week was a nightmare. We had a major project launch, and a last-minute
+    technical glitch sent everything sideways. I was so stressed trying to get it
+    fixed. Here's a picture of my desk in the middle of the chaos. [IMAGE]
+  assistant_response: 'That sounds incredibly stressful. I''ve logged the event: a
+    recent project launch was complicated by a technical glitch, causing you a lot
+    of stress. Hope things are better now.'
+  image_prompt: A photo of Leo Vance at his desk late at night, illuminated by his
+    monitor. He has his hands on his head, looking at the screen with an expression
+    of pure stress. His usually neat desk is slightly cluttered with coffee cups and
+    scattered notes.
+  image_id: turn_9_project_stress
+- turn: 10
+  log_type: event
+  user_input: The company holiday party was last week. To avoid all the awkward small
+    talk, I volunteered to serve drinks at the bar all night. It gave me a specific
+    role, which helped a lot. [IMAGE]
+  assistant_response: That's a clever strategy. I've recorded that at the recent company
+    holiday party, you volunteered to serve drinks to have a defined role and avoid
+    unstructured socializing.
+  image_prompt: A photo of Leo Vance from behind a makeshift bar at an office party.
+    He's wearing a button-down shirt and a slightly forced, polite smile as he hands
+    a drink to a coworker. The background is filled with people mingling.
+  image_id: turn_10_party_bartender
+- turn: 11
+  log_type: event
+  user_input: We had a team-building lunch yesterday and it was a 'make your own messy
+    nachos' bar. Honestly, it was my worst nightmare. So chaotic and greasy. I barely
+    ate anything. Look at this mess. [IMAGE]
+  assistant_response: 'I can see why that would be uncomfortable for you. I''ve noted
+    the event: a team-building lunch with a messy, ''make your own nachos'' bar that
+    you disliked due to the chaos and greasy food.'
+  image_prompt: A first-person perspective photo looking down at a stainless-steel
+    food bar. Various bowls are filled with nacho toppings like ground beef, liquid
+    cheese, salsa, and jalapenos. Tongs and spoons are scattered haphazardly. It looks
+    messy and chaotic.
+  image_id: turn_11_nacho_bar
+- turn: 12
+  log_type: event
+  user_input: I had my review with Jessica, and she told me I need to be more 'assertive'
+    with my own ideas. I know she meant it to be helpful, but I've been worrying about
+    it all day. It feels like a major criticism.
+  assistant_response: I understand why that would be on your mind. I've recorded that
+    your manager, Jessica, recently gave you feedback to be more assertive, and you've
+    been feeling worried about it. Thanks for confiding this.
+  image_prompt: null
+  image_id: null

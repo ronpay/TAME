@@ -1,0 +1,160 @@
+- turn: 1
+  log_type: knowledge
+  user_input: Hey, I want to properly introduce you to my keyboard. I call it 'The
+    Controller'. [IMAGE] I bought it for myself right after I got laid off and decided
+    to start my own freelance design business. It was like a statement of intent.
+    I even added this 'TAKE CONTROL' tag to it on the very first day.
+  assistant_response: Thank you for sharing. I've recorded that 'The Controller' is
+    your mechanical keyboard, purchased as a symbol of starting your freelance career
+    after a layoff. The 'TAKE CONTROL' tag was added on day one to represent this
+    new beginning.
+  image_prompt: A high-quality photo of 'The Controller', a compact 65% mechanical
+    keyboard with a black aluminum case. It sits on a clean, minimalist desk. A prominent
+    yellow tag with the words 'TAKE CONTROL' is attached to its side, connected by
+    a matching yellow-and-black braided cable.
+  image_id: turn_1_controller_profile
+- turn: 2
+  log_type: knowledge
+  user_input: Speaking of its history, see this little silvery scratch near the USB
+    port? [IMAGE] I got that when I was rushing to pack it up for my first-ever design
+    competition. A permanent reminder of that stressful but exciting day.
+  assistant_response: I see it. A small, silvery scratch near the USB-C port, from
+    when you hastily packed it for your first design competition. I've noted this
+    detail and its story.
+  image_prompt: A close-up, macro shot of the side of a black aluminum mechanical
+    keyboard. The focus is on a small, silvery scratch right next to the USB-C port.
+    The texture of the aluminum and the depth of the scratch are clearly visible.
+  image_id: turn_2_usb_scratch
+- turn: 3
+  log_type: knowledge
+  user_input: The 'Enter' key is also special. The original one cracked during a super
+    frustrating all-nighter. Instead of just buying a replacement, I decided to learn
+    some basic 3D modeling and printed this one myself. It's a bit taller than the
+    others, but it's way more resilient.
+  assistant_response: That's incredibly resourceful. I've recorded that you learned
+    basic 3D printing to create a custom, more resilient 'Enter' key for The Controller
+    after the original one broke.
+  image_prompt: null
+  image_id: null
+- turn: 4
+  log_type: knowledge
+  user_input: And here's another mark of time. [IMAGE] I use this simple black wrist
+    rest with it. If you look closely, there's a smooth groove worn into the left
+    side. That's from the clasp of my watch, rubbing against it for years.
+  assistant_response: A subtle but significant detail. A smooth groove on the black
+    wrist rest, worn down over the years by your watch clasp. I've saved this characteristic.
+  image_prompt: A close-up photo of a simple black wrist rest positioned in front
+    of a mechanical keyboard. The lighting highlights a subtle, smooth groove worn
+    into the material on the left side, indicating long-term use.
+  image_id: turn_4_wrist_rest_groove
+- turn: 5
+  log_type: knowledge
+  user_input: It's funny, I think of this keyboard as having a personality. It's stoic
+    and reliable, not flashy. It's a workhorse that just quietly motivates me. It's
+    really a symbol of my independence.
+  assistant_response: That's a powerful way to see it. I understand you perceive The
+    Controller as having a stoic, reliable, and motivating personality, symbolizing
+    your independence. I've noted this.
+  image_prompt: null
+  image_id: null
+- turn: 6
+  log_type: knowledge
+  user_input: Ever since I got that scratch before the competition, I've become super
+    careful when I pack it for travel. I have a whole ritual now, making sure it's
+    secure and the cable is wrapped just right. I don't want it getting any more battle
+    scars carelessly.
+  assistant_response: That makes sense. Because of the scratch from the first competition,
+    you've developed a careful packing ritual for The Controller to prevent any further
+    damage. I've recorded this habit.
+  image_prompt: null
+  image_id: null
+- turn: 7
+  log_type: knowledge
+  user_input: Just to be clear, The Controller isn't for gaming or anything. It's
+    my primary tool for all my professional freelance design and coding work. Its
+    compact size is perfect for taking to client meetings.
+  assistant_response: Understood. The Controller's primary function is as a professional
+    tool for your graphic design and coding work, and its portability is a key feature.
+    I've updated its profile.
+  image_prompt: null
+  image_id: null
+- turn: 8
+  log_type: knowledge
+  user_input: Of all its features, that 'TAKE CONTROL' tag is the most important part
+    to me. It's more than just a keychain; it's the core of its sentimental value.
+    It's a daily reminder of why I started this whole journey.
+  assistant_response: I understand. The 'TAKE CONTROL' tag is the central source of
+    The Controller's sentimental value for you, serving as a daily mantra. This is
+    a key part of its story.
+  image_prompt: null
+  image_id: null
+- turn: 9
+  log_type: event
+  user_input: Oh, speaking of the wrist rest, I noticed something sad this week. There's
+    a small crack forming right near that groove from my watch. [IMAGE] It's starting
+    to fail, so I've been looking for a replacement that would be a good fit for it.
+  assistant_response: I'm sorry to hear that. I've noted that the wrist rest has recently
+    developed a crack near the watch groove, and you are now looking for a suitable
+    replacement.
+  image_prompt: A detailed macro photo focusing on the worn groove of a black wrist
+    rest. A small, fine crack is visible, originating from or near the groove. The
+    lighting catches the edge of the crack, making it apparent.
+  image_id: turn_9_wrist_rest_crack
+- turn: 10
+  log_type: event
+  user_input: I was tempted last week. I almost bought a new wireless keyboard to
+    get a cleaner look for my desk. I even put one in my online cart. But I couldn't
+    do it. The whole look of The Controller, with its iconic tag and braided cable,
+    is just too important to me. So, I decided against it.
+  assistant_response: I see. You recently considered buying a new wireless keyboard
+    but decided not to, because you value the specific aesthetic of The Controller
+    with its tag and cable. I've logged this decision.
+  image_prompt: null
+  image_id: null
+- turn: 11
+  log_type: event
+  user_input: Something cool happened on a client call yesterday. They saw the tag
+    on my keyboard and asked what 'TAKE CONTROL' was all about. It was the first time
+    I'd shared the whole origin story with a client. It felt pretty good.
+  assistant_response: That sounds like a great moment. I've recorded that you recently
+    shared the origin story of the 'TAKE CONTROL' tag with a client during a video
+    call.
+  image_prompt: null
+  image_id: null
+- turn: 12
+  log_type: event
+  user_input: Just did some maintenance. The original yellow-and-black cable was getting
+    a bit frayed and the connection was flaky. So, I just replaced it with a brand
+    new one that's exactly the same. [IMAGE] Good as new, and the connection is solid
+    again.
+  assistant_response: Smart move. I've noted that you just performed maintenance on
+    The Controller, replacing the old, frayed braided cable with an identical new
+    one to ensure a reliable connection.
+  image_prompt: A shot of 'The Controller' keyboard on a desk. A new, vibrant yellow-and-black
+    braided USB cable is plugged into it. Next to it lies the old, slightly frayed
+    cable it replaced, showing a clear before-and-after.
+  image_id: turn_12_cable_replacement
+- turn: 13
+  log_type: event
+  user_input: Check out my new setup! [IMAGE] I finally invested in a high-end graphics
+    tablet. It's sitting right here next to it. The old guard and the
+    new recruit, working together.
+  assistant_response: That looks like a fantastic upgrade! I've saved this image of
+    your new graphics tablet next to The Controller. It seems to mark a new stage
+    in your work.
+  image_prompt: A wide shot of a designer's desk. On the left, 'The Controller', the
+    familiar black mechanical keyboard with its yellow tag. On the right, a large,
+    sleek, brand-new graphics tablet with a stylus resting on it. The setup looks
+    professional and upgraded.
+  image_id: turn_13_new_tablet
+- turn: 14
+  log_type: event
+  user_input: I was talking to my friend who's starting her own business, and she
+    asked me for advice on what 'tools for success' she should get. It made me think
+    about The Controller and how the most important tool isn't always the most expensive,
+    but the one with the most meaning.
+  assistant_response: That's a very insightful piece of advice. I've recorded that
+    a recent conversation with a friend about 'tools for success' made you reflect
+    on the symbolic importance of The Controller.
+  image_prompt: null
+  image_id: null
