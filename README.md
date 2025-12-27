@@ -10,7 +10,7 @@ This repo provides official implementations for **LCMP & TAME**:
 
 <div align="center">
 <H2>
-🔥 LCMP: The first long-context MLLM personalization benchmark.</H2>
+🔥 LCMP: A long-context MLLM personalization benchmark.</H2>
 </div>
 
 
@@ -24,7 +24,7 @@ Construction pipeline of LCMP benchmark.
 
 <div align="center">
 <H2>
-🔥 TAME: The first training-free, state-aware personalized MLLM assistant.</H2>
+🔥 TAME: A training-free, state-aware personalized MLLM assistant.</H2>
 </div>
 
 ![TAME-Arch](assets/TAME-Arch.jpg)
@@ -62,7 +62,7 @@ python dataset_maker/generate_prompt_images.py --concept_id $concept_id
 
 # 🚀 TAME
 
-TAME is the first training-free and state-aware personalized MLLM assistant powered by double memories. 
+TAME is a training-free and state-aware personalized MLLM assistant powered by double memories. 
 
 ## Run TAME
 
