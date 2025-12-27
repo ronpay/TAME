@@ -6,13 +6,13 @@
   image_id: turn_1_profile_photo
 - turn: 2
   log_type: knowledge
-  user_input: "Just so you know, his absolute favorite food in the world is walnuts. He especially loves cracking the shells open himself."
+  user_input: "Just so you know, Kiko's absolute favorite food in the world is walnuts. He especially loves cracking the shells open himself."
   assistant_response: "Okay, I've noted that Kiko's favorite food is walnuts, particularly in the shell. Sounds like a fun challenge for him!"
   image_prompt: null
   image_id: null
 - turn: 3
   log_type: knowledge
-  user_input: "This is really important: he absolutely despises commercial pellet food. If I put it in his bowl, he will methodically throw it all out, piece by piece."
+  user_input: "This is really important: Kiko absolutely despises commercial pellet food. If I put it in his bowl, he will methodically throw it all out, piece by piece."
   assistant_response: "Understood. Kiko has a strong dislike for pellet-based bird food and will throw it out of his bowl. I've added this to his core preferences."
   image_prompt: null
   image_id: null
@@ -24,13 +24,13 @@
   image_id: turn_4_destroying_wood
 - turn: 5
   log_type: knowledge
-  user_input: "He has a major phobia. He is absolutely terrified of the vacuum cleaner. The moment I turn it on, he starts screaming and flapping frantically in his cage."
+  user_input: "Kiko has a major phobia. He is absolutely terrified of the vacuum cleaner. The moment I turn it on, he starts screaming and flapping frantically in his cage."
   assistant_response: "Okay, that's a critical piece of information. I've made a strong note of Kiko's phobia of the vacuum cleaner. I'll remember that's a major stressor for him."
   image_prompt: null
   image_id: null
 - turn: 6
   log_type: knowledge
-  user_input: "It's hilarious, he's learned to perfectly mimic the sound of the microwave beeping. He only does it when he's hungry and wants a snack."
+  user_input: "It's hilarious, Kiko has learned to perfectly mimic the sound of the microwave beeping. He only does it when he's hungry and wants a snack."
   assistant_response: "Haha, that's a clever way to get your attention! I've noted that Kiko mimics the microwave beep to ask for food."
   image_prompt: null
   image_id: null
@@ -54,7 +54,7 @@
   image_id: turn_9_tennis_ball
 - turn: 10
   log_type: event
-  user_input: "Ugh, we just got back from the vet. For his health, the vet strongly advised that I switch him over to a pellet-based diet for better nutrition. This is going to be a battle."
+  user_input: "Ugh, we just got back from the vet. For Kiko's health, the vet strongly advised that I switch him over to a pellet-based diet for better nutrition. This is going to be a battle."
   assistant_response: "Oh, that sounds challenging, given how much he dislikes them. I've recorded the vet's recent recommendation to switch to a pellet diet for nutritional reasons."
   image_prompt: null
   image_id: null

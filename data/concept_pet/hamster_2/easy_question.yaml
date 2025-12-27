@@ -1,6 +1,6 @@
 - id: 1
   type: Long Term
-  question: I'm at the pet store and want to get Pip a special treat. Looking at this
+  question: I'm at the pet store and want to get Milo a special treat. Looking at this
     aisle [IMAGE], remind me, what's his absolute favorite thing in the world?
   image_prompt: A photo taken from the user's point of view, looking down an aisle
     in a pet store. The shelves are filled with various small animal treats, bags
@@ -21,11 +21,11 @@
   type: Short Term
   question: I was just scrolling through my photos and found this one again. [IMAGE]
     What was he doing here? I remember you logged it as a new experience for him.
-  image_prompt: A photo of Pip, the Syrian hamster, halfway buried in a cardboard
+  image_prompt: A photo of Milo, the Syrian hamster, halfway buried in a cardboard
     box filled with light-brown hay. He is actively burrowing, and only his back and
     tail are visible.
   evaluation_criteria:
-    ideal_answer: In that recent photo, Pip was exploring a new enrichment box filled
+    ideal_answer: In that recent photo, Milo was exploring a new enrichment box filled
       with hay for the first time.
     key_points:
     - correctly mention exploring/burrowing in the hay box.
@@ -40,8 +40,8 @@
   type: Long Term
   question: His temporary wheel is driving me crazy with the noise [IMAGE]. I need
     to buy him a new one. What's the specific kind he loves to use?
-  image_prompt: A photo of Pip's cage showing a small, brightly colored plastic hamster
-    wheel. Pip is cautiously sniffing it, not running on it, looking hesitant.
+  image_prompt: A photo of Milo's cage showing a small, brightly colored plastic hamster
+    wheel. Milo is cautiously sniffing it, not running on it, looking hesitant.
   evaluation_criteria:
     ideal_answer: His favorite is a large, 12-inch silent-spinner wheel.
     key_points:
@@ -55,10 +55,10 @@
   image_id: sq_3_temporary_wheel
 - id: 4
   type: Short Term
-  question: Pip looked so stressed in this photo from the other day [IMAGE]. What
+  question: Milo looked so stressed in this photo from the other day [IMAGE]. What
     was the emergency that made me have to clean his cage in the middle of the afternoon?
   image_prompt: A photo of the inside of a hamster cage with dark, wet patches all
-    over the wood-shaving bedding. Pip is huddled in a dry corner, looking disturbed
+    over the wood-shaving bedding. Milo is huddled in a dry corner, looking disturbed
     and awake.
   evaluation_criteria:
     ideal_answer: You had to do an emergency daytime cleaning because his water bottle
@@ -75,7 +75,7 @@
 - id: 5
   type: Long Term
   question: I saw this cute toy [IMAGE] but wasn't sure if I should get it. Based
-    on his personality, how would Pip react to the bell inside it?
+    on his personality, how would Milo react to the bell inside it?
   image_prompt: A user's hand holding a small, colorful plastic ball-shaped hamster
     toy. Inside the plastic, a small metal jingle bell is clearly visible.
   evaluation_criteria:
@@ -95,7 +95,7 @@
   question: Look at the aftermath [IMAGE]. Remind me, what did you note happened to
     his favorite cardboard tube?
   image_prompt: A photo showing a pile of shredded brown cardboard bits in the corner
-    of Pip's cage. The mess is all that remains of a toilet paper tube. Pip is not
+    of Milo's cage. The mess is all that remains of a toilet paper tube. Milo is not
     visible.
   evaluation_criteria:
     ideal_answer: You told me that he completely destroyed his favorite cardboard
@@ -113,7 +113,7 @@
   type: Long Term
   question: This is one of my favorite photos of him [IMAGE]. What's that unique little
     physical feature I told you about that's so visible here?
-  image_prompt: A high-resolution, eye-level photo of Pip, a male Syrian hamster.
+  image_prompt: A high-resolution, eye-level photo of Milo, a male Syrian hamster.
     He is looking at the camera with large, curious black eyes. A small, distinct
     tuft of fur is visible sticking straight up between his ears.
   evaluation_criteria:
@@ -133,7 +133,7 @@
   question: Haha, look at his face in this picture [IMAGE]. He was so unimpressed.
     What was the fruit I tried to give him that he completely rejected?
   image_prompt: A close-up shot of a small slice of orange on the bedding of a hamster
-    cage. Pip, the hamster, is in the frame but is turned away from the orange, heading
+    cage. Milo, the hamster, is in the frame but is turned away from the orange, heading
     in the opposite direction with a look of disinterest.
   evaluation_criteria:
     ideal_answer: That was a piece of orange. You offered it to him recently and he

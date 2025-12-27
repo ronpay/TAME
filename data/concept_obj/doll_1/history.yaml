@@ -24,7 +24,7 @@
   image_id: turn_2_ear_thread_closeup
 - turn: 3
   log_type: knowledge
-  user_input: She's not just for decoration. I hug her when I sleep, and sometimes
+  user_input: Mochi is not just for decoration. I hug her when I sleep, and sometimes
     when I'm studying for a long time, she makes a pretty good wrist rest.
   assistant_response: Got it. Mochi serves as a comfort object for sleeping and a
     wrist rest during study sessions. I've added this to her profile.
@@ -32,7 +32,7 @@
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: It might sound silly, but I feel like she has a personality. She's very
+  user_input: It might sound silly, but I feel like Mochi has a personality. She's very
     calm and patient. A great listener, you know? A silent supporter.
   assistant_response: That doesn't sound silly at all. I understand. You perceive
     Mochi as being calm, patient, and a silent supporter. I've recorded this.
@@ -40,7 +40,7 @@
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: 'Two things she definitely hates: being dropped on the cold floor and
+  user_input: 'Two things Mochi definitely hates: being dropped on the cold floor and
     getting wet. I think the ink stain incident gave her a bit of a trauma, haha.'
   assistant_response: Understood. Mochi has a perceived dislike for being dropped
     or getting wet. I'll remember that.
@@ -60,7 +60,7 @@
   image_id: turn_6_comfort_hug
 - turn: 7
   log_type: knowledge
-  user_input: You can actually tell how much I hug her. Her right side is noticeably
+  user_input: You can actually tell how much I hug Mochi. Her right side is noticeably
     more compressed and flatter than the left side, it's basically molded to fit me
     now.
   assistant_response: I see. Her right side is more compressed from being hugged every
@@ -105,7 +105,7 @@
   log_type: event
   user_input: Funny thing happened. I was in a store the other day and saw a brand
     new, much bigger version of Mochi. For a second I thought about it, but... nope.
-    I have no desire to replace my Mochi. She's irreplaceable.
+    I have no desire to replace her. She's irreplaceable.
   assistant_response: I understand completely. I've recorded that you recently saw
     a newer, larger version of the doll but felt no desire to replace Mochi. Her value
     isn't in being new.

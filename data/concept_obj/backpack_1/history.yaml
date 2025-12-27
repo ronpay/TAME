@@ -23,9 +23,9 @@
   image_id: turn_2_paracord_pull
 - turn: 3
   log_type: knowledge
-  user_input: Speaking of scars, there's a permanent reminder inside the laptop sleeve.
-    A pen exploded during a really turbulent flight, leaving this faint blue ink stain.
-    It was a close call for my laptop!
+  user_input: Speaking of scars, there's a permanent reminder inside my backpack, the
+    Shell. A pen exploded during a really turbulent flight, leaving this faint blue
+    ink stain inside the laptop sleeve. It was a close call for my laptop!
   assistant_response: Got it. There's a faint blue ink stain inside the laptop sleeve
     from an exploded pen during a turbulent flight. I've noted this incident.
   image_prompt: null
@@ -52,9 +52,9 @@
   image_id: null
 - turn: 6
   log_type: knowledge
-  user_input: Building on that, it's more than just a bag to me. It feels like a piece
-    of personal armor for navigating the 'urban jungle'. It's a constant symbol of
-    my independence and being prepared for anything.
+  user_input: Building on that, The Shell is more than just a bag to me. It feels like
+    a piece of personal armor for navigating the 'urban jungle'. It's a constant symbol
+    of my independence and being prepared for anything.
   assistant_response: I understand. Its sentimental role for you is that of 'urban
     armor' and a symbol of independence and preparedness. I've saved this important
     insight.
@@ -62,9 +62,9 @@
   image_id: null
 - turn: 7
   log_type: knowledge
-  user_input: I also have this funny idea of what it 'hates'. After the pen incident,
-    I feel like it despises sharp, uncapped objects. And it definitely hates being
-    overstuffed to the point where the zippers are straining.
+  user_input: I also have this funny idea of what The Shell 'hates'. After the pen incident,
+    I feel like it despises sharp, uncapped objects. And it definitely hates being overstuffed
+    to the point where the zippers are straining.
   assistant_response: 'That makes perfect sense, given its history and purpose. I''ve
     recorded its perceived dislikes: uncapped pens and being overstuffed.'
   image_prompt: null
@@ -94,9 +94,9 @@
   image_id: turn_9_fraying_strap
 - turn: 10
   log_type: event
-  user_input: It proved its worth again last week! I got caught in a massive downpour
-    running for the bus. I was soaked, but when I got to the office, I checked inside
-    and everything was perfectly dry. My little protector in action!
+  user_input: The Shell proved its worth again last week! I got caught in a massive
+    downpour running for the bus. I was soaked, but when I got to the office, I checked
+    inside and everything was perfectly dry. My little protector in action!
   assistant_response: 'That''s fantastic! I''ve recorded a recent event: you were
     caught in a heavy rainstorm, and The Shell kept all its contents completely dry.
     A true testament to its reliability.'
@@ -117,9 +117,9 @@
   image_id: turn_11_new_temptation
 - turn: 12
   log_type: event
-  user_input: Even with the new ones out, my old Shell still gets noticed. A colleague
-    at work just complimented its minimalist design yesterday. They had no idea how
-    old it is or the stories it holds.
+  user_input: Even with the new ones out, my old backpack, The Shell, still gets noticed.
+    A colleague at work just complimented its minimalist design yesterday. They had
+    no idea how old it is or the stories it holds.
   assistant_response: That's a nice moment. I've recorded that a colleague recently
     complimented The Shell on its sleek design. Timeless style.
   image_prompt: null

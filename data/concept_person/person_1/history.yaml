@@ -12,8 +12,8 @@
   image_id: turn_1_work_desk
 - turn: 2
   log_type: knowledge
-  user_input: Just so you know for future reference, I absolutely love artisan coffee
-    from small, independent cafes. But I can't stand those overly sweet, artificial
+  user_input: Just so you know for future reference, I, Serena Kim, absolutely love artisan
+    coffee from small, independent cafes. But I can't stand those overly sweet, artificial
     energy drinks. They're the worst.
   assistant_response: Got it. A strong preference for artisan coffee and a dislike
     for sugary energy drinks. I've made a note of that.
@@ -48,9 +48,10 @@
   image_id: turn_4_minimalist_design
 - turn: 5
   log_type: knowledge
-  user_input: Let me tell you about Leo Petrov, our lead engineer. We have this friendly
-    but intense rivalry. We both respect each other immensely, but we're constantly
-    debating design purity versus engineering feasibility. It keeps us both sharp.
+  user_input: Let me tell you about Leo Petrov, our lead engineer. My name is Serena
+    Kim, and we have this friendly but intense rivalry. We both respect each other immensely,
+    but we're constantly debating design purity versus engineering feasibility. It keeps
+    us both sharp.
   assistant_response: Interesting dynamic. I've noted your relationship with Leo Petrov
     as a 'friendly rivalry' rooted in mutual respect but with constant debate between
     design and engineering perspectives.
@@ -92,9 +93,9 @@
   image_id: turn_8_pottery_hobby
 - turn: 9
   log_type: event
-  user_input: Ugh, work is insane right now. We have this huge project, codenamed
-    'Project Nightingale', and the deadline is ridiculously tight. David is putting
-    immense pressure on my team to deliver.
+  user_input: Ugh, work is insane right now. I'm Serena Kim, and we have this huge
+    project, codenamed 'Project Nightingale', and the deadline is ridiculously tight.
+    David is putting immense pressure on my team to deliver.
   assistant_response: I've logged this. 'Project Nightingale' has a tight deadline,
     and your boss, David, is applying significant pressure. This sounds stressful.
   image_prompt: null

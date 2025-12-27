@@ -12,24 +12,24 @@
   image_id: turn_1_profile_intro
 - turn: 2
   log_type: knowledge
-  user_input: For his daily meals, I feed him this high-quality gel food. He seems
-    to really enjoy it.
+  user_input: For Captain Comet's daily meals, I feed him this high-quality gel food.
+    He seems to really enjoy it.
   assistant_response: Got it. Captain Comet's daily diet consists of high-quality
     gel food.
   image_prompt: null
   image_id: null
 - turn: 3
   log_type: knowledge
-  user_input: And for a special treat, he goes absolutely crazy for bloodworms. It's
-    his absolute favorite.
+  user_input: And for a special treat, Captain Comet goes absolutely crazy for bloodworms.
+    It's his absolute favorite.
   assistant_response: 'Okay, I''ve added it to his profile: his favorite special treat
     is bloodworms.'
   image_prompt: null
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: One thing to remember, he absolutely hates shelled peas. He just won't
-    eat them, even though I hear they're good for goldfish.
+  user_input: One thing to remember, Captain Comet absolutely hates shelled peas. He
+    just won't eat them, even though I hear they're good for goldfish.
   assistant_response: Understood. It's noted that Captain Comet has a strong dislike
     for shelled peas.
   image_prompt: null
@@ -56,15 +56,15 @@
   image_id: turn_6_no_fishing_sign
 - turn: 7
   log_type: knowledge
-  user_input: Just a general note, he's not a fan of any sharp plastic decorations.
-    I think they might snag his fins.
+  user_input: Just a general note, Captain Comet is not a fan of any sharp plastic
+    decorations. I think they might snag his fins.
   assistant_response: Good to know. I've recorded that he dislikes sharp plastic decorations.
   image_prompt: null
   image_id: null
 - turn: 8
   log_type: knowledge
-  user_input: Oh, and he really hates water changes. The whole process with the net
-    and the bucket really stresses him out.
+  user_input: Oh, and Captain Comet really hates water changes. The whole process
+    with the net and the bucket really stresses him out.
   assistant_response: I understand. Water changes are a stressful activity for Captain
     Comet. I'll remember that.
   image_prompt: null
@@ -82,24 +82,25 @@
   image_id: turn_9_swim_bladder
 - turn: 10
   log_type: event
-  user_input: The advice I got was to feed him only shelled peas for a couple of days
-    to help with digestion. So that's what I've been doing for the last two days.
+  user_input: The advice I got was to feed Captain Comet only shelled peas for a couple
+    of days to help with digestion. So that's what I've been doing for the last two
+    days.
   assistant_response: 'Okay, I''ve noted the current treatment plan: a diet of only
     shelled peas for the past two days.'
   image_prompt: null
   image_id: null
 - turn: 11
   log_type: event
-  user_input: I also did a big water change and rearranged everything in his tank
-    to make sure the environment was super clean for his recovery.
+  user_input: I also did a big water change and rearranged everything in Captain Comet's
+    tank to make sure the environment was super clean for his recovery.
   assistant_response: I've logged that you recently performed a major water change
     and rearranged the tank.
   image_prompt: null
   image_id: null
 - turn: 12
   log_type: event
-  user_input: While I was cleaning, I decided to swap out his old mossy rock. It was
-    getting a bit messy.
+  user_input: While I was cleaning, I decided to swap out Captain Comet's old mossy
+    rock. It was getting a bit messy.
   assistant_response: Got it. During the rearrangement, his moss-covered rock was
     replaced.
   image_prompt: null

@@ -15,7 +15,7 @@
   image_id: turn_1_work_profile
 - turn: 2
   log_type: knowledge
-  user_input: Just so you know my food preferences... I can't stand that pretentious
+  user_input: Just so you know my food preferences... I'm Kenji Tanaka, and I can't stand that pretentious
     'health' food. Kale smoothies, 'power' bars that taste like dust... no thanks.
     Give me a classic American hot dog or a greasy spoon diner breakfast any day.
   assistant_response: Got it. Strong preference for simple, classic foods like hot
@@ -49,7 +49,7 @@
   image_id: turn_4_daughter_emily
 - turn: 5
   log_type: knowledge
-  user_input: I wanted to log some info about my team. My lead project manager is
+  user_input: I wanted to log some info about my team. I'm Kenji Tanaka, and my lead project manager is
     Maria Flores. We respect each other professionally, but things can get tense.
     She's always pushing for speed, and I have to push back to ensure quality and
     stability. It's a constant friction point.
@@ -82,7 +82,7 @@
   image_id: turn_7_mentoring_david
 - turn: 8
   log_type: knowledge
-  user_input: 'One more thing for the record: I really dislike loud, chaotic social
+  user_input: 'One more thing for the record: I''m Kenji Tanaka, and I really dislike loud, chaotic social
     events. Those mandatory company mixers with no agenda are the worst for me. I
     just can''t do the unstructured small talk.'
   assistant_response: I've made a strong note of your dislike for loud, unstructured
@@ -118,7 +118,7 @@
   image_id: turn_10_happy_hotdog
 - turn: 11
   log_type: event
-  user_input: Just had a phone call with Emily. It was... awkward. I was trying to
+  user_input: Just had a phone call with Emily. I'm Kenji Tanaka, and it was... awkward. I was trying to
     explain the stress with the project bug, and she was trying to tell me about some
     TikTok dance trend. We were talking past each other. I feel that disconnect again.
   assistant_response: 'I''m sorry to hear the call was awkward. I''ve recorded the

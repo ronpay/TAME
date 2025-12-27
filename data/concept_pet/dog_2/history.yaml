@@ -12,7 +12,7 @@
   image_id: turn_2_favorite_frisbee
 - turn: 3
   log_type: knowledge
-  user_input: "Also, just so you know, he absolutely hates plush toys. If he gets one, he just rips it to shreds in seconds to get the squeaker out. It's a complete waste."
+  user_input: "Also, just so you know, Ghost absolutely hates plush toys. If he gets one, he just rips it to shreds in seconds to get the squeaker out. It's a complete waste."
   assistant_response: "Okay, that's a very clear preference. I've noted that Ghost hates and destroys plush toys with squeakers. I'll remember that."
   image_prompt: null
   image_id: null
@@ -24,7 +24,7 @@
   image_id: turn_4_peanut_butter_treat
 - turn: 5
   log_type: knowledge
-  user_input: "Something weird about him is that he cannot stand the smell of citrus. If I'm peeling an orange or something, he'll leave the room."
+  user_input: "Something weird about Ghost is that he cannot stand the smell of citrus. If I'm peeling an orange or something, he'll leave the room."
   assistant_response: "Interesting! I've noted that Ghost has a strong dislike for the smell of citrus fruits. Thanks for sharing."
   image_prompt: null
   image_id: null
@@ -36,13 +36,13 @@
   image_id: turn_6_couch_potato
 - turn: 7
   log_type: knowledge
-  user_input: "I need to remember this for vet visits: he is absolutely terrified of getting his nails clipped. It's a huge ordeal."
+  user_input: "I need to remember this for vet visits: Ghost is absolutely terrified of getting his nails clipped. It's a huge ordeal."
   assistant_response: "Okay, this is an important one. I've noted that Ghost is terrified of having his nails clipped. I'll keep that in his file."
   image_prompt: null
   image_id: null
 - turn: 8
   log_type: knowledge
-  user_input: "Another thing to note is his fear of loud noises. Thunderstorms are the worst for him."
+  user_input: "Another thing to note is Ghost's fear of loud noises. Thunderstorms are the worst for him."
   assistant_response: "Got it. I've added that Ghost has a significant fear of loud noises, especially thunderstorms."
   image_prompt: null
   image_id: null
@@ -66,7 +66,7 @@
   image_id: turn_11_nail_grinder
 - turn: 12
   log_type: event
-  user_input: "Poor guy had a rough night. There was a big thunderstorm, and he spent the entire time hiding in the bathroom, shaking."
+  user_input: "Ghost had a rough night. There was a big thunderstorm, and he spent the entire time hiding in the bathroom, shaking."
   assistant_response: "Oh no, I'm sorry to hear that. I've logged that a thunderstorm last night caused Ghost significant distress, and he hid in the bathroom."
   image_prompt: null
   image_id: null

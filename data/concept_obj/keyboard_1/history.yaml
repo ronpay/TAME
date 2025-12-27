@@ -27,7 +27,7 @@
   image_id: turn_2_usb_scratch
 - turn: 3
   log_type: knowledge
-  user_input: The 'Enter' key is also special. The original one cracked during a super
+  user_input: The Controller's 'Enter' key is also special. The original one cracked during a super
     frustrating all-nighter. Instead of just buying a replacement, I decided to learn
     some basic 3D modeling and printed this one myself. It's a bit taller than the
     others, but it's way more resilient.
@@ -49,7 +49,7 @@
   image_id: turn_4_wrist_rest_groove
 - turn: 5
   log_type: knowledge
-  user_input: It's funny, I think of this keyboard as having a personality. It's stoic
+  user_input: It's funny, I think of The Controller as having a personality. It's stoic
     and reliable, not flashy. It's a workhorse that just quietly motivates me. It's
     really a symbol of my independence.
   assistant_response: That's a powerful way to see it. I understand you perceive The
@@ -60,9 +60,9 @@
 - turn: 6
   log_type: knowledge
   user_input: Ever since I got that scratch before the competition, I've become super
-    careful when I pack it for travel. I have a whole ritual now, making sure it's
-    secure and the cable is wrapped just right. I don't want it getting any more battle
-    scars carelessly.
+    careful when I pack The Controller for travel. I have a whole ritual now, making
+    sure it's secure and the cable is wrapped just right. I don't want it getting any
+    more battle scars carelessly.
   assistant_response: That makes sense. Because of the scratch from the first competition,
     you've developed a careful packing ritual for The Controller to prevent any further
     damage. I've recorded this habit.
@@ -80,9 +80,9 @@
   image_id: null
 - turn: 8
   log_type: knowledge
-  user_input: Of all its features, that 'TAKE CONTROL' tag is the most important part
-    to me. It's more than just a keychain; it's the core of its sentimental value.
-    It's a daily reminder of why I started this whole journey.
+  user_input: Of all The Controller's features, that 'TAKE CONTROL' tag is the most
+    important part to me. It's more than just a keychain; it's the core of its sentimental
+    value. It's a daily reminder of why I started this whole journey.
   assistant_response: I understand. The 'TAKE CONTROL' tag is the central source of
     The Controller's sentimental value for you, serving as a daily mantra. This is
     a key part of its story.
@@ -114,8 +114,8 @@
 - turn: 11
   log_type: event
   user_input: Something cool happened on a client call yesterday. They saw the tag
-    on my keyboard and asked what 'TAKE CONTROL' was all about. It was the first time
-    I'd shared the whole origin story with a client. It felt pretty good.
+    on The Controller and asked what 'TAKE CONTROL' was all about. It was the first
+    time I'd shared the whole origin story with a client. It felt pretty good.
   assistant_response: That sounds like a great moment. I've recorded that you recently
     shared the origin story of the 'TAKE CONTROL' tag with a client during a video
     call.

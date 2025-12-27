@@ -39,7 +39,7 @@
   image_id: turn_3_perfect_biryani
 - turn: 4
   log_type: knowledge
-  user_input: Just so you know, I really can't stand trendy, 'deconstructed' food.
+  user_input: Just so you know, I'm Ravi Kapoor, and I really can't stand trendy, 'deconstructed' food.
     A foam of this and a smear of that... it's all style and no substance. Food should
     be honest and well-made, not a science experiment on a plate.
   assistant_response: Got it. I've noted your strong dislike for deconstructed food
@@ -48,7 +48,7 @@
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: I wanted to tell you about my wife, Priya. She's wonderful and so supportive,
+  user_input: I wanted to tell you about my wife, Priya. I'm Ravi Kapoor, and she's wonderful and so supportive,
     but we're quite different. I'm a planner, and she's much more spontaneous. She
     loves to gently tease me about my need for everything to have a schedule.
   assistant_response: Thank you for sharing that, Ravi. I've noted your relationship
@@ -80,7 +80,7 @@
   image_id: turn_7_chronograph_watch
 - turn: 8
   log_type: knowledge
-  user_input: At work, I'm mentoring a junior architect named Tom. He has a lot of
+  user_input: At work, I'm Ravi Kapoor, and I'm mentoring a junior architect named Tom. He has a lot of
     potential, a good eye for design, but his workflow is a complete mess. His disorganization
     constantly frustrates me.
   assistant_response: I understand. It can be challenging when workflows don't align.

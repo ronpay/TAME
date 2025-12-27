@@ -35,7 +35,7 @@
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: It's funny, if this bottle had a personality, it would be resilient
+  user_input: It's funny, if The Pacemaker had a personality, it would be resilient
     and no-nonsense. It's been dropped and scraped countless times but never leaks.
     It just does its job perfectly.
   assistant_response: That's a great observation. I've noted that you perceive its
@@ -45,9 +45,9 @@
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: I have these weird rules for it. I feel like it hates being left in
-    a hot car with lukewarm water, and it definitely hates sugary, sticky sports drinks
-    that are a pain to clean out.
+  user_input: I have these weird rules for The Pacemaker. I feel like it hates being
+    left in a hot car with lukewarm water, and it definitely hates sugary, sticky sports
+    drinks that are a pain to clean out.
   assistant_response: 'Heh, I see. So, The Pacemaker has its preferences: it ''hates''
     being left in a hot car and dislikes sticky drinks. I''ve saved these perceived
     preferences.'

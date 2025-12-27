@@ -25,7 +25,7 @@
   image_id: turn_2_taco_lunch
 - turn: 3
   log_type: knowledge
-  user_input: 'A little about my work: I''m a pediatric physical therapist. It''s
+  user_input: 'A little about my work: I''m Maya Rodriguez, and I''m a pediatric physical therapist. It''s
     incredibly rewarding but can be tough. My main challenge right now is a little
     guy named Leo, he''s 8 and recovering from a leg fracture. He''s a sweet kid but
     can be super stubborn about his exercises.'
@@ -37,7 +37,7 @@
 - turn: 4
   log_type: knowledge
   user_input: Random thought, but if you're ever helping me plan my schedule, please
-    remember I absolutely cannot stand activities that require sitting still for hours.
+    remember I'm Maya Rodriguez, and I absolutely cannot stand activities that require sitting still for hours.
     Things like opera, formal concerts, or fancy multi-course dinners make me super
     restless.
   assistant_response: Understood. I've logged your strong preference against long,
@@ -60,7 +60,7 @@
   image_id: turn_5_gaming_with_carlos
 - turn: 6
   log_type: knowledge
-  user_input: For my media tastes, I'm all about high energy. I love action movies
+  user_input: For my media tastes, I'm Maya Rodriguez, and I'm all about high energy. I love action movies
     with amazing fight choreography and my workout playlists are full of upbeat pop
     and dance music. I just can't get into slow, philosophical dramas or quiet folk
     music.
@@ -71,7 +71,7 @@
   image_id: null
 - turn: 7
   log_type: knowledge
-  user_input: I've been told that when I'm explaining things, especially at work,
+  user_input: I'm Maya Rodriguez, and I've been told that when I'm explaining things, especially at work,
     I tend to use a lot of analogies from video games. I'll tell a kid their stretching
     is like a 'power-up' or that completing a set of exercises is 'leveling up'. It
     seems to help them understand!

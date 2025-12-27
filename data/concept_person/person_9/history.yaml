@@ -14,7 +14,7 @@
   image_id: turn_1_profile_desk
 - turn: 2
   log_type: knowledge
-  user_input: Just so you know for future reference, artisanal donuts are my ultimate
+  user_input: Just so you know for future reference, I'm Chloe Vance, and artisanal donuts are my ultimate
     weakness. They are the answer to everything, whether I'm celebrating a win or
     just having a rough day. The weirder the topping, the better!
   assistant_response: Noted! Artisanal donuts are your go-to food for both celebrations
@@ -23,7 +23,7 @@
   image_id: null
 - turn: 3
   log_type: knowledge
-  user_input: I need to vent for a sec. I just got an email full of corporate buzzwords
+  user_input: I need to vent for a sec. I'm Chloe Vance, and I just got an email full of corporate buzzwords
     like 'synergize' and 'paradigm shift,' asking for a 'clean, minimalist aesthetic.'
     Ugh. I can't stand soulless, sterile design. Give me color and chaos any day!
   assistant_response: I understand. You have a strong dislike for minimalist design,
@@ -33,7 +33,7 @@
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: My boss, Marcus Thorne, is a good guy, but we're in our usual tug-of-war.
+  user_input: My boss, Marcus Thorne, is a good guy, but I'm Chloe Vance, and we're in our usual tug-of-war.
     I'll pitch something bold and exciting, and he has to be the one to rein it in
     for the clients. It's a constant, mostly friendly, battle of creative vision versus
     client safety.
@@ -44,7 +44,7 @@
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: My colleague Leo Chen and I have the best kind of rivalry. We're friends,
+  user_input: My colleague Leo Chen and I have the best kind of rivalry. I'm Chloe Vance, and we're friends,
     but we're both super competitive and always pushing each other to do better work.
     We're always after the same cool projects. It keeps things sharp!
   assistant_response: Okay, I've noted your dynamic with Leo Chen. It's a friendly
@@ -65,10 +65,10 @@
   image_id: turn_6_comic_find
 - turn: 7
   log_type: knowledge
-  user_input: I was just in a brainstorming session and told everyone that a designer's
-    life is a 'graphic' one. Got a collective groan, which is how I know it was a
-    top-tier pun! I just love the energy of working with people and keeping things
-    light.
+  user_input: I'm Chloe Vance, and I was just in a brainstorming session and told everyone
+    that a designer's life is a 'graphic' one. Got a collective groan, which is how
+    I know it was a top-tier pun! I just love the energy of working with people and
+    keeping things light.
   assistant_response: Haha, I'll add that to my list of Chloe's puns. I've noted that
     you're an extrovert who thrives in collaborative environments and has a great
     love for puns. Got it.
@@ -76,7 +76,7 @@
   image_id: null
 - turn: 8
   log_type: knowledge
-  user_input: Just got off the phone with my older sister, Sarah. She's a math teacher
+  user_input: Just got off the phone with my older sister, Sarah. I'm Chloe Vance, and she's a math teacher
     and has no idea what I'm talking about half the time with design stuff, but she's
     the best person to vent to. She keeps me grounded.
   assistant_response: It sounds like you have a wonderful relationship with your sister,

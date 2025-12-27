@@ -36,9 +36,9 @@
   image_id: turn_3_glued_handle
 - turn: 4
   log_type: knowledge
-  user_input: It's funny, it's really just my morning coffee companion. But having
-    it on my desk feels like having a little piece of home with me. It's a quiet symbol
-    of my family.
+  user_input: It's funny, the Lavender Lifeline is really just my morning coffee companion.
+    But having it on my desk feels like having a little piece of home with me. It's
+    a quiet symbol of my family.
   assistant_response: I understand. Its primary use is for your morning coffee, but
     its sentimental role as a symbol of home and family is just as important. I've
     recorded this.
@@ -46,8 +46,8 @@
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: If this mug had a personality, I feel like it would be quietly supportive.
-    You know, just there for me, not judging. A steadfast friend.
+  user_input: If the Lavender Lifeline had a personality, I feel like it would be quietly
+    supportive. You know, just there for me, not judging. A steadfast friend.
   assistant_response: 'That''s a lovely way to think about it. I''ve noted its projected
     personality: quietly supportive and non-judgmental. A steadfast companion.'
   image_prompt: null
@@ -87,8 +87,8 @@
   image_id: turn_8_faded_glaze
 - turn: 9
   log_type: event
-  user_input: Just got some great news! My sibling—the one who gave me this mug—is
-    scheduled to come visit me next month. I'm so excited!
+  user_input: Just got some great news! My sibling—the one who gave me the Lavender
+    Lifeline—is scheduled to come visit me next month. I'm so excited!
   assistant_response: That's wonderful! I've noted that your sibling is visiting next
     month. It will be a lovely reunion.
   image_prompt: null
@@ -107,7 +107,7 @@
   image_id: turn_10_mug_comparison
 - turn: 11
   log_type: event
-  user_input: I was washing the mug this morning and... I don't know, the glued seam
+  user_input: I was washing the Lavender Lifeline this morning and... I don't know, the glued seam
     on the handle felt like it might be a tiny bit loose. It just gave me this sudden
     pang of anxiety.
   assistant_response: I can understand why that would be worrying. I've made a note
@@ -119,7 +119,7 @@
   log_type: event
   user_input: A friend of mine saw the chip and the glued handle and offered to buy
     me a new, 'unbroken' mug for my birthday. It was a nice thought, but I couldn't
-    imagine replacing this one.
+    imagine replacing the Lavender Lifeline.
   assistant_response: That's very telling. I've noted that a friend offered to buy
     you a new mug, but you prefer to keep The Lavender Lifeline, with all its history.
   image_prompt: null

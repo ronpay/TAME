@@ -6,7 +6,7 @@
   image_id: turn_1_profile_intro
 - turn: 2
   log_type: knowledge
-  user_input: "When it comes to treats, there's nothing he loves more than a small piece of banana. It's his absolute favorite."
+  user_input: "When it comes to treats, there's nothing Oreo loves more than a small piece of banana. It's his absolute favorite."
   assistant_response: "Okay, I've noted that Oreo's favorite high-value treat is a small piece of banana."
   image_prompt: null
   image_id: null
@@ -18,7 +18,7 @@
   image_id: turn_3_favorite_toy
 - turn: 4
   log_type: knowledge
-  user_input: "Something to remember about him: he really hates loud noises. The vacuum cleaner is his number one enemy, it terrifies him."
+  user_input: "Something to remember about Oreo: he really hates loud noises. The vacuum cleaner is his number one enemy, it terrifies him."
   assistant_response: "Understood. Oreo has a strong dislike for loud noises, particularly the vacuum cleaner. I've added this to his profile."
   image_prompt: null
   image_id: null
@@ -42,7 +42,7 @@
   image_id: turn_7_forehead_rub
 - turn: 8
   log_type: knowledge
-  user_input: "Another important thing to know is that he dislikes car rides. I mean, he *intensely* dislikes them. It's very stressful for him."
+  user_input: "Another important thing to know is that Oreo dislikes car rides. I mean, he *intensely* dislikes them. It's very stressful for him."
   assistant_response: "Okay, I've made a strong note of that. Oreo finds car rides intensely stressful."
   image_prompt: null
   image_id: null

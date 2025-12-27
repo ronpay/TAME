@@ -39,18 +39,18 @@
   image_id: turn_3_sticker_story
 - turn: 4
   log_type: knowledge
-  user_input: It's funny, I've always felt he has a personality. He's warm and incredibly
-    patient, never judging my mistakes. But he's also a bit shy, preferring quiet
-    rooms over big stages.
+  user_input: It's funny, I've always felt El Viejo has a personality. He's warm and
+    incredibly patient, never judging my mistakes. But he's also a bit shy, preferring
+    quiet rooms over big stages.
   assistant_response: 'That''s a lovely way to think of him. I''ve recorded his personality:
     warm, patient, and a little shy. A gentle soul.'
   image_prompt: null
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: He has his dislikes, though. I feel like he hates being left in a hot
-    car or a damp basement. And he definitely doesn't like it when his strings are
-    out of tune.
+  user_input: El Viejo has his dislikes, though. I feel like he hates being left in
+    a hot car or a damp basement. And he definitely doesn't like it when his strings
+    are out of tune.
   assistant_response: 'Understood. I''ve noted his perceived dislikes: extreme temperatures
     and being out of tune. I''ll remember to be mindful of that.'
   image_prompt: null
@@ -80,7 +80,7 @@
   log_type: knowledge
   user_input: You know that little dent I showed you? I made it the day I finally
     learned my first proper chord. I was so excited I jumped up and turned, and bonked
-    him right into the corner of my desk. I call it my 'beginner's medal'.
+    El Viejo right into the corner of my desk. I call it my 'beginner's medal'.
   assistant_response: Got it. The dent is a 'beginner's medal' from a moment of excitement
     after learning your first chord. A happy accident. I've added this context to
     the memory.

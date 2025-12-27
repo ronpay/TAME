@@ -1,5 +1,5 @@
 concept_id: backpack_2
-name: "The Shell"
+name: Atlas
 object_profile:
   type: "Backpack"
   origin_story: "A gift from the owner's parents for their first day of university. It was chosen for its classic look and famous durability, intended to last all four years and beyond."
@@ -15,7 +15,7 @@ physical_attributes:
 
 owner_relationship:
   functional_use: "Carried textbooks, a laptop, and endless snacks through four years of university. Now, it serves as the go-to bag for weekend trips, grocery runs, and carrying a laptop to coffee shops."
-  sentimental_role: "A constant, reliable companion through the owner's transition to adulthood. It's a 'shell' of memories, representing independence, hard work, and the first real taste of freedom."
+  sentimental_role: "A constant, reliable companion through the owner's transition to adulthood. It's an atlas of memories, representing independence, hard work, and the first real taste of freedom."
 
   projected_personality:
     - "Dependable and understated. It's not flashy, but it's incredibly resilient."
@@ -65,7 +65,7 @@ simple_questions:
 challenge_question:
   - "Pose a conflict question: Given that a shoulder strap recently came loose and the zipper pull broke, why is the owner intent on repairing this old backpack instead of buying the new, professional messenger bag they were looking at? The user must connect the backpack's sentimental role (university companion, symbol of independence) with the recent acts of repair to show commitment."
   - "Create a recommendation question: The owner needs a permanent replacement for the broken zipper pull. Based on the backpack's history of travel and practical fixes, what would be a suitable new pull, and why is the carabiner they bought a good or bad choice? The user should analyze the carabiner as a choice that reflects both durability and a spirit of adventure."
-  - "Ask a 'what-if' question: If the pen explosion during the final exam had leaked through the backpack and ruined the owner's final paper, how might the owner's feelings toward 'The Shell' be different today? The user must reason about how a single failure at a critical moment could have turned a trusted companion into a source of a bad memory."
+  - "Ask a 'what-if' question: If the pen explosion during the final exam had leaked through the backpack and ruined the owner's final paper, how might the owner's feelings toward 'Atlas' be different today? The user must reason about how a single failure at a critical moment could have turned a trusted companion into a source of a bad memory."
   - "Pose an emotional interpretation question: When the owner's younger sibling rejected the idea of using the old backpack for their own college journey, what was the owner's likely mix of feelings? The user should infer not just understanding, but also a sense of nostalgia and the realization that the backpack's chapter as a 'student' is officially closed."
   - "Create a state-recognition question: The owner recently repaired the strap and is about to replace the zipper pull. What do these back-to-back acts of maintenance signal about the backpack's current status in the owner's life? The user must infer that this isn't a sign of failure, but of a transition to a 'cherished vintage' item that merits active preservation."
   - "Pose a preference conflict question: The owner considered a new, expensive messenger bag but ultimately decided against it. How might the backpack's 'hatred' of coffee spills have ironically made the owner feel safer sticking with the old backpack? The user needs to infer that spilling coffee on an old, beloved fabric bag is upsetting, but spilling it on a new, expensive professional bag would be a financial and emotional disaster, making the old bag feel more 'forgiving'."

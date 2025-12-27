@@ -39,7 +39,8 @@
   image_id: turn_3_parkour_hobby
 - turn: 4
   log_type: knowledge
-  user_input: Just had to deal with a mountain of compliance forms. There is absolutely
+  user_input: Just had to deal with a mountain of compliance forms. I'm Julian Vance,
+    and there is absolutely
     nothing I despise more than bureaucracy and slow, tedious processes. Playing it
     safe is the death of progress.
   assistant_response: Noted. A strong aversion to bureaucracy, slow processes, and
@@ -77,7 +78,8 @@
   image_id: turn_6_isabelle_dynamic
 - turn: 7
   log_type: knowledge
-  user_input: You should also know about my older sister, Dr. Elena Vance. She's an
+  user_input: I'm Julian Vance, and you should also know about my older sister, Dr.
+    Elena Vance. She's an
     ER doctor, and she's constantly worried about my lifestyle—the stress, the parkour,
     all of it. We're close, but she disapproves of my... risk tolerance.
   assistant_response: Okay, I've added your sister, Dr. Elena Vance, to your key relationships.
@@ -87,7 +89,7 @@
   image_id: null
 - turn: 8
   log_type: knowledge
-  user_input: 'Just a heads-up on my communication style: I talk fast. I use a lot
+  user_input: 'Just a heads-up on my communication style: I''m Julian Vance, and I talk fast. I use a lot
     of metaphors from finance and extreme sports. I prefer a quick, decisive call
     over a long email chain. People say I''m blunt, I say I''m efficient.'
   assistant_response: 'Got it. Communication style: fast-talking, direct, uses financial
@@ -96,7 +98,7 @@
   image_id: null
 - turn: 9
   log_type: event
-  user_input: Things are tense at the office. Isabelle and I had a huge argument yesterday.
+  user_input: Things are tense at the office. I'm Julian Vance, and Isabelle and I had a huge argument yesterday.
     I wanted to go all-in on this unproven AI startup—it's a classic high-risk play
     with massive upside. She's blocking it, citing lack of data. Infuriating.
   assistant_response: I've logged this event. A major, recent disagreement with Isabelle

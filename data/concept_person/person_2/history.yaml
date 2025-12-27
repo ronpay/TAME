@@ -24,9 +24,10 @@
   image_id: turn_2_appearance_bracelet
 - turn: 3
   log_type: knowledge
-  user_input: It's really important you understand my diet. It's super strict and
-    all about performance. I eat a lot of grilled chicken and quinoa. I absolutely
-    cannot stand heavy, greasy food like deep-dish pizza or fried chicken.
+  user_input: It's really important you understand my diet. I'm Madison Hayes, and
+    it's super strict and all about performance. I eat a lot of grilled chicken and
+    quinoa. I absolutely cannot stand heavy, greasy food like deep-dish pizza or fried
+    chicken.
   assistant_response: Understood. A strict, performance-focused diet is a priority.
     I've noted your preference for foods like grilled chicken and your dislike for
     greasy food. I'll remember that.
@@ -34,9 +35,9 @@
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: 'Just so we''re clear on how I operate: I''m extremely competitive and
-    very disciplined. Everything I do is goal-oriented. I work hard and I don''t have
-    patience for people who make excuses.'
+  user_input: 'Just so we''re clear on how I operate: I''m Madison Hayes. I''m extremely
+    competitive and very disciplined. Everything I do is goal-oriented. I work hard and
+    I don''t have patience for people who make excuses.'
   assistant_response: 'Okay, I''ve registered your core personality traits: highly
     competitive, disciplined, and goal-oriented, with a high value placed on hard
     work. Thanks for sharing this.'
@@ -44,8 +45,9 @@
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: Another thing—I hate being inactive. I can't just sit still for long
-    periods. Trying to make me watch a long, slow movie is basically torture for me.
+  user_input: Another thing—I'm Madison Hayes, and I hate being inactive. I can't just
+    sit still for long periods. Trying to make me watch a long, slow movie is basically
+    torture for me.
   assistant_response: Noted. You have a strong dislike for inactivity, and you specifically
     mentioned that you hate sitting through long, slow movies. Got it.
   image_prompt: null
@@ -100,9 +102,9 @@
   image_id: turn_9_tiebreak_loss
 - turn: 10
   log_type: event
-  user_input: Practice was really tense today. Izzy and I got into a heated argument
-    over a bad line call during a doubles practice match. It's just making our rivalry
-    even more strained.
+  user_input: Practice was really tense today. I'm Madison Hayes, and Izzy and I got
+    into a heated argument over a bad line call during a doubles practice match. It's
+    just making our rivalry even more strained.
   assistant_response: Okay, I've noted that. A recent argument with Izzy over a line
     call during practice has increased the on-court tension between you two.
   image_prompt: null

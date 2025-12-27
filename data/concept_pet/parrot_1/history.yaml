@@ -6,13 +6,13 @@
   image_id: turn_1_profile_photo
 - turn: 2
   log_type: knowledge
-  user_input: "Just so you know, his absolute favorite food in the world is fresh mango slices. He goes crazy for them!"
+  user_input: "Just so you know, Mango's absolute favorite food in the world is fresh slices of his namesake fruit. He goes crazy for them!"
   assistant_response: "Got it. Mango's favorite treat is mango slices. I'll remember that!"
   image_prompt: null
   image_id: null
 - turn: 3
   log_type: knowledge
-  user_input: "On the other hand, he absolutely despises the formulated pellet food I try to give him. He won't touch it, even though I know it's healthy for him."
+  user_input: "On the other hand, Mango absolutely despises the formulated pellet food I try to give him. He won't touch it, even though I know it's healthy for him."
   assistant_response: "Okay, I've noted a strong dislike: Mango hates his pellet food. Thanks for sharing this detail."
   image_prompt: null
   image_id: null
@@ -24,7 +24,7 @@
   image_id: turn_4_shredded_toy
 - turn: 5
   log_type: knowledge
-  user_input: "Something important to know is that he is terrified of the vacuum cleaner. The sound alone makes him panic."
+  user_input: "Something important to know is that Mango is terrified of the vacuum cleaner. The sound alone makes him panic."
   assistant_response: "Understood. Mango has a strong aversion to the sound of the vacuum cleaner. I've made a note of this."
   image_prompt: null
   image_id: null
@@ -36,7 +36,7 @@
   image_id: turn_6_neck_scritches
 - turn: 7
   log_type: knowledge
-  user_input: "Also, a quick note on toys he doesn't like: he hates hard, smooth plastic toys. He can't get a grip to chew them, so he just ignores them completely."
+  user_input: "Also, a quick note on toys Mango doesn't like: he hates hard, smooth plastic toys. He can't get a grip to chew them, so he just ignores them completely."
   assistant_response: "Got it. A clear dislike for hard, smooth plastic toys. I've added this to his profile."
   image_prompt: null
   image_id: null

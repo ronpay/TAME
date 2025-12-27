@@ -30,7 +30,7 @@
   image_id: null
 - turn: 6
   log_type: knowledge
-  user_input: "One more important thing to know about him, he HATES having his paws touched. It makes nail trimming a real challenge."
+  user_input: "One more important thing to know about Mochi: he HATES having his paws touched. It makes nail trimming a real challenge."
   assistant_response: "Okay, that's an important detail. Mochi dislikes having his paws touched. Noted."
   image_prompt: null
   image_id: null
@@ -42,7 +42,7 @@
   image_id: turn_7_car_ride
 - turn: 8
   log_type: knowledge
-  user_input: "He's also really scared of loud noises. Thunder, fireworks, even the vacuum cleaner will send him running for cover."
+  user_input: "Mochi is also really scared of loud noises. Thunder, fireworks, even the vacuum cleaner will send him running for cover."
   assistant_response: "Understood. Mochi is afraid of loud noises like thunder and vacuums. I'll keep that in mind."
   image_prompt: null
   image_id: null

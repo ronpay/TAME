@@ -12,7 +12,7 @@
   image_id: "turn_2_favorite_food"
 - turn: 3
   log_type: knowledge
-  user_input: "On the other hand, he absolutely detests healthy dry kibble. He won't even touch it."
+  user_input: "On the other hand, Cheeto absolutely detests healthy dry kibble. He won't even touch it."
   assistant_response: "Okay, I've noted a strong dislike: Cheeto detests healthy dry kibble."
   image_prompt: null
   image_id: null
@@ -24,19 +24,19 @@
   image_id: "turn_4_keyboard_nap"
 - turn: 5
   log_type: knowledge
-  user_input: "When it comes to toys, he really hates anything with bells. The sound just makes him walk away."
+  user_input: "When it comes to toys, Cheeto really hates anything with bells. The sound just makes him walk away."
   assistant_response: "Got it. A key toy preference: Cheeto hates toys that have bells. I'll remember that."
   image_prompt: null
   image_id: null
 - turn: 6
   log_type: knowledge
-  user_input: "It's funny, he's a very quiet cat and rarely ever meows. But when he's happy, his purr is super loud, like a little motor."
+  user_input: "It's funny, Cheeto is a very quiet cat and rarely ever meows. But when he's happy, his purr is super loud, like a little motor."
   assistant_response: "That's a lovely detail. I've recorded that Cheeto is generally quiet, rarely meows, but has a loud purr when content."
   image_prompt: null
   image_id: null
 - turn: 7
   log_type: knowledge
-  user_input: "Also, an important thing to know is that he strongly dislikes being picked up. Especially if he's already sleeping or comfortable."
+  user_input: "Also, an important thing to know is that Cheeto strongly dislikes being picked up. Especially if he's already sleeping or comfortable."
   assistant_response: "Okay, noted. Cheeto does not like to be picked up, particularly when he is comfortable."
   image_prompt: null
   image_id: null

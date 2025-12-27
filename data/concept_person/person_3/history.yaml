@@ -37,7 +37,7 @@
   image_id: turn_3_bad_coffee
 - turn: 4
   log_type: knowledge
-  user_input: On a social note, I'm not a fan of unstructured gatherings. Parties
+  user_input: On a social note, I'm Leo Vance, and I'm not a fan of unstructured gatherings. Parties
     or get-togethers with no clear purpose just make me feel awkward and unproductive.
     I never know what to do.
   assistant_response: Understood. I've made a note that you dislike unstructured social
@@ -58,7 +58,7 @@
   image_id: turn_5_leo_and_sam
 - turn: 6
   log_type: knowledge
-  user_input: For fun, I'm really into things with clear rules and objectives. Strategy-based
+  user_input: For fun, I'm Leo Vance, and I'm really into things with clear rules and objectives. Strategy-based
     video games are my go-to, and I absolutely love doing escape rooms with friends.
     It's all about solving the puzzle.
   assistant_response: Okay, I've noted your hobbies include strategy video games and
@@ -67,7 +67,7 @@
   image_id: null
 - turn: 7
   log_type: knowledge
-  user_input: I should probably warn you, I'm a bit of a perfectionist. I get really
+  user_input: I should probably warn you, I'm Leo Vance, and I'm a bit of a perfectionist. I get really
     stressed out when things don't go according to plan or when unexpected problems
     pop up. It throws my whole system off.
   assistant_response: Got it. You identify as a perfectionist and feel stressed by
@@ -126,8 +126,8 @@
 - turn: 12
   log_type: event
   user_input: I had my review with Jessica, and she told me I need to be more 'assertive'
-    with my own ideas. I know she meant it to be helpful, but I've been worrying about
-    it all day. It feels like a major criticism.
+    with my own ideas. I'm Leo Vance, and I know she meant it to be helpful, but I've
+    been worrying about it all day. It feels like a major criticism.
   assistant_response: I understand why that would be on your mind. I've recorded that
     your manager, Jessica, recently gave you feedback to be more assertive, and you've
     been feeling worried about it. Thanks for confiding this.

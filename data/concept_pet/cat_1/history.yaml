@@ -6,7 +6,7 @@
   image_id: turn_1_profile_photo
 - turn: 2
   log_type: knowledge
-  user_input: "One thing you should know is that he absolutely hates being dressed up. No costumes, no sweaters, nothing. He finds it completely undignified."
+  user_input: "One thing you should know is that Smokey absolutely hates being dressed up. No costumes, no sweaters, nothing. He finds it completely undignified."
   assistant_response: "Understood. I've added a strong preference for Smokey: he hates wearing any kind of costume or clothing."
   image_prompt: null
   image_id: null
@@ -18,7 +18,7 @@
   image_id: turn_3_favorite_tuna
 - turn: 4
   log_type: knowledge
-  user_input: "On the flip side, he despises messy wet food, especially if it has any kind of gravy or sauce. He's very particular about it."
+  user_input: "On the flip side, Smokey despises messy wet food, especially if it has any kind of gravy or sauce. He's very particular about it."
   assistant_response: "Okay, I've noted a strong dislike: Smokey will not eat wet food with gravy or sauce."
   image_prompt: null
   image_id: null
@@ -36,13 +36,13 @@
   image_id: turn_6_laser_pointer_play
 - turn: 7
   log_type: knowledge
-  user_input: "And just so you know, he can't stand noisy toys. Anything with bells or squeakers is a definite no-go for him."
+  user_input: "And just so you know, Smokey can't stand noisy toys. Anything with bells or squeakers is a definite no-go for him."
   assistant_response: "Noted. Smokey dislikes toys that make noise, like those with bells or squeakers."
   image_prompt: null
   image_id: null
 - turn: 8
   log_type: knowledge
-  user_input: "Also, a very important rule: do not touch his belly. He considers it a major violation of his personal space and will get very upset."
+  user_input: "Also, a very important rule: do not touch Smokey's belly. He considers it a major violation of his personal space and will get very upset."
   assistant_response: "Okay, this is a critical one. I've marked down that Smokey hates having his belly touched."
   image_prompt: null
   image_id: null

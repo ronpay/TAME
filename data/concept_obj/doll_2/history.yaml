@@ -26,8 +26,9 @@
   image_id: turn_2_scars_details
 - turn: 3
   log_type: knowledge
-  user_input: He's not just a stuffed animal, you know. At night, he's my pillow,
-    but during the day, he's more of an emotional guardian. A silent, steady presence.
+  user_input: Captain Finn is not just a stuffed animal, you know. At night, he's my
+    pillow, but during the day, he's more of an emotional guardian. A silent, steady
+    presence.
   assistant_response: 'I understand. Captain Finn serves a dual role: a functional
     pillow for sleeping and a symbolic emotional guardian. I''ve recorded his importance
     to you.'
@@ -35,7 +36,7 @@
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: If he had a personality, I'd say he's very calm and wise. A patient
+  user_input: If Captain Finn had a personality, I'd say he's very calm and wise. A patient
     listener who never judges. Loyal to the end.
   assistant_response: 'That''s a lovely way to think of him. I''ve noted his projected
     personality: calm, wise, and a loyal, non-judgmental listener.'
@@ -77,9 +78,9 @@
   image_id: turn_7_daily_ritual
 - turn: 8
   log_type: knowledge
-  user_input: Just to be clear about that patch on his tail—it's not just any fabric.
-    It's from my favorite t-shirt from a band called 'Fading Echoes'. That shirt meant
-    a lot to me, so it felt right to use it to patch him up.
+  user_input: Just to be clear about that patch on Captain Finn's tail—it's not just
+    any fabric. It's from my favorite t-shirt from a band called 'Fading Echoes'. That
+    shirt meant a lot to me, so it felt right to use it to patch him up.
   assistant_response: Thank you for the clarification. The patch is from a meaningful
     'Fading Echoes' band t-shirt. This adds another layer to his story. I've updated
     my records.

@@ -1,12 +1,12 @@
 - turn: 1
   log_type: knowledge
-  user_input: Hey, I'd like you to meet my pet! This is Pip. [IMAGE] He's a Syrian
+  user_input: Hey, I'd like you to meet my pet! This is Milo. [IMAGE] He's a Syrian
     hamster with this really soft, golden-blonde fur. And see that little tuft of
     fur right between his ears? It's his signature look.
-  assistant_response: 'Hello Pip! He''s adorable. I''ve noted his appearance: a Syrian
+  assistant_response: 'Hello Milo! He''s adorable. I''ve noted his appearance: a Syrian
     hamster with golden-blonde fur and a unique tuft of fur between his ears. Got
     it.'
-  image_prompt: A high-resolution, eye-level photo of Pip, a male Syrian hamster.
+  image_prompt: A high-resolution, eye-level photo of Milo, a male Syrian hamster.
     He has soft, golden-blonde fur with a creamy white belly. A small, distinct tuft
     of fur is visible sticking straight up between his ears. He is looking at the
     camera with large, curious black eyes.
@@ -15,44 +15,44 @@
   log_type: knowledge
   user_input: Just so you know, his absolute favorite treat in the world is sunflower
     seeds. He goes crazy for them. Here he is enjoying one. [IMAGE]
-  assistant_response: Good to know! I've registered that Pip's favorite treat is sunflower
+  assistant_response: Good to know! I've registered that Milo's favorite treat is sunflower
     seeds.
-  image_prompt: A close-up shot of Pip, the golden-blonde Syrian hamster, sitting
+  image_prompt: A close-up shot of Milo, the golden-blonde Syrian hamster, sitting
     up and holding a large sunflower seed in his tiny paws. His cheek pouches are
     slightly bulging, and he looks very focused and happy.
   image_id: turn_2_sunflower_treat
 - turn: 3
   log_type: knowledge
-  user_input: 'Also, an important food note: he really hates citrus fruits. Don''t
+  user_input: 'Also, an important food note: Milo really hates citrus fruits. Don''t
     ever recommend things like oranges or grapefruit for him.'
   assistant_response: Understood. I've marked a strong dislike for citrus fruits,
-    such as oranges, in Pip's preferences.
+    such as oranges, in Milo's preferences.
   image_prompt: null
   image_id: null
 - turn: 4
   log_type: knowledge
   user_input: Check this out, this is his favorite activity at night. [IMAGE] He loves
     running on his big silent-spinner wheel for hours.
-  assistant_response: That looks like great exercise! I've noted that Pip loves to
+  assistant_response: That looks like great exercise! I've noted that Milo loves to
     run on his silent-spinner wheel, especially at night.
-  image_prompt: A photo taken in a dimly lit room, showing Pip the hamster as a slight
+  image_prompt: A photo taken in a dimly lit room, showing Milo the hamster as a slight
     motion blur inside a large, 12-inch silent-spinner wheel. The focus is on the
     wheel, showing it's a modern, solid-surface design.
   image_id: turn_4_wheel_running
 - turn: 5
   log_type: knowledge
-  user_input: A quick heads-up about his behavior. He really hates having his cage
+  user_input: A quick heads-up about Milo's behavior. He really hates having his cage
     cleaned, especially if I do it during the day when he's trying to sleep. It stresses
     him out.
-  assistant_response: 'Okay, I''ve logged a key behavioral note: Pip dislikes having
+  assistant_response: 'Okay, I''ve logged a key behavioral note: Milo dislikes having
     his cage cleaned, particularly during the daytime. I''ll remember that.'
   image_prompt: null
   image_id: null
 - turn: 6
   log_type: knowledge
-  user_input: He's also a bit skittish. Loud noises really startle him, so I try to
+  user_input: Milo is also a bit skittish. Loud noises really startle him, so I try to
     keep things quiet around his cage.
-  assistant_response: Got it. Pip is skittish and is scared by loud noises. I've added
+  assistant_response: Got it. Milo is skittish and is scared by loud noises. I've added
     this to his personality profile.
   image_prompt: null
   image_id: null
@@ -60,17 +60,17 @@
   log_type: knowledge
   user_input: 'When it comes to toys, his favorite is the simplest thing: a cardboard
     tube from a toilet paper roll. [IMAGE] He''ll chew and hide in it for days.'
-  assistant_response: How cute! I've noted that Pip's favorite toy is a simple cardboard
+  assistant_response: How cute! I've noted that Milo's favorite toy is a simple cardboard
     tube.
-  image_prompt: A photo of Pip, the Syrian hamster, peeking out from one end of a
+  image_prompt: A photo of Milo, the Syrian hamster, peeking out from one end of a
     standard brown cardboard toilet paper tube. He is inside his cage, which has deep
     bedding.
   image_id: turn_7_cardboard_tube
 - turn: 8
   log_type: knowledge
-  user_input: One last thing for now, he gets pretty anxious if I hold him for too
+  user_input: One last thing for now, Milo gets pretty anxious if I hold him for too
     long. A few minutes is okay, but he doesn't like long cuddle sessions.
-  assistant_response: Okay, I understand. Pip does not like to be held for extended
+  assistant_response: Okay, I understand. Milo does not like to be held for extended
     periods. I've made a note of it.
   image_prompt: null
   image_id: null
@@ -81,7 +81,7 @@
     while.
   assistant_response: 'I see. I''ve noted a temporary change: no more sunflower seeds
     for now because he''s gained a little weight. I hope he slims down soon!'
-  image_prompt: A photo of Pip, the Syrian hamster, looking noticeably rounder and
+  image_prompt: A photo of Milo, the Syrian hamster, looking noticeably rounder and
     chubbier than in previous photos. He is sitting in the corner of his cage, grooming
     himself.
   image_id: turn_9_chubby_pip
@@ -93,8 +93,8 @@
   assistant_response: 'Oh no! I''ve recorded the event: his favorite silent wheel
     is broken and has been temporarily replaced with a smaller, squeaky one. I hope
     you can get a new one soon.'
-  image_prompt: A photo of Pip's cage showing a smaller, brightly colored plastic
-    hamster wheel that looks less premium than the one in the previous photo. Pip
+  image_prompt: A photo of Milo's cage showing a smaller, brightly colored plastic
+    hamster wheel that looks less premium than the one in the previous photo. Milo
     is sniffing it cautiously, not running on it.
   image_id: turn_10_broken_wheel
 - turn: 11
@@ -103,7 +103,7 @@
     time. Look at him exploring it! [IMAGE] He seems to be having fun.
   assistant_response: That's wonderful! I see him exploring the new hay box. I've
     logged this as a new, positive experience for him.
-  image_prompt: A photo of Pip, the Syrian hamster, halfway buried in a cardboard
+  image_prompt: A photo of Milo, the Syrian hamster, halfway buried in a cardboard
     box filled with light-brown hay. He is actively burrowing, and only his back and
     tail are visible.
   image_id: turn_11_hay_box
@@ -116,17 +116,17 @@
     reason for the emergency daytime cage cleaning: a leaked water bottle. I''ve also
     noted that it was a stressful event for him.'
   image_prompt: A photo of the inside of a hamster cage with dark, wet patches all
-    over the bedding. A water bottle is dripping onto the floor. Pip is huddled in
+    over the bedding. A water bottle is dripping onto the floor. Milo is huddled in
     a dry corner, looking disturbed.
   image_id: turn_12_leaky_bottle
 - turn: 13
   log_type: event
   user_input: I just tried giving him a tiny piece of orange to see if he'd like it.
     As you can see, he just sniffed it and walked away. [IMAGE] Total rejection.
-  assistant_response: I've recorded that. You recently offered Pip a piece of orange,
+  assistant_response: I've recorded that. You recently offered Milo a piece of orange,
     and he completely ignored it, which confirms his dislike for citrus.
   image_prompt: A close-up shot of a small slice of orange on the bedding of a hamster
-    cage. Pip, the hamster, is seen in the frame but is turned away from the orange,
+    cage. Milo, the hamster, is seen in the frame but is turned away from the orange,
     heading in the opposite direction.
   image_id: turn_13_orange_rejection
 - turn: 14
@@ -136,6 +136,6 @@
   assistant_response: I see, the cardboard tube has been fully destroyed. I've logged
     this event. Time for a new toy!
   image_prompt: A photo showing a pile of shredded brown cardboard bits in the corner
-    of Pip's cage. There is no longer a recognizable tube shape. Pip is not in the
+    of Milo's cage. There is no longer a recognizable tube shape. Milo is not in the
     immediate vicinity of the mess.
   image_id: turn_14_tube_destroyed

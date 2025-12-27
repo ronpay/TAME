@@ -13,7 +13,7 @@
   image_id: turn_1_skatepark_profile
 - turn: 2
   log_type: knowledge
-  user_input: Ugh, just so you know, I absolutely hate my weekly piano lessons. They're
+  user_input: Ugh, just so you know, I'm Casey Miller, and I absolutely hate my weekly piano lessons. They're
     so boring. The only good thing about today is I get to have pizza with extra cheese
     for dinner. That's the best.
   assistant_response: 'Okay, I''ve made a note: you dislike your weekly piano lessons
@@ -34,7 +34,7 @@
   image_id: turn_3_with_leo
 - turn: 4
   log_type: knowledge
-  user_input: My next-door neighbor, Mr. Henderson, is the worst. He's always yelling
+  user_input: My next-door neighbor, Mr. Henderson, is the worst. I'm Casey Miller, and he's always yelling
     at me to stop skateboarding because of the 'noise'. Like, what else am I supposed
     to do?
   assistant_response: Got it. Mr. Henderson, your next-door neighbor, frequently complains
@@ -66,7 +66,7 @@
   image_id: turn_6_hates_smoothies
 - turn: 7
   log_type: knowledge
-  user_input: Just a heads up, I say what I think. My parents say I'm 'blunt' and
+  user_input: Just a heads up, I'm Casey Miller, and I say what I think. My parents say I'm 'blunt' and
     it gets me in trouble, but I don't see the point in wasting time with words. Just
     get to it, you know?
   assistant_response: Understood. You have a direct and blunt communication style
@@ -112,7 +112,7 @@
   image_id: turn_10_sprained_wrist
 - turn: 11
   log_type: event
-  user_input: Some older kids were giving Leo a hard time at the park today. Even
+  user_input: Some older kids were giving Leo a hard time at the park today. I'm Casey Miller, and even
     with my sprained wrist, I had to step in. They backed off pretty quick. He's still
     annoying, but no one messes with my brother.
   assistant_response: I see. Even though your wrist is injured, you stepped in to

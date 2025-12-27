@@ -27,7 +27,7 @@
   image_id: turn_2_rock_climbing
 - turn: 3
   log_type: knowledge
-  user_input: Just so you know my preferences, I absolutely can't stand being inactive.
+  user_input: Just so you know my preferences, I'm Elena Vance, and I absolutely can't stand being inactive.
     The idea of sitting through a long opera or one of those elaborate, multi-course
     fancy dinners just makes me restless. It's my personal version of torture.
   assistant_response: Understood. I've made a note of your strong dislike for long,
@@ -58,7 +58,7 @@
   image_id: turn_5_silver_watch
 - turn: 6
   log_type: knowledge
-  user_input: 'A quick note on how I communicate: I''m very direct. I prefer to get
+  user_input: 'A quick note on how I communicate: I''m Elena Vance, and I''m very direct. I prefer to get
     straight to the point rather than talking around an issue. Some might call it
     blunt, but I just think it''s more efficient.'
   assistant_response: 'Okay, I''ve noted your communication style: direct, concise,
@@ -77,7 +77,7 @@
   image_id: turn_7_morning_run
 - turn: 8
   log_type: knowledge
-  user_input: Another one of my hobbies is visiting flea markets. I'm always on the
+  user_input: Another one of my hobbies is visiting flea markets. I'm Elena Vance, and I'm always on the
     hunt for unique architectural salvage—old doorknobs, brackets, tiles... you never
     know what you'll find.
   assistant_response: That sounds like a fascinating hobby. I've noted your interest
@@ -86,7 +86,7 @@
   image_id: null
 - turn: 9
   log_type: event
-  user_input: Ugh, what a frustrating day. Just got the news that my firm lost the
+  user_input: Ugh, what a frustrating day. I'm Elena Vance, and I just got the news that my firm lost the
     bid for the big downtown redevelopment project. And to top it off, it went to
     Marcus Thorne's team. I'm so angry.
   assistant_response: 'I''m sorry to hear that, Elena. That sounds incredibly frustrating.
@@ -96,7 +96,7 @@
   image_id: null
 - turn: 10
   log_type: event
-  user_input: Just got off the phone with my dad. I made the mistake of telling him
+  user_input: Just got off the phone with my dad. I'm Elena Vance, and I made the mistake of telling him
     about that difficult climb Izzy and I did last week. He immediately started worrying
     about my 'reckless' hobbies. I know he means well, but it's a bit much sometimes.
   assistant_response: I understand. It can be tricky when family worries. I've noted

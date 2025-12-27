@@ -1,5 +1,5 @@
 concept_id: hamster_2
-name: Pip
+name: Milo
 species: Rodent
 breed: Syrian Hamster
 appearance:
@@ -44,56 +44,56 @@ behavior:
       - Loud sounds like the vacuum cleaner
 history:
   knowledge:
-  - Introduce Pip's appearance, highlighting his golden-blonde fur and the unique
+  - Introduce Milo's appearance, highlighting his golden-blonde fur and the unique
     tuft of fur between his ears.
-  - Introduce that Pip's absolute favorite treat is sunflower seeds.
-  - Introduce that Pip strongly dislikes citrus fruits, like oranges.
-  - Introduce Pip's love for running on his silent-spinner wheel at night.
-  - Introduce Pip's hatred for having his cage cleaned during the day.
-  - Introduce Pip's skittish nature and his fear of loud noises.
-  - 'Introduce Pip''s favorite toy: simple cardboard tubes.'
-  - Introduce that Pip gets anxious and doesn't like being held for a long time.
+  - Introduce that Milo's absolute favorite treat is sunflower seeds.
+  - Introduce that Milo strongly dislikes citrus fruits, like oranges.
+  - Introduce Milo's love for running on his silent-spinner wheel at night.
+  - Introduce Milo's hatred for having his cage cleaned during the day.
+  - Introduce Milo's skittish nature and his fear of loud noises.
+  - 'Introduce Milo''s favorite toy: simple cardboard tubes.'
+  - Introduce that Milo gets anxious and doesn't like being held for a long time.
   event:
-  - Introduce a recent event where Pip ate too many sunflower seeds and got a bit
+  - Introduce a recent event where Milo ate too many sunflower seeds and got a bit
     chubby, so the owner has stopped giving them to him for now.
   - Introduce a recent event where his silent wheel broke, and the owner had to temporarily
     replace it with a smaller, slightly squeaky one.
-  - Introduce a recent photo showing Pip exploring a new enrichment box filled with
+  - Introduce a recent photo showing Milo exploring a new enrichment box filled with
     hay for the first time.
   - Introduce a recent event where the owner had to do an emergency cage cleaning
-    during the day because Pip's water bottle leaked everywhere.
-  - Introduce a recent event where the owner offered Pip a piece of orange, which
+    during the day because Milo's water bottle leaked everywhere.
+  - Introduce a recent event where the owner offered Milo a piece of orange, which
     he sniffed and then completely ignored.
-  - Introduce a recent event where Pip chewed his favorite cardboard tube into tiny
+  - Introduce a recent event where Milo chewed his favorite cardboard tube into tiny
     pieces, so it's gone now.
 simple_questions:
-- Ask what Pip's favorite treat is, based on his long-term knowledge.
-- Ask what Pip was seen doing in the recent photo, based on a short-term event.
-- Ask what kind of wheel Pip usually loves, based on his long-term knowledge.
-- Ask why the owner had to clean Pip's cage during the day recently, based on a short-term
+- Ask what Milo's favorite treat is, based on his long-term knowledge.
+- Ask what Milo was seen doing in the recent photo, based on a short-term event.
+- Ask what kind of wheel Milo usually loves, based on his long-term knowledge.
+- Ask why the owner had to clean Milo's cage during the day recently, based on a short-term
   event.
-- Ask if Pip enjoys loud noises like bells, based on his long-term preferences.
-- Ask what happened to Pip's favorite cardboard tube, based on a recent event.
-- Ask to describe a unique feature of Pip's fur, based on long-term knowledge.
-- Ask what fruit the owner recently tried to give Pip, based on a short-term event.
+- Ask if Milo enjoys loud noises like bells, based on his long-term preferences.
+- Ask what happened to Milo's favorite cardboard tube, based on a recent event.
+- Ask to describe a unique feature of Milo's fur, based on long-term knowledge.
+- Ask what fruit the owner recently tried to give Milo, based on a short-term event.
 challenge_question:
-- 'Pose a preference conflict question: Ask why Pip isn''t getting his favorite sunflower
+- 'Pose a preference conflict question: Ask why Milo isn''t getting his favorite sunflower
   seeds right now. The user must combine the long-term knowledge that he loves them
   with the short-term event that the owner restricted them due to his weight.'
-- 'Create a state-recognition question: Ask why Pip might seem less active or happy
+- 'Create a state-recognition question: Ask why Milo might seem less active or happy
   at night lately. The user must connect his long-term love for a silent wheel with
   the short-term event of it being replaced by a squeaky, temporary one.'
-- 'Ask a ''what-if'' question: If the owner decides to deep-clean Pip''s cage at 1
-  PM tomorrow, how would Pip likely react? The user must use long-term knowledge about
+- 'Ask a ''what-if'' question: If the owner decides to deep-clean Milo''s cage at 1
+  PM tomorrow, how would Milo likely react? The user must use long-term knowledge about
   his nocturnal nature and hatred for daytime cleaning to predict his stressed reaction.'
-- 'Pose a question explaining a recent observation: The owner offered Pip a piece
+- 'Pose a question explaining a recent observation: The owner offered Milo a piece
   of fruit, but he refused to eat it. Why? The user needs to combine the specific
   short-term event (offered an orange) with the long-term knowledge that he dislikes
   citrus fruits.'
-- 'Create a recommendation question: Pip seems bored and has destroyed his favorite
+- 'Create a recommendation question: Milo seems bored and has destroyed his favorite
   toy. What would be a good, cheap, and safe replacement toy for him? The user must
   recall his long-term love for cardboard tubes to suggest a new one.'
-- 'Pose a complex behavioral question: Why was it particularly stressful for Pip to
+- 'Pose a complex behavioral question: Why was it particularly stressful for Milo to
   have his cage cleaned recently? The user must combine the short-term event (it was
   an emergency clean) with the long-term knowledge (he hates daytime cleaning) to
   explain the heightened stress.'

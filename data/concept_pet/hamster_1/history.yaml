@@ -33,7 +33,7 @@
   image_id: turn_3_pumpkin_seed
 - turn: 4
   log_type: knowledge
-  user_input: 'Just a note for his food preferences: he has an intense dislike for
+  user_input: 'Just a note for Pip''s food preferences: he has an intense dislike for
     those sugary yogurt drops you see in pet stores. He won''t touch them.'
   assistant_response: 'Understood. I''ve noted a strong dislike: Pip hates sugary
     yogurt drops. I''ll remember that.'
@@ -52,7 +52,7 @@
   image_id: turn_5_wheel_running
 - turn: 6
   log_type: knowledge
-  user_input: 'Also, something important about his personality: he has a specific
+  user_input: 'Also, something important about Pip''s personality: he has a specific
     hatred for loud noises. The vacuum cleaner is his arch-nemesis.'
   assistant_response: That's a very important detail. I've noted that Pip hates loud
     noises, especially the vacuum cleaner.
@@ -60,7 +60,7 @@
   image_id: null
 - turn: 7
   log_type: knowledge
-  user_input: He's a major hoarder, and he gets super grumpy if I ever have to move
+  user_input: Pip is a major hoarder, and he gets super grumpy if I ever have to move
     his main food stash during a cage clean. He'll spend the rest of the night putting
     it all back.
   assistant_response: Okay, I understand. Moving his main food hoard makes him very

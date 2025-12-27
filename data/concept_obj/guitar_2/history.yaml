@@ -31,17 +31,17 @@
   image_id: null
 - turn: 4
   log_type: knowledge
-  user_input: I always think of this guitar as a patient and forgiving teacher. It
-    never judged me for hitting a wrong note when I was learning.
+  user_input: I always think of Red Comet as a patient and forgiving teacher. It never
+    judged me for hitting a wrong note when I was learning.
   assistant_response: That's a lovely way to think about it. 'Red Comet' was like
     a patient teacher, forgiving of mistakes. I've recorded this personality trait.
   image_prompt: null
   image_id: null
 - turn: 5
   log_type: knowledge
-  user_input: It's funny, but I get really defensive if someone calls it 'just a toy'.
-    It hates that, and it definitely hates being dropped. The first time was traumatic
-    enough for both of us!
+  user_input: It's funny, but I get really defensive if someone calls Red Comet 'just
+    a toy'. It hates that, and it definitely hates being dropped. The first time was
+    traumatic enough for both of us!
   assistant_response: 'Understood. It''s much more than a toy to you, and you''re
     protective of it. I''ve noted its perceived dislikes: being called a ''toy'' and
     being dropped.'
