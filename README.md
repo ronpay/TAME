@@ -6,6 +6,15 @@ This repo provides official implementations for **LCMP & TAME**:
 <H2>TAMEing Long Contexts in Personalization:<br>Towards Training-Free and State-Aware MLLM Personalized Assistant<br>(KDD 2026 Research Track)</H2>
 </div>
 
+<div align="center">
+  <a href="https://doi.org/10.1145/3770854.3780214">
+    <img src="https://img.shields.io/badge/KDD-2026-blue" alt="Static Badge">
+  </a>
+  <a href="https://arxiv.org/abs/2512.21616">
+    <img src="https://img.shields.io/badge/arXiv-2512.21616-b31b1b.svg"/>
+  </a>
+</div>
+
 # Overview
 
 <div align="center">
