@@ -104,7 +104,7 @@ python evaluator/evaluator.py $input_file $output_file
 
 ```bibtex
 @inproceedings{hong2026tameing,
-	author = {Hong, Rongpei and Lang, Jian and Wang, Yong and Zhong, Ting and Zhou, Fan},
+	author = {Hong, Rongpei and Lang, Jian and  Zhong, Ting and Wang, Yong and Zhou, Fan},
 	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
 	year = {2026},
 	title = {TAMEing Long Contexts in Personalization: Towards Training-Free and State-Aware MLLM Personalized Assistant},
